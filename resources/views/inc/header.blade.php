@@ -96,6 +96,7 @@
                                         </ul>
                                         <ul>
                                             <p>UPCOMING EVENTS</p>
+                                            <li><a href="/events">Events</a></li>
                                         </ul>
                                     </div>
                                 </li>
