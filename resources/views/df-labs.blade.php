@@ -40,7 +40,7 @@
                             <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Minimize Incident resolution time by 90%</li>
                             <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Improve Analyst efficiency by 80%</li>
                             <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Increase handled incidents 300%</li>
-                            <li><img class="mr-4 invisible" src="{{ asset('images/web/correct.svg') }}" alt="">Automated, Orchestrate & Meausre</li>
+                            <li><img class="mr-4 invisible" src="{{ asset('images/web/correct.svg') }}" alt="">Automated, Orchestrate & Measure</li>
                         </ul>
                     </div>
                 </div>
