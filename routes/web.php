@@ -90,3 +90,7 @@ Route::get('/df-labs', function () {
     return view('df-labs');
 });
 
+Route::get('/news', function () {
+    return view('news');
+});
+
