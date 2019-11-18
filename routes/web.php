@@ -94,3 +94,7 @@ Route::get('/news', function () {
     return view('news');
 });
 
+Route::get('/events', function () {
+    return view('events');
+});
+

@@ -65,7 +65,7 @@
                     <a href="/faq">FAQ</a>
                     <a href="#">Copyright {{ date("Y") }} www.sky-express.rs</a>
                     <a href="#">All right reserved</a>
-                    <a href="#">developer&designed.by</a>
+                    <a target="_blank" href="https://www.green-adv.rs">website development</a>
                 </div>
             </div>
         </div>
