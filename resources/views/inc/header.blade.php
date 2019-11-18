@@ -81,7 +81,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item position-relative">
-                                    <a class="nav-link" href="#">News & Events</a><span>|</span>
+                                    <a class="nav-link" href="/news">News & Events</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul>
                                             <p>IN THE NEWS</p>
