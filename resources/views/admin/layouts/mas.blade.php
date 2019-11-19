@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BB Soft Admin</title>
+    <title>Sky Express | Admin panel</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -128,36 +128,18 @@
                     </a>
                 </li>
         
-                <!--// Baneri -->
-                <!--<li class="treeview">
-                    <a href="#">
-                    <i class="fas fa-images"></i>
-                    <span style="margin-left: 5px;">Baner</span>
-                    <span class="pull-right-container">
-                        <span class="label label-primary pull-right">1</span>
-                    </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj baner</a></li>
-                        <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Lista banera</a></li>
-                    </ul>
-                </li>-->
-                <!--// Kraj banera -->
-        
-                
-                
                 <!--// Kategorije -->
                 <li class="treeview">
                     <a href="#">
-                    <i class="fas fa-pills"></i>
-                    <span style="margin-left: 4px;">Lekovi</span>
+                    <i class="fas fa-newspaper"></i>
+                    <span style="margin-left: 4px;">Novosti</span>
                     <span class="pull-right-container">
                         <span class="label label-primary pull-right">2</span>
                     </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-lek"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj lekove</a></li>
-                        <li><a href="/admin/lista-lekova"><i class="fas fa-arrow-alt-circle-right"></i> Lista lekova</a></li>
+                        <li><a href="/admin/dodaj-lek"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj novosti</a></li>
+                        <li><a href="/admin/lista-lekova"><i class="fas fa-arrow-alt-circle-right"></i> Lista novosti</a></li>
                         <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
                     </ul>
                 </li>
@@ -166,15 +148,15 @@
                 <!--// Kategorije -->
                 <li class="treeview">
                     <a href="#">
-                    <i class="fas fa-building"></i>
-                    <span style="margin-left: 7px;">Fabrike</span>
+                    <i class="fas fa-calendar-week"></i>
+                    <span style="margin-left: 7px;">Dogadjaji</span>
                     <span class="pull-right-container">
                         <span class="label label-primary pull-right">2</span>
                     </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-fabriku"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj fabrike</a></li>
-                        <li><a href="/admin/lista-fabrika"><i class="fas fa-arrow-alt-circle-right"></i> Lista fabrika</a></li>
+                        <li><a href="/admin/dodaj-fabriku"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj dogadjaje</a></li>
+                        <li><a href="/admin/lista-fabrika"><i class="fas fa-arrow-alt-circle-right"></i> Lista dogadjaja</a></li>
                         <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
                     </ul>
                 </li>
@@ -183,70 +165,15 @@
                 <!--// Kategorije -->
                 <li class="treeview">
                     <a href="#">
-                    <i class="fa fa-object-group"></i>
-                    <span>Atc</span>
+                    <i class="fas fa-blog"></i>
+                    <span style="margin-left: 6px;">Blog</span>
                     <span class="pull-right-container">
                         <span class="label label-primary pull-right">2</span>
                     </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-atc"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj atc</a></li>
-                        <li><a href="/admin/lista-atc"><i class="fas fa-arrow-alt-circle-right"></i> Lista atc</a></li>
-                        <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
-                    </ul>
-                </li>
-                <!--// Kraj kategorije -->
-
-                <!--// Kategorije -->
-                <li class="treeview">
-                    <a href="#">
-                    <i class="fas fa-flag"></i>
-                    <span style="margin-left: 7px;">Legende</span>
-                    <span class="pull-right-container">
-                        <span class="label label-primary pull-right">2</span>
-                    </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-legende"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj legende</a></li>
-                        <li><a href="/admin/lista-legende"><i class="fas fa-arrow-alt-circle-right"></i> Lista legende</a></li>
-                        <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
-                    </ul>
-                </li>
-                <!--// Kraj kategorije -->
-
-                <!--// Kategorije -->
-                <li class="treeview">
-                    <a href="#">
-                    <i class="fas fa-id-badge"></i>
-                    <span style="margin-left: 7px;">Nosioci</span>
-                    <span class="pull-right-container">
-                        <span class="label label-primary pull-right">2</span>
-                    </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-nosioce"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj nosioce</a></li>
-                        <li><a href="/admin/lista-nosioca"><i class="fas fa-arrow-alt-circle-right"></i> Lista nosioca</a></li>
-                        <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
-                    </ul>
-                </li>
-                <!--// Kraj kategorije -->
-
-                <!--// Kategorije -->
-                <li class="treeview">
-                    <a href="#">
-                    <i class="fas fa-images"></i>
-                    <span style="margin-left: 7px;">Baneri</span>
-                    <span class="pull-right-container">
-                        <span class="label label-primary pull-right">2</span>
-                    </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-banere"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj banere</a></li>
-                        <li><a href="/admin/lista-banera"><i class="fas fa-arrow-alt-circle-right"></i> Slovo baneri</a></li>
-                        <li><a href="/admin/lista-lekovi-baneri"><i class="fas fa-arrow-alt-circle-right"></i> Lekovi baneri</a></li>
-                        <li><a href="/admin/lista-proizvodjaci-baneri"><i class="fas fa-arrow-alt-circle-right"></i> Proizvodjaci baneri</a></li>
-                        <li><a href="/admin/lista-nosioci-baneri"><i class="fas fa-arrow-alt-circle-right"></i> Nosioci baneri</a></li>
-                        
+                        <li><a href="/admin/dodaj-atc"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj blog</a></li>
+                        <li><a href="/admin/lista-atc"><i class="fas fa-arrow-alt-circle-right"></i> Lista blogova</a></li>
                         <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
                     </ul>
                 </li>
@@ -256,43 +183,27 @@
                 <!--// Kategorije -->
                 <li class="treeview">
                     <a href="#">
-                    <i class="fas fa-users"></i>
-                    <span style="margin-left: 5px;">Administratori</span>
+                    <i class="fas fa-briefcase"></i>
+                    <span style="margin-left: 6px;">Pozicije</span>
                     <span class="pull-right-container">
                         <span class="label label-primary pull-right">2</span>
                     </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-administratora"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj Admina</a></li>
-                        <li><a href="/admin/lista-administratora"><i class="fas fa-arrow-alt-circle-right"></i> Lista Admina</a></li>
+                        <li><a href="/admin/dodaj-atc"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj poziciju</a></li>
+                        <li><a href="/admin/lista-atc"><i class="fas fa-arrow-alt-circle-right"></i> Lista pozicija</a></li>
                         <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
                     </ul>
                 </li>
                 <!--// Kraj kategorije -->
 
-
-                <!--// Kategorije -->
-                <li class="treeview">
-                    <a href="#">
-                    <i class="fas fa-file-excel"></i>
-                    <span style="margin-left: 7px;">Import</span>
-                    <span class="pull-right-container">
-                        <span class="label label-primary pull-right">2</span>
-                    </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="/admin/import-excel"><i class="fas fa-arrow-alt-circle-right"></i> Import Excel</a></li>
-                        <li><a href="/admin/export-excel"><i class="fas fa-arrow-alt-circle-right"></i> Export Excel</a></li>
-                        <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
-                    </ul>
-                </li>
-                <!--// Kraj kategorije -->
         
             </ul>
         </section>
         <!-- /.sidebar -->
     </aside><!--// Left meni -->
 
+    
 
 
     <div class="content-wrapper">
