@@ -43,14 +43,14 @@
                         <h5 class="mb-4">HOW TO REACH US</h5>
                         <p class="ml-5 mb-4 sky-doo">Sky Express d.o.o</p>
                         <div class="row mb-4">
-                                    <div class="col-md-1 mt-2">
-                                        <img src="{{ asset('images/web/location.svg') }}" alt="">
-                                    </div>
-                                    <div class="col-md-11">
-                                        <p>Bulevar Milutina Milankovića 11A <br>
-                                        1107, Belgrade, Serbia
-                                        </p>
-                                    </div>
+                            <div class="col-md-1 mt-2">
+                                <img src="{{ asset('images/web/location.svg') }}" alt="">
+                            </div>
+                            <div class="col-md-11">
+                                <p>Bulevar Milutina Milankovića 11A <br>
+                                1107, Belgrade, Serbia
+                                </p>
+                            </div>
                         </div>
                         <ul>
                             <li class="mb-3 mb-4"><img class="mr-3"  src="{{ asset('images/web/phone.svg') }}"> <a class="mb-3" href="tel:+381646414461"> +381 64 641 44 61</a></li>

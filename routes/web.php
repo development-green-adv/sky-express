@@ -98,3 +98,7 @@ Route::get('/events', function () {
     return view('events');
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
