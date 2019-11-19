@@ -475,7 +475,7 @@ button.orange_btn:hover {
 }
 
 .about_section{
-    /* padding-top: 120px; */
+    background-attachment: fixed;
     padding-bottom: 170px;
     background-image: url('../../images/web/aboute-section-bg-new.jpg');
     background-color: white;
@@ -814,6 +814,7 @@ button.orange_btn:hover {
 .about_solutions {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-attachment: fixed;
 }
 
 .about_solutions p {
@@ -879,6 +880,7 @@ button.orange_btn:hover {
 .careers_corporate {
     padding-top: 50px;
     padding-bottom: 80px;
+    background-attachment: fixed;
 }
 
 .careers_corporate h4 {
@@ -896,6 +898,7 @@ button.orange_btn:hover {
 .your_career {
     padding-top: 50px;
     padding-bottom: 120px;
+    background-attachment: fixed;
 }
 
 .your_career h5 {

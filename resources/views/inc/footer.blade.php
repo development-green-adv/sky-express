@@ -20,7 +20,7 @@
                     <h5>QUICK LINKS</h5>
                     <a href="/about-us">About us</a><br>
                     <a href="#">Technical support</a><br>
-                    <a href="#">News</a><br>
+                    <a href="/news">News</a><br>
                     <a href="/blog">Blog</a><br>
                     <a href="/careers">Careers</a><br>
                     <a href="#">Office locations</a>
