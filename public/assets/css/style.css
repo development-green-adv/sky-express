@@ -142,10 +142,6 @@ p {
     transition: all .3s;
 }
 
-.navbar-brand img:hover {
-    transform: scale(.9);
-}
-
 
 .header{
     background-color: rgba(8, 9, 11, .9);
