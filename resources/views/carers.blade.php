@@ -40,14 +40,10 @@
                         our clients.
                     </p>
                 </div>
-                <div class="col-12 col-md-6" data-aos="fade-left">
+                <div class="col-12 col-md-6">
                     <p class="pl-0 pr-md-l">We set high expectations for our work and our people, but in a
                         positive, team-oriented culture. We care about each other as we
                         focus on our journey ahead.</p>
-                    <!-- <p>
-                        Friendly collaboration, personal growth, empowerment, and hard work is in. Doors, and lines of communication, are open. We are on a real mission,
-                        making exciting things happen, together.
-                    </p> -->
                 </div>
             </div>
         </div>

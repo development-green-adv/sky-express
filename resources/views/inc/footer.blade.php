@@ -28,7 +28,7 @@
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <h5>PRODUCTS</h5>
                     <a href="#">Carbon black</a><br>
-                    <a href="#">DF Labs</a><br>
+                    <a href="/df-labs">DF Labs</a><br>
                     <a href="#">Eperi</a><br>
                     <a href="#">Onapsys</a><br>
                     <a href="#">Open systems</a><br>

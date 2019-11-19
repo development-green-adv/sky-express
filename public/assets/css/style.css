@@ -1253,6 +1253,7 @@ button.orange_btn:hover {
 
 .df-labs-second-part {
     background-image: url('../../images/web/df-labs-second-part-bg.png');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1314,7 +1315,7 @@ button.orange_btn:hover {
 
 .df-labs-fourth-part {
     background-image: url('../../images/web/df-labs-fourth-part-bg.png');
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1380,6 +1381,7 @@ button.orange_btn:hover {
 
 .df-labs-sixth-part {
     background-image: url('../../images/web/df-labs-sixth-part-bg.png');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
