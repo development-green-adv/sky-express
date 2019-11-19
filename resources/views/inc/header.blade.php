@@ -21,7 +21,7 @@
                                             <li><a href="/df-labs">DF Labs</a></li>
                                             <li><a href="#">Log Point</a></li>
                                             <li><a href="#">Onapsis</a></li>
-                                            <li><a href="#">OpenSystems</a></li>
+                                            <li><a href="#">Open Systems</a></li>
                                             <li><a href="#">Eperi</a></li>
                                             <li><a href="#">Avast</a></li>
                                             <li><a href="#">Security Scorecard</a></li>
