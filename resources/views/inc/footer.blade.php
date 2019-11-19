@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <!-- <h5>SKY EXPRESS LOGO</h5> -->
-                    <a class="navbar-brand" href="/"><img src="{{ asset('images/web/logo-sky-express.png') }}" alt=""></a>
+                    <a class="navbar-brand logo-footer" href="/"><img src="{{ asset('images/web/logo-sky-express.png') }}" alt=""></a>
                 </div>
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <h5>QUICK LINKS</h5>

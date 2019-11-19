@@ -628,6 +628,10 @@ button.orange_btn:hover {
     border-top: 2px solid #f1592a;
 }
 
+.logo-footer img{
+    width: 150px;
+}
+
 .footer h5{
     color: #f1592a;
     margin-bottom: 10px;
