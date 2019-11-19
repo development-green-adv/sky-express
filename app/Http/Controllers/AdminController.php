@@ -6,17 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Importer;
 use Illuminate\Support\Facades\Validator;
-use App\Product;
-use App\Fabric;
-use App\Nosioci;
-use App\Atc;
-use App\Legend;
-use App\Baner;
-use App\ImageGallery;
-use App\Word;
-use App\Lekbaner;
-use App\Nosiocbaner;
-use App\Proizvodjacbaner;
 use App\User;
 
 class AdminController extends Controller
@@ -30,12 +19,7 @@ class AdminController extends Controller
 
     public function homePage(){
 
-        $product = Product::count();
-        $fabric = Fabric::count();
-        $legend = Legend::count();
-        $nosioci = Nosioci::count();
-
-        return view("admin/pages/home", compact("product", "fabric", "legend", "nosioci"));
+        return view("admin/pages/home");
 
     }
 

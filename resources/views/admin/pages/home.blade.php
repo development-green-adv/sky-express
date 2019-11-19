@@ -42,7 +42,7 @@
         <div class="col-12 col-md-3 text-center">
             <div class="lek">
                 <h3>Ukupno lekova u bazi</h3>
-                <h1><b>{{ $product }}</b></h1>
+                <h1><b></b></h1>
                 <br>
                 <a class="btn btn-default" href="/admin/dodaj-lek">Dodajte novi lek</a>
                 <a class="btn btn-default" href="/admin/lista-lekova">Lista lekova</a>
@@ -52,7 +52,7 @@
         <div class="col-12 col-md-3 text-center">
             <div class="lek">
                 <h3>Ukupno proizvođača u bazi</h3>
-                <h1><b>{{ $fabric }}</b></h1>
+                <h1><b></b></h1>
                 <br>
                 <a class="btn btn-default" href="/admin/dodaj-fabriku">Dodajte proizvođača</a>
                 <a class="btn btn-default" href="/admin/lista-fabrika">Lista proizvođača</a>
@@ -62,7 +62,7 @@
         <div class="col-12 col-md-3 text-center">
             <div class="lek">
                 <h3>Ukupno legendi u bazi</h3>
-                <h1><b>{{ $legend }}</b></h1>
+                <h1><b></b></h1>
                 <br>
                 <a class="btn btn-default" href="/admin/dodaj-legende">Dodajte legendu</a>
                 <a class="btn btn-default" href="/admin/lista-legende">Lista legendi</a>
@@ -72,7 +72,7 @@
         <div class="col-12 col-md-3 text-center">
             <div class="lek">
                 <h3>Ukupno nosioca u bazi</h3>
-                <h1><b>{{ $nosioci }}</b></h1>
+                <h1><b></b></h1>
                 <br>
                 <a class="btn btn-default" href="/admin/dodaj-nosioce">Dodajte nosioca</a>
                 <a class="btn btn-default" href="/admin/lista-nosioca">Lista nosioca</a>
