@@ -39,7 +39,7 @@
     
     <div class="row" style="padding-left: 15px; padding-right: 15px;">
 
-        <div class="col-12 col-md-3 text-center">
+       <!-- <div class="col-12 col-md-3 text-center">
             <div class="lek">
                 <h3>Ukupno lekova u bazi</h3>
                 <h1><b></b></h1>
@@ -77,7 +77,7 @@
                 <a class="btn btn-default" href="/admin/dodaj-nosioce">Dodajte nosioca</a>
                 <a class="btn btn-default" href="/admin/lista-nosioca">Lista nosioca</a>
             </div>
-        </div>
+        </div>-->
 
     </div>
 
