@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "About Us | Sky Express")
+@section("title", "Security Awareness Planning | Sky Express")
 
 @section("content")
 

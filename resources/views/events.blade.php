@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "News | Sky Express")
+@section("title", "Events | Sky Express")
 
 @section("style")
 

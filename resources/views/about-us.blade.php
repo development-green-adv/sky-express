@@ -67,32 +67,30 @@
             <div class="row">
                 <div class="container">
                     <div class="row slider-for">
-                        
-                        <div class="col-12 col-md-3 text-center">
+                        <div class="col-12 col-md-3 text-center align-self-center">
                             <img class="img-fluid" src="{{ asset('images/web/carbon.png') }}">
                         </div>
-                        <div class="col-12 col-md-3 text-center">
+                        <div class="col-12 col-md-3 text-center align-self-centers">
                             <img class="img-fluid" src="{{ asset('images/web/df.png') }}">
                         </div>
-                        <div class="col-12 col-md-3 text-center">
+                        <div class="col-12 col-md-3 text-center align-self-center">
                             <img class="img-fluid" src="{{ asset('images/web/open.png') }}">
                         </div>
-                        <div class="col-12 col-md-3 text-center">
+                        <div class="col-12 col-md-3 text-center align-self-center">
                             <img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}">
                         </div>
-                        <div class="col-12 col-md-3 text-center">
+                        <div class="col-12 col-md-3 text-center align-self-center">
                             <img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}">
                         </div>
-                        <div class="col-12 col-md-3 text-center">
+                        <div class="col-12 col-md-3 text-center align-self-center">
                             <img class="img-fluid" src="{{ asset('images/web/eperi.png') }}">
                         </div>
-                        <div class="col-12 col-md-3 text-center">
+                        <div class="col-12 col-md-3 text-center align-self-center">
                             <img class="img-fluid" src="{{ asset('images/web/kerio.png') }}">
                         </div>
-                        <div class="col-12 col-md-3 text-center">
+                        <div class="col-12 col-md-3 text-center align-self-center">
                             <img class="img-fluid" src="{{ asset('images/web/security.png') }}">
                         </div>
-
                     </div>
                 </div>
             </div>
