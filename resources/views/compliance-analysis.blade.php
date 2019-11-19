@@ -107,33 +107,47 @@
                         </div>
                         
                         <div class="col-12 col-md-3 my-5 text-center align-self-center service_item">
-                            <img class="img-fluid" src="{{ asset('images/web/secu.png') }}">
-                            <p>Security Analysis</p>
+                            <a href="/security-analysis">
+                                <img class="img-fluid" src="{{ asset('images/web/secu.png') }}">
+                                <p>Security Analysis</p>
+                            </a>
                         </div>
                         <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <img class="img-fluid" src="{{ asset('images/web/compi.png') }}">
-                            <p>Compilance Analysis</p>
+                            <a href="/compliance-analysis">
+                                <img class="img-fluid" src="{{ asset('images/web/compi.png') }}">
+                                <p>Compilance Analysis</p>
+                            </a>
                         </div>
                         <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <img class="img-fluid" src="{{ asset('images/web/pin.png') }}">
-                            <p>Managed Security Services (MSSP)</p>
+                            <a href="/managed-security-services">
+                                <img class="img-fluid" src="{{ asset('images/web/pin.png') }}">
+                                <p>Managed Security Services (MSSP)</p>
+                            </a>
                         </div>
                         <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <img class="img-fluid" src="{{ asset('images/web/sec.png') }}"> 
-                            <p>Security Management Systems (ISMS)</p>
+                            <a href="/information-security-management-system">
+                                <img class="img-fluid" src="{{ asset('images/web/sec.png') }}"> 
+                                <p>Security Management Systems (ISMS)</p>
+                            </a>
                         </div>
                         
                         <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <img class="img-fluid" src="{{ asset('images/web/se.png') }}">
-                            <p>Security Awareness Planning</p>
+                            <a href="/security-awareness-planning">
+                                <img class="img-fluid" src="{{ asset('images/web/se.png') }}">
+                                <p>Security Awareness Planning</p>
+                            </a>
                         </div>
                         <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <img class="img-fluid" src="{{ asset('images/web/pen.png') }}">
-                            <p>Pen Testing & Ethical Hacking</p>
+                            <a href="/pen-testing">
+                                <img class="img-fluid" src="{{ asset('images/web/pen.png') }}">
+                                <p>Pen Testing & Ethical Hacking</p>
+                            </a>
                         </div>
                         <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <img class="img-fluid" src="{{ asset('images/web/consult.png') }}">
-                            <p>Security Consulting</p>
+                            <a href="/security-consulting">
+                                <img class="img-fluid" src="{{ asset('images/web/consult.png') }}">
+                                <p>Security Consulting</p>
+                            </a>
                         </div>
                     </div>
                 </div>

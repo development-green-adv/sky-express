@@ -21,7 +21,7 @@ p {
 }
 
 .container-header {
-    max-width:1453px;
+    max-width:1450px;
     width: 100%;
     margin: 0 auto;
     padding-left: 15px;
@@ -56,7 +56,7 @@ p {
 
 .dropdown-sub-menu {
     position: absolute;
-    top: 0;
+    top: -50%;
     left: 100%;
     display: flex;
     flex-direction: column;
