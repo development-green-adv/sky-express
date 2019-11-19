@@ -4,39 +4,6 @@
 
 @section("style")
 
-    <style>
-        
-        .newss{
-            margin-top: 30px;
-        }
-
-        .news_section{
-            padding-top: 50px;
-            padding-bottom: 80px;
-        }   
-        
-        .news_section a{
-            color: #000;
-            transition: all .2s;
-            text-decoration: none;
-        }
-
-        .news_section a:hover{
-            color: #f36f46;
-        }
-
-        .news_item{
-            border: 1px solid #000;
-            padding: 15px;
-        }
-
-        .news_item a{
-            color: #f36f46;
-            font-size: 20px;
-        }
-
-    </style>
-
 @endsection
 
 @section("content")
@@ -49,7 +16,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="text-white">NEWS</h1>
+                                <h1>NEWS</h1>
                             </div>
                         </div>
                     </div>
@@ -144,9 +111,8 @@
                         
                     </div>
                 </div>
-                <div class="col-12 offset-md-1 col-md-2 newss">
+                <div class="col-12 offset-md-1 col-md-2 newss newss-right">
                     <h4>Previous news</h4><br><br>
-
                     <a href="#">The Second regional Cyber Security Conference was held on May 17th, 2019 in Podgorica</a><br><br>
                     <a href="#">The Second regional Cyber Security</a><br><br>
                     <a href="#">The Second regional Cyber Security</a><br><br>

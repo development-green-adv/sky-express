@@ -4,67 +4,6 @@
 
 @section("style")
 
-    <style>
-        
-        .newss{
-            margin-top: 30px;
-        }
-
-        .events_section{
-            padding-top: 50px;
-            padding-bottom: 100px;
-        }  
-
-        .event-card {
-            padding-top: 75px;
-            padding-bottom: 75px;
-            border-bottom: 1px solid #a7a9ac;
-        }
-
-        .event-card p {
-            font-size: 16px;
-            font-weight: 400;
-        }
-
-        .events_section .event-card:last-child {
-            border-bottom: none;
-        }
-
-        .events_section a{
-            font-size: 20px;
-            background-color: #f36f46;
-            color: #fff;
-            padding: 8px 35px;
-            text-decoration: none;
-            transition: all .4s;
-        }
-
-        .events_section a:hover {
-            background-color: #08090b;
-            color: #f1592a;
-        }
-
-        .previosuBtn{
-            background-color: #f36f46;
-            color: #fff;
-            font-weight: bold;
-            padding: 15px 50px;
-        }
-
-        .previous-events-title {
-            background-color: #f1592a;
-            display: inline-block;
-            padding: 10px 50px;
-            color: #fff;
-            margin-top: 50px;
-            
-        }
-
-        .previous-events-title h2 {
-            font-size: 1.75rem;
-        }
-
-    </style>
 
 @endsection
 
