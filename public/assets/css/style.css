@@ -52,8 +52,8 @@ p {
 
 .dropdown-sub-menu {
     position: absolute;
-    top: -100%;
-    left: calc(100% + 18px);
+    top: 0;
+    left: 100%;
     display: flex;
     flex-direction: column;
     background-color: rgba(8, 9, 11, .9);
@@ -64,10 +64,12 @@ p {
 
 .dropdown-menu ul {
     list-style-type: none;
-    padding: 20px;
     margin: 0;
     width: 250px; 
     margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .dropdown-menu ul p {
@@ -93,9 +95,11 @@ p {
 }
 
 .dropdown-menu ul li a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
     text-decoration: none;
+    display: block;
 }
 
 .dropdown-menu ul > a {
