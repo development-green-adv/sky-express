@@ -26,10 +26,10 @@
             <div class="row">
                 <div class="col-12">
                     <p>
-                        This Cookie Policy explains how cookies and similar technologies (collectively, “Cookie(s)”) are used when you visit our Site. A “Site” includes our websites, emails, and other applications owned and operated by Sky Express(the “Company”, “our”, or “us”) as well as any other services that display this Cookie Policy. This policy explains what these technologies are and why they are used, as well as your right to control their use.
+                        This Cookie Policy explains how cookies and similar technologies (collectively, “Cookie(s)”) are used when you visit our Site. A “Site” includes our websites, emails, and other applications owned and operated by Sky Express (the “Company”, “our”, or “us”) as well as any other services that display this Cookie Policy. This policy explains what these technologies are and why they are used, as well as your right to control their use.
                     </p><br>
                     <p>
-                        We may change this Cookie Policy at any time. Please take a look at the “LAST REVISED” date at the top of this page to see when this Cookie Policy was last revised. Any change in this Cookie Policy will become effective when we make the revised Cookie Policy available on or through the Site.
+                        We may change this Cookie Policy at any time. Please take a look at the “LAST REVISED” date at the top of this page to see when this Cookie Policy was last revised. Any change in this Cookie Policy will become effective when we make the revised Cookie Policy available on or through the Site. <br>
                         If you have any question, please contact us by email at privacy@sky-express.rs.
 
                     </p>
@@ -89,7 +89,7 @@
                         Below we list the different types of Cookies that are used on the Site that you are visiting.
                     </p><br>
                     <p>
-                        To the extent any personal information is collected through first-party Cookies, our Privacy Policy applies and complements this Cookie Policy. Personal information collected through a third-party Cookie is subject to the privacy policy of that third party, and not our Privacy Policy.
+                        To the extent any personal information is collected through first-party Cookies, our Privacy Policy applies and complements this Cookie Policy. Personal information collected through a third-party Cookie is subject to the privacy policy of that third party, and not our Privacy Policy.
                     </p><br><br>
 
                     <p class="mb-2">Essential Cookies</p>
@@ -136,7 +136,7 @@
             <div class="row">
                 <div class="col-12">
                     <p>
-                        You can change your Cookie settings above by opting out of all Cookies.
+                        You can change your Cookie settings above by opting out of all Cookies.
                     </p>
                     <p>
                         You may refuse or accept Cookies from the Site or any other website at any time by activating settings on your browser. Most browsers automatically accept Cookies, but you can usually modify your browser setting to decline Cookies if you prefer. If you choose to decline Cookies, you may not be able to sign in or use other interactive features of our Site that depend on Cookies. Information about the procedure to follow in order to enable or disable Cookies can be found at:
@@ -149,10 +149,10 @@
                         <li>Microsoft Edge</li>
                     </ul> <br>
                     <p>
-                        For more information about other commonly used browsers, please refer to http://www.allaboutcookies.org/manage-cookies/.
+                        For more information about other commonly used browsers, please refer to http://www.allaboutcookies.org/manage-cookies/.
                     </p><br>
                     <p>
-                        Please be aware that if Cookies are disabled, not all features of the Site may operate as intended. To opt-out of participating in Google Analytics data follow the instructions: https://tools.google.com/dlpage/gaoptout.
+                        Please be aware that if Cookies are disabled, not all features of the Site may operate as intended. To opt-out of participating in Google Analytics data follow the instructions: https://tools.google.com/dlpage/gaoptout.
                     </p><br>
                     <p class="mb-3">
                         PERSONAL DATA PROTECTION OF CHILDREN
@@ -179,7 +179,7 @@
                     </p><br>
 
                     <p class="mb-3">Transparency</p>
-                    <p>If we decide to change our Cookie Policy, changes will be set and published on web page www.sky-express.rs</p>
+                    <p>If we decide to change our Cookie Policy, changes will be set and published on web page www.sky-express.rs </p>
                 </div>
             </div>
         </div>
