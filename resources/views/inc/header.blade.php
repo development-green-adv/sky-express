@@ -70,7 +70,7 @@
                                         <ul>
                                             <p>COMPANY OVERVIEW</p>
                                             <li><a href="#">Why Us?</a></li>
-                                            <li><a href="#">Careers</a></li>
+                                            <li><a href="/careers">Careers</a></li>
                                             <li><a href="/contact">Contact</a></li>
                                             <li><a href="#">Office Locations</a></li>
                                         </ul>
@@ -98,9 +98,9 @@
                                     <div class="dropdown-menu">
                                         <ul>
                                             <!-- <p>PRODUCTS</p> -->
-                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="/blog">Blog</a></li>
                                             <li><a href="#">Reports</a></li>
-                                            <li><a href="#">F&Q</a></li>
+                                            <li><a href="/faq">F&Q</a></li>
                                             <li><a href="#">Case Studies</a></li>
                                         </ul>
                                         <ul>

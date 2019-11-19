@@ -1070,6 +1070,7 @@ button.orange_btn:hover {
     height: 580px;
     padding-top: 150px;
     background-image: url('../../images/web/pen-testing-bg-image.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
