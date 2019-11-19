@@ -22,7 +22,7 @@
                                 <h1 data-aos="fade-right" class="orange_text">EXPERT <b>DEFENSE</b></h1>
                                 <h2 data-aos="fade-left">FOR ENTERPRISE</h2>
                                 <br>
-                                <h3 data-aos="fade-right">DEFEND YOUR ORGANIZATION AGAINST CYBER <br> THREATS</h3>
+                                <h3 data-aos="fade-right">DEFEND YOUR ORGANIZATION AGAINST CYBER THREATS</h3>
                                 <br><br>
                                 <a class="orange_link" data-aos="fade-up" href="#">Get in touch</a>
                             </div>
