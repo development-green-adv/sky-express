@@ -57,11 +57,12 @@
                                 and more from our team of knowledgable exprerts.
                             </p><br>
                         </div>
-                        <div class="col-12 col-md-5">
+                        <div class="col-md-1"></div>
+                        <div class="col-12 col-md-4">
                             
                             <h4 style="color: #f1592a;">Recent Posts</h4><br>
 
-                            <div class="row" style="margin-top: 20px;">
+                            <div class="row" style="margin-top: 0px;">
                                 <div class="col-12 col-md-4">
                                     <img class="img-fluid" src="{{ asset('images/web/development.jpg') }}">
                                 </div>

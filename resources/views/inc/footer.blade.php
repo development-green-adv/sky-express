@@ -14,13 +14,13 @@
             <div class="row">
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <!-- <h5>SKY EXPRESS LOGO</h5> -->
-                    <a class="navbar-brand" href="/"><img src="{{ asset('images/web/logo-sky-express.png') }}" alt=""></a>
+                    <a class="navbar-brand logo-footer" href="/"><img src="{{ asset('images/web/logo-sky-express.png') }}" alt=""></a>
                 </div>
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <h5>QUICK LINKS</h5>
                     <a href="/about-us">About us</a><br>
                     <a href="#">Technical support</a><br>
-                    <a href="#">News</a><br>
+                    <a href="/news">News</a><br>
                     <a href="/blog">Blog</a><br>
                     <a href="/careers">Careers</a><br>
                     <a href="#">Office locations</a>
@@ -28,7 +28,7 @@
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <h5>PRODUCTS</h5>
                     <a href="#">Carbon black</a><br>
-                    <a href="#">DF Labs</a><br>
+                    <a href="/df-labs">DF Labs</a><br>
                     <a href="#">Eperi</a><br>
                     <a href="#">Onapsys</a><br>
                     <a href="#">Open systems</a><br>
