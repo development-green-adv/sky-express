@@ -81,19 +81,19 @@
                     <div class="col-md-4">    
                         <div class="by-compliance-third-part-card align-items-start">
                             <img src="{{ asset('images/web/gdpr.png') }}" alt="">
-                            <a href="#">Learn more</a>
+                            <a href="/meeting-gdpr">Learn more</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="by-compliance-third-part-card align-items-center">
                             <img style="margin-top: -50px;"  src="{{ asset('images/web/iso-27001.png') }}" alt="">
-                            <a href="#">Learn more</a>
+                            <a href="/iso-27001">Learn more</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="by-compliance-third-part-card align-items-end">
                             <img src="{{ asset('images/web/sap.jpg') }}" alt="">
-                            <a href="#">Learn more</a>
+                            <a href="/sap-security-guidelines">Learn more</a>
                         </div>
                     </div>
                 </div>
