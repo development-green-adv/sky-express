@@ -114,6 +114,11 @@ Route::get('/meeting-gdpr', function () {
     return view('meeting-gdpr');
 });
 
+Route::get('/iso-27001', function () {
+    return view('iso-27001');
+});
+
+
 
 
 // rute za admin deo

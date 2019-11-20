@@ -1637,7 +1637,12 @@ button.orange_btn:hover {
     font-size: 25px;
 }
 
-/* SAP */
+/* ISO 27001 */
+
+.iso-2700-list li {
+    font-size: 19px;
+    font-weight: 500;
+}
 
 .sap-first-part ul {
     list-style-type: none;

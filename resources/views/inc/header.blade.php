@@ -34,7 +34,7 @@
                                                 <ul class="dropdown-sub-menu">
                                                     <!-- <p class="invisible">TITLE</p> -->
                                                     <li><a href="/meeting-gdpr">Meeting GDPR</a></li>
-                                                    <li><a href="#">ISO 27001</a></li>
+                                                    <li><a href="/iso-27001">ISO 27001</a></li>
                                                     <li><a href="/sap-security-guidelines">SAP Security Guidelines</a></li>
                                                 </ul>
                                             </li>

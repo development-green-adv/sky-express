@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Meeting GDPR | Sky Express")
+@section("title", "ISO 27001 | Sky Express")
 
 @section("content")
 
@@ -24,23 +24,38 @@
         <div class="container about_desc pen_services sap-first-part">
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
-                    <h4>Meeting GDPR</h4><br>
+                    <h4>ISO 27001</h4><br>
                     <p class="pr-5 mb-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. 
                     </p>
-
-                    <h5 class="mb-4">The GDPR Compliance</h5>
-                    <p class="pr-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ex commodi, fugiat minima voluptates impedit dicta doloremque, reprehenderit sequi deleniti quasi repellendus sit soluta. Ea doloribus, quisquam dolore eum quibusdam voluptatibus deserunt sit reprehenderit necessitatibus alias nemo ab dolorem doloremque quo quam pariatur nostrum ullam eius dolorum, eos sunt quod?</p>
-                    <p class="pr-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, laboriosam facere dolore quam repudiandae recusandae doloremque aliquid non facilis consequatur nihil, voluptatem quo distinctio porro obcaecati, sint iusto vero asperiores dicta provident repellat error dolorum. Blanditiis reprehenderit recusandae sunt ipsa? Unde fugiat dignissimos quos tempora quibusdam quae, non eius eos.</p>
+                    <p class="pr-5 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, laboriosam facere dolore quam repudiandae recusandae doloremque aliquid non facilis consequatur nihil, voluptatem quo distinctio porro obcaecati, sint iusto vero asperiores dicta provident repellat error dolorum. Blanditiis reprehenderit recusandae sunt ipsa? Unde fugiat dignissimos quos tempora quibusdam quae, non eius eos.
+                    </p>
+                    <h5 class="mb-4 pr-5">ISO 27001 will help reduce information security and data protection risks to your organization</h5>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <h5 class="mb-4 pl-5">Why GDPR Should Matter to You?</h5>
                     <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident.</p>
-                    <p class="pl-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos molestiae doloremque eius atque accusantium magnam praesentium eaque. Explicabo possimus, nam est voluptatibus adipisci tenetur quaerat voluptates alias delectus nobis molestiae fugiat maiores recusandae, magnam error? Impedit culpa repudiandae quas blanditiis deserunt accusamus porro, maiores dicta enim consequatur odio asperiores! voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <h5 class="mb-4 pl-5">GDPR Compliance in Serbia</h5>
-                    <p class="pl-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos molestiae doloremque eius atque accusantium magnam praesentium eaque. Explicabo possimus, nam est voluptatibus adipisci tenetur quaerat voluptates alias delectus nobis molestiae fugiat maiores recusandae, magnam error? Impedit culpa repudiandae quas blanditiis deserunt accusamus porro, maiores dicta enim consequatur odio asperiores! voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="pl-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos molestiae doloremque eius atque accusantium magnam praesentium eaque. Explicabo possimus, nam est voluptatibus adipisci tenetur quaerat voluptates alias delectus nobis molestiae fugiat maiores recusandae, magnam error? Impedit culpa repudiandae quas blanditiis deserunt accusamus porro, maiores dicta enim consequatur odio asperiores! voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
+                    <ul class="iso-2700-list">
+                        <li class="mb-4 pl-5">
+                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Protect client and employee information
+                        </li>
+                        <li class="mb-4 pl-5">
+                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Manage risks to information security effectively
+                        </li>
+                        <li class="mb-4 pl-5">
+                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Achieve compliance with regulations such as the
+                        </li>
+                        <li class="mb-4 pl-5">
+                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> European Union General Data Protection Regulation (EUGDPR)
+                        </li>
+                        <li class="mb-4 pl-5">
+                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Protect the company's brand image
+                        </li>
+                    </ul>
+                    <p class="pl-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos molestiae doloremque eius atque accusantium magnam praesentium eaque. Explicabo possimus, nam est voluptatibus adipisci tenetur quaerat.</p>
+                    <h5 class="mb-4 pl-5">Are you ISO 27001 compliant?</h5>
+                    <p class="pl-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos molestiae doloremque eius atque accusantium magnam praesentium eaque. Explicabo possimus, nam est voluptatibus adipisci tenetur quaerat.</p>
                 </div>
             </div>
         </div>
