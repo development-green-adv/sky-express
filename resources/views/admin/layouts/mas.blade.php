@@ -155,8 +155,8 @@
                     </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-fabriku"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj dogadjaje</a></li>
-                        <li><a href="/admin/lista-fabrika"><i class="fas fa-arrow-alt-circle-right"></i> Lista dogadjaja</a></li>
+                        <li><a href="/admin/dodaj-event"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj dogadjaje</a></li>
+                        <li><a href="/admin/lista-eventa"><i class="fas fa-arrow-alt-circle-right"></i> Lista dogadjaja</a></li>
                         <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
                     </ul>
                 </li>
@@ -172,8 +172,8 @@
                     </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/admin/dodaj-atc"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj blog</a></li>
-                        <li><a href="/admin/lista-atc"><i class="fas fa-arrow-alt-circle-right"></i> Lista blogova</a></li>
+                        <li><a href="/admin/dodaj-blog"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj blog</a></li>
+                        <li><a href="/admin/lista-blogova"><i class="fas fa-arrow-alt-circle-right"></i> Lista blogova</a></li>
                         <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
                     </ul>
                 </li>

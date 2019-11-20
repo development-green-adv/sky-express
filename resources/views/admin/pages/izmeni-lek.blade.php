@@ -19,9 +19,7 @@
 
 @section('data')
 
-
     <div class="row">
-
         
         <form action="/admin/izmeni-lek" method="POST">
             @csrf
@@ -31,7 +29,7 @@
 
                 <div class="row">
                     <div class="col-12 col-md-12">
-                        <h4>Izmeni Lek</h4>
+                        <h4>Izmeni Novost</h4>
                         <div style="border-bottom: 1px solid #c5c5c5; margin-bottom: 30px;"></div>
                     </div>
                 </div>
@@ -58,263 +56,204 @@
                     </div>
                 @endif
 
-                <input type="hidden" name="id" value="{{ $product->id_fab}}" />
+                <input type="hidden" name="id" value="{{ $data->id }}" />
 
                 <div class="row">
                     
-                    <div class="form-group col-12 col-md-4">
-
-                        <label for="">Naziv</label>
-                        <input class="form-control" type="text" name="naziv" value="{{ $product->naziv }}">
-
-                    </div>
-
-                    <div class="form-group col-12 col-md-4">
-
-                        <label for="">Izaberite fabriku</label>
-                        <select class="form-control" name="id_fabrike">
-
-                            <option selected disabled>Izaberite fabriku</option>
-
-                            @if(count($fabrics) > 0)
-
-                                @foreach($fabrics as $fabric)
-
-                                    <option @if($fabric->id_fabrike == $product->id_fabrike) selected @endif value="{{ $fabric->id_fabrike }}">{{ $fabric->fabrika }}</option>
-
-                                @endforeach
-
-                            @endif
-
-                        </select>
-
-                    </div>
-
-                    <div class="form-group col-12 col-md-4">
+                    <div class="col-12 col-md-2"></div>
+                    
+                    <div class="col-12 col-md-8">
                         
-                        <label for="">Izaberite nosioca dozvole</label>
-                        <select class="form-control" name="nosioci_dozvole">
+                        <div class="row">
 
-                            <option selected disabled>Izaberite nosioca dozvole</option>
+                            <div class="form-group col-12 col-md-6">
 
-                            @if(count($nosioci) > 0)
+                                <label for="">Izabrani jezik</label>
+                                <select class="form-control" name="lang">
 
-                                @foreach($nosioci as $nosioc)
+                                    <option @if($data->lang == "en") selected @endif value="en">Engleski</option>
+                                    <option @if($data->lang == "de") selected @endif value="de">Nemački</option>
+                                    <option @if($data->lang == "sr") selected @endif value="sr">Srpski</option>
+                                    
+                                </select>
+        
+                            </div>
 
-                                    <option @if($nosioc->id_nosioca == $product->nosioci_dozvole) selected @endif value="{{ $nosioc->id_nosioca }}">{{ $nosioc->nosilac }}</option>
+                        </div>
 
-                                @endforeach
+                        <div class="row">
 
-                            @endif
+                            <div class="form-group col-12 col-md-6">
 
-                        </select>
+                                <label for="">Naslov</label>
+                                <input class="form-control" type="text" name="title" value="{{ $data->title }}">
+        
+                            </div>
 
-                    </div>
+                            <div class="form-group col-12 col-md-6">
 
-                </div>
-
-
-                <div class="row">
-
-                    <div class="col-12 col-md-4">
+                                <label for="">Podnaslov</label>
+                                <input class="form-control" type="text" name="subtitle" value="{{ $data->subtitle }}">
+        
+                            </div>
+                            
+                            <div class="form-group col-12 col-md-6">
                         
-                        <label for="">Izaberite Atc</label>
-                        <select class="form-control" name="idAtc">
+                                <label for="">Datum</label>
+                                <input class="form-control" type="date" name="date" value="{{ $data->date }}">
+        
+                            </div>
 
-                            <option selected disabled>Izaberite atc</option>
+                        </div>
 
-                            @if(count($atcs) > 0)
+                        <div class="row">
 
-                                @foreach($atcs as $atc)
+                            <div class="form-group col-12 col-md-12">
 
-                                    <option @if($atc->id_atc == $product->idAtc) selected @endif value="{{ $atc->id_atc }}">{{ $atc->atc }}</option>
+                                <label>Tekst</label>
+                                <textarea class="textarea" name="text" placeholder="Unesite tekst ovde" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{{ $data->text }}</textarea>
 
-                                @endforeach
+                            </div>
 
-                            @endif
+                        </div>
 
-                        </select>
+
+                        <div class="row">
+
+                            <div class="form-group col-12 col-md-6">
                     
-                    </div>
+                                <label>Glavna slika</label><br>
+                                <span class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Izaberi</span>
+                                <div id="glavna-slika" style="margin-top: 10px;">
+                                    
+                                    @if (isset($data->main_image) && !empty($data->main_image))
+                                        <img class='img-responsive' src='../../images_gallery/{{ $data->main_image }}'/>
+                                        <input type='hidden' name='mainImage' value="{{ $data->main_image }}" />
+                                    @endif
+                                    
+                                </div>
 
-                    <div class="col-12 col-md-4">
+                            </div>
 
-                        <label for="">inn</label>
-                        <input class="form-control" type="text" name="inn" value="{{ $product->inn }}">
+                            <div class="form-group col-12 col-md-6">
+                        
+                                <label>Galerija slika</label><br>
+                                <span class="btn btn-primary" data-toggle="modal" data-target="#myModal">Izaberi</span>
+                                
+                                <div id="row slike1">
+                                    
+                                    <?php
 
-                    </div>
+                                        $gall = [];
+                                        if(isset($data->image_gallery) && !empty($data->image_gallery)) {
+                                            $gall = explode(',', $data->image_gallery);
+                                        }
 
-                    <div class="col-12 col-md-4">
+                                        $videos = [];
+                                        if(isset($data->video_gallery) && !empty($data->video_gallery)) {
+                                            $videos = explode(',', $data->video_gallery);
+                                        }
 
-                        <label for="">Grupa</label>
-                        <input class="form-control" type="text" name="grupa" value="{{ $product->grupa }}">
+                                    ?>
 
-                    </div>
+                                    @if (isset($gall) && !empty($gall))
+                
+                                        <?php
+                                            $n = 200;
+                                        ?>
+                
+                                        @foreach ($gall as $image)
+                                            <?php
+                                                $n++;
+                                            ?>
+                
+                                            <div class="col-12 col-md-3" id="deleteGal{{ $n }}" style='margin-top: 10px;'>
+                                                <img class='img-responsive' src='../../images_gallery/{{ $image }}'/>
+                                                <input type='hidden' name='galleryImages[]' value="{{ $image }}" />
+                                                <div class="btn btn-danger" id="{{ $n }}" onclick="deleteGal(this)" style="position: absolute; top: 0px; left: 0px;">-</div>
+                                            </div>
+                                        @endforeach
+                                        
+                                    @endif
+                
+                                </div>
+                                
+                                
+                                <div id="slike"></div>
+        
+                                </div>
 
-                </div>
-                <br>
+                        </div>
 
-                <div class="row">
+                        <br>
+                        
 
-                    <div class="col-12 col-md-4">
+                        <div class="row">
 
-                        <label for="">idSimbolZuti</label>
-                        <input class="form-control" type="text" name="idSimbolZuti" value="{{ $product->idSimbolZuti }}">
-                    
-                    </div>
-                    <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6">
 
-                        <label for="">idSimbolZuti2</label>
-                        <input class="form-control" type="text" name="idSimbolZuti2" value="{{ $product->idSimbolZuti2 }}">
+                                <label>Dodaj video</label><br>
+                                <div class="btn btn-success add-video-link"><b>+</b></div>
+                                <div class="video-box">
+        
+                                </div>
 
-                    </div>
-                    <div class="col-12 col-md-4">
+                            </div>
+                        
+                        </div>
+                        <br>
+                        
+                        @if (isset($videos) && !empty($videos))
+                                <?php
+                                    $rb = 50;
+                                ?>
+                            @foreach ($videos  as $video)
+                            
+                                <div class='row' id='{{ $rb }}'>
+                                    <div class='col-11 col-md-11'> 
+                                        <input id='"+rb+"' style='margin-top: 15px;' class='form-control input' type='text' name='video_link[]' placeholder='Unesite link' value="{{ $video }}">
+                                    </div>
+                                    <div class='col-1 col-md-1 text-right'>
+                                        <div style='margin-top: 14px;' class='btn btn-danger' onclick='remove(this)' id='{{ $rb }}'>-</div>
+                                    </div>
+                                </div>  
+                                <?php $rb++; ?>
+                            @endforeach
+                        @endif
+                        
+                        <br>
 
-                        <label for="">idSimbolZuti3</label>
-                        <input class="form-control" type="text" name="idSimbolZuti3" value="{{ $product->idSimbolZuti3 }}">
+                        
+                        <div class="row">
 
-                    </div>
+                            <div class="col-12 col-md-6">
 
-                </div> 
-                <br>
+                                <label for="">Status dogadjaja</label>
+                                <select class="form-control" name="status">
 
-                <div class="row">
+                                    <option @if($data->status == "1") selected @endif value="1">Aktivan</option>
+                                    <option @if($data->status == "0") selected @endif value="0">Neaktivan</option>
+                                    
+                                </select>
+        
+                            </div>
 
-                    <div class="col-12 col-md-4">
+                        </div>
+                        
+                        <br>
 
-                        <label for="">idSimbol1</label>
-                        <input class="form-control" type="text" name="idSimbol1" value="{{ $product->idSimbol1 }}">
-                    
-                    </div>
-                    <div class="col-12 col-md-4">
+                        <div class="row">
 
-                        <label for="">idSimbol2</label>
-                        <input class="form-control" type="text" name="idSimbol2" value="{{ $product->idSimbol2 }}">
+                            <div class="col-12 col-md-6">
 
-                    </div>
-                    <div class="col-12 col-md-4">
+                                <button class="btn btn-success">Sačuvaj</button>
+        
+                            </div>
 
-                        <label for="">idSimbol3</label>
-                        <input class="form-control" type="text" name="idSimbol3" value="{{ $product->idSimbol3 }}">
-
-                    </div>
-
-                </div>
-                <br>
-
-                <div class="row">
-
-                    <div class="col-12 col-md-4">
-
-                        <label for="">doza1</label>
-                        <input class="form-control" type="text" name="doza1" value="{{ $product->doza1 }}">
-                    
-                    </div>
-                    <div class="col-12 col-md-4">
-
-                        <label for="">idSimbolDoza1</label>
-                        <input class="form-control" type="text" name="idSimbolDoza1" value="{{ $product->idSimbolDoza1 }}">
-
-                    </div>
-                    <div class="col-12 col-md-4">
-
-                        <label for="">idSimbolDoza2</label>
-                        <input class="form-control" type="text" name="idSimbolDoza2" value="{{ $product->idSimbolDoza2 }}">
-
-                    </div>
-
-                </div>
-                <br>
-
-                <div class="row">
-
-                    <div class="col-12 col-md-4">
-
-                        <label for="">idSimbolDoza3</label>
-                        <input class="form-control" type="text" name="idSimbolDoza3" value="{{ $product->idSimbolDoza3 }}">
-                    
-                    </div>
-                    <div class="col-12 col-md-4">
-
-                        <label for="">idSimbolDoza4</label>
-                        <input class="form-control" type="text" name="idSimbolDoza4" value="{{ $product->idSimbolDoza4 }}">
-
-                    </div>
-                    <div class="col-12 col-md-4">
-
-                        <label for="">idSimbolDoza5</label>
-                        <input class="form-control" type="text" name="idSimbolDoza5" value="{{ $product->idSimbolDoza5 }}">
-
-                    </div>
-
-                </div>
-                <br>
-
-                <div class="row">
-
-                    <div class="col-12 col-md-4">
-
-                        <label for="">idSimbolDoza6</label>
-                        <input class="form-control" type="text" name="idSimbolDoza6" value="{{ $product->idSimbolDoza6 }}">
-                    
-                    </div>
-                    <div class="col-12 col-md-4">
-
-                        <label for="">boja</label>
-                        <input class="form-control" type="text" name="boja" value="{{ $product->boja }}">
-
-                    </div>
-                    <div class="col-12 col-md-4">
-
-                        <label for="">upotreba</label>
-                        <input class="form-control" type="text" name="upotreba" value="{{ $product->upotreba }}">
+                        </div>
 
                     </div>
 
-                </div>
-                <br>
-                <div class="row">
-
-                    <div class="col-12 col-md-4">
-
-                        <label for="">paralela</label>
-                        <input class="form-control" type="text" name="paralela" value="{{ $product->paralela }}">
-                    
-                    </div>
-
-                    <div class="col-12 col-md-4">
-
-                        <label for="">SmPc</label>
-                        <input class="form-control" type="text" name="smpc" value="{{ $product->smpc }}">
-                    
-                    </div>
-
-                    <div class="col-12 col-md-4">
-
-                        <label for="">Pil</label>
-                        <input class="form-control" type="text" name="pil" value="{{ $product->pil }}">
-                    
-                    </div>
-
-                </div>
-                <br>
-                <div class="row">
-
-                    <div class="col-12 col-md-4">
-
-                        <label for="">Cena</label>
-                        <input class="form-control" type="text" name="cena" value="{{ $product->cena }}">
-                    
-                    </div>
-
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-12 col-md-4">
-
-                        <button class="btn btn-success">Sačuvaj</button>
-
-                    </div>
                 </div>
 
                 
@@ -322,8 +261,282 @@
 
         </form>
 
-
     </div>
+
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Dodajte fotografije u biblioteku</h4>
+                </div>
+                <div class="modal-body">
+                    <div style="border-bottom: 2px solid #c5c5c5; padding-bottom: 10px;">
+                        <p><b>Izaberite fotografije sa racunara</b></p>
+
+
+                        <form action="/admin/dodaj-galeriju-slika" id="upload_form" method="POST" enctype="multipart/form-data">
+
+                            @csrf
+                            <input type="file" name="images[]" id="galImg" multiple>
+                            <button id="submitGallery" style="margin-top: 10px;" class="btn btn-primary">Sačuvaj</button>
+                            <button style="margin-top: 10px;float:right; margin-right: 10px;" class="btn btn-primary galleryImages" onclick="showInDiv()">Sačuvaj galeriju</button>
+                        </form>
+                        
+
+                    </div>
+
+                    <div class="row" id="gallery-images">
+                        @if(count($allImages) > 0)
+                            @foreach ($allImages as $image)
+                                <div class="col-12 col-md-3" style="margin-top: 30px; height: 120px; width: 120px; overflow: hidden; display: inline-flex;">
+                                <img class="img-responsive modal-img" id="{{ $image->id }}" name="{{ $image->image_name }}" onclick="getImageValue({{ $image->id }})" src="../../images_gallery/{{ $image->image_name }}">
+                                </div>
+                            @endforeach
+                        @endif
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+
+    <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Dodajte fotografije u biblioteku</h4>
+                </div>
+                <div class="modal-body">
+                    <div style="border-bottom: 2px solid #c5c5c5; padding-bottom: 10px;">
+                        <p><b>Izaberite fotografije sa racunara</b></p>
+
+
+                        <form action="/admin/dodaj-galeriju-slika" id="upload_form1" method="POST" enctype="multipart/form-data">
+
+                            @csrf
+                            <input type="file" name="images[]" id="galImg1" multiple>
+                            <button id="submitGallery" style="margin-top: 10px;" class="btn btn-primary">Sačuvaj</button>
+                            <button style="margin-top: 10px; float:right;" class="btn btn-primary mainImage" onclick="showInDivMain()">Sačuvaj glavnu sliku</button>
+                        </form>
+                        
+
+                    </div>
+
+                    <div class="row" id="gallery-images1">
+                        @if(count($allImages) > 0)
+                            @foreach ($allImages as $image)
+                                <div class="col-12 col-md-3" style="margin-top: 30px; height: 120px; width: 120px; overflow: hidden; display: inline-flex;">
+                                <img class="img-responsive modal-img bor" id="1{{ $image->id }}" name="{{ $image->image_name }}" onclick="getImageValue1({{ $image->id }})" src="../../images_gallery/{{ $image->image_name }}">
+                                </div>
+                            @endforeach
+                        @endif
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+
+    <script>
+
+        var imageArray = [];
+        var imageArray1 = [];
+
+        function getImageValue(id){
+
+            var data = $('#' + id).attr('name');
+
+            if(imageArray.includes(data) == false){
+
+                imageArray.push(data);
+                $("#"+id).css("border", "4px solid red");
+
+            }else{
+                var index = imageArray.indexOf(data);
+                if (index > -1) {
+                imageArray.splice(index, 1);
+                $("#"+id).css("border", "none");
+
+                }
+            }
+
+        }
+
+
+
+        function getImageValue1(id){
+
+            var data = $('#' + id).attr('name');
+            $(".bor").css("border", "none");
+
+            if(imageArray1.includes(data) == false){
+                $("#1"+id).css("border", "none");
+
+                imageArray1 = [];
+                imageArray1.push(data);
+                $("#1"+id).css("border", "4px solid red");
+
+            }else{
+
+                imageArray1 = [];
+
+                imageArray1.push(data);
+                $("#1"+id).css("border", "none");
+                
+            }
+
+
+        }
+
+
+        function showInDiv(){
+
+            var arrayLength = imageArray.length;
+
+            $("#slike").empty();
+
+            for (var i = 0; i < arrayLength; i++) {
+
+                var img = "<img class='img-responsive' src='../../images_gallery/"+imageArray[i]+"'/>";
+                var input = "<input type='hidden' name='galleryImages[]' value="+imageArray[i]+" />";
+
+                $("#slike").append(img);
+                $("#slike").append(input);
+            }
+
+        }
+        
+
+        function showInDivMain(){
+
+            var arrayLength1 = imageArray1.length;
+
+            $("#glavna-slika").empty();
+
+            for (var i = 0; i < arrayLength1; i++) {
+
+                var img1 = "<img class='img-responsive' src='../../images_gallery/"+imageArray1[i]+"'/>";
+                var input1 = "<input type='hidden' name='mainImage' value="+imageArray1[i]+" />";
+
+                $("#glavna-slika").append(img1);
+                $("#glavna-slika").append(input1);
+            }
+            
+        }
+        
+
+
+    </script>
+
+
+    <script>
+        
+        $(document).ready(function(){
+
+            $('#upload_form').on('submit', function(event){
+                event.preventDefault();
+                $.ajax({
+                    url:"/admin/dodaj-galeriju-slika",
+                    method:"POST",
+                    data:new FormData(this),
+                    // dataType:'JSON',
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    success:function(data)
+                    {
+                        //console.log(data);
+                        $("#gallery-images").fadeOut(200);
+
+                        $("#gallery-images").empty();
+
+                        for(var i = 0; i < data.length; i++){
+                            $('#gallery-images').append('<div class="col-12 col-md-3" style="margin-top: 30px; height: 120px; width: 120px; overflow: hidden; display: inline-flex;"><img class="img-responsive modal-img" id="'+ data[i]['id'] +'" name="'+ data[i]['image_name'] +'" onclick="getImageValue('+ data[i]['id'] +')" src="/public/images_gallery/' + data[i]['image_name'] + '"></div>');   
+                        }
+
+                        $("#gallery-images").fadeIn(4000);
+
+                        $("#galImg").val("");
+                    }
+                })
+            });
+
+        });
+
+
+        $(document).ready(function(){
+
+            $('#upload_form1').on('submit', function(event){
+                event.preventDefault();
+                $.ajax({
+                    url:"/admin/dodaj-galeriju-slika",
+                    method:"POST",
+                    data:new FormData(this),
+                    // dataType:'JSON',
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    success:function(data)
+                    {
+                        console.log(data);
+                        $("#gallery-images1").fadeOut(200);
+
+                        $("#gallery-images1").empty();
+
+                        for(var i = 0; i < data.length; i++){
+                        $('#gallery-images1').append('<div class="col-12 col-md-3" style="margin-top: 30px; height: 120px; width: 120px; overflow: hidden; display: inline-flex;"><img class="img-responsive modal-img" id="'+ data[i]['id'] +'" name="'+ data[i]['image_name'] +'" onclick="getImageValue1('+ data[i]['id'] +')" src="/public/images_gallery/' + data[i]['image_name'] + '"></div>');   
+                        }
+
+                        $("#gallery-images1").fadeIn(4000);
+
+                        $("#galImg1").val("");
+                    }
+                })
+            });
+
+        });
+
+    </script>
+
+
+    <script>
+
+        var rb = 0;
+        $(".add-video-link").click(function(){
+            rb++;
+            var input = "<div class='row' id='"+rb+"'><div class='col-11 col-md-11'> <input id='"+rb+"' style='margin-top: 15px;' class='form-control input' type='text' name='video_link[]' placeholder='Unesite link'></div> <div class='col-1 col-md-1 text-right'><div style='margin-top: 14px;' class='btn btn-danger' onclick='remove(this)' id='"+rb+"'>-</div></div></div>";
+            $(".video-box").append(input);
+        });
+
+        function remove(el){
+            $("div#" + el.id).remove();
+        }
+
+    </script>
+    <script>
+                    
+        function deleteGal(el){
+            $("#deleteGal"+el.id).remove();
+        }
+
+    </script>
 
 
 @endsection

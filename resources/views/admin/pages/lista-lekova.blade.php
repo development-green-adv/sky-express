@@ -18,7 +18,7 @@
         <div class="col-12 col-md-12">
             <div class="row">
                 <div class="col-12 col-md-12">
-                    <h4>Lista lekova</h4>
+                    <h4>Lista Novosti</h4>
                     <div style="border-bottom: 1px solid #c5c5c5; margin-bottom: 30px;"></div>
                 </div>
             </div>
@@ -47,28 +47,34 @@
                         <thead class="thead-dark">
                             <tr>
                                 <th>Akcija</th>
-                                <th>Naziv leka</th>
-                                <th>Inn</th>
-                                <th>Grupa</th>
+                                <th>Slika</th>
+                                <th>Naslov</th>
+                                <th>Podnaslov</th>
+                                <th>Jezik</th>
+                                <th>Datum</th>
+                                <th>Status</th>
                             </tr>
                         </thead>
                         <tbody id="els">
 
-                            @if(count($products))
+                            @if(count($rows))
 
-                                @foreach($products as $product)
+                                @foreach($rows as $data)
 
                                     <tr>
                                         <td style="width: 20%;">
-                                            <a class="btn btn-primary" href="/admin/izmeni-lek/{{ $product->id_fab }}"><i class="far fa-edit"></i> Izmeni</a>
-                                            <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#exampleModal{{ $product->id_fab }}"><i class="fas fa-trash-alt"></i> Obriši</a>
+                                            <a class="btn btn-primary" href="/admin/izmeni-lek/{{ $data->id }}"><i class="far fa-edit"></i> Izmeni</a>
+                                            <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#exampleModal{{ $data->id }}"><i class="fas fa-trash-alt"></i> Obriši</a>
                                         </td>
-                                        <td>{{ $product->naziv }}</td>
-                                        <td style="width: 40%;">{{ $product->inn }}</td>
-                                        <td>{{ $product->grupa }}</td>
+                                        <td><img class="img-responsive" src="../images_gallery/{{ $data->main_image }}" /></td>
+                                        <td>{{ $data->title }}</td>
+                                        <td>{{ $data->subtitle }}</td>
+                                        <td>{{ $data->lang }}</td>
+                                        <td>{{ $data->date }}</td>
+                                        <td>@if($data->status == 1) Aktivan @else Neaktivan @endif</td>
                                     </tr>
 
-                                    <div class="modal fade" id="exampleModal{{ $product->id_fab }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="exampleModal{{ $data->id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                             <div class="modal-header">
@@ -81,7 +87,7 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Ne</button>
-                                                <a href="/admin/obrisi-lek/{{ $product->id_fab }}" class="btn btn-success">Da</a>
+                                                <a href="/admin/obrisi-lek/{{ $data->id }}" class="btn btn-success">Da</a>
                                             </div>
                                             </div>
                                         </div>
@@ -94,7 +100,7 @@
                             @else
 
                                 <tr>
-                                    <td>Trenutno nema lekova</td>
+                                    <td>Trenutno nema novosti</td>
                                 </tr> 
 
                             @endif
