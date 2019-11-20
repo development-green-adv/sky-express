@@ -39,7 +39,7 @@
                                                 </ul>
                                             </li>
                                             <li class="position-relative"><a href="#">Industry Solutions</a></li>
-                                            <li><a href="#">Security & Risk Management</a></li>
+                                            <li><a href="/security-and-risk-management">Security & Risk Management</a></li>
                                         </ul>
                                     </div>
                                 </li>
