@@ -98,6 +98,10 @@ Route::get('/events', function () {
     return view('events');
 });
 
+Route::get('/why-us', function () {
+    return view('why-us');
+});
+
 
 
 // rute za admin deo
