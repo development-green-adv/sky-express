@@ -190,8 +190,8 @@
                     </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj poziciju</a></li>
-                        <li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Lista pozicija</a></li>
+                        <li><a href="/admin/dodaj-poziciju"><i class="fas fa-arrow-alt-circle-right"></i> Dodaj poziciju</a></li>
+                        <li><a href="/admin/lista-pozicija"><i class="fas fa-arrow-alt-circle-right"></i> Lista pozicija</a></li>
                         <!--<li><a href="#"><i class="fas fa-arrow-alt-circle-right"></i> Sortiraj kategorije</a></li>-->
                     </ul>
                 </li>
