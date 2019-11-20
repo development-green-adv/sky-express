@@ -102,6 +102,10 @@ Route::get('/why-us', function () {
     return view('why-us');
 });
 
+Route::get('/security-and-risk-management', function () {
+    return view('security-and-risk-management');
+});
+
 
 
 // rute za admin deo

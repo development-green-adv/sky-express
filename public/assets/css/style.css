@@ -1566,6 +1566,55 @@ button.orange_btn:hover {
     color: #f1592a;
 }
 
+/* WHY US */
+
+.why-us-second-part {
+    background-image: url('../../images/web/why-us-page-second-part-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* height: 500px; */
+}
+
+.why-us-second-part-left p, .why-us-second-part-right p {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.why-us-page-cert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.why-us-page-cert-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.why-us-page-cert-card:first-child>img {
+    background-color: #48714d;
+}
+
+.why-us-page-cert-card img {
+    height: 120px;
+}
+
+.why-us-cet-text {
+    margin-top: 100px;
+    font-size: 30px;
+    color: #404041;
+}
 
 
 @media (max-width: 768px) {
