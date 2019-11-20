@@ -106,6 +106,14 @@ Route::get('/security-and-risk-management', function () {
     return view('security-and-risk-management');
 });
 
+Route::get('/sap-security-guidelines', function () {
+    return view('sap-security-guidelines');
+});
+
+Route::get('/meeting-gdpr', function () {
+    return view('meeting-gdpr');
+});
+
 
 
 // rute za admin deo

@@ -35,7 +35,7 @@
                                                     <!-- <p class="invisible">TITLE</p> -->
                                                     <li><a href="#">Meeting GDPR</a></li>
                                                     <li><a href="#">ISO 27001</a></li>
-                                                    <li><a href="#">SAP Security Guidelines</a></li>
+                                                    <li><a href="/sap-security-guidelines">SAP Security Guidelines</a></li>
                                                 </ul>
                                             </li>
                                             <li class="position-relative"><a href="#">Industry Solutions</a></li>
