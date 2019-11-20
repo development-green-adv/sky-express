@@ -118,6 +118,11 @@ Route::get('/iso-27001', function () {
     return view('iso-27001');
 });
 
+Route::get('/by-compliance', function () {
+    return view('by-compliance');
+});
+
+
 
 
 
