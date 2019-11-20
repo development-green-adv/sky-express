@@ -47,11 +47,8 @@
                         <thead class="thead-dark">
                             <tr>
                                 <th>Akcija</th>
-                                <th>Slika</th>
                                 <th>Naslov</th>
-                                <th>Podnaslov</th>
                                 <th>Jezik</th>
-                                <th>Datum</th>
                                 <th>Status</th>
                             </tr>
                         </thead>
@@ -63,14 +60,11 @@
 
                                     <tr>
                                         <td style="width: 20%;">
-                                            <a class="btn btn-primary" href="/admin/izmeni-blog/{{ $data->id }}"><i class="far fa-edit"></i> Izmeni</a>
+                                            <a class="btn btn-primary" href="/admin/izmeni-poziciju/{{ $data->id }}"><i class="far fa-edit"></i> Izmeni</a>
                                             <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#exampleModal{{ $data->id }}"><i class="fas fa-trash-alt"></i> Obriši</a>
                                         </td>
-                                        <td><img class="img-responsive" src="../images_gallery/{{ $data->main_image }}" /></td>
                                         <td>{{ $data->title }}</td>
-                                        <td>{{ $data->subtitle }}</td>
                                         <td>{{ $data->lang }}</td>
-                                        <td>{{ $data->date }}</td>
                                         <td>@if($data->status == 1) Aktivan @else Neaktivan @endif</td>
                                     </tr>
 
@@ -87,7 +81,7 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Ne</button>
-                                                <a href="/admin/obrisi-blog/{{ $data->id }}" class="btn btn-success">Da</a>
+                                                <a href="/admin/obrisi-poziciju/{{ $data->id }}" class="btn btn-success">Da</a>
                                             </div>
                                             </div>
                                         </div>
@@ -100,7 +94,7 @@
                             @else
 
                                 <tr>
-                                    <td>Trenutno nema blogova</td>
+                                    <td>Trenutno nema pozicija</td>
                                 </tr> 
 
                             @endif

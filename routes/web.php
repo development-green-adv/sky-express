@@ -159,6 +159,15 @@ Route::post("/admin/izmeni-blog", "AdminController@updateBlog")->middleware("aut
 Route::get("/admin/obrisi-blog/{id}", "AdminController@deleteBlog")->middleware("auth");
 
 
+// rute za pozicije
+Route::get("/admin/dodaj-poziciju", "AdminController@getAddPoziciju")->middleware("auth");
+Route::post("/admin/dodaj-poziciju", "AdminController@storePoziciju")->middleware("auth");
+Route::get("/admin/lista-pozicija", "AdminController@listPozicija")->middleware("auth");
+Route::get("/admin/izmeni-poziciju/{id}", "AdminController@getUpdatePoziciju")->middleware("auth");
+Route::post("/admin/izmeni-poziciju", "AdminController@updatePoziciju")->middleware("auth");
+Route::get("/admin/obrisi-poziciju/{id}", "AdminController@deletePoziciju")->middleware("auth");
+
+
 
 
 

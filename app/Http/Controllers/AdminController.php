@@ -10,6 +10,7 @@ use App\ImageGallery;
 use App\News;
 use App\Event;
 use App\Blog;
+use App\Position;
 
 class AdminController extends Controller
 {
@@ -428,6 +429,107 @@ class AdminController extends Controller
 
     }
 
+
+
+    public function getAddPoziciju(){
+
+        $gallery = new ImageGallery();
+        $allImages = $gallery->orderBy('id', 'DESC')->get();
+
+        return view("admin/pages/dodaj-poziciju", compact("allImages"));
+
+    }
+
+
+    public function storePoziciju(Request $request){
+
+        $data = new Position();
+
+        $data->title           = $request->input('title');
+        $data->text            = $request->input('text');
+        $data->file            = $request->input('file');
+        $data->status          = $request->input('status');
+        $data->lang            = $request->input('lang');
+
+        $saveData = $data->save();
+
+        if($saveData){
+
+            return redirect()->back()->with('success', 'Uspešno ste dodali poziciju');
+
+        }else{
+
+            return redirect()->back()->with("messageError", "Niste dodali poziciju");
+
+        }  
+
+    }
+
+
+    public function listPozicija(){
+
+        $rows = Position::get();
+
+        return view("admin/pages/lista-pozicija", compact("rows"));
+
+    }
+
+
+    public function getUpdatePoziciju($id){
+
+        $gallery = new ImageGallery();
+        $allImages = $gallery->orderBy('id', 'DESC')->get();
+
+        $data = Position::where("id", $id)->first();
+        return view("admin/pages/izmeni-poziciju", compact("data", "allImages"));
+
+    }
+
+    public function updatePoziciju(Request $request){
+
+        $data = new Position();
+
+        $updateData = $data->where('id', $request->input("id"))
+            ->update(
+                [
+                    "title"           => $request->input("title"),
+                    "text"            => $request->input("text"),
+                    "file"            => $request->input("file"),
+                    "status"          => $request->input("status"),
+                    "lang"            => $request->input("lang")
+
+                ]
+            );
+
+        if($updateData){
+
+            return redirect()->back()->with('success', 'Uspešno ste izmenili poziciju');
+
+        }else{
+
+            return redirect()->back()->with("messageError", "Niste izmenili poziciju");
+
+        }
+
+    }
+
+
+    public function deletePoziciju($id){
+
+        $deleteData = Position::where("id", $id)->delete();
+
+        if($deleteData){
+
+            return redirect()->back()->with('success', 'Uspešno ste izbrisali blog');
+
+        }else{
+
+            return redirect()->back()->with("messageError", "Niste izbrisali blog");
+
+        }
+
+
+    }
 
 
 
