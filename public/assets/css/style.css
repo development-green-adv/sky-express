@@ -718,6 +718,10 @@ button.orange_btn:hover {
     color: #fff;
 }
 
+.contact-form form input:focus, .contact-form form textarea:focus {
+    outline: none;
+}
+
 .contact-form form input:first-child {
     border-right: 1px solid #f1592a;
 }
@@ -1190,6 +1194,10 @@ button.orange_btn:hover {
     padding: 15px;
     border: 2px solid #bcbdc0;
     border-bottom: 1px solid #bcbdc0;
+}
+
+.contact-page-left form input:focus, .contact-page-left form textarea:focus {
+    outline: none;
 }
 
 .contact-page-left form textarea {
