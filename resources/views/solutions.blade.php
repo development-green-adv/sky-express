@@ -7,25 +7,48 @@
     <style>
     
         .solution_content{
-            padding-top: 70px;
-            padding-bottom: 70px;
+            padding-top: 50px;
+            padding-bottom: 80px;
         }
 
         .solution_content h4{
             color: #f1592c;
+            font-size: 27px;
+            font-weight: 500;
+        }
+
+        .solution_content h6 {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .solution_content p {
+            color: #404041;
+            font-size: 18px;
+            font-weight: 400;
         }
 
         .solution_item{
             border: 1px solid #c5c5c5;
-            padding: 15px;
+            padding: 30px 30px 30px 30px;
             margin-top: 30px;
             text-align: center;
-            min-height: 500px;
+            min-height: 650px;
+        }
+
+        .solution_item p {
+            text-align: left;
         }
 
         .solution_item img{
-            height: 130px;
+            height: 150px;
         }
+
+        .solution_item h4 {
+            color:#231f20;
+            margin-top: 25px;
+        }
+
 
     </style>
 
@@ -57,22 +80,20 @@
                     <h4>By Industry</h4><br>
                 </div>
                 <div class="col-12 col-md-6">
-                    <p>
-                        <b>
-                            No industry is immune from security issues.
-                        </b> 
-                    </p><br>
-                    <p>
+                    <h6>
+                        No industry is immune from security issues. 
+                    </h6><br>
+                    <p class="pr-5">
                         The world is becoming ever more digitized and connected, from personal devices to complex systems in industry. Billions of inteligent devices and 
                         machines generate and exchange massive amounts of data. Using these vast amounts of data to make inteligent decisions and to create
                         value is crucial. But with the increased use of data, the vulnerability increases, too.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
-                    <p class="orange_text">
+                    <h5 class="orange_text pl-5">
                         Looking for industry Specific Cyber Security?
-                    </p><br>
-                    <p>
+                    </h5><br>
+                    <p class="pl-5">
                         Sky Express provides advanced solutions and services to fit different industry requirements. Our mission is to ensure the security and integrity of data in all aspects 
                         of business areas such as education, health, state administration, military, police and many others.
                     </p>
@@ -93,7 +114,7 @@
                 <div class="col-12 col-md-4">
                     <div class="solution_item">
                         <img class="img-fluid" src="{{ asset('images/web/gov.png') }}">
-                        <h4 style="color: #000; margin-top: 18px;"><b>Government</b></h4><br>
+                        <h4><b>Government</b></h4><br>
                         <p>
                             Government agencies, departments and critical infrastructure are frequent targets in today's advanced attacks. Whether the goal
                             is to compromise sensitive Government data, steal personally identifiable information or disrupt normal operations, the increasing
@@ -104,7 +125,7 @@
                 <div class="col-12 col-md-4">
                     <div class="solution_item">
                         <img class="img-fluid" src="{{ asset('images/web/finance.png') }}">
-                        <h4 style="color: #000; margin-top: 18px;"><b>Finance</b></h4><br>
+                        <h4><b>Finance</b></h4><br>
                         <p>
                             Financial institutions are lucrative cybercrime targets, inviting regulatory oversight, customer scrutiny, and intensive executive focus.
                             Financial IT and security professionals know successful user endpoints and consumer-facing servers and devices, but struggle to stay ahead of evolving
@@ -115,7 +136,7 @@
                 <div class="col-12 col-md-4">
                     <div class="solution_item">
                         <img class="img-fluid" src="{{ asset('images/web/bolnica.png') }}">
-                        <h4 style="color: #000; margin-top: 18px;"><b>Healthcare</b></h4><br>
+                        <h4><b>Healthcare</b></h4><br>
                         <p>
                             The Healthcare Industry is one of the biggest targets of cyber criminals, mostly due to the variety of confidential information it contains,
                             such as social security numbers, insurance-related information, and most important personal medical records. Even through healthcare institutes are committed
@@ -129,7 +150,7 @@
                 <div class="col-12 col-md-4 offset-md-2">
                     <div class="solution_item">
                         <img class="img-fluid" src="{{ asset('images/web/insu.png') }}">
-                        <h4 style="color: #000; margin-top: 18px;"><b>Insurance</b></h4><br>
+                        <h4><b>Insurance</b></h4><br>
                         <p>
                             Cyber-attacks in the insurance sector are growing exponentially as insurance companies migrate toward digital channels in an effort to create
                             tighter customer relationships, offer new products and expand their share of customers financial portfolios.
@@ -139,7 +160,7 @@
                 <div class="col-12 col-md-4">
                     <div class="solution_item">
                         <img class="img-fluid" src="{{ asset('images/web/energy.png') }}">
-                        <h4 style="color: #000; margin-top: 18px;"><b>Energy</b></h4><br>
+                        <h4><b>Energy</b></h4><br>
                         <p>
                             The energy sector has become a primary target for cyber attacks. The infrastructure to produce, transport, store, and distribute energy is inarguably one of
                             the most critical assets for a modern society and a backbone fot its economic activities, welfare and stability. Digitalization brings and inherent threat - the 

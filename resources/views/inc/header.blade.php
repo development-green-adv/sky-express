@@ -38,7 +38,7 @@
                                                     <li><a href="/sap-security-guidelines">SAP Security Guidelines</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="position-relative"><a href="#">Industry Solutions</a></li>
+                                            <li class="position-relative"><a href="/solutions">Industry Solutions</a></li>
                                             <li><a href="/security-and-risk-management">Security & Risk Management</a></li>
                                         </ul>
                                     </div>
