@@ -26,47 +26,66 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>SAP Security Guidelines</h4><br>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. 
+                        Cybercrime is steadily increasing and targeting the very 
+                        heart of every company—its SAP footprint. 
+                        Yet protection for SAP systems is often inadequate. 
                     </p>
-                    <h6 class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, minima aspernatur Lorem ipsum dolor sit amet consectetur adipisicing elit:</h6>
+                    <h6 class="mb-5">There are several reasons why SAP clients are 
+                        vulnerable to cyberattacks:</h6>
                     <ul>
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit et asperiores, ducimus harum nisi voluptates aut amet id dolorum alias perferendis quae consectetur voluptatem quos nemo aliquam similique dolores expedita molestias quod fugit! Ipsa, eveniet illum! Nam tempora eius in asperiores, quibusdam nihil dolorum, ipsum numquam sapiente, error iste?</div>
+                                <div class="col-md-11"><p>Large attack surface. When numerous IoT, 
+                                    networks, and storage tools are connected in SAP
+                                    systems, this can present an appetizing target for hackers, and securing all systems can be 
+                                    challenging.</p></div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit et asperiores, ducimus harum nisi voluptates aut amet id dolorum alias perferendis quae consectetur voluptatem quos nemo aliquam similique dolores expedita molestias quod fugit! Ipsa, eveniet illum! Nam tempora eius in asperiores, quibusdam nihil dolorum, ipsum numquam sapiente, error iste?</div>
+                                <div class="col-md-11"><p>Tempting targets. Hackers know that when clients 
+                                    implement SAP solutions, they do so because they need to manage high-value data flows, so it’s 
+                                    usually worth expending effort to hack into these 
+                                    networks.</p></div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit et asperiores, ducimus harum nisi voluptates aut amet id dolorum alias perferendis quae consectetur voluptatem quos nemo aliquam similique dolores expedita molestias quod fugit! Ipsa, eveniet illum! Nam tempora eius in asperiores, quibusdam nihil dolorum, ipsum numquam sapiente, error iste?</div>
+                                <div class="col-md-11"><p>Poor updating procedures. SAP solutions need to be patched and updated regularly, just like any other IT solution. These patches aren’t always implemented, raising the risks associated with cyberattacks. 
+                                    Companies often resist the need to patch, preferring to avoid the hassle of disrupting CRM or payment 
+                                    systems – sometimes with devastating results.
+                                    </p></div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit et asperiores, ducimus harum nisi voluptates aut amet id dolorum alias perferendis quae consectetur voluptatem quos nemo aliquam similique dolores expedita molestias quod fugit! Ipsa, eveniet illum! Nam tempora eius in asperiores, quibusdam nihil dolorum, ipsum numquam sapiente, error iste?</div>
+                                <div class="col-md-11"><p>Poor cybersecurity strategy. In some cases, 
+                                    companies choose to implement costly SAP 
+                                    solutions but fail to couple this with an investment 
+                                    in cybersecurity. A few technicians may be familiar with the risks but security knowledge may be lacking in the wider corporate structure.</p></div>
                             </div>
                         </li>
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit et asperiores, ducimus harum nisi voluptates aut amet id dolorum alias perferendis quae consectetur voluptatem quos nemo aliquam similique dolores expedita molestias quod fugit! Ipsa, eveniet illum! Nam tempora eius in asperiores, quibusdam nihil dolorum, ipsum numquam sapiente, error iste?</div>
+                                <div class="col-md-11"><p>Careless employee behavior. This feeds into a final risk-magnifier. Many firms rely on SAP software but have outdated employee security policy, leading to lax password and general network security.</p></div>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="pl-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos molestiae doloremque eius atque accusantium magnam praesentium eaque. Explicabo possimus, nam est voluptatibus adipisci tenetur quaerat voluptates alias delectus nobis molestiae fugiat maiores recusandae, magnam error? Impedit culpa repudiandae quas blanditiis deserunt accusamus porro, maiores dicta enim consequatur odio asperiores!</p>
-                    <p class="pl-5 mb-4 orange-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
+                    <p class="pl-5 mb-4">There is no doubt cybersecurity has been and will continue to be a big deal for everybody and keeping ERP applications secure is a big part of how to protect organization against both cyberattacks and other types of data fraud and theft.</p>
+                    <p class="pl-5 mb-4">Sky Express offers a comprehensive solution such is 
+                        Onapsis, that delivers actionable intelligence, continuous monitoring and automated governance to ensure the secure operations of your SAP systems, but also eliminates the 
+                        operational risks associated with ERP maintenance and modernization with an integrated solution for SAP Basis teams to fortify the application transport process, assess custom-code and proactively identify system 
+                        misconfigurations and vulnerabilities.</p>
+                    <p class="pl-5 mb-4 orange-text">Ensure your SAP and Oracle EBS applications are 
+                        safeguarded from internal and external cyber threats and make sure they achieve the highest possible application performance.</p>
                 </div>
             </div>
         </div>
