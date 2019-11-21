@@ -122,6 +122,10 @@ Route::get('/by-compliance', function () {
     return view('by-compliance');
 });
 
+Route::get('/solutions', function () {
+    return view('solutions');
+});
+
 
 
 
