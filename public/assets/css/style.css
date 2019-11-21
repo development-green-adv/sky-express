@@ -1768,6 +1768,14 @@ button.orange_btn:hover {
 }
 
 
+.aaa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 @media (max-width: 768px) {
 
@@ -1960,9 +1968,23 @@ button.orange_btn:hover {
     border: 1px solid #9a9b9d;
 }
 
-.slider-for img{
-    height: 75px;
-    margin: 0 auto;
+.slider-for {
+    text-align: center;
+}
+
+.slider-for div{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.slider-for div img {
+    margin: auto;
+    height: 100%;
+    width: 80%;
 }
 
 
