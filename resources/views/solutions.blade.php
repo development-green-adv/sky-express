@@ -4,53 +4,6 @@
 
 @section("style")
 
-    <style>
-    
-        .solution_content{
-            padding-top: 50px;
-            padding-bottom: 80px;
-        }
-
-        .solution_content h4{
-            color: #f1592c;
-            font-size: 27px;
-            font-weight: 500;
-        }
-
-        .solution_content h6 {
-            font-size: 18px;
-            font-weight: 500;
-        }
-
-        .solution_content p {
-            color: #404041;
-            font-size: 18px;
-            font-weight: 400;
-        }
-
-        .solution_item{
-            border: 1px solid #c5c5c5;
-            padding: 30px 30px 30px 30px;
-            margin-top: 30px;
-            text-align: center;
-            min-height: 650px;
-        }
-
-        .solution_item p {
-            text-align: left;
-        }
-
-        .solution_item img{
-            height: 150px;
-        }
-
-        .solution_item h4 {
-            color:#231f20;
-            margin-top: 25px;
-        }
-
-
-    </style>
 
 @endsection
 
