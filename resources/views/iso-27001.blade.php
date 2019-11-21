@@ -26,16 +26,22 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>ISO 27001</h4><br>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. 
+                        ISO/IEC 27001 is the best-known standard in the family providing requirements for an information security management system (ISMS). Using this family of standards will help your organization manage the security of assets such as financial 
+                        information, intellectual property, employee details or information entrusted to you by third parties. 
                     </p>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, laboriosam facere dolore quam repudiandae recusandae doloremque aliquid non facilis consequatur nihil, voluptatem quo distinctio porro obcaecati, sint iusto vero asperiores dicta provident repellat error dolorum. Blanditiis reprehenderit recusandae sunt ipsa? Unde fugiat dignissimos quos tempora quibusdam quae, non eius eos.
+                        ISO 27001 goes considerably further than Cyber 
+                        Essentials, providing 114 security controls that 
+                        encompass people, processes and technology. 
+                        The standard defines how to maintain an 
+                        information security management system in order to ensure confidentiality, integrity and availability of information.
                     </p>
                     <h5 class="mb-4 pr-5">ISO 27001 will help reduce information security and data protection risks to your organization</h5>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident.</p>
+                    <p class="pl-5 mb-4">The ISO 27001 standard provides a framework for 
+                        information security management best practice that helps organisations to:</p>
                     <ul class="iso-2700-list">
                         <li class="mb-4 pl-5">
                             <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Protect client and employee information
@@ -53,9 +59,12 @@
                             <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Protect the company's brand image
                         </li>
                     </ul>
-                    <p class="pl-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos molestiae doloremque eius atque accusantium magnam praesentium eaque. Explicabo possimus, nam est voluptatibus adipisci tenetur quaerat.</p>
+                    <p class="pl-5 mb-4">The standard is especially suitable where the protection of information is critical, such as in the banking, financial, health, public and IT sectors. The standard is also applicable to organisations which manage high volumes of data, or 
+                        information on behalf of other organisations such as data centres and IT outsourcing companies.</p>
                     <h5 class="mb-4 pl-5">Are you ISO 27001 compliant?</h5>
-                    <p class="pl-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos molestiae doloremque eius atque accusantium magnam praesentium eaque. Explicabo possimus, nam est voluptatibus adipisci tenetur quaerat.</p>
+                    <p class="pl-5 mb-4">At Sky Express, we offer compliance analysis with 
+                        regulations like ISO 2700, GDPR, PCI DSS, etc. to ensure that your company is operating within the relevant laws and 
+                        regulations.</p>
                 </div>
             </div>
         </div>
