@@ -26,13 +26,15 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>By Compliance </h4><br>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias.
+                        New regulations have forced organizations around the globe to rethink data privacy and protection.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
+                    <p class="pl-5 mb-4">Establishing an effective cybersecurity program is a major challenge for every company regardless of industry and 
+                        geography. However, the challenge is much greater for businesses that operate internationally since they must comply with regulations from multiple jurisdictions and multiple regulators.</p>
+                    <p class="pl-5">To meet the new standards, visibility into all endpoint, 
+                        network and applications activity is essential to get critical information that will reduce risk, lower liability, and prove security control assurance across the cybersecurity kill chain.</p>
                 </div>
             </div>
         </div>
@@ -52,15 +54,22 @@
                         <div class="by-compliance-second-part-left">
                             <h1 class="text-white">Improve your compliance</h1>
                             <h2 class="mb-5 orange-text">Explore our cyber security compliance <br> solutions</h2>
-                            <p class="mb-3 text-white pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto blanditiis enim quod minus optio eos culpa veniam. Earum dicta libero eveniet rem incidunt, minus, distinctio similique eius ex saepe, deleniti debitis officiis! Et quam temporibus, labore earum nemo rem illo!</p>
-                            <p class="text-white pr-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum dolorum quod dicta ab atque tempora suscipit praesentium harum quidem. Minima enim facilis aliquam, provident, officia adipisci quae similique ea alias vel omnis dolorum quis labore hic, consequuntur dignissimos nemo itaque!</p>
+                            <p class="mb-3 text-white pr-5">Security Compliance is primarily based on 
+                                external requirements rather than organization’s own business or risk management 
+                                objectives. Any obligations you have should be incorporated into your organization’s risk 
+                                management plan.</p>
+                            <p class="text-white pr-5">Security compliance standards, like GDPR, often define minimum standards of IT governance. They do not guarantee cyber resilience or 
+                                determine best practice; they merely tick the 
+                                compliance.</p>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="by-compliance-second-part-right">
                             <h1 class="text-white pl-5">Choose the compliance solution that <br> your business needs</h1>
                             <h2 class="orange-text pl-5 invisible">Explore our cyber security compliance <br> solutions</h2>
-                            <p class="text-white pl-5 pr-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum dolorum quod dicta ab atque tempora suscipit praesentium harum quidem. Minima enim facilis aliquam, provident, officia adipisci quae similique ea alias vel omnis dolorum quis labore hic, consequuntur dignissimos nemo itaque!</p>
+                            <p class="text-white pl-5 pr-5">Sky Express provides security solutions that are 
+                                unobtrusive, cost effective and deliver actual business value in terms of improved process efficiency,greater transparency, and increased confidence to you, your 
+                                auditors and your regulators. </p>
                         </div>
                     </div>
                 </div>
