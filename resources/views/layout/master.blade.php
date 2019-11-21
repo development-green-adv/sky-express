@@ -43,7 +43,8 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: false,
-            infinite: true
+            infinite: true,
+            accessibility: false
         });
 
         $('.slider-for').slick({
@@ -51,6 +52,7 @@
             arrows: false,
             slidesToShow: 4,
             slidesToScroll: 1,
+            accessibility: false,
             dots: false,
             infinite: true,
             responsive: [

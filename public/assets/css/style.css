@@ -1895,6 +1895,10 @@ button.orange_btn:hover {
     height: auto;
 }
 
+#slider-showcase:focus {
+    border: transparent !important;
+}
+
 .card{
     width: 95% !important;
     border: 1px solid #9a9b9d;
