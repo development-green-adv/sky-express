@@ -1726,6 +1726,10 @@ button.orange_btn:hover {
 .solution_content{
     padding-top: 50px;
     padding-bottom: 80px;
+    /* background-image: url('../../images/web/sky-bg-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
 }
 
 .solution_content h4{
