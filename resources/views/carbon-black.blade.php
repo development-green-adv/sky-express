@@ -109,7 +109,7 @@
                     <div class="col-md-6">
                         <div class="carbon-black-third-part-left">
                             <h3 class="orange_text">The VMware Carbon Black is Transforming <br> Security Through Big Data and Analytics in <br> the Cloud</h3>
-                            <h3 style="color: #231f20;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti obcaecati velit accusamus amet, quae ut ducimus! Aut voluptatibus repellendus impedit dolores aperiam. Quaerat doloremque quia nihil blanditiis, recusandae suscipit, officiis optio adipisci pariatur culpa voluptatem ratione voluptatibus unde.</h3>
+                            <h3 style="color: #231f20;">Carbon Black is leveraging the power of big <br> data and analytics to solve the challenges <br> surrounding endpoint security. With the CB <br> Predictive Security Cloud platform, we are <br> transforming cybersecurity to deliver <br> a cloud-native endpoint protection platform <br> (EPP) designed  to protect against the most <br> advanced threats.</h3>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -170,7 +170,7 @@
                         <div class="df-labs-fifth-part-left carbon-black-fifth-part-left">
                             <h2>CB DEFENSE</h2>
                             <h3 class="mb-5">NEXT-GENERATION ANTIVIRUS + EDR</h3>
-                            <p class="mb-5 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vel rerum mollitia aliquam omnis numquam, similique amet delectus, iure excepturi repudiandae rem odit. A quo dolore nihil.</p>
+                            <p class="mb-5 pr-5">Highly-scalable, real-time threat hunting and incident <br> response (IR) solution delivering unfiltered visibility for <br> top security operations centers and IR teams </p>
                             <ul>
                                 <li class="mb-3">
                                     <div class="row">
@@ -241,7 +241,7 @@
                         <div class="carbon-black-sixth-part-left">
                             <h3 class="orange_text">CB RESPONSE</h3>
                             <h3 class="mb-4">NEXT-GENERATION ANTIVIRUS + EDR</h3>
-                            <p class="mb-5 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vel rerum mollitia aliquam omnis numquam, similique amet delectus, iure excepturi repudiandae rem odit. A quo dolore nihil.</p>
+                            <p class="mb-5 pr-5">Highly-scalable, real-time threat hunting and incident <br> response (IR) solution delivering unfiltered visibility for <br> top security operations centers and IR teams </p>
                             <img class="ml-5" src="{{ asset('images/web/carbon-black-sixth-part-left.png') }}" alt="">
                         </div>
                     </div>
