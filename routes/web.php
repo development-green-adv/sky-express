@@ -126,6 +126,10 @@ Route::get('/solutions', function () {
     return view('solutions');
 });
 
+Route::get('/carbon-black', function () {
+    return view('carbon-black');
+});
+
 
 
 

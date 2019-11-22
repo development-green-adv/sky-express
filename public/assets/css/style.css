@@ -1778,11 +1778,119 @@ button.orange_btn:hover {
 }
 
 
-.aaa {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+/* CARBON BLACK */
+
+.carbon-black-second-part {
+    padding-bottom: 100px;
+}
+
+.carbon-black-second-part-right {
+    padding-top: 80px;
+}
+
+.carbon-black-second-part-right h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.carbon-black-second-part-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.carbon-black-second-part-right ul li {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.carbon-black-third-part {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-image: url('../../images/web/sky-bg-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carbon-black-third-part-left h3 {
+    margin-bottom: 50px;
+}
+
+.carbon-black-fourth-part-right h4 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.carbon-black-fourth-part-top {
+    margin-bottom: 40px;
+}
+
+.carbon-black-fourth-part-top p {
+    color: #fff;
+}
+
+.carbon-black-fourth-part-top h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.carbon-black-fifth-part-left p {
+    color: #231f20;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.carbon-black-fifth-part-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.carbon-black-fifth-part-left ul  li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #231f20;
+}
+
+.carbon-black-fifth-part-left {
+    padding-top: 0;
+}
+
+.carbon-black-sixth-part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../../images/web/sky-bg-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carbon-black-sixth-part-right ul {
+    list-style-type: none;
+}
+
+.carbon-black-sixth-part-right ul li p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #231f20;
+}
+
+.carbon-black-sixth-part-left h3 {
+    font-size: 25px;
+}
+
+
+.carbon-black-sixth-part-left p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #231f20;
+}
+
+.carbon-black-sixth-part-left img {
+    width: 50%;
 }
 
 

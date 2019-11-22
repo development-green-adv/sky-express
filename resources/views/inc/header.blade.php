@@ -17,7 +17,7 @@
                                     <div class="dropdown-menu">
                                         <ul>
                                             <p>PRODUCTS</p>
-                                            <li><a href="#">Carbon Black</a></li>
+                                            <li><a href="/carbon-black">Carbon Black</a></li>
                                             <li><a href="/df-labs">DF Labs</a></li>
                                             <li><a href="#">Log Point</a></li>
                                             <li><a href="#">Onapsis</a></li>
