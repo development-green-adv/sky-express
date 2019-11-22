@@ -148,7 +148,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="carbon-black-fourth-part-right">
-                            <h4 class="text-white pl-5 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti obcaecati velit accusamus amet, quae ut ducimus! Aut voluptatibus repellendus impedit dolores aperiam. Quaerat doloremque quia nihil blanditiis, recusandae suscipit, officiis optio adipisci pariatur culpa voluptatem ratione voluptatibus unde.</h4>
+                            <h4 class="text-white pl-5 pr-5">The VMware Carbon Black Cloud is Carbon <br> Black's endpoint protection platform (EPP) <br> delivering next-generation security and IT <br> operations services through the cloud. <br> It applies big data analytics across all <br> endpoints to make predictions about - and <br> provide protection from - current, future, and <br> unknown attacks.</h4>
                         </div>
                     </div>
                 </div>
