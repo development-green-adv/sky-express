@@ -15,6 +15,9 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <link rel="icon" href=" {{ asset('images/web/android-icon-36x36.png') }} ">
+
+
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
 
