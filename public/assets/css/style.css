@@ -1151,6 +1151,12 @@ button.orange_btn:hover {
     font-size: 25px;
     display: block;
     padding: 2px 75px;
+    transition: all .4s;
+}
+
+.experts_pen-left .get-btn a:hover {
+    background-color: #08090b;
+    color: #f1592c;
 }
 
 .experts_pen-left .get-btn a span {
