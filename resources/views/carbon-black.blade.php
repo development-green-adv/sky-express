@@ -133,15 +133,13 @@
         
 
         <div class="container-fluid df-labs-fourth-part"> 
-      
+            {{-- <div class="df-labs-fourth-part-overlay"></div> --}}
             <div class="container">
                 <div class="carbon-black-fourth-part-top">
                     <h4 class="text-white">The VMware Carbon Black Cloud <br> CLOUD-NATIVE, EASY-TO-USE, <br> ENDPOINT PROTECTION</h4>
                     <p>Simplify Your Security Stack and Improve Your Protection</p>
                 </div>
             </div>
-
-            <div class="df-labs-fourth-part-overlay"></div>
 
             <div class="container-header">
                 <div class="row">
@@ -347,7 +345,7 @@
                         <div class="row" style="margin-top: 70px;">
                             <div class="col-12 col-md-4 text-left solutions_item">
                                 <img class="img-fluid" src="{{ asset('images/web/1.png') }}" alt="">
-                                <h6>DFLabs Awarded with Two U.S. Pat- <br> ents for Its Pioneering SOAR technology</h6>
+                                <h6>DFLabs Awarded with Two U.S. Patents for Its Pioneering SOAR technology</h6>
                                 <p style="margin-top: 15px; margin-bottom: 15px;">
                                     Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
                                     Response (SOAR) vendor, annouced it has been...
@@ -356,7 +354,7 @@
                             </div>
                             <div class="col-12 col-md-4 text-left solutions_item">
                                 <img class="img-fluid" src="{{ asset('images/web/2.png') }}" alt="">
-                                <h6>DFLabs Awarded with Two U.S. Pat- <br> ents for Its Pioneering SOAR technology</h6>
+                                <h6>DFLabs Awarded with Two U.S. Patents for Its Pioneering SOAR technology</h6>
                                 <p style="margin-top: 15px; margin-bottom: 15px;">
                                     Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
                                     Response (SOAR) vendor, annouced it has been...
@@ -365,7 +363,7 @@
                             </div>
                             <div class="col-12 col-md-4 text-left solutions_item">
                                 <img class="img-fluid" src="{{ asset('images/web/3.png') }}" alt="">
-                                <h6>DFLabs Awarded with Two U.S. Pat- <br> ents for Its Pioneering SOAR technology</h6>
+                                <h6>DFLabs Awarded with Two U.S. Patents for Its Pioneering SOAR technology</h6>
                                 <p style="margin-top: 15px; margin-bottom: 15px;">
                                     Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
                                     Response (SOAR) vendor, annouced it has been...

@@ -123,7 +123,7 @@
         </div>
 
         <div class="container-fluid df-labs-fourth-part">
-            <div class="df-labs-fourth-part-overlay"></div>
+            {{-- <div class="df-labs-fourth-part-overlay"></div> --}}
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
