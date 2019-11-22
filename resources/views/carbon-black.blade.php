@@ -24,7 +24,7 @@
         <div class="container about_desc">
             <div class="row">
                 <div class="col-12 mb-5">
-                    <img style="width: 350px;" src="{{ asset('images/web/carbon-black-logo.png') }}" alt="">
+                    <img style="width: 400px;" src="{{ asset('images/web/carbon-black-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 col-md-5 mb-4 mb-md-0">
                     <h4>Leading provider of next-generation endpoint security.</h4><br>
