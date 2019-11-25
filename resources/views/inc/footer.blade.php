@@ -33,7 +33,7 @@
                     <a href="#">Onapsys</a><br>
                     <a href="#">Open systems</a><br>
                     <a href="#">Logpoint</a><br>
-                    <a href="#">Avast</a><br>
+                    <a href="/avast">Avast</a><br>
                     <a href="#">Kerio</a><br>
                     <a href="#">Security Scorecard</a>
                 </div>

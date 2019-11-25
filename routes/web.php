@@ -130,6 +130,14 @@ Route::get('/carbon-black', function () {
     return view('carbon-black');
 });
 
+Route::get('/avast', function () {
+    return view('avast');
+});
+
+Route::get('/eperi', function () {
+    return view('eperi');
+});
+
 
 
 
