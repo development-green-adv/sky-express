@@ -138,6 +138,10 @@ Route::get('/eperi', function () {
     return view('eperi');
 });
 
+Route::get('/kerio', function () {
+    return view('kerio');
+});
+
 
 
 

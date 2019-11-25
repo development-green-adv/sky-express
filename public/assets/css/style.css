@@ -1990,6 +1990,12 @@ h6.eperi-gateway-title {
     margin-bottom: 70px !important;
 }
 
+.kerio-second-part p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 
 
 
@@ -2200,7 +2206,7 @@ h6.eperi-gateway-title {
 .slider-for div img {
     margin: auto;
     height: 100%;
-    width: 80%;
+    /* width: 80%; */
 }
 
 
