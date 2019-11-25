@@ -1895,6 +1895,9 @@ button.orange_btn:hover {
     width: 50%;
 }
 
+
+/* AVAST */
+
 ul.avast-first-part-ul {
     padding: 0;
     margin: 0;
@@ -1933,6 +1936,59 @@ ul.avast-first-part-ul li:last-child {
     font-weight: 400;
 }
 
+/* EPERI */
+
+.eperi-first-part-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.eperi-first-part-ul li p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.eperi-third-part {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.eperi-third-part-card {
+    text-align: center;
+}
+
+
+img.office-365  {
+    margin-top: 12px !important;
+}
+
+img.eperi-gateway-logo {
+    margin-top: -21px;
+}
+
+.eperi-third-part-card h6, .eperi-third-part-card p {
+    text-align: left;
+}
+
+.eperi-third-part-card h6 {
+    margin-bottom: 40px !important;
+    margin-top: 50px !important;
+}
+
+.eperi-third-part-card p {
+    color: #fff;
+}
+
+.eperi-third-part-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6.eperi-gateway-title {
+    margin-bottom: 70px !important;
+}
 
 
 
