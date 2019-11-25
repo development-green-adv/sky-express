@@ -26,14 +26,14 @@
                 <div class="col-12 mb-5">
                     <img style="width: 400px;" src="{{ asset('images/web/carbon-black-logo.png') }}" alt="">
                 </div>
-                <div class="col-12 col-md-5 mb-4 mb-md-0">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>Leading provider of next-generation endpoint security.</h4><br>
                     <p class="pr-5">
                         As a cybersecurity innovator, Carbon Black has<br>
                         pioneered multiple endpoint security categories,<br> including application control, endpoint detection and response (EDR), and next-generation antivirus (NGAV).
                     </p>
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
                         <p class="pl-5 mb-4">Carbon Black offers solutions to all of organization's <br> security needs and uses a series of individual services <br> that run locally on your private network as well as <br> remotely in the cloud.</p>
                         <h5 class="pl-5 mb-4">Gold Standard in Endpoint Data</h5>
