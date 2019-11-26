@@ -35,7 +35,7 @@
                     <a href="/logpoint">Logpoint</a><br>
                     <a href="/avast">Avast</a><br>
                     <a href="/kerio">Kerio</a><br>
-                    <a href="#">Security Scorecard</a>
+                    <a href="/security-scorecard">Security Scorecard</a>
                 </div>
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <h5>Sky Express d.o.o.</h5>

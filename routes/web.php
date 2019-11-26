@@ -154,6 +154,10 @@ Route::get('/open-systems', function () {
     return view('open-systems');
 });
 
+Route::get('/security-scorecard', function () {
+    return view('security-scorecard');
+});
+
 
 
 

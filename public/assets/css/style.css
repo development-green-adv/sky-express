@@ -2177,6 +2177,36 @@ ul.open-systems-first-ul li:last-child {
     color: #fff;
 }
 
+/* SECURITY SCORECARD */
+.security-scorecard-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.security-scorecard-ul li p span {
+    color: #f1592a;
+}
+
+.security-scorecard-second-right-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.security-scorecard-third-title h3{
+    color: #fff;
+}
+
+.security-scorecard-third-left p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.security-scorecard-podnaslov p {
+    font-size: 20px;
+}
 
 
 

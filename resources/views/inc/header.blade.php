@@ -24,7 +24,7 @@
                                             <li><a href="/open-systems">Open Systems</a></li>
                                             <li><a href="/eperi">Eperi</a></li>
                                             <li><a href="/avast">Avast</a></li>
-                                            <li><a href="#">Security Scorecard</a></li>
+                                            <li><a href="/security-scorecard">Security Scorecard</a></li>
                                             <li><a href="/kerio">Kerio</a></li>
                                             <a href="#">View All</a>
                                         </ul>
