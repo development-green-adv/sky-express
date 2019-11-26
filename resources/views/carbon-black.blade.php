@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="df-labs-second-part-left ">
-                            <h1 class="mb-5">The VMware Carbon Black Cloud</h1>
+                            <h1 class="mb-5 orange_text">The VMware Carbon Black Cloud</h1>
                             <h2 class="text-white mb-3">Consolidated Endpoint Security</h2>
                             <h4 class="text-white mb-3">Simplify Your Security Stack <br> and Improve Your Protection</h4>
                         </div>

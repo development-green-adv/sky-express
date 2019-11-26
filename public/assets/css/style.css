@@ -1341,12 +1341,13 @@ button.orange_btn:hover {
 }
 
 .df-labs-fourth-part {
-    background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../images/web/df-labs-fourth-part-bg.png');
+    /* background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../images/web/df-labs-fourth-part-bg.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 
+    background-color: #08090b;
 
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1409,14 +1410,15 @@ button.orange_btn:hover {
 }
 
 .df-labs-sixth-part {
-    background-image: url('../../images/web/df-labs-sixth-part-bg.png');
+    /* background-image: url('../../images/web/df-labs-sixth-part-bg.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #08090b;
 }
 
 .df-labs-sixth-part-overlay {
@@ -1864,10 +1866,12 @@ button.orange_btn:hover {
 .carbon-black-sixth-part {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-image: url('../../images/web/sky-bg-pattern.png');
+    /* background-image: url('../../images/web/sky-bg-pattern.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+
+    background-color: #08090b;
 }
 
 .carbon-black-sixth-part-right ul {
@@ -1877,18 +1881,19 @@ button.orange_btn:hover {
 .carbon-black-sixth-part-right ul li p{
     font-size: 18px;
     font-weight: 400;
-    color: #231f20;
+    color: #fff;
 }
 
 .carbon-black-sixth-part-left h3 {
     font-size: 30px;
+    color: #fff;
 }
 
 
 .carbon-black-sixth-part-left p {
     font-size: 18px;
     font-weight: 400;
-    color: #231f20;
+    color: #fff;
 }
 
 .carbon-black-sixth-part-left img {
