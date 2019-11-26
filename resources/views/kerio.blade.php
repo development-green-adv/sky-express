@@ -31,13 +31,15 @@
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-5 mb-4">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                            Connect, communicate, and collaborate without compromise — Kerio’s award-winning products are tailored to the needs of small and mid-sized businesses.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
                         <p class="mb-5 pl-5">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.
+                                All products combine powerful features with ease of use for business users and IT professionals. 
+                                Our attractive licensing packages and flexibility to run on many hardware and software configurations 
+                                deliver enterprise-class functionality for a low total cost of ownership.
                         </p>
                     </div>
                 </div>
@@ -61,9 +63,12 @@
                     </div>
                     <div class="col-12">
                         <div class="kerio-second-part">
-                            <p class="mb-3">SIMPLICITY - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <p class="mb-3">STABILITY - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <p>SECURITY - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p class="mb-3">SIMPLICITY - Robust solutions that focus on flexibility, accessibility and functionality without 
+                                    unnecessary IT complexity. </p>
+                            <p class="mb-3">STABILITY - Reliable, dependable communication and collaboration without disruptive and 
+                                    expensive unplanned downtime.</p>
+                            <p>SECURITY - Protection that extends from the network to the business -- role-based policies, “office” phone calls routed to mobile devices, encrypted email -- and enables users to work 
+                                    anytime, anywhere.</p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +88,8 @@
                     <div class="col-md-6">
                         <div class="kerio-third-part-left">
                             <h5 class="orange_text mb-2">Kerio Connect</h5>
-                            <p class="pr-5 mb-5"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="pr-5 mb-5"> Secure, enterprise-style email, calendar & collaboration without the high cost
+                                </p>
                             <ul class="eperi-first-part-ul kerio-third-part-left-ul">
                                 <li class="mb-3">
                                     <div class="row">
@@ -91,7 +97,7 @@
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
                                         <div class="col-md-11">
-                                            <p>Real time data encryption;</p>
+                                            <p>Email, calendar, IM and more - for less</p>
                                         </div>
                                     </div>
                                 </li>
@@ -101,7 +107,9 @@
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
                                         <div class="col-md-11">
-                                            <p>Only authorized users can access protected data;</p>
+                                            <p>Kerio Connect delivers all the features and 
+                                                    functionality for collaboration and messaging solution without the complexity and high price tag of other 
+                                                    systems.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -111,7 +119,9 @@
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
                                         <div class="col-md-11">
-                                            <p>Completely stand-alone security system without needs for any  adaptation of existing application, database or interface;</p>
+                                            <p>Email is integrated with shared calendars and 
+                                                    scheduling, contacts management, tasks, notes, shared and public folders, and instant messaging.
+                                                    </p>
                                         </div>
                                     </div>
                                 </li>
@@ -121,7 +131,17 @@
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
                                         <div class="col-md-11">
-                                            <p>German quality;</p>
+                                            <p>Synchronize messages by direct push to your choice of mobile device via Microsoft ActiveSync(R)</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-3">
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                        </div>
+                                        <div class="col-md-11">
+                                            <p>Instant Messaging is XMPP-compatible and can be used from various 3rd party chat/IM applications on desktop and mobile phones</p>
                                         </div>
                                     </div>
                                 </li>
@@ -132,10 +152,16 @@
                     <div class="col-md-5">
                         <div class="kerio-third-part-left">
                             <h5 class="orange_text mb-2">Kerio Control</h5>
-                            <p class="pr-5 mb-5"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing</p>
-                            <p  class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            <p class="pr-5 mb-5"> Detect threats, block viruses, and filter traffic with the firewall built for SMB
+                                </p>
+                            <p class="mb-4">Next-generation firewall</p>
+                            <p  class="mb-4">Preserve the integrity of your servers with deep packet 
+                                    inspection and advanced network routing 
+                                    capabilities -- including simultaneous IPv4 and IPv6 
+                                    support. Create inbound and outbound traffic policies, 
+                                    restricting communication by specific URL, application, traffic type, content category and time of day.</p>
+                            <p>Kerio Control’s IPS adds a transparent layer of network protection, with Snort-based behavior analysis, and 
+                                    a regularly updated database of rules and blacklisted IP addresses from Emerging Threats.</p>
                         </div>
                     </div>
                 </div>
@@ -145,7 +171,10 @@
                             <div class="kerio-card-content text-center pt-4">
                                 <h6 class="orange_text">Kerio<strong>Connect</strong></h6>
                                 <p class="my-2">MIL SERVER + MORE</p>
-                                <p class="px-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                                <p class="px-5">Enterprise-class email, 
+                                        calendars, contacts, tasks, 
+                                        & instant messaging 
+                                        - wherever you are</p>
                             </div>
                             <img class="pt-2" src="{{ asset('images/web/kario-card-icon.png') }}" alt="">
                         </div>
@@ -155,7 +184,7 @@
                             <div class="kerio-card-content text-center">
                                 <h6 class="orange_text">Kerio<strong>Control</strong></h6>
                                 <p class="my-2">FIREWALL + MORE</p>
-                                <p class="px-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                                <p class="px-5">Unified Threat Management and Network Intelligence for the higest level of protection </p>
                             </div>
                             <img src="{{ asset('images/web/kario-card-icon-right.png') }}" alt="">
                         </div>
