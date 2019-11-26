@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Eperi | Sky Express")
+@section("title", "Kerio | Sky Express")
 
 @section("content")
 

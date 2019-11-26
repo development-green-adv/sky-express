@@ -2030,6 +2030,65 @@ h6.eperi-gateway-title {
     margin-top: 100px;
 }
 
+/* LOGPOINT */
+ul.logpoint-ul-first-part li:last-child {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.logpoint-page-second-part-left h5 {
+    color: #f1592a;
+}
+
+.logpoint-ul-second-part {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.logpoint-ul-second-part li p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.logpoint-page-second-part-left p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.logpoint-page-third-part {
+    /* padding-top: 100px; */
+    padding-bottom: 100px;
+    background-color: #08090b;
+}
+
+.logpoint-cards-wrapper {
+    margin-top: 120px;
+}
+
+.logpoint-third-card {
+    /* text-align: center; */
+}
+
+.logpoint-third-card p {
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logpoint-third-card p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10%;
+}
+
+.logpoint-third-card img {
+    padding-left: 10%;
+    margin-bottom: 30px;
+}
 
 
 

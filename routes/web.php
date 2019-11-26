@@ -142,6 +142,10 @@ Route::get('/kerio', function () {
     return view('kerio');
 });
 
+Route::get('/logpoint', function () {
+    return view('logpoint');
+});
+
 
 
 

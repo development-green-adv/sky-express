@@ -19,7 +19,7 @@
                                             <p>PRODUCTS</p>
                                             <li><a href="/carbon-black">Carbon Black</a></li>
                                             <li><a href="/df-labs">DF Labs</a></li>
-                                            <li><a href="#">Log Point</a></li>
+                                            <li><a href="/logpoint">Logpoint</a></li>
                                             <li><a href="#">Onapsis</a></li>
                                             <li><a href="#">Open Systems</a></li>
                                             <li><a href="/eperi">Eperi</a></li>
