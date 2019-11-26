@@ -150,6 +150,10 @@ Route::get('/onapsis', function () {
     return view('onapsis');
 });
 
+Route::get('/open-systems', function () {
+    return view('open-systems');
+});
+
 
 
 

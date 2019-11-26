@@ -31,7 +31,7 @@
                     <a href="/df-labs">DF Labs</a><br>
                     <a href="/eperi">Eperi</a><br>
                     <a href="/onapsis">Onapsys</a><br>
-                    <a href="#">Open systems</a><br>
+                    <a href="/open-systems">Open systems</a><br>
                     <a href="/logpoint">Logpoint</a><br>
                     <a href="/avast">Avast</a><br>
                     <a href="/kerio">Kerio</a><br>

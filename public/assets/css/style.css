@@ -2132,6 +2132,52 @@ ul.onapsis-second-part-ul li p {
     color: #f1592a;
 }
 
+/* OPEN SYSTEMS */
+
+.open-systems-second-part {
+    padding-top: 100px;
+}
+
+.open-systems-first-ul li p{
+    color: #f1592a;
+}
+
+ul.open-systems-first-ul li:last-child {
+    margin-top: 0;
+}
+
+.open-systems-second-part p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.open-systems-second-part h4 {
+    color: #f1592a;
+}
+
+.open-system-third-part-left h3 {
+    color: #fff;
+}
+
+.open-system-third-part-left h4 {
+    color: #f1592a;
+}
+
+.open-system-third-part-left p {
+    color: #fff;
+    padding-right: 15%;
+}
+
+.open-system-third-part-right h4 {
+    color: #f1592a;
+}
+
+.open-system-third-part-right p {
+    color: #fff;
+}
+
+
 
 
 
