@@ -1990,11 +1990,47 @@ h6.eperi-gateway-title {
     margin-bottom: 70px !important;
 }
 
+/* KERIO */
+
 .kerio-second-part p {
     color: #fff;
     font-size: 20px;
     font-weight: 400;
 }
+
+.kerio-third-part-left p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.kerio-third-part-left-ul li p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.kerio-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kerio-card-content h6 {
+    font-size: 18px;
+}
+
+.kerio-card-content p {
+    color: #fff;
+}
+
+.row-kerio-third {
+    margin-top: 100px;
+}
+
+
 
 
 
