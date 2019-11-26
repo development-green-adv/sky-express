@@ -31,13 +31,15 @@
                 </div> --}}
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-5 mb-4">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.
+                            Eperi is a leading provider of cloud data protection solutions (CDP). It’s pioneering solutions provides customers with the highest standards of data security and compliance for widespread cloud services, such as Office 365 and Salesforce, as well as databases and enterprise applications. 
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
                         <p class="mb-5 pl-5">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.
+                                Eperi solutions help ensure that internal and external privacy and compliance requirements are enforced 
+                                internally and centrally and that customers can retain sole control over all their privacy processes. 
+                                
                         </p>
                     </div>
                 </div>
@@ -109,10 +111,12 @@
                     </div>
                     <div class="col-md-6">
                         <div class="df-labs-second-part-right carbon-black-second-part-right avast-page-second-part avast-page-second-part-right">
-                            <div class="avast-page-second-part-card mb-4">
+                            <div class="avast-page-second-part-card">
                                 <h4 class="text-white mb-4 pl-5">eperi SECURE YOUR DATA IN THE CLOUD.</h4>
                                 <p class="pl-5 pr-5">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                                        Office applications, CRM, data storage or HR software: more than 65 % of all companies use cloud applications to organize work more cost-effectively, efficiently and flexibly. How do you protect your business-critical data from unauthorized access? And do you comply with data protection regulations, 
+                                        for example for customer, employee or development data, without exceptions? eperi Cloud Data Protection is the simple, secure encryption solution for all SaaS and web applications to master these challenges.
+                                        
                                 </p>
                             </div>
                         </div>
@@ -140,28 +144,35 @@
                         <div class="eperi-third-part-card">
                             <img class="img-fluid office-365"  src="{{ asset('images/web/eperi-card-1.png') }}" alt="">
                             <h6 class="orange_text mt-5 mb-3 pl-4">EPERI CLOUD DATA PROTECTION FOR OFFICE 365</h6>
-                            <p class="pr-3 pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p class="pr-3 pl-4">Encrypt and tokenize critical data in mail, calendars and other Office 365 
+                                    applications. Only you can read your data.
+                                    </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="eperi-third-part-card">
                             <img class="img-fluid" src="{{ asset('images/web/eperi-card-2.png') }}" alt="">
                             <h6 class="orange_text mt-5 mb-2 pl-4">EPERI CLOUD DATA PROTECTION FOR SALESFORCE</h6>
-                            <p class="pr-3 pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p class="pr-3 pl-4">Eperi ensures that your data is never accessible to 
+                                    unauthorized third parties. Data protection at rest, in use and in transit.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="eperi-third-part-card">
                             <img class="img-fluid" src="{{ asset('images/web/eperi-card-3.png') }}" alt="">
                             <h6 class="orange_text mt-5 mb-2 pl-4">EPERI CLOUD DATA PROTECTION FOR WEB APPLICATIONS</h6>
-                            <p class="pr-3 pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p class="pr-3 pl-4">Central point of control for compliance: use the unique flexibility of the eperi 
+                                    platform to protect all of your cloud apps.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="eperi-third-part-card text-center">
                             <img class="img-fluid eperi-gateway-logo" src="{{ asset('images/web/eperi-card-4.png') }}" alt="">
                             <h6 class="orange_text mt-4 mb-4 eperi-gateway-title">THE EPERI GATEWAY</h6>
-                            <p class="pr-3 pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p class="pr-3 pl-4">The eperi Gateway is a 
+                                    flexible template 
+                                    architecture covering the most important functions, such as KMS, IAM, 
+                                    pseudonymization.</p>
                         </div>
                     </div>
                 </div>
