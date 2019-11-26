@@ -277,7 +277,7 @@ p {
 }
 
 .orange_text{
-    color: #f1592a;
+    color: #f1592a !important;
 }
 
 .btn.focus, .btn:focus {
@@ -2068,9 +2068,6 @@ ul.logpoint-ul-second-part li p {
     margin-top: 120px;
 }
 
-.logpoint-third-card {
-    /* text-align: center; */
-}
 
 .logpoint-third-card p {
     text-align: left;
@@ -2089,6 +2086,52 @@ ul.logpoint-ul-second-part li p {
     padding-left: 10%;
     margin-bottom: 30px;
 }
+
+/* ONAPSIS */
+
+ul.onapsis-second-part-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+ul.onapsis-second-part-ul li p {
+    margin-left: -70px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.onapsis-second-part h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    padding-left: 35px;
+}
+
+.onapsis-second-part-card-wrapper {
+    margin-top: 50px
+}
+
+.onapsis-second-part-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.onapsis-second-part-card img {
+    margin-bottom: 50px;
+}
+
+.onapsis-second-part-card h5 {
+    color: #f1592a;
+}
+
 
 
 

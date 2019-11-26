@@ -146,6 +146,10 @@ Route::get('/logpoint', function () {
     return view('logpoint');
 });
 
+Route::get('/onapsis', function () {
+    return view('onapsis');
+});
+
 
 
 
