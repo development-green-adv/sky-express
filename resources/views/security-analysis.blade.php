@@ -26,15 +26,24 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>Security Analysis</h4><br>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. 
+                        After creating a clear overview of your current security posture,
+                        we can provide recommendations for
+                        improvement that are aligned with your business critical
+                        systems and applications, while taking into consideration your
+                        budget and growth plans.
                     </p>
 
                     <h4>Keep your information System Secured</h4><br>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
+                    <p class="pl-5 mb-4">Protecting the value of your company data in a long
+                        term takes all-round attention: Between updates,
+                        upgrades and end of support, your infrastructure is
+                        constantly changing.</p>
+                    <p class="pl-5 mb-4">We provide preventative services both in the form
+                        of comprehensive risk analyses and deeper and more
+                        advanced security analyses.</p>
                 </div>
             </div>
         </div>
