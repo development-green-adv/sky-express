@@ -53,8 +53,11 @@ class AdminController extends Controller
              $videos = "";
          }
 
+        $alias = str_slug($request->input('title'));
+
         $data->title           = $request->input('title');
         $data->subtitle        = $request->input('subtitle');
+        $data->alias           = $alias;
         $data->text            = $request->input('text');
         $data->date            = $request->input('date');
         $data->main_image      = $request->input('mainImage');
@@ -116,11 +119,14 @@ class AdminController extends Controller
             $videos = "";
          }
 
+         $alias = str_slug($request->input('title'));
+
         $updateData = $data->where('id', $request->input("id"))
             ->update(
                 [
                     "title"           => $request->input("title"),
                     "subtitle"        => $request->input("subtitle"),
+                    'alias'           => $alias,
                     "text"            => $request->input("text"),
                     "date"            => $request->input("date"),
                     "main_image"      => $request->input("mainImage"),

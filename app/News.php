@@ -11,6 +11,7 @@ class News extends Model
 
         'title',
         'subtitle',
+        'alias',
         'text',
         'date',
         'main_image',

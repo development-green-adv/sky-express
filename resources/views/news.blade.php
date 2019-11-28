@@ -53,7 +53,7 @@
 
                                         {!! mb_strlen($news->text) > 500 ? mb_substr($news->text,0,500)."..." : $news->text !!}
                                     </div>
-                                    <a href="/single-news">Read more</a>
+                                    <a href="/single-news/{{ $news->alias }}">Read more</a>
                                 </div> 
 
                             @endforeach
