@@ -29,50 +29,10 @@
             <div class="row">
                 <div class="col-12 col-md-9">
                     <div class="row">
-
-<<<<<<< HEAD
-                        <div class="col-12 col-md-6 newss">
-                            <img class="img-fluid" src="{{ asset('images/web/news.jpg') }}" alt="">
-                            <div class="news_item">
-                                <h3 class="orange_text">November 2019</h3> <br>
-
-                                <h3>
-                                    The Second regional Cyber Security Conference was held on May 17th, 2019 in Podgorica
-                                </h3><br>
-                                <p>
-                                    The Second regional Cyber Security Conference was held on May 17th, 2019 in Podgorica, Montenegro,
-                                    organized by Vision Event, patronized by Ministry of Public Administration of Montenegro. The conference was host 
-                                    around 130 participants from South East Europe, including representatives of NATO, state institutions and private IT 
-                                    representatives and cyber security.
-                                </p><br>
-
-                                <a href="/single-news">Read more</a>
-                            </div> 
-                        </div>
-
-                        <div class="col-12 col-md-6 newss">
-                            <img class="img-fluid" src="{{ asset('images/web/news.jpg') }}" alt="">
-                            <div class="news_item">
-                                <h3 class="orange_text">November 2019</h3> <br>
-
-                                <h3>
-                                    The Second regional Cyber Security Conference was held on May 17th, 2019 in Podgorica
-                                </h3><br>
-                                <p>
-                                    The Second regional Cyber Security Conference was held on May 17th, 2019 in Podgorica, Montenegro,
-                                    organized by Vision Event, patronized by Ministry of Public Administration of Montenegro. The conference was host 
-                                    around 130 participants from South East Europe, including representatives of NATO, state institutions and private IT 
-                                    representatives and cyber security.
-                                </p><br>
-
-                                <a href="/single-news">Read more</a>
-                            </div> 
-                        </div>
-=======
+                        
                         @if(count($data) > 0)
 
                             @foreach($data as $news)
->>>>>>> 7f6494f9b362cafb1d25031ad189484d1c863b6f
 
                                 <div class="col-12 col-md-6 newss">
                                     <div style="width: 100%; height: 200px; overflow: hidden;">
@@ -91,47 +51,19 @@
                                         </h5>
                                         <br>
 
-                                            {!! mb_strlen($news->text) > 500 ? mb_substr($news->text,0,500)."..." : $news->text !!}
-
-<<<<<<< HEAD
-                                <a href="/single-news">Read more</a>
-                            </div> 
-                        </div>
-
-                        <div class="col-12 col-md-6 newss">
-                            <img class="img-fluid" src="{{ asset('images/web/news.jpg') }}" alt="">
-                            <div class="news_item">
-                                <h3 class="orange_text">November 2019</h3> <br>
-
-                                <h3>
-                                    The Second regional Cyber Security Conference was held on May 17th, 2019 in Podgorica
-                                </h3><br>
-                                <p>
-                                    The Second regional Cyber Security Conference was held on May 17th, 2019 in Podgorica, Montenegro,
-                                    organized by Vision Event, patronized by Ministry of Public Administration of Montenegro. The conference was host 
-                                    around 130 participants from South East Europe, including representatives of NATO, state institutions and private IT 
-                                    representatives and cyber security.
-                                </p><br>
-
-                                <a href="/single-news">Read more</a>
-                            </div> 
-                        </div>
-    
-    
-=======
-                                        <br><br>
-
-                                        <a href="#">Read more</a>
-                                    </div> 
-                                </div>
+                                        {!! mb_strlen($news->text) > 500 ? mb_substr($news->text,0,500)."..." : $news->text !!}
+                                    </div>
+                                    <a href="/single-news">Read more</a>
+                                </div> 
 
                             @endforeach
->>>>>>> 7f6494f9b362cafb1d25031ad189484d1c863b6f
                         
                         @endif
-    
-                    </div>
+                    
+                    </div>   
                 </div>
+            
+
                 <div class="col-12 offset-md-1 col-md-2 newss newss-right">
                     <h4>Previous news</h4><br><br>
 
@@ -147,9 +79,10 @@
                 </div>
             </div>
         </div>
+    </div>
 
 
-        @include("inc/footer")
+    @include("inc/footer")
 
 
 @endsection
