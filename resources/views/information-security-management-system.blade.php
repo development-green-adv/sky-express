@@ -26,15 +26,18 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>Information Security Management Systems (ISMS)</h4><br>
                     <p class="pr-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptate fugiat, adipisci dolores quo nobis explicabo. Libero quo, suscipit recusandae nihil incidunt voluptatibus nostrum. Doloremque laboriosam accusantium in ipsum at.
+                        Sky Express’ information security services protect your business from data breaches, negative publicity, damaged credibility and disruption of services. We
+                        deliver world-class offerings, security knowledge and experience to provide you with comprehensive information security. Our offerings combine
+                        unmatched technology, services, support and training from highly certified security experts. 
                     </p>
 
                     <h5 class="mt-4 mb-4">Achieve the standards relevant to your organization and reduce <br> your IT Security risks</h5>
 
                 </div>
                 <div class="col-12 col-md-6">
-                    <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>                    
+                    <h4 class="invisible mb-4">Pen Testing & Ethical Hacking</h4><br>
+                    <p class="pl-5 mb-4">ISMS Advisory Services help you develop a coherent set of policies, processes and systems to manage risks to information assets and improve IT
+                        governance. Our consultants look at an organization across the three core dimensions of technologies, processes and people.</p>                    
                 </div>
             </div>
         </div>
