@@ -26,13 +26,16 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0 pr-5">
                     <h4>Security Consulting</h4><br>
                     <p class="pr-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Minus voluptatem exercitationem, deserunt cum excepturi repellat consequatur, delectus eos a modi nesciunt, dolores corrupti veniam rem sit assumenda animi nemo quo natus fugiat numquam id dolorum.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Minus voluptatem exercitationem, deserunt cum excepturi repellat consequatur, delectus eos a modi nesciunt, dolores corrupti veniam rem sit assumenda animi nemo quo natus fugiat numquam id dolorum.
+                        Protecting your business and data against sophisticated and resourceful cyber criminals while meeting security compliance regulations is getting more
+                        difficult every day. Sky Express offers comprehensive security consulting services including assessments, master planning, policy development, business
+                        continuity and strategies. Our team of security experts help clients prevent, plan for and respond appropriately to a multitude of security risks so they can
+                        focus on their business.
                     </p>
                 </div>
                 <div class="col-12 col-md-6 pl-5">
                     <h5 class="mt-5 mb-4">Prevent a problem before it is presented</h5>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
+                    <p class="">Sky Express experts can help you create a robust security environment with services that include current and emerging threat assessments, policy review
+                        and development, and master planning.</p>
                 </div>
             </div>
         </div>
