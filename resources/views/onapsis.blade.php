@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
-                        <h5 class="pl-5 mb-4">ONAPSIS PROTECT</h5>
+                        <h5 class="pl-5 mb-4">ONAPSIS PROTECTS</h5>
 
                         <h5 class="pl-5 mb-2 orange_text">SAP</h5>
                         <p class="pl-5 mb-4">Inspect, control and secure SAP NetWeaver®, ABAP®, J2EE, SAP HANA® and S/4HANA® platforms to ensure stability and performance. Continuously monitor your SAP infrastructure whether on-prem or in a private, public or hybrid cloud environment.

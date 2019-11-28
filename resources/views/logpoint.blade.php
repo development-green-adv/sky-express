@@ -160,7 +160,7 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-1.png') }}" alt="">
-                            <p>Single taxonomy</p>
+                            <p><b>Single taxonomy</b></p>
                             <p>LogPoint ensures single 
                                     taxonomy for normalisation 
                                     of log data, enabling an easy-to-use search function for the creation of 
@@ -172,7 +172,7 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-2.png') }}" alt="">
-                            <p>Simplified role-based access control</p>
+                            <p><b>Simplified role-based access control</b></p>
                             <p>Administrative user access is bound into AD via LDAP for ease of permission definition. Group permissions to the system are aligned with a role based approach to 
                                     administrative rights, giving full control over access to both the log repositories and the dashboard usage.</p>
                         </div>
@@ -180,7 +180,7 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-3.png') }}" alt="">
-                            <p>Full HA deployment</p>
+                            <p><b>Full HA deployment</b></p>
                             <p>The LogPoint HA architecture allows synchronisation of both index and event data in a fault tolerant fashion, 
                                     providing a robust integrity to the data storage. 
                                     Any recovery has a very speedy recovery point 
@@ -190,7 +190,7 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-4.png') }}" alt="">
-                            <p>Agile platform design</p>
+                            <p><b>Agile platform design</b></p>
                             <p>The LogPoint system is agile in design with an intuitive 
                                     interface, built for 
                                     administrators with network security tool experience or ad-hoc users alike.
@@ -202,7 +202,7 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-5.png') }}" alt="">
-                            <p>Flexible / scalable architecture</p>
+                            <p><b>Flexible / scalable architecture</b></p>
                             <p>LogPoint architecture is entirely flexible and scales linearly for large and complex 
                                     implementations. The network security tool can be deployed in either physical or virtual 
                                     environments and on premise or in the cloud</p>
@@ -211,7 +211,7 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-6.png') }}" alt="">
-                            <p>Unique license model</p>
+                            <p><b>Unique license model</b></p>
                             <p>Fair and holistic license model, no hidden extra’s due to the transparent license structure. Adopting a node based model rather the EPS/MPS basis that many other SIEM vendors models follow for managed 
                                     network security.
                                     </p>
@@ -220,7 +220,7 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-7.png') }}" alt="">
-                            <p>Data Privacy mode</p>
+                            <p><b>Data Privacy mode</b></p>
                             <p>By utilising Data Privacy Mode, it is possible to ensure the context of the log files can be included on multinational searches, 
                                     without compromising the need to ensure the information 
                                     remains secure. 
@@ -230,8 +230,8 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-8.png') }}" alt="">
-                            <p>Streamlined normalisation 
-                                    architecture</p>
+                            <p><b>Streamlined normalisation 
+                                    architecture</b></p>
                             <p>Plugin architecture, enables 
                                     dynamic development and custom enhancement. 
                                     Being vendor agnostic, logs can be collected using varying 

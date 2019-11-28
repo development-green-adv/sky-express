@@ -54,7 +54,7 @@
                         <div class="by-compliance-second-part-left">
                             <h1 class="text-white">Improve your compliance</h1>
                             <h2 class="mb-5 orange-text">Explore our cyber security compliance <br> solutions</h2>
-                            <p class="mb-3 text-white pr-5">Security Compliance is primarily based on 
+                            <p class="mb-3 text-white pr-5"><b>Security Compliance</b> is primarily based on 
                                 external requirements rather than organization’s own business or risk management 
                                 objectives. Any obligations you have should be incorporated into your organization’s risk 
                                 management plan.</p>

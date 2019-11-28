@@ -90,17 +90,8 @@
                             <h5 class="orange_text mb-2">Kerio Connect</h5>
                             <p class="pr-5 mb-5"> Secure, enterprise-style email, calendar & collaboration without the high cost
                                 </p>
+                            <p class="mb-4">Email, calendar, IM and more - for less</p>
                             <ul class="eperi-first-part-ul kerio-third-part-left-ul">
-                                <li class="mb-3">
-                                    <div class="row">
-                                        <div class="col-md-1">
-                                            <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                        </div>
-                                        <div class="col-md-11">
-                                            <p>Email, calendar, IM and more - for less</p>
-                                        </div>
-                                    </div>
-                                </li>
                                 <li class="mb-3">
                                     <div class="row">
                                         <div class="col-md-1">
@@ -170,7 +161,7 @@
                         <div class="kerio-card">
                             <div class="kerio-card-content text-center pt-4">
                                 <h6 class="orange_text">Kerio<strong>Connect</strong></h6>
-                                <p class="my-2">MIL SERVER + MORE</p>
+                                <p class="my-2">MILE SERVER + MORE</p>
                                 <p class="px-5">Enterprise-class email, 
                                         calendars, contacts, tasks, 
                                         & instant messaging 

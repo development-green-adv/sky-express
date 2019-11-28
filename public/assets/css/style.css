@@ -1673,7 +1673,7 @@ button.orange_btn:hover {
 /* SECURITY AND RISK MANAGEMENT */
 
 .sec-risk-management-first-part {
-    background-image: none;
+    /* background-image: none; */
 }
 
 .sec-and-risk-management-second-part {
@@ -1702,7 +1702,7 @@ button.orange_btn:hover {
 /* SAP */
 
 .sap-first-part {
-    background-image: none;
+    /* background-image: none; */
 }
 
 .sap-first-part ul {
@@ -1714,7 +1714,10 @@ button.orange_btn:hover {
 /* BY COMPLIANCE */
 
 .by-compliance-first-part {
-    background-image: none;
+    background-image: url('../../images/web/sky-bg-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .by-compliance-second-part {
@@ -1759,6 +1762,10 @@ button.orange_btn:hover {
 .by-compliance-third-part {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-image: url('../../images/web/sky-bg-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .by-compliance-third-part a {
@@ -1783,10 +1790,10 @@ button.orange_btn:hover {
 .solution_content{
     padding-top: 50px;
     padding-bottom: 80px;
-    /* background-image: url('../../images/web/sky-bg-pattern.png');
+    background-image: url('../../images/web/sky-bg-pattern.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
 }
 
 .solution_content h4{

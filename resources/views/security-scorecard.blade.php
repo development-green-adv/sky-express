@@ -49,7 +49,7 @@
                     <div class="col-12 col-md-6">
                         <div class="df-labs-right-first-part">
                             <h4 class="mb-4 pl-5">PLATFORM</h4>
-                            <p class="mb-4 pl-5">Accurate security ratings, advanced data analytics, and actionable insights.
+                            <p class="mb-4 pl-5"><b>Accurate security ratings, advanced data analytics, and actionable insights.</b>
                                 </p>
                             <p class="pl-5">Discover and remediate your IT Infrastructure risk as well as cyber security risk in your vendor and business partner environment. Work collaboratively with third parties to reduce risk and improve security posture.</p>
 
