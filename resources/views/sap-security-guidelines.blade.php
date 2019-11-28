@@ -30,13 +30,13 @@
                         heart of every company—its SAP footprint. 
                         Yet protection for SAP systems is often inadequate. 
                     </p>
-                    <h6 class="mb-5">There are several reasons why SAP clients are 
+                    <h6 style="font-size: 18px;" class="mb-5">There are several reasons why SAP clients are 
                         vulnerable to cyberattacks:</h6>
                     <ul>
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11"><p>Large attack surface. When numerous IoT, 
+                                <div class="col-md-11"><p><b>Large attack surface</b>. When numerous IoT, 
                                     networks, and storage tools are connected in SAP
                                     systems, this can present an appetizing target for hackers, and securing all systems can be 
                                     challenging.</p></div>
@@ -45,7 +45,7 @@
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11"><p>Tempting targets. Hackers know that when clients 
+                                <div class="col-md-11"><p><b>Tempting targets</b>. Hackers know that when clients 
                                     implement SAP solutions, they do so because they need to manage high-value data flows, so it’s 
                                     usually worth expending effort to hack into these 
                                     networks.</p></div>
@@ -54,7 +54,7 @@
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11"><p>Poor updating procedures. SAP solutions need to be patched and updated regularly, just like any other IT solution. These patches aren’t always implemented, raising the risks associated with cyberattacks. 
+                                <div class="col-md-11"><p><b>Poor updating procedures</b>. SAP solutions need to be patched and updated regularly, just like any other IT solution. These patches aren’t always implemented, raising the risks associated with cyberattacks. 
                                     Companies often resist the need to patch, preferring to avoid the hassle of disrupting CRM or payment 
                                     systems – sometimes with devastating results.
                                     </p></div>
@@ -63,7 +63,7 @@
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11"><p>Poor cybersecurity strategy. In some cases, 
+                                <div class="col-md-11"><p><b>Poor cybersecurity strategy</b>. In some cases, 
                                     companies choose to implement costly SAP 
                                     solutions but fail to couple this with an investment 
                                     in cybersecurity. A few technicians may be familiar with the risks but security knowledge may be lacking in the wider corporate structure.</p></div>
@@ -72,7 +72,7 @@
                         <li class="mb-3">
                             <div class="row">
                                 <div class="col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-md-11"><p>Careless employee behavior. This feeds into a final risk-magnifier. Many firms rely on SAP software but have outdated employee security policy, leading to lax password and general network security.</p></div>
+                                <div class="col-md-11"><p><b>Careless employee behavior</b>. This feeds into a final risk-magnifier. Many firms rely on SAP software but have outdated employee security policy, leading to lax password and general network security.</p></div>
                             </div>
                         </li>
                     </ul>

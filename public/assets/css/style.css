@@ -1689,6 +1689,13 @@ button.orange_btn:hover {
     font-weight: 500;
 }
 
+
+/* SAP */
+
+.sap-first-part {
+    background-image: none;
+}
+
 .sap-first-part ul {
     list-style-type: none;
     padding: 0;
