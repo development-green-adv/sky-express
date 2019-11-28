@@ -1274,6 +1274,10 @@ button.orange_btn:hover {
 
 /* DF LABS */
 
+.df-labs-first-part {
+    background-image: none;
+}
+
 .df-labs-right-first-part ul {
     list-style-type: none;
 }
@@ -1326,6 +1330,10 @@ button.orange_btn:hover {
     font-size: 20px;
     color: #fff;
     font-weight: 400;
+}
+
+.df-labs-third-part-page {
+    background-image: none;
 }
 
 .df-labs-third-part {
@@ -1401,10 +1409,6 @@ button.orange_btn:hover {
 .df-labs-fifth-part {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-image: url('../../images/web/sky-bg-pattern.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .df-labs-fifth-part-left {
@@ -1483,7 +1487,7 @@ button.orange_btn:hover {
 
 .df-labs-sixth-part-bottom h4 {
     color: #f1592a;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .df-labs-sixth-part-bottom p {
