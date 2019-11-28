@@ -18,29 +18,32 @@
                 <div class="container">
                     <div class="row">
                         <div id="slider-showcase" class="slider-showcase move_video_slider_text">
+
                             <div class="col-12 pb-3">
                                 <h1 data-aos="fade-right" class="orange_text">EXPERT <b>DEFENSE</b></h1>
                                 <h2 data-aos="fade-left">FOR ENTERPRISE</h2>
                                 <br>
                                 <h3 data-aos="fade-right">DEFEND YOUR ORGANIZATION AGAINST CYBER THREATS</h3>
                                 <br><br>
-                                <a class="orange_link" data-aos="fade-up" href="#">Get in touch</a>
+                                <a class="orange_link" data-aos="fade-up" href="/contact">Contact our team</a>
                             </div>
+
                             <div class="col-12 pb-3" data-aos="fade-up">
                                 <h1 class="orange_text">ADVANCED</h1>
                                 <h2>CYBER SECURITY SOLUTIONS</h2>
                                 <br>
                                 <h3>SELECTIVE RANGE OF COMPLEMENTAL, COMPATIBLE AND APPLICABLE SOLUTIONS</h3>
                                 <br><br>
-                                <a class="orange_link" href="#">Discover more</a>
+                                <a class="orange_link" href="/all-products">Discover more</a>
                             </div>
+
                             <div class="col-12 pb-3" data-aos="fade-up">
                                 <h1 class="orange_text">CYBER SECURITY EXPERTS</h1>
                                 <h2>AT YOUR SERVICE</h2>
                                 <br>
                                 <h3>HIGHLY QUALIFIED AND EXPERIENCED CYBERSECURITY PROFESSIONALS </h3>
                                 <br><br>
-                                <a class="orange_link" href="#">Contact our team</a>
+                                <a class="orange_link" href="/why-us">Learn more</a>
                             </div>
                         </div>
                     </div>
