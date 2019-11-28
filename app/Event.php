@@ -15,6 +15,8 @@ class Event extends Model
         'date',
         'time_from',
         'time_to',
+        'link',
+        'b_n',
         'main_image',
         'image_gallery',
         'video_gallery',

@@ -92,9 +92,7 @@ Route::get('/df-labs', function () {
 
 Route::get('/news', 'FrontController@getNews');
 
-Route::get('/events', function () {
-    return view('events');
-});
+Route::get('/events', "FrontController@getEvents");
 
 Route::get('/why-us', function () {
     return view('why-us');

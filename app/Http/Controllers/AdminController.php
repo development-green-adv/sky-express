@@ -194,6 +194,8 @@ class AdminController extends Controller
         $data->date            = $request->input('date');
         $data->time_from       = $request->input('time_from');
         $data->time_to         = $request->input('time_to');
+        $data->link            = $request->input('link');
+        $data->b_n             = $request->input('b_n');
         $data->main_image      = $request->input('mainImage');
         $data->image_gallery   = $gallery;
         $data->video_gallery   = $videos;
@@ -255,7 +257,10 @@ class AdminController extends Controller
                     "subtitle"        => $request->input("subtitle"),
                     "text"            => $request->input("text"),
                     "date"            => $request->input("date"),
-                    "time"            => $request->input("time"),
+                    "time_from"       => $request->input("time_from"),
+                    "time_to"         => $request->input("time_to"),
+                    "link"            => $request->input("link"),
+                    "b_n"             => $request->input("b_n"),
                     "main_image"      => $request->input("mainImage"),
                     "image_gallery"   => $gallery,
                     "video_gallery"   => $videos,

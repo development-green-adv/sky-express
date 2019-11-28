@@ -106,9 +106,36 @@
 
                             <div class="form-group col-12 col-md-6">
                         
-                                <label for="">Vreme</label>
-                                <input class="form-control" type="time" name="time" value="{{ $data->time }}">
+                                <label for="">Vreme od</label>
+                                <input class="form-control" type="time" name="time_from" value="{{ $data->time_from }}">
         
+                            </div>
+
+                            <div class="form-group col-12 col-md-6">
+                        
+                                <label for="">Vreme do</label>
+                                <input class="form-control" type="time" name="time_to" value="{{ $data->time_to }}">
+        
+                            </div>
+
+                            <div class="form-group col-12 col-md-6">
+                        
+                                <label for="">Link</label>
+                                <input class="form-control" type="text" name="link" value="{{ $data->link }}">
+        
+                            </div>
+
+                            <div class="form-group col-12 col-md-6">
+
+                                <label for="">Dogadjaj prosao ili ne</label>
+                                <select class="form-control" name="b_n">
+                                    <option value="" selected disabled>Izaberite</option>
+
+                                    <option @if($data->b_n == "sledi") selected @endif value="sledi">Uskoro sledi</option>
+                                    <option @if($data->b_n == "prosao") selected @endif value="prosao">Prosao</option>
+
+                                </select>
+
                             </div>
 
                         </div>

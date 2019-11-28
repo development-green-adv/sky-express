@@ -122,6 +122,24 @@
 
                             </div>
 
+                            <div class="form-group col-12 col-md-6">
+
+                                <label for="">Link</label>
+                                <input class="form-control" type="text" name="link">
+
+                            </div>
+
+                            <div class="form-group col-12 col-md-6">
+
+                                <label for="">Dogadjaj prosao ili ne</label>
+                                <select class="form-control" name="b_n">
+                                    <option value="" selected disabled>Izaberite</option>
+                                    <option value="sledi">Uskoro sledi</option>
+                                    <option value="prosao">Prosao</option>
+                                </select>
+
+                            </div>
+
                         </div>
 
                         <div class="row">
