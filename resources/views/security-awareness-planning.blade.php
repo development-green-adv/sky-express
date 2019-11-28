@@ -26,19 +26,21 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0 pr-5">
                     <h4>Security Awareness Planning</h4><br>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Minus voluptatem exercitationem, deserunt cum excepturi repellat consequatur, delectus eos a modi nesciunt.
+                        Did you know that 95% of cybersecurity breaches are due to human error? On top of that, only 38% of global organizations state that they’re prepared to
+                        handle a sophisticated cyber-attack. And worse, as much as 54% of companies say they have experienced one or more attacks in the last 12 months—this
+                        number rises every month.
                     </p>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Minus voluptatem exercitationem, deserunt cum excepturi repellat consequatur, delectus eos a modi nesciunt.
-                    </p>
-                    <p class="pr-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Minus voluptatem exercitationem, deserunt cum excepturi repellat consequatur, delectus eos a modi nesciunt.
+                        Your employees can be your weakest point – or your first and primary line of defense against online crime. That’s where cyber security awareness training
+                        comes into play—equipping your employees with the knowledge and skills they need to protect themselves from criminal elements.
                     </p>
                 </div>
                 <div class="col-12 col-md-6 pl-5">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
+                    <p class="mb-4">By bringing cyber security awareness and training to all your employees, you heighten the chances of catching a scam or attack before it is fully enacted,
+                        minimizing damage to your brand and reducing the cost of recovery.</p>
+                    <p class="">Having the right security software and procedures in place is important, but never make the mistake of overlooking your employees’ training and fostering
+                        an environment of cyber security awareness at all organizational levels.</p>
                 </div>
             </div>
         </div>
@@ -57,7 +59,9 @@
                 <div class="row">
                     <div class="col-md-12 position-relative">
                         <div class="security-consulting-benefites-area text-center mt-5">
-                            <h4>When you choose to incorporate cyber defense training, many companies can see <br> up to a 72% reduction of impact on their brand and operational stability from any attacks!</h4>
+                            <h4 class="orange_text">When you choose to incorporate cyber defense training, many companies can see <br> up to a 72% reduction of impact on their brand and operational stability from any attacks!</h4>
+                            <h5 class="text-white">Sky Express combines numerous training topics and teaching strategies to help guarantee employee preparedness and optimize your defensive responses.
+                                This includes maintaining physical security, online security, password management, malware and phishing defense simulations, and much more.</h5>
                         </div>
                     </div>
                 </div>
