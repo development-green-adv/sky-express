@@ -29,7 +29,7 @@
                                             {{-- <a href="#">View All</a> --}}
                                         </ul>
                                         <ul class="dropdown-menu-ul">
-                                            <li><a href="#"><p>SOLUTIONS</p></a></li>
+                                            <li><a href="/all-solutions"><p>SOLUTIONS</p></a></li>
                                             <li class="position-relative"><a href="/by-compliance">By Compliance</a>
                                                 <ul class="dropdown-sub-menu">
                                                     <li><a href="/meeting-gdpr">Meeting GDPR</a></li>

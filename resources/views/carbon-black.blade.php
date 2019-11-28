@@ -109,7 +109,7 @@
                     <div class="col-md-6">
                         <div class="carbon-black-third-part-left">
                             <h3 class="orange_text">The VMware Carbon Black is Transforming <br> Security Through Big Data and Analytics in <br> the Cloud</h3>
-                            <h3 style="color: #231f20;">Carbon Black is leveraging the power of big <br> data and analytics to solve the challenges <br> surrounding endpoint security. With the CB <br> Predictive Security Cloud platform, we are <br> transforming cybersecurity to deliver <br> a cloud-native endpoint protection platform <br> (EPP) designed  to protect against the most <br> advanced threats.</h3>
+                            <h3 style="color: #231f20;">Carbon Black is leveraging the power of big <br> data and analytics to solve the challenges <br> surrounding endpoint security. With The <br> VMware Carbon Black Cloud platform, we are <br> transforming cybersecurity to deliver <br> a cloud-native endpoint protection platform <br> (EPP) designed  to protect against the most <br> advanced threats.</h3>
                         </div>
                     </div>
                     <div class="col-md-6">

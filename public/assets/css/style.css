@@ -2302,6 +2302,64 @@ ul.open-systems-first-ul li:last-child {
     width: 50%;
 }
 
+/* ALL SOLUTIONS */
+
+.all-solutions-first-part h4{
+    margin-bottom: 40px;
+}
+
+.all-solutions-first-part p {
+    font-size: 20px;
+}
+
+.all-solutions-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.all-solutions-second-part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.all-solutions-card h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.all-solutions-card ul li {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.all-solutions-card ul li:last-child {
+    margin-bottom: 50px;
+}
+
+.all-solutions-card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f1592a;
+    padding: 5px 15px;
+    transition: all .3s;
+}
+
+.all-solutions-card a:hover {
+    background-color: #08090b;
+    color: #f1592a;
+}
+
+.all-solutions-third-part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.all-solutions-third-part h3 {
+    text-align: center;
+    color: #f1592a;
+}
 
 
 
@@ -2437,7 +2495,7 @@ ul.open-systems-first-ul li:last-child {
     }
 
     .navbar-expand-lg .navbar-nav {
-        text-align: center;
+        text-align: left;
         padding-top: 20px;
         padding-bottom: 20px;
     }
