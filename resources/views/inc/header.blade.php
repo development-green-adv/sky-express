@@ -68,6 +68,7 @@
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
                                             <p>COMPANY OVERVIEW</p>
+                                            <li><a href="/about-us">About Us</a></li>
                                             <li><a href="/why-us">Why Us?</a></li>
                                             <li><a href="/careers">Careers</a></li>
                                             <li><a href="/contact">Contact</a></li>

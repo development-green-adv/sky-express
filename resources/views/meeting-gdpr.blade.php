@@ -39,11 +39,12 @@
                         systems. It comes into effect on May the 25th 2018 and applies not only to EU entities dealing with 
                         personal data anywhere in the world, but also 
                         entities outside of the EU dealing with personal data of EU residents.</p>
-                    <p class="pr-5 mb-4">In many ways, GDPR makes things easier, 
+                    <p class="pr-5 mb-5">In many ways, GDPR makes things easier, 
                         simplifying the existing conglomerate of rules and approaches imposed by each member state, by making one set of rules to rule them all. 
                         It includes 99 articles or clauses covering virtually every aspect of business and information 
                         management – everything from the consent to 
                         collect and process information, to the “right to be deleted”.</p>
+                    <h5 class="orange_text">For more information on how Sky Express can help you meet GDPR compliance, contact our Security Expert.</h5>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
