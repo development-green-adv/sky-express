@@ -26,16 +26,19 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0 pr-5">
                     <h4>Compliance Analysis</h4><br>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Minus voluptatem exercitationem, deserunt cum excepturi repellat consequatur, delectus eos a modi nesciunt.
+                        In today’s regulated business environment, compliance is essential to long-term business success. Non-compliance is not an option – loss of revenue,
+                        fines, lawsuits, and penalties can be crippling.
                     </p>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Minus voluptatem exercitationem, deserunt cum excepturi repellat consequatur, delectus eos a modi nesciunt.
+                        Compliance is also not something most companies can handle on their own. It requires a tremendous
+                        amount of human efforts and organizational focus.
                     </p>
                 </div>
                 <div class="col-12 col-md-6 pl-5">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus. </p>
+                    <p class="mb-4">Achieving compliance with regulatory and industry standards doesn't have to be as difficult as it seems.</p>
+                    <p class="">Sky Express guides you through compliance
+                        validation processes quickly and smoothly to help get your organization compliant and back to running your business.</p>
                 </div>
             </div>
         </div>
@@ -54,7 +57,10 @@
                 <div class="row">
                     <div class="col-md-12 position-relative">
                         <div class="security-consulting-benefites-area text-center mt-5">
-                            <h4>Scalable & efficient compliance services, tailored to your organization's needs</h4>
+                            <h4 class="orange_text mb-4">Scalable & efficient compliance services, tailored to your organization's needs</h4>
+                            <h5 class="text-white mb-3">If you need to comply with multiple regulatory, industry and data security compliance standards, you can leverage our experience and know-how by
+                                combining your requirements into a single assessment. We work with you to make the process as simple as possible.</h5>
+                            <h5 class="text-white">To learn more about our Compliance Advisory Services, request a consultation.</h5>
                         </div>
                     </div>
                 </div>
