@@ -97,9 +97,9 @@
                                         <ul class="dropdown-menu-ul">
                                             <!-- <p>PRODUCTS</p> -->
                                             <li><a href="/blog">Blog</a></li>
-                                            <li><a href="#">Reports</a></li>
+                                            {{-- <li><a href="#">Reports</a></li> --}}
                                             <li><a href="/faq">F&Q</a></li>
-                                            <li><a href="#">Case Studies</a></li>
+                                            {{-- <li><a href="#">Case Studies</a></li> --}}
                                         </ul>
                                         {{-- <ul class="dropdown-menu-ul">
                                             <p>REQUEST DEMO</p>
@@ -109,8 +109,6 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link d-inline pr-0" href="#">SRP</a>
-                                    {{-- <a class="nav-link d-inline pl-0 pr-0" href="#">ENG</a> --}}
-                                    <!-- <img class="pb-1" src="{{ asset('images/web/lang-icon.svg') }}" alt=""> -->
                                 </li>
                             </ul>
                         </div>
