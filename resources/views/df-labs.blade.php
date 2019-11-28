@@ -21,7 +21,7 @@
         </div>
 
 
-        <div class="container about_desc">
+        <div class="container about_desc df-labs-first-part">
             <div class="row">
                 <div class="col-12 mb-5">
                     <img src="{{ asset('images/web/dflabs-logo.png') }}" alt="">
@@ -29,9 +29,9 @@
                 <div class="col-12 col-md-5 mb-4 mb-md-0">
                     <h4>Automated incident response and <br> orchestration security software </h4><br>
                     <p class="pr-5">
-                        Sky Express is an exclusive distributor of <br class="d-none d-md-block">
-                        advanced cybersecurity solutions and services <br class="d-none d-md-block"> in the
-                        field of information security, covering SEE market.
+                        DFLabs is the pioneer in Security Orchestration, Automation and Response (SOAR) Technology,
+                        leveraging your existing security products to dramatically reduce the response and remediation gap
+                        caused by limited resources and the increasing volume of threats and incidents.
                     </p>
                 </div>
                 <div class="col-12 col-md-7">
@@ -62,7 +62,10 @@
                     <div class="col-md-6">
                         <div class="df-labs-second-part-left ">
                             <h1 class="mb-5">DFLabs' Security Orchestration, <br> Automation and Response Platform</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti obcaecati velit accusamus amet, quae ut ducimus! Aut voluptatibus repellendus impedit dolores aperiam. Quaerat doloremque quia nihil blanditiis, recusandae suscipit, officiis optio adipisci pariatur culpa voluptatem ratione voluptatibus unde beatae impedit numquam dolores nemo necessitatibus nobis maiores. Minima, eius sint?</p>
+                            <p><b>DFLabs IncMan SOAR</b> is the <b>only</b> Security Orchestration, Automation and Response (SOAR) platform
+                                capable of full incident lifecycle automation, that includes built-in, automated threat intelligence
+                                gathering, risk assessment, triage and notification, context enrichment, hunting and investigating,
+                                threat containment and more.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -81,7 +84,7 @@
             </div>
         </div>
 
-        <div class="container-fluid security_solutions">
+        <div class="container-fluid security_solutions df-labs-third-part-page">
             <div class="row">
                 <div class="container">
                     <div class="col-12 text-center">
@@ -129,8 +132,11 @@
                     <div class="col-md-6">
                         <div class="df-labs-fourth-part-left">
                             <h2 class="mb-5">Key Features & Capabilities <br> The DFLabs Difference</h2>
-                            <p class="mb-4 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem sunt ipsum sequi explicabo, mollitia ut provident nesciunt voluptate iusto? Facilis nostrum vero fuga beatae tempora sed laboriosam reiciendis incidunt.</p>
-                            <p class="pr-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio alias vel facere velit sint voluptate totam, ratione adipisci aliquid beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolor pariatur quisquam unde aspernatur quod reiciendis commodi in enim ducimus?</p>
+                            <p class="mb-4 pr-5">IncMan includes many bidirectional integrations with a variety of product categories including SIEM,
+                                network defense, endpoint protection and threat intelligence, chosen to broaden the orchestration
+                                and automation capabilities of companies.</p>
+                            <p class="pr-5">IncMan has been designed with industry standards, regulatory frameworks and best practices in
+                                mind, supporting ISO, GDPR, NIST and SEC regulations amongst others.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -166,9 +172,13 @@
                     <div class="col-md-6">
                         <div class="df-labs-fifth-part-left">
                             <h2 class="mb-4">Complete and Comprehensive <br> SOAR Platform</h2>
-                            <p class="mb-4 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vel rerum mollitia aliquam omnis numquam, similique amet delectus, iure excepturi repudiandae rem odit. A quo dolore nihil, officiis possimus quidem excepturi quisquam dolor asperiores rem architecto nemo! Beatae ex veniam cum?</p>
-                            <p class="mb-4 pr-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus vel ipsa dolore, placeat nisi minus soluta enim blanditiis excepturi molestias et commodi itaque. Quibusdam, architecto illum, quam officiis necessitatibus laudantium doloremque.</p>
-                            <p class=" pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et velit, repellat enim reiciendis mollitia maxime eum vero, sapiente suscipit esse voluptates odit quis alias nam possimus, dolor unde voluptatibus quia?</p>
+                            <p class="mb-4 pr-5">DFLabs covers the entire spectrum of security orchestration, automation and response components
+                                as outlined by Gartner, with a unique combination of features and capabilities, driven through
+                                continuous improvement and innovation.</p>
+                            <p class="mb-4 pr-5">IncMan SOAR is the only platform to offer full incident
+                                response lifecycle management with machine learning and threat hunting.</p>
+                            <p class=" pr-5">Acting as a force multiplier, it enables security teams to do more with less, empowering security
+                                analysts, while ensuring organizations stay one step ahead of any potential threat.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -194,7 +204,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="df-labs-sixth-part-title text-center">
-                            <h1>Demonstrating Compliance</h1>
+                            <h1 class="orange_text">Demonstrating Compliance</h1>
                         </div>
                     </div>
                 </div>
@@ -216,7 +226,12 @@
                     <div class="col-12">
                         <div class="df-labs-sixth-part-bottom text-center">
                             <h4>How DFLabs Can Help You Meet GDPR Requirements.</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quas sunt ipsum, deserunt adipisci reiciendis, inventore pariatur maiores explicabo beatae, rerum illo? Fugit dicta dolor dignissimos, eveniet ab saepe aliquam, totam adipisci doloremque error fugiat ut laboriosam hic? Modi nemo minus nulla perspiciatis accusantium iusto magni fugit consequatur itaque amet?</p>
+                            <p>DFLabs’ SOAR solution provides capabilities to automate and prioritize incident response and related
+                                enrichment and containment tasks, distribute appropriate notifications and implement an incident
+                                response plan (IRP) in case of a potential data breach. IncMan SOAR handles different stages of the
+                                incident response and breach notification process, including providing advanced reporting
+                                capabilities with appropriate metrics and the ability to gather or share intelligence securely with
+                                third parties.</p>
                         </div>
                     </div>
                 </div>

@@ -21,7 +21,7 @@
         </div>
 
 
-        <div class="container about_desc">
+        <div class="container about_desc eperi-first-part">
             <div class="row">
                 <div class="col-12 mb-5">
                     <img style="width: 300px;" src="{{ asset('images/web/eperi-page-logo.png') }}" alt="">

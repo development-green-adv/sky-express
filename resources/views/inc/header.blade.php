@@ -15,8 +15,8 @@
                                 <li class="nav-item position-relative">
                                     <a class="nav-link" href="#">Products & Solutions</a><span>|</span>
                                     <div class="dropdown-menu">
-                                        <ul>
-                                            <p>PRODUCTS</p>
+                                        <ul class="dropdown-menu-ul">
+                                            <li><a href="/all-products"><p>PRODUCTS</p></a></li>
                                             <li><a href="/carbon-black">Carbon Black</a></li>
                                             <li><a href="/df-labs">DF Labs</a></li>
                                             <li><a href="/logpoint">Logpoint</a></li>
@@ -26,13 +26,12 @@
                                             <li><a href="/avast">Avast</a></li>
                                             <li><a href="/security-scorecard">Security Scorecard</a></li>
                                             <li><a href="/kerio">Kerio</a></li>
-                                            <a href="#">View All</a>
+                                            {{-- <a href="#">View All</a> --}}
                                         </ul>
-                                        <ul>
-                                            <p>SOLUTIONS</p>
+                                        <ul class="dropdown-menu-ul">
+                                            <li><a href="/all-solutions"><p>SOLUTIONS</p></a></li>
                                             <li class="position-relative"><a href="/by-compliance">By Compliance</a>
                                                 <ul class="dropdown-sub-menu">
-                                                    <!-- <p class="invisible">TITLE</p> -->
                                                     <li><a href="/meeting-gdpr">Meeting GDPR</a></li>
                                                     <li><a href="/iso-27001">ISO 27001</a></li>
                                                     <li><a href="/sap-security-guidelines">SAP Security Guidelines</a></li>
@@ -46,7 +45,7 @@
                                 <li class="nav-item position-relative">
                                     <a class="nav-link" href="#">Services & Support</a><span>|</span>
                                     <div class="dropdown-menu">
-                                        <ul>
+                                        <ul class="dropdown-menu-ul">
                                             <p>SERVICES</p>
                                             <li><a href="/security-analysis">Security Analysis</a></li>
                                             <li><a href="/compliance-analysis">Compliance Analysis</a></li>
@@ -56,7 +55,7 @@
                                             <li><a href="/security-awareness-planning">Security Awareness Planning</a></li>
                                             <li><a href="/security-consulting">Security Consulting</a></li>
                                         </ul>
-                                        <ul>
+                                        <ul class="dropdown-menu-ul">
                                             <p>TEHNICAL SUPPORT</p>
                                             <h5>CONTACT SUPPORT</h5>
                                             <h6>Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6>
@@ -67,46 +66,49 @@
                                 <li class="nav-item position-relative">
                                     <a class="nav-link" href="#">Company</a><span>|</span>
                                     <div class="dropdown-menu">
-                                        <ul>
+                                        <ul class="dropdown-menu-ul">
                                             <p>COMPANY OVERVIEW</p>
+                                            <li><a href="/about-us">About Us</a></li>
                                             <li><a href="/why-us">Why Us?</a></li>
                                             <li><a href="/careers">Careers</a></li>
                                             <li><a href="/contact">Contact</a></li>
-                                            <li><a href="#">Office Locations</a></li>
+                                            {{-- <li><a href="#">Office Locations</a></li> --}}
                                         </ul>
-                                        <ul>
+                                        <ul class="dropdown-menu-ul">
                                             <p>CAREERS AT SKY EXPREES</p>
                                             <h6>Sky Express is looking for talented individuals who bring a diverse range of experiance and capabilities. View our open positions below to find your next career opportunity with us.</h6>
                                             <a href="#">Join the team</a>
                                         </ul>
                                     </div>
                                 </li>
+                                {{-- /news --}}
                                 <li class="nav-item position-relative">
-                                    <a class="nav-link" href="/news">News & Events</a><span>|</span>
-                                    <div class="dropdown-menu">
-                                        <ul>
-                                            <p>IN THE NEWS</p>
-                                        </ul>
-                                        <ul>
-                                            <p>UPCOMING EVENTS</p>
-                                            <li><a href="/events">Events</a></li>
+                                    <a class="nav-link" href="#">News & Events</a><span>|</span>
+                                    <div  class="dropdown-menu">
+                                        <ul style="margin-top: 0px; padding-top: 0px;" class="dropdown-menu-ul">
+                                            <li><a href="#">Upcoming Events</a>
+                                                <ul class="dropdown-sub-menu">
+                                                    <li><a href="/events">Events</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">In The News</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item position-relative">
                                     <a class="nav-link" href="#">In Touch with Security</a><span>|</span>
                                     <div class="dropdown-menu">
-                                        <ul>
+                                        <ul class="dropdown-menu-ul">
                                             <!-- <p>PRODUCTS</p> -->
                                             <li><a href="/blog">Blog</a></li>
                                             <li><a href="#">Reports</a></li>
                                             <li><a href="/faq">F&Q</a></li>
                                             <li><a href="#">Case Studies</a></li>
                                         </ul>
-                                        <ul>
+                                        {{-- <ul class="dropdown-menu-ul">
                                             <p>REQUEST DEMO</p>
                                             <h6>Register here to get a demo that can be conducted on premises.</h6>
-                                        </ul>
+                                        </ul> --}}
                                     </div>
                                 </li>
                                 <li class="nav-item">

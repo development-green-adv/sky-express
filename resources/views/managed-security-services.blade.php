@@ -26,16 +26,21 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>Managed Security Services (MSSP)</h4><br>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. 
+                        Whether you're facing overcoming skills shortages, fighting new threat adversaries or looking for more value from your IT initiatives, we understand that
+                        all businesses are different, and that's why our Managed Security Services (MSS) are designed for flexibility. 
                     </p>
                     <p class="pr-5 mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. 
+                        Managed security services refer to the aspects of an organization’s recurring cybersecurity activities outsourced to a third-party provider. Many
+                        organizations take advantages of MSS since they provide access to cybersecurity talent and resources that exceeds what the organization could operate
+                        internally. 
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
+                    <p class="pl-5 mb-4">The key function of managed security services is to provide the customer with the information, resources, and access to personnel that they need to
+                        appropriately secure their network and resources.</p>
+                    <p class="pl-5 mb-4">Sky Express Managed Security Services (MSS) deliver a diversified portfolio of services to meet the demands of a wide range of organizations through a
+                        tailor-made approach working with client provided legacy technologies.</p>
                 </div>
             </div>
         </div>

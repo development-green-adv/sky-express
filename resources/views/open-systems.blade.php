@@ -21,10 +21,10 @@
         </div>
 
 
-        <div class="container about_desc">
+        <div class="container about_desc open-systems-first-page">
             <div class="row">
                 <div class="col-12 mb-5">
-                    <img src="{{ asset('images/web/open-systems-page-logo.php.png') }}" alt="">
+                    <img style="width:300px;" src="{{ asset('images/web/open-systems-page-logo.png') }}" alt="">
                 </div>
 
                 <div class="row">
@@ -85,7 +85,7 @@
                     <div class="col-12 text-center">
                             <p class="mb-4">Securely enforce your organization's internet access security policy for resources located in the public internet. 
                                     Their integrated Secure Web Gateway, which includes SSL scanning, URL filtering, and malware protection, increases the level of protection of client machines against malicious content and restricts access to URL categories.</p>
-                            <p class="mb-5">The Mission Control WAF is the safeguard that checks all access attempts from the internet to web applications in the network 
+                            <p class="mb-5"><b>The Mission Control WAF</b> is the safeguard that checks all access attempts from the internet to web applications in the network 
                                     infrastructure. The WAF first terminates the SSL connection and verifies the HTTP request for protocol validity, matches 
                                     the request with the defined authorization requirements for the specific application and, if necessary, 
                                     redirects the user to a login service.</p>
@@ -116,9 +116,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="open-system-third-part-right">
-                            <h4 class="mb-2">Accelerate to Real-Time Detection</h4>
+                            <h3 class="mb-5 text-white">Accelerate to Real-Time Detection</h3>
+                            <h4  class="mb-2">Aggregate Enterprise-Wide Monitoring</h4>
                             <p class="mb-4">
-                                Aggregate Enterprise-Wide Monitoring
                                 Get a holistic view of threats across your network
                             </p>
                             <h4  class="mb-2">See Everything in Detail</h4>
