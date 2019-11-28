@@ -62,7 +62,6 @@
                     <a href="/terms">Terms & Conditions</a> 
                     <a href="/privacy-policy">Privacy Policy</a>
                     <a href="/cookie-policy">Cookie Policy</a>
-                    <a href="/faq">FAQ</a>
                     <a href="#">Copyright {{ date("Y") }} www.sky-express.rs</a>
                     <a href="#">All right reserved</a>
                     <a target="_blank" href="https://www.green-adv.rs">website development</a>
