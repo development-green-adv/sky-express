@@ -1118,8 +1118,14 @@ button.orange_btn:hover {
 
 .benefites_pen-testing h3 {
     color: #f1592a;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 35px;
+}
+
+.benefites_pen-testing h4 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .benefites_pen-testing ul {

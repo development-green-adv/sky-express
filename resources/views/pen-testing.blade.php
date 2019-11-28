@@ -26,20 +26,25 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>Pen Testing & Ethical Hacking</h4><br>
                     <p class="pr-5">
-                        Sky Express is an exclusive distributor of 
-                        advanced cybersecurity solutions and services in the
-                        field of information security, covering SEE.
+                        Be proactive and bolster your defenses with Sky Express’s Penetration Testing & Ethical Hacking Services.
                     </p>
 
-                    <h5 class="mt-4 mb-4">This is one test you may want ti fail</h5>
-                    <p class="mb-4 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit sapiente saepe iure soluta molestias eligendi omnis eius id consectetur autem, et ea. Minus voluptatem exercitationem, deserunt cum excepturi repellat consequatur, delectus eos a modi nesciunt, dolores corrupti veniam rem sit assumenda animi nemo quo natus fugiat numquam id dolorum.</p>
-                    <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptate fugiat, adipisci dolores quo nobis explicabo. Libero quo, suscipit recusandae nihil incidunt voluptatibus nostrum. Doloremque laboriosam accusantium in ipsum at.</p>
+                    <h5 class="mt-4 mb-4">This is one test you may want ti fail.</h5>
+                    <p class="mb-4 pr-5">Performed by trained and certified cybersecurity professionals utilizing proven penetration testing methodologies and industry best practices, Sky Express
+                        can get into the mind of a malicious hacker to determine where weaknesses reside. Our penetration and ethical hacking services determine if a potential
+                        vulnerability is truly exploitable and if it could lead to the compromise of your sensitive data.</p>
+                    <p class="pr-5">The test process is the combination of several different activities that ultimately provide your organization with a clear view of exploitable threats that can
+                        easily compromise your system.</p>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="pl-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellat debitis voluptate aliquam minima labore omnis laborum repudiandae provident, voluptas aperiam sed laboriosam quasi tempore incidunt doloremque obcaecati natus!</p>
-                    <p class="pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit deserunt exercitationem ab consequuntur accusantium nobis dolor dolore harum ullam eligendi voluptatem ratione obcaecati, aspernatur, ducimus aperiam numquam voluptatum repellat ad culpa? Veritatis molestiae nam numquam quo excepturi sapiente. ...</p>
+                    <p class="pl-5 mb-4">With our ability to test remotely, we are able to service you quickly and cost effectively. Sky Express allows you to focus on your core business, removing
+                        the burden of performing penetration testing with complicated tools.</p>
+                    <p class="pl-5 mb-4">Your penetration test results can be reconciled with your ongoing Sky Express vulnerability scanning program. No more digging through dense reports that
+                        are difficult to manage and interpret.</p>
+                    <p class="pl-5">The Ethical Hacking service simulates an external or internal attacker. Our attack strategies can be focused on the technology layer, but also on what is
+                        often the weakest link of the system: the human factor. This means that non-conventional attack techniques can be used – Social Engineering, exploiting
+                        loopholes in physical security and procedures, intercepting communications...</p>
                 </div>
             </div>
         </div>
@@ -58,7 +63,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3>Benefitsof Penetration Testing</h3>
-
+                        <h4 class="text-white">Penetration testing offers many benefits, allowing you to:</h4>
                         <ul>
                             <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Intelligently manage vulnerabilities</li>
                             <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Avoid the cost of network downtime</li>
