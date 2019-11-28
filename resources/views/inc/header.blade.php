@@ -69,7 +69,6 @@
                                         <ul class="dropdown-menu-ul">
                                             <p>COMPANY OVERVIEW</p>
                                             <li><a href="/about-us">About Us</a></li>
-                                            <li><a href="/why-us">Why Us?</a></li>
                                             <li><a href="/careers">Careers</a></li>
                                             <li><a href="/contact">Contact</a></li>
                                             {{-- <li><a href="#">Office Locations</a></li> --}}
@@ -86,10 +85,7 @@
                                     <a class="nav-link" href="#">News & Events</a><span>|</span>
                                     <div  class="dropdown-menu">
                                         <ul style="margin-top: 0px; padding-top: 0px;" class="dropdown-menu-ul">
-                                            <li><a href="#">Upcoming Events</a>
-                                                <ul class="dropdown-sub-menu">
-                                                    <li><a href="/events">Events</a></li>
-                                                </ul>
+                                            <li><a href="/events">Events</a>
                                             </li>
                                             <li><a href="/news">In The News</a></li>
                                         </ul>

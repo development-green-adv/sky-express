@@ -50,10 +50,10 @@
                             <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Manage risks to information security effectively
                         </li>
                         <li class="mb-4 pl-5">
-                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Achieve compliance with regulations such as the
+                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Achieve compliance with regulations such as the European
                         </li>
                         <li class="mb-4 pl-5">
-                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> European Union General Data Protection Regulation (EUGDPR)
+                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Union General Data Protection Regulation (EUGDPR)
                         </li>
                         <li class="mb-4 pl-5">
                             <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Protect the company's brand image

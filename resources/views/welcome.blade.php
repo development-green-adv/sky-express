@@ -410,7 +410,7 @@
                                 <div class="contact-form-top-middle">
                                     <ul>
                                         <li class="mb-3"><img class="mr-3"  src="{{ asset('images/web/phone.svg') }}"> <a class="mb-3" href="tel:+381646414461"> +381 64 641 44 61</a></li>
-                                        <li> <img class="mr-3" src="{{ asset('images/web/mail.svg') }}"><a href="mailto:prodaja@sky-express.rs">prodaja@sky-express.rs</a></li>
+                                        <li> <img class="mr-3" src="{{ asset('images/web/mail.svg') }}"><a href="mailto:prodaja@sky-express.rs">sales@sky-express.rs</a></li>
                                     </ul>
                                 </div>
 
