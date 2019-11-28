@@ -50,7 +50,7 @@
                                 <li>ISO 27001</li>
                                 <li>SAP Security Guidelines</li>
                             </ul>
-                            <a href="#">VIEW DETAILS</a>
+                            <a href="/by-compliance">VIEW DETAILS</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -61,7 +61,7 @@
                                 <li>ISO 27001</li>
                                 <li>SAP Security Guidelines</li>
                             </ul>
-                            <a href="#">VIEW DETAILS</a>
+                            <a href="/solutions">VIEW DETAILS</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -72,7 +72,7 @@
                                 <li>ISO 27001</li>
                                 <li>SAP Security Guidelines</li>
                             </ul>
-                            <a href="#">VIEW DETAILS</a>
+                            <a href="/security-and-risk-management">VIEW DETAILS</a>
                         </div>
                     </div>
                 </div>
