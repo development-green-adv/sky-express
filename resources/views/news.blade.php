@@ -45,7 +45,7 @@
                                     representatives and cyber security.
                                 </p><br>
 
-                                <a href="#">Read more</a>
+                                <a href="/single-news">Read more</a>
                             </div> 
                         </div>
 
@@ -64,7 +64,7 @@
                                     representatives and cyber security.
                                 </p><br>
 
-                                <a href="#">Read more</a>
+                                <a href="/single-news">Read more</a>
                             </div> 
                         </div>
 
@@ -84,7 +84,7 @@
                                     representatives and cyber security.
                                 </p><br>
 
-                                <a href="#">Read more</a>
+                                <a href="/single-news">Read more</a>
                             </div> 
                         </div>
 
@@ -103,7 +103,7 @@
                                     representatives and cyber security.
                                 </p><br>
 
-                                <a href="#">Read more</a>
+                                <a href="/single-news">Read more</a>
                             </div> 
                         </div>
     

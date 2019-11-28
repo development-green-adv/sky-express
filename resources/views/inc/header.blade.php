@@ -81,7 +81,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                {{-- /news --}}
+
                                 <li class="nav-item position-relative">
                                     <a class="nav-link" href="#">News & Events</a><span>|</span>
                                     <div  class="dropdown-menu">
@@ -91,7 +91,7 @@
                                                     <li><a href="/events">Events</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">In The News</a></li>
+                                            <li><a href="/news">In The News</a></li>
                                         </ul>
                                     </div>
                                 </li>

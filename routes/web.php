@@ -166,6 +166,10 @@ Route::get('/all-solutions', function () {
     return view('all-solutions');
 });
 
+Route::get('/single-news', function () {
+    return view('single-news');
+});
+
 
 
 
