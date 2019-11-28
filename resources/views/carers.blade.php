@@ -164,6 +164,31 @@
                     <div class="row">
                         <div class="col-12 text-center">
                             <button class="btn btn-default orange_btn text-uppercase">Open Positions</button>
+
+                                <table class="table table-borderless">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Role</th>
+                                        <th scope="col">Job Family</th>
+                                        <th scope="col">Language</th>
+                                        <th scope="col">Location</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Sales Consultant</td>
+                                        <td>Sales</td>
+                                        <td>Serbian</td>
+                                        <td>Belgrade</td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">ERP Consultant</td>
+                                        <td>IT / Pre-sales</td>
+                                        <td>Serbian</td>
+                                        <td>Belgrade</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
                         </div>
                     </div>
                 </div>

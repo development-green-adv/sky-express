@@ -889,11 +889,16 @@ button.orange_btn:hover {
 }
 
 .career_positions {
-    padding-bottom: 200px;
     background-image: url('../../images/web/sky-bg-pattern.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    padding-bottom: 80px;
+}
+
+.career_positions table {
+    margin-top: 80px;
 }
 
 .carers_life h4{
