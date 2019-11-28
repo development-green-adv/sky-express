@@ -158,6 +158,10 @@ Route::get('/security-scorecard', function () {
     return view('security-scorecard');
 });
 
+Route::get('/all-products', function () {
+    return view('all-products');
+});
+
 
 
 

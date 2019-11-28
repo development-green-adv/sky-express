@@ -21,7 +21,7 @@
         </div>
 
 
-        <div class="container about_desc pen_services">
+        <div class="container about_desc pen_services by-compliance-first-part">
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>By Compliance </h4><br>

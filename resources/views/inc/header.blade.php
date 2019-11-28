@@ -16,7 +16,7 @@
                                     <a class="nav-link" href="#">Products & Solutions</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
-                                            <p>PRODUCTS</p>
+                                            <li><a href="/all-products"><p>PRODUCTS</p></a></li>
                                             <li><a href="/carbon-black">Carbon Black</a></li>
                                             <li><a href="/df-labs">DF Labs</a></li>
                                             <li><a href="/logpoint">Logpoint</a></li>
@@ -29,7 +29,7 @@
                                             {{-- <a href="#">View All</a> --}}
                                         </ul>
                                         <ul class="dropdown-menu-ul">
-                                            <p>SOLUTIONS</p>
+                                            <li><a href="#"><p>SOLUTIONS</p></a></li>
                                             <li class="position-relative"><a href="/by-compliance">By Compliance</a>
                                                 <ul class="dropdown-sub-menu">
                                                     <li><a href="/meeting-gdpr">Meeting GDPR</a></li>
