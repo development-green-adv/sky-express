@@ -25,6 +25,7 @@
         <div class="container cookie_content">
             <div class="row">
                 <div class="col-12">
+                    <div class="text-right mb-4 orange_text"><b>11.28.2019</b></div>
                     <p>
                         This Cookie Policy explains how cookies and similar technologies (collectively, “Cookie(s)”) are used when you visit our Site. A “Site” includes our websites, emails, and other applications owned and operated by Sky Express (the “Company”, “our”, or “us”) as well as any other services that display this Cookie Policy. This policy explains what these technologies are and why they are used, as well as your right to control their use.
                     </p><br>

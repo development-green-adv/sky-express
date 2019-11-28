@@ -112,8 +112,8 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-inline pr-0" href="#">SRP</a> / 
-                                    <a class="nav-link d-inline pl-0 pr-0" href="#">ENG</a>
+                                    <a class="nav-link d-inline pr-0" href="#">SRP</a>
+                                    {{-- <a class="nav-link d-inline pl-0 pr-0" href="#">ENG</a> --}}
                                     <!-- <img class="pb-1" src="{{ asset('images/web/lang-icon.svg') }}" alt=""> -->
                                 </li>
                             </ul>

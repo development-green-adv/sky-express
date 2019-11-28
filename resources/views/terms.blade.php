@@ -25,6 +25,7 @@
         <div class="container cookie_content">
             <div class="row">
                 <div class="col-12">
+                    <div class="text-right mb-4 orange_text"><b>11.28.2019</b></div>
                     <p>
                         The following terms and conditions govern your use of site owned and operated by Sky Express doo. By using this site or downloading any materials from it you agree that you have read and understood these terms and conditions and you agree to be bound by them, and to comply with all applicable laws and regulations regarding use of this site. If you do not agree to these terms and conditions, please do not use this site.
                     </p><br>
