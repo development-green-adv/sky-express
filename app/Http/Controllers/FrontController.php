@@ -23,5 +23,13 @@ class FrontController extends Controller
 
     }
 
+    public function getSingleNews($alias){
+
+        $all = News::all();
+        $data = News::where("alias", "like", $alias)->first();
+        return view("single-news", compact("data", "all"));
+
+    }
+
 
 }
