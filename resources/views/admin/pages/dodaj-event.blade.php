@@ -106,9 +106,20 @@
 
                             <div class="form-group col-12 col-md-6">
                         
-                                <label for="">Vreme</label>
-                                <input class="form-control" type="time" name="time">
+                                <label for="">Vreme od</label>
+                                <input class="form-control" type="time" name="time_from">
         
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="form-group col-12 col-md-6">
+
+                                <label for="">Vreme do</label>
+                                <input class="form-control" type="time" name="time_to">
+
                             </div>
 
                         </div>
