@@ -65,7 +65,7 @@
 
         <div class="container-fluid about_partner_section" style="background-image: url('{{ asset('images/web/aboute-1.jpg') }}');">
             <div class="container">
-                <div class="slider-for">
+                <div class="slider-for slider-about">
                     <div>
                         <img class="img-fluid" src="{{ asset('images/web/carbon.png') }}">
                     </div>

@@ -78,7 +78,7 @@
 
         <div class="container-fluid about_partner_section" style="background-image: url('{{ asset('images/web/aboute-1.jpg') }}'); border-bottom:0px solid #f1592a;">
             <div class="container">
-                <div class="slider-for">
+                <div class="slider-for slider-about">
                     <div>
                         <img class="img-fluid" src="{{ asset('images/web/carbon.png') }}">
                     </div>
@@ -117,7 +117,7 @@
                         </div>
                         <div class="col-12 col-md-3 mb-4 mb-md-0">
                             <h5>QUICK LINKS</h5>
-                            <a href="/about-us">About us</a><br>
+                            <a href="/why-us">Why Us?</a><br>
                             <a href="#">Technical support</a><br>
                             <a href="/news">News</a><br>
                             <a href="/blog">Blog</a><br>
@@ -161,7 +161,6 @@
                             <a href="/terms">Terms & Conditions</a> 
                             <a href="/privacy-policy">Privacy Policy</a>
                             <a href="/cookie-policy">Cookie Policy</a>
-                            <a href="/faq">FAQ</a>
                             <a href="#">Copyright {{ date("Y") }} www.sky-express.rs</a>
                             <a href="#">All right reserved</a>
                             <a target="_blank" href="https://www.green-adv.rs">website development</a>

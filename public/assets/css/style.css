@@ -2586,6 +2586,10 @@ ul.open-systems-first-ul li:last-child {
     /* width: 80%; */
 }
 
+.slider-about div img {
+    width: 80%;
+}
+
 
 @media(min-width: 320px){
 
