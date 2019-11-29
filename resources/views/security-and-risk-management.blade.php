@@ -83,28 +83,28 @@
             <div class="container">
                 <div class="slider-for slider-about">
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/carbon.png') }}">
+                        <a href="/carbon-black"><img class="img-fluid" src="{{ asset('images/web/carbon.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/df.png') }}">
+                        <a href="/df-labs"><img class="img-fluid" src="{{ asset('images/web/df.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/open.png') }}">
+                        <a href="/open-systems"><img class="img-fluid" src="{{ asset('images/web/open.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}">
+                        <a href="/onapsis"><img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}">
+                        <a href="/avast"><img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/eperi.png') }}">
+                        <a href="/eperi"><img class="img-fluid" src="{{ asset('images/web/eperi.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/kerio.png') }}">
+                        <a href="/kerio"><img class="img-fluid" src="{{ asset('images/web/kerio.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/security.png') }}">
+                        <a href="/security-scorecard"><img class="img-fluid" src="{{ asset('images/web/security.png') }}"></a>
                     </div>
                 </div>
             </div>
