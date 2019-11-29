@@ -126,11 +126,11 @@
                         </div>
                         <div class="col-12 col-md-3 mb-4 mb-md-0">
                             <h5>PRODUCTS</h5>
-                            <a href="/carbon-black">Carbon black</a><br>
+                            <a href="/carbon-black">Carbon Black</a><br>
                             <a href="/df-labs">DF Labs</a><br>
                             <a href="/eperi">Eperi</a><br>
                             <a href="/onapsis">Onapsys</a><br>
-                            <a href="/open-systems">Open systems</a><br>
+                            <a href="/open-systems">Open Systems</a><br>
                             <a href="/logpoint">Logpoint</a><br>
                             <a href="/avast">Avast</a><br>
                             <a href="/kerio">Kerio</a><br>

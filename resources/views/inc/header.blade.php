@@ -59,7 +59,7 @@
                                             <p>TEHNICAL SUPPORT</p>
                                             <h5>CONTACT SUPPORT</h5>
                                             <h6>Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6>
-                                            <a href="#">Contact Support</a>
+                                            <a href="/contact">Contact Support</a>
                                         </ul>
                                     </div>
                                 </li>
@@ -76,7 +76,7 @@
                                         <ul class="dropdown-menu-ul">
                                             <p>CAREERS AT SKY EXPREES</p>
                                             <h6>Sky Express is looking for talented individuals who bring a diverse range of experiance and capabilities. View our open positions below to find your next career opportunity with us.</h6>
-                                            <a href="#">Join the team</a>
+                                            <a href="/careers">Join the team</a>
                                         </ul>
                                     </div>
                                 </li>

@@ -125,32 +125,96 @@
         </div>
 
         
-        <div class="container-fluid about_partner_section" style="background-image: url('{{ asset('images/web/aboute-1.jpg') }}'); border-bottom:2px solid #f1592a;">
+        <div class="container-fluid about_partner_section" style="background-image: url('{{ asset('images/web/aboute-1.jpg') }}'); border-bottom:0px solid #f1592a;">
             <div class="container">
-                <div class="slider-for">
+                <div class="slider-for slider-about">
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/carbon.png') }}">
+                        <a href="/carbon-black"><img class="img-fluid" src="{{ asset('images/web/carbon.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/df.png') }}">
+                        <a href="/df-labs"><img class="img-fluid" src="{{ asset('images/web/df.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/open.png') }}">
+                        <a href="/open-systems"><img class="img-fluid" src="{{ asset('images/web/open.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}">
+                        <a href="/onapsis"><img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}">
+                        <a href="/avast"><img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/eperi.png') }}">
+                        <a href="/eperi"><img class="img-fluid" src="{{ asset('images/web/eperi.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/kerio.png') }}">
+                        <a href="/kerio"><img class="img-fluid" src="{{ asset('images/web/kerio.png') }}"></a>
                     </div>
                     <div>
-                        <img class="img-fluid" src="{{ asset('images/web/security.png') }}">
+                        <a href="/security-scorecard"><img class="img-fluid" src="{{ asset('images/web/security.png') }}"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                            <!-- <h5>SKY EXPRESS LOGO</h5> -->
+                            <a class="navbar-brand logo-footer" href="/"><img src="{{ asset('images/web/logo-sky-express.png') }}" alt=""></a>
+                        </div>
+                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                            <h5>QUICK LINKS</h5>
+                            <a href="/why-us">Why Us?</a><br>
+                            <a href="#">Technical support</a><br>
+                            <a href="/news">News</a><br>
+                            <a href="/blog">Blog</a><br>
+                            <a href="/careers">Careers</a><br>
+                            <a href="#">Office locations</a>
+                        </div>
+                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                            <h5>PRODUCTS</h5>
+                            <a href="/carbon-black">Carbon Black</a><br>
+                            <a href="/df-labs">DF Labs</a><br>
+                            <a href="/eperi">Eperi</a><br>
+                            <a href="/onapsis">Onapsys</a><br>
+                            <a href="/open-systems">Open Systems</a><br>
+                            <a href="/logpoint">Logpoint</a><br>
+                            <a href="/avast">Avast</a><br>
+                            <a href="/kerio">Kerio</a><br>
+                            <a href="/security-scorecard">Security Scorecard</a>
+                        </div>
+                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                            <h5>Sky Express d.o.o.</h5>
+                            <p>Work hours:</p>
+                            <p>Monday - Friday</p>
+                            <p>09:00 - 17:00</p>
+                            <br>
+                            <div class="social-icons">
+                                <h5>FOLLOW US</h5>
+                                <a href="https://www.linkedin.com/company/sky-express-it-security-company/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/skyexpressrs/?ref=bookmarks" target="_blank"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid footer_line">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="/terms">Terms & Conditions</a> 
+                            <a href="/privacy-policy">Privacy Policy</a>
+                            <a href="/cookie-policy">Cookie Policy</a>
+                            <a href="#">Copyright {{ date("Y") }} www.sky-express.rs</a>
+                            <a href="#">All right reserved</a>
+                            <a target="_blank" href="https://www.green-adv.rs">website development</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -158,7 +222,7 @@
 
 
 
-    @include("inc/footer")
+    {{-- @include("inc/footer") --}}
 
 
 @endsection
