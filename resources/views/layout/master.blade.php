@@ -32,6 +32,26 @@
     @section('content')
         @show
 
+    <div id="contact-us-right" class="contact-us-right">
+        <p>CONTACT US</p>
+    </div>
+    <div id="contact-us-right-inner" class="contact-us-right-inner">
+        <h4>Get In Touch</h4>
+        <p>We look forward to <br> hearing from you.</p>
+        <a href="/contact">CONTACT US</a>
+    </div>
+
+    <script>
+        
+        $('#contact-us-right').click(function() {
+
+            $('#contact-us-right').toggle('toggle-btn-contact');
+            $('#contact-us-right-inner').toggle('toggle-btn-contact-2');
+            // $('#contact-us-right').css('right', '125px');
+            // $('#contact-us-right-inner').css('display', 'block');
+        });
+
+    </script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 

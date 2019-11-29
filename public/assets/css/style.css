@@ -6,6 +6,7 @@
 
 body{
     overflow-x: hidden;
+    position: relative;
 }
 
 p, h1, h2, h3, h4, h5, h6, a, li{
@@ -22,6 +23,75 @@ p {
 
 .container{
      max-width:1280px;
+}
+
+.contact-us-right {
+    position: absolute;
+    top: 315px;
+    right: calc(0px + -75px);
+    /* right: calc(0px + 125px); */
+    width: 200px;
+    height: 50px;
+    background-color: #08090b;
+    color: #fff;
+    display: flex;
+    transform: rotate(-90deg);
+    text-align: center;
+    border: 1px solid #424345;
+    cursor: pointer;
+}
+
+.contact-us-right p {
+    transform: rotate(0deg);
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    transition: all .3s;
+}
+
+.contact-us-right-inner {
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    right: calc(0px + 0px);
+    height: 200px;
+    width: 200px;
+    background-color: #08090b;
+    color: #fff;
+    display: none;
+    
+    padding: 25px 15px 15px 15px;
+}
+
+.toggle-btn-contact {
+    right: 125px;
+}
+
+.toggle-btn-contact-2 {
+    display: block;
+}
+
+.contact-us-right-inner h4 {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.contact-us-right-inner p {
+    margin-bottom: 10px;
+}
+
+
+.contact-us-right-inner a {
+    border: 1px solid #f1592a;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+
+.contact-us-right p:hover {
+    color: #f1592a;
 }
 
 .container-header {
