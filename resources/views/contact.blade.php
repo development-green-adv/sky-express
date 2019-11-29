@@ -41,7 +41,10 @@
 
                     <div class="contact-page-right pl-5">
                         <h5 class="mb-4">HOW TO REACH US</h5>
-                        <p class="ml-5 mb-4 sky-doo">Sky Express d.o.o</p>
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-11"><p class="mb-4 sky-doo">Sky Express d.o.o</p></div>
+                        </div>
                         <div class="row mb-4">
                             <div class="col-md-1 mt-2">
                                 <img src="{{ asset('images/web/location.svg') }}" alt="">
