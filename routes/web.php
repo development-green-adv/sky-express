@@ -11,6 +11,8 @@
 |
 */
 
+use App\News;
+
 Route::get('/clear-cache', function() {
     Artisan::call('cache:clear');
     Artisan::call('view:clear');
@@ -121,7 +123,8 @@ Route::get('/solutions', function () {
 });
 
 Route::get('/carbon-black', function () {
-    return view('carbon-black');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('carbon-black', compact("data"));
 });
 
 Route::get('/avast', function () {

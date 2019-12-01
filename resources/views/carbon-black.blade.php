@@ -342,33 +342,25 @@
                         <button class="btn btn-default orange_btn">LATEST NEWS</button>
 
                         <div class="row" style="margin-top: 70px;">
-                            <div class="col-12 col-md-4 text-left solutions_item">
-                                <img class="img-fluid" src="{{ asset('images/web/1.png') }}" alt="">
-                                <h6>DFLabs Awarded with Two U.S. Patents for Its Pioneering SOAR technology</h6>
-                                <p style="margin-top: 15px; margin-bottom: 15px;">
-                                    Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
-                                    Response (SOAR) vendor, annouced it has been...
-                                </p>
-                                <a class="link_without" href="#">READ MORE</a>
-                            </div>
-                            <div class="col-12 col-md-4 text-left solutions_item">
-                                <img class="img-fluid" src="{{ asset('images/web/2.png') }}" alt="">
-                                <h6>DFLabs Awarded with Two U.S. Patents for Its Pioneering SOAR technology</h6>
-                                <p style="margin-top: 15px; margin-bottom: 15px;">
-                                    Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
-                                    Response (SOAR) vendor, annouced it has been...
-                                </p>
-                                <a class="link_without" href="#">READ MORE</a>
-                            </div>
-                            <div class="col-12 col-md-4 text-left solutions_item">
-                                <img class="img-fluid" src="{{ asset('images/web/3.png') }}" alt="">
-                                <h6>DFLabs Awarded with Two U.S. Patents for Its Pioneering SOAR technology</h6>
-                                <p style="margin-top: 15px; margin-bottom: 15px;">
-                                    Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
-                                    Response (SOAR) vendor, annouced it has been...
-                                </p>
-                                <a class="link_without" href="#">READ MORE</a>
-                            </div>
+
+                            @if(count($data) > 0)
+                                @foreach($data as $new)
+
+                                    <div class="col-12 col-md-4 text-left solutions_item">
+                                        <div style="height: 200px; overflow: hidden;">
+                                            <img class="img-fluid" src="/public/images_gallery/{{ $new->main_image }}">
+                                        </div>
+
+                                        <h6>{{ mb_strlen($new->title) > 78 ? mb_substr($new->title,0,78)."..." : $new->title  }}</h6>
+
+                                        {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
+
+                                        <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                    </div>
+                                    
+                                @endforeach
+                            @endif
+
                         </div>
 
                     </div>

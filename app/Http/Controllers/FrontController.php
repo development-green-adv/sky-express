@@ -11,7 +11,7 @@ class FrontController extends Controller
     
     public function getHomePage(){
 
-        $data = News::where("status", 1)->orderBy("id", "asc")->limit(3)->get();
+        $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
         return view("welcome", compact("data"));
 
     }
