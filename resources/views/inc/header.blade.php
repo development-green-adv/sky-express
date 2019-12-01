@@ -32,7 +32,8 @@
                                             <li><a href="/all-solutions"><p>SOLUTIONS</p></a></li>
                                             <li class="position-relative"><a href="/by-compliance">By Compliance</a>
                                                 <ul class="dropdown-sub-menu">
-                                                    <li><a href="/meeting-gdpr">Meeting GDPR</a></li>
+                                                    <li class="invisible"><a href="/all-solutions"><p>SOLUTIONS</p></a></li>
+                                                    <li class="gdpr-link"><a href="/meeting-gdpr">Meeting GDPR</a></li>
                                                     <li><a href="/iso-27001">ISO 27001</a></li>
                                                     <li><a href="/sap-security-guidelines">SAP Security Guidelines</a></li>
                                                 </ul>
@@ -56,9 +57,9 @@
                                             <li><a href="/security-consulting">Security Consulting</a></li>
                                         </ul>
                                         <ul class="dropdown-menu-ul">
-                                            <p>TEHNICAL SUPPORT</p>
-                                            <h5>CONTACT SUPPORT</h5>
-                                            <h6>Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6>
+                                            <p class="mb-4">TEHNICAL SUPPORT</p>
+                                            <h5 class="mb-4">CONTACT SUPPORT</h5>
+                                            <h6 class="mb-3">Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6>
                                             <a href="/contact">Contact Support</a>
                                         </ul>
                                     </div>
@@ -75,7 +76,7 @@
                                             {{-- <li><a href="#">Office Locations</a></li> --}}
                                         </ul>
                                         <ul class="dropdown-menu-ul">
-                                            <p>CAREERS AT SKY EXPREES</p>
+                                            <p class="mb-4">CAREERS AT SKY EXPREES</p>
                                             <h6>Sky Express is looking for talented individuals who bring a diverse range of experiance and capabilities. View our open positions below to find your next career opportunity with us.</h6>
                                             <a href="/careers">Join the team</a>
                                         </ul>
