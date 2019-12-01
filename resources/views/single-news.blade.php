@@ -54,7 +54,7 @@
                     <div class="row" style="margin-top: 40px;">
 
                         <div class="col-12 col-md-7">
-                            <img class="img-fluid" src="/public/images_gallery/{{ $data->main_image }}"><br><br>
+                            <img class="img-fluid w-100" src="/public/images_gallery/{{ $data->main_image }}"><br><br>
 
                             {!! $data->text !!}
 

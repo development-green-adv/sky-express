@@ -86,6 +86,11 @@
                         misconfigurations and vulnerabilities.</p>
                     <p class="pl-5 mb-4 orange-text">Ensure your SAP and Oracle EBS applications are 
                         safeguarded from internal and external cyber threats and make sure they achieve the highest possible application performance.</p>
+                    <div class="text-center mt-5">
+                        <div class="get-btn">
+                            <a href="/contact">GET IN TOUCH <span class="d-block">with our experts</span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

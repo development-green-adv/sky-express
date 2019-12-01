@@ -93,7 +93,7 @@
                 </div>
             
 
-                <div class="col-12 offset-md-1 col-md-2 newss newss-right">
+                <div class="col-12 pl-5 col-md-3 newss newss-right">
                     <h4>Previous news</h4><br><br>
 
                     @if(count($dataRight) > 0)

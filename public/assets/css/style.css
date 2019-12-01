@@ -882,7 +882,7 @@ button.orange_btn:hover {
 }
 
 .about_headline h1{
-    color: #f1592a;
+    color: #fff;
     font-size: 1.8rem;
 }
 
@@ -1251,6 +1251,26 @@ button.orange_btn:hover {
 
 }
 
+.get-btn {
+    background-color: #f1592a;
+    display: inline-block;
+    text-align: center;
+}
+
+.get-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    padding: 2px 75px;
+    transition: all .4s;
+}
+
+.get-btn a:hover {
+    background-color: #08090b;
+    color: #f1592c;
+}
+
 .experts_pen-left .get-btn a {
     text-decoration: none;
     color: #fff;
@@ -1269,6 +1289,12 @@ button.orange_btn:hover {
     display: block;
     font-size: 25px;
     margin-top: -10px;
+}
+
+.get-btn a span {
+    display: block;
+    font-size: 25px;
+    margin-top: -10px; 
 }
 
 

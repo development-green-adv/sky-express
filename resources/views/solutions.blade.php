@@ -50,6 +50,11 @@
                         Sky Express provides advanced solutions and services to fit different industry requirements. Our mission is to ensure the security and integrity of data in all aspects 
                         of business areas such as education, health, state administration, military, police and many others.
                     </p>
+                    <div class="text-center mt-5">
+                        <div class="get-btn">
+                            <a href="/contact">GET IN TOUCH <span class="d-block">with our experts</span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -45,6 +45,11 @@
                         management – everything from the consent to 
                         collect and process information, to the “right to be deleted”.</p>
                     <h5 class="orange_text">For more information on how Sky Express can help you meet GDPR compliance, contact our Security Expert.</h5>
+                    <div class="text-center mt-5">
+                        <div class="get-btn">
+                            <a href="/contact">GET IN TOUCH <span class="d-block">with our experts</span></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
