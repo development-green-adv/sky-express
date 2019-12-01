@@ -4,6 +4,27 @@
 
 @section("style")
 
+    <style>
+
+        .pagination{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .page-link {
+            border: none !important;
+            font-size: 25px;
+            margin-top: 30px;
+        }
+
+        .page-item.active .page-link{
+            background-color: transparent;
+            font-size: 25px !important;
+            color: #f36f46 !important;
+        }
+
+    </style>
+
 @endsection
 
 @section("content")
@@ -36,7 +57,7 @@
 
                                 <div class="col-12 col-md-6 newss">
                                     <div style="width: 100%; height: 200px; overflow: hidden;">
-                                        <img style="width: 100%;" class="img-fluid" src="images_gallery/{{ $news->main_image }}">
+                                        <img style="width: 100%;" class="img-fluid" src="/public/images_gallery/{{ $news->main_image }}">
                                     </div>
                                     
                                     <div class="news_item">
@@ -51,15 +72,23 @@
                                         </h5>
                                         <br>
 
-                                        {!! mb_strlen($news->text) > 500 ? mb_substr($news->text,0,500)."..." : $news->text !!}
+                                            {!! mb_strlen($news->text) > 500 ? mb_substr($news->text,0,500)."..." : $news->text !!}
+
+                                        <br><br>
+                                        <a href="/single-news/{{ $news->alias }}">Read more</a>
+                                        
                                     </div>
-                                    <a href="/single-news/{{ $news->alias }}">Read more</a>
+                                    
                                 </div> 
 
                             @endforeach
                         
                         @endif
-                    
+                            
+                        <div class="col-12 col-md-12 text-center">
+                            {!! $data->render() !!}
+                        </div>
+                        
                     </div>   
                 </div>
             
@@ -67,11 +96,11 @@
                 <div class="col-12 offset-md-1 col-md-2 newss newss-right">
                     <h4>Previous news</h4><br><br>
 
-                    @if(count($data) > 0)
+                    @if(count($dataRight) > 0)
 
-                        @foreach($data as $news)
+                        @foreach($dataRight as $right)
 
-                            <a href="#">{{ $news->title }}</a><br><br>
+                            <a href="/single-news/{{ $right->alias }}">{{ $right->alias }}</a><br><br>
 
                         @endforeach
 

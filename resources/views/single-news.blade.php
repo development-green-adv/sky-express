@@ -2,6 +2,23 @@
 
 @section("title", "Single blog | Sky Express")
 
+@section("style")
+
+    <style>
+        
+        .cc{
+            color: #000;
+            transition: all .3s;
+        }
+
+        .cc:hover{
+            color: #f1592a;
+        }
+        
+    </style>
+
+@endsection
+
 @section("content")
 
     @include("inc/header")
@@ -52,11 +69,17 @@
 
                                 @foreach($all as $allNews)
 
-                                    <div class="row" style="margin-top: 0px;">
-                                        <div class="col-12 col-md-8">
-                                            <a style="color: #000; text-decoration: none; margin-bottom: 10px;" href="/single-news/{{ $allNews->alias }}">{{ $allNews->title }}</a>
-                                        </div>
-                                    </div><br>
+                                    @if($alia != $allNews->alias)
+
+                                        <div class="row" style="margin-top: 0px;">
+                                            <div class="col-12 col-md-8">
+                                                <a class="cc" style="color: #000; text-decoration: none; margin-bottom: 10px;" href="/single-news/{{ $allNews->alias }}">{{ $allNews->title }}</a>
+                                            </div>
+                                        </div><br>
+
+                                    @else
+
+                                    @endif
 
                                 @endforeach
 

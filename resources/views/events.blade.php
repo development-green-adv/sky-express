@@ -42,9 +42,9 @@
 
         <div class="container events_section">
 
-            @if(count($data) > 0)
+            @if(count($dataNext) > 0)
 
-                @foreach($data as $event)
+                @foreach($dataNext as $event)
 
                     @if($event->b_n == "sledi")
 
@@ -54,6 +54,60 @@
                                 <?php 
 
                                     $ev = explode("-", $event->date);
+
+                                    switch ($ev[1]) {
+
+                                        case '1':
+                                            $ev[1] = "Jan";
+                                            break;
+
+                                        case '2':
+                                            $ev[1] = "Feb";
+                                            break;
+                                        
+                                        case '3':
+                                            $ev[1] = "Mar";
+                                            break;
+
+                                        case '4':
+                                            $ev[1] = "Apr";
+                                            break;
+
+                                        case '5':
+                                            $ev[1] = "Maj";
+                                            break;
+
+                                        case '6':
+                                            $ev[1] = "Jun";
+                                            break;
+                                        
+                                        case '7';
+                                            $ev[1] = "Jul";
+                                            break;
+
+                                        case '8';
+                                            $ev[1] = "Aug";
+                                            break;
+
+                                        case '9':
+                                            $ev[1] = "Sep";
+                                            break;
+
+                                        case '10':
+                                            $ev[1] = "Oct";
+                                            break;
+
+                                        case '11':
+                                            $ev[1] = "Nov";
+                                            break;
+
+                                        case '12':
+                                            $ev[1] = "Dec";
+                                        
+                                        default:
+                                            # code...
+                                            break;
+                                    }
 
                                 ?>
 
@@ -67,7 +121,7 @@
 
                                     {!! $event->text !!}
 
-                                    <br>
+                                    <br><br><br>
                                     <a class="org_link" target="_blank" href="{{ $event->link }}">VIEW DETAILS</a>
                                 </div>
                                 <div class="col-12 col-md-7">
@@ -92,9 +146,9 @@
             </div>
 
 
-            @if(count($data) > 0)
+            @if(count($dataPrevious) > 0)
 
-                @foreach($data as $event)
+                @foreach($dataPrevious as $event)
 
                     @if($event->b_n == "prosao")
 
@@ -104,6 +158,60 @@
                                 <?php 
 
                                     $ev = explode("-", $event->date);
+
+                                    switch ($ev[1]) {
+
+                                        case '1':
+                                            $ev[1] = "Jan";
+                                            break;
+
+                                        case '2':
+                                            $ev[1] = "Feb";
+                                            break;
+
+                                        case '3':
+                                            $ev[1] = "Mar";
+                                            break;
+
+                                        case '4':
+                                            $ev[1] = "Apr";
+                                            break;
+
+                                        case '5':
+                                            $ev[1] = "Maj";
+                                            break;
+
+                                        case '6':
+                                            $ev[1] = "Jun";
+                                            break;
+
+                                        case '7';
+                                            $ev[1] = "Jul";
+                                            break;
+
+                                        case '8';
+                                            $ev[1] = "Aug";
+                                            break;
+
+                                        case '9':
+                                            $ev[1] = "Sep";
+                                            break;
+
+                                        case '10':
+                                            $ev[1] = "Oct";
+                                            break;
+
+                                        case '11':
+                                            $ev[1] = "Nov";
+                                            break;
+
+                                        case '12':
+                                            $ev[1] = "Dec";
+
+                                        default:
+                                            # code...
+                                            break;
+                                        }
 
                                 ?>
 
@@ -118,7 +226,7 @@
                                     {!! $event->text !!}
 
                                     <br>
-                                    <a target="_blank" href="{{ $event->link }}">VIEW DETAILS</a>
+                                    @if($event->link != "") <a target="_blank" href="{{ $event->link }}">VIEW DETAILS</a> @else @endif
                                 </div>
                                 <div class="col-12 col-md-7">
                                     @if($event->main_image != "") <img class="img-fluid" src="images_gallery/{{ $event->main_image }}"> @else <img class="img-fluid" src="{{ asset('images/web/single-news-image.png') }}"> @endif

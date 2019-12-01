@@ -18,9 +18,7 @@ Route::get('/clear-cache', function() {
     Artisan::call('route:clear');
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "FrontController@getHomePage");
 
 Route::get('/about-us', function () {
     return view('about-us');
