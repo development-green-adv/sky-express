@@ -77,17 +77,17 @@
                             <div class="col-12 col-md-4 solutions_item solutions_item-overlay">
                                 <img class="img-fluid" src="{{ asset('images/web/1.png') }}" alt="">
                                 <div class="white-overlay"></div>
-                                <h4>By Compliance</h4>
+                                <a style="background-color: transparent !important; margin-top: -30px;" href="/by-compliance"><h4>By Compliance</h4></a>
                             </div>
                             <div class="col-12 col-md-4 solutions_item solutions_item-overlay">
-                                <img class="img-fluid" src="{{ asset('images/web/2.png') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('images/web/2.png') }}" alt=""></a>
                                 <div class="white-overlay"></div>
-                                <h4>Industry Solutions</h4>
+                                <a style="background-color: transparent !important; margin-top: -30px;" href="/solutions"><h4>Industry Solutions</h4></a>
                             </div>
                             <div class="col-12 col-md-4 solutions_item solutions_item-overlay">
                                 <img class="img-fluid" src="{{ asset('images/web/3.png') }}" alt="">
                                 <div class="white-overlay"></div>
-                                <h4>Security & <br> Risk Management</h4>
+                                <a style="background-color: transparent !important; margin-top: -30px;" href="/security-and-risk-management"><h4>Security & <br> Risk Management</h4></a>
                             </div>
                         </div>
 
@@ -166,7 +166,7 @@
                                     All the solutions we distribute, either directly or through sales partners, are recognized, proven and tailored to fit market requirements.
                             </p>
                             <br><br><br><br><br>
-                            <a class="btn btn-default" href="#">Learn more</a>
+                            <a class="btn btn-default" href="/about-us">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -332,35 +332,26 @@
                     <div class="col-12 text-center">
                         <button class="btn btn-default orange_btn">LATEST NEWS</button>
                         <div class="row" style="margin-top: 70px;">
-                            <div class="col-12 col-md-4 text-left solutions_item">
-                                <img class="img-fluid" src="{{ asset('images/web/1.png') }}">
+                            
 
-                                <h6>DFLabs Awarded with Two U.S. Pat- <br> ents for Its Pioneering SOAR technology</h6>
+                            @if(count($data) > 0)
+                                @foreach($data as $new)
 
-                                <p style="margin-top: 15px; margin-bottom: 15px;">
-                                    Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
-                                    Response (SOAR) vendor, annouced it has been...
-                                </p>
-                                <a class="link_without" href="#">READ MORE</a>
-                            </div>
-                            <div class="col-12 col-md-4 text-left solutions_item">
-                                <img class="img-fluid" src="{{ asset('images/web/2.png') }}">
-                                <h6>DFLabs Awarded with Two U.S. Pat- <br> ents for Its Pioneering SOAR technology</h6>
-                                <p style="margin-top: 15px; margin-bottom: 15px;">
-                                    Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
-                                    Response (SOAR) vendor, annouced it has been...
-                                </p>
-                                <a class="link_without" href="#">READ MORE</a>
-                            </div>
-                            <div class="col-12 col-md-4 text-left solutions_item">
-                                <img class="img-fluid" src="{{ asset('images/web/3.png') }}">
-                                <h6>DFLabs Awarded with Two U.S. Pat- <br> ents for Its Pioneering SOAR technology</h6>
-                                <p style="margin-top: 15px; margin-bottom: 15px;">
-                                    Sky Express partner company, DFLabs, the award-winning Security Orchestration. Automation and
-                                    Response (SOAR) vendor, annouced it has been...
-                                </p>
-                                <a class="link_without" href="#">READ MORE</a>
-                            </div>
+                                    <div class="col-12 col-md-4 text-left solutions_item">
+                                        <div style="height: 200px; overflow: hidden;">
+                                            <img class="img-fluid" src="/public/images_gallery/{{ $new->main_image }}">
+                                        </div>
+
+                                        <h6>{{ mb_strlen($new->title) > 78 ? mb_substr($new->title,0,78)."..." : $new->title  }}</h6>
+
+                                        {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
+
+                                        <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                    </div>
+                                    
+                                @endforeach
+                            @endif
+                        
                         </div>
 
                     </div>
