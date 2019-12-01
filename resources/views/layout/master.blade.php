@@ -45,10 +45,10 @@
         
         $('#contact-us-right').click(function() {
 
-            $('#contact-us-right').toggle('toggle-btn-contact');
-            $('#contact-us-right-inner').toggle('toggle-btn-contact-2');
-            // $('#contact-us-right').css('right', '125px');
-            // $('#contact-us-right-inner').css('display', 'block');
+            //$('#contact-us-right').toggle('toggle-btn-contact');
+            //$('#contact-us-right-inner').toggle('toggle-btn-contact-2');
+             $('#contact-us-right').css('right', '125px');
+             $('#contact-us-right-inner').css('display', 'block');
         });
 
     </script>

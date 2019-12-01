@@ -161,7 +161,7 @@
                         <div class="kerio-card">
                             <div class="kerio-card-content text-center pt-4">
                                 <h6 class="orange_text">Kerio<strong>Connect</strong></h6>
-                                <p class="my-2">MILE SERVER + MORE</p>
+                                <p class="my-2">MAIL SERVER + MORE</p>
                                 <p class="px-5">Enterprise-class email, 
                                         calendars, contacts, tasks, 
                                         & instant messaging 

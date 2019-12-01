@@ -175,14 +175,14 @@
                                       </tr>
                                     </thead>
                                     <tbody>
-                                      <tr>
-                                        <td scope="row">Sales Consultant</td>
+                                      <tr>Sales Consultant_Sky Express job.pdf
+                                      <td scope="row"><a href="{{ asset('assets/pdf/Sales Consultant_Sky Express job.pdf') }}" target="_blank">Sales Consultant</a></td>
                                         <td>Sales</td>
                                         <td>Serbian</td>
                                         <td>Belgrade</td>
                                       </tr>
                                       <tr>
-                                        <td scope="row">ERP Consultant</td>
+                                        <td scope="row"><a href="{{ asset('assets/pdf/ERP Consultant_Sky Express job.pdf') }}" target="_blank">ERP Consultant</a> </td>
                                         <td>IT / Pre-sales</td>
                                         <td>Serbian</td>
                                         <td>Belgrade</td>
@@ -198,3 +198,4 @@
         @include("inc/footer")
 
 @endsection
+

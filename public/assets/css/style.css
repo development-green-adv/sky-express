@@ -47,6 +47,7 @@ p {
     height: 100%;
     padding-top: 15px;
     transition: all .3s;
+    font-style: initial;
 }
 
 .contact-us-right-inner {
@@ -74,10 +75,12 @@ p {
 .contact-us-right-inner h4 {
     margin-bottom: 20px;
     font-weight: 300;
+    font-style: initial;
 }
 
 .contact-us-right-inner p {
     margin-bottom: 10px;
+    font-style: initial;
 }
 
 
@@ -87,6 +90,7 @@ p {
     text-decoration: none;
     padding: 5px 10px;
     font-size: 14px;
+    font-style: initial;
 }
 
 
@@ -184,8 +188,8 @@ p {
 }
 
 .dropdown-menu ul li a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     padding-right: 10px;
     text-decoration: none;
     display: block;
@@ -898,7 +902,7 @@ button.orange_btn:hover {
 
 
 .about_mission .first-pharagraf {
-    padding-right: 36%;
+    padding-right: 15%;
     font-weight: 400;
     font-size: 22px;
 }
@@ -969,6 +973,15 @@ button.orange_btn:hover {
 
 .career_positions table {
     margin-top: 80px;
+}
+
+.career_positions table td a {
+    text-decoration: none;
+    color: #08090b;
+}
+
+.career_positions table td a:hover {
+    color: #f1592a;
 }
 
 .carers_life h4{
@@ -2375,7 +2388,7 @@ ul.open-systems-first-ul li:last-child {
 }
 
 .all-products h3 {
-    font-size: 25px;
+    font-size: 20px;
     color: #231f20;
     margin-bottom: 60px;
 }

@@ -28,21 +28,16 @@
                 </div>
                 <div class="col-12 col-md-5 mb-4 mb-md-0">
                     <h4>Your trusted Cybersecurity Partner</h4><br>
-                    <p class="pr-5">
+                    {{-- <p class="pr-5">
                         <b>Sky Express</b> is an exclusive distributor of <br class="d-none d-md-block">
                         advanced cybersecurity solutions and services <br class="d-none d-md-block"> in the
                         field of information security, covering SEE market.
-                    </p>
+                    </p> --}}
+                    <p class="pr-5"><b>Sky Express</b> is an exclusive distributor of advanced cybersecurity solutions and services in the field of information security for Serbian market, but also Bosnia and Herzegovina, Montenegro, and North Macedonia.</p>
                 </div>
                 <div class="col-12 col-md-7">
                     <p class="pl-0 pl-md-5">
-                        As an integral part of the Switzerland’s <b> Evolution Equity
-                        Partners</b> fund, Sky Express utilizes unique opportunity to
-                        communicate with world-leading cyber security solution
-                        providers, keeping the pace with latest trends and
-                        developments in the field of information security and
-                        establishing reliable relations with customers, based on
-                        quality and trust.
+                        As partner company of the Switzerland’s <b>Evolution Equity Partners</b> fund, Sky Express utilizes unique opportunity to communicate with world-leading cyber security solution providers, keeping the pace with latest trends and developments in the field of information security and establishing reliable relations with customers, based on quality and trust.
                     </p><br>
                     <p class="pl-0 pl-md-5"> 
                         Sky Express offers a very selective range of
