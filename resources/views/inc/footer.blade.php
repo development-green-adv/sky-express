@@ -19,7 +19,7 @@
                 <div class="col-12 col-md-3 mb-4 mb-md-0">
                     <h5>QUICK LINKS</h5>
                     <a href="/why-us">Why us?</a><br>
-                    <a href="#">Technical support</a><br>
+                    <a href="/contact">Technical support</a><br>
                     <a href="/news">News</a><br>
                     <a href="/blog">Blog</a><br>
                     <a href="/careers">Careers</a><br>

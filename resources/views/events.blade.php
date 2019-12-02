@@ -9,13 +9,15 @@
         .event-card a{
             background-color: transparent !important;
             padding: 0px !important;
-            color: #000 !important;
+            color: #f1592a !important;
         }    
 
         .org_link{
             background-color: #f1592a !important;
             color: #fff !important;
         }
+
+        
 
     </style>
 

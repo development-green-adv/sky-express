@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-5 mb-4">
-                            Connect, communicate, and collaborate without compromise — Kerio’s award-winning products are tailored to the needs of small and mid-sized businesses.
+                            Connect, communicate, and collaborate without compromise — Kerio’s award-winning products are tailored to the needs of small and <br> mid-sized businesses.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
@@ -164,7 +164,7 @@
                                 <p class="my-2">MAIL SERVER + MORE</p>
                                 <p class="px-5">Enterprise-class email, 
                                         calendars, contacts, tasks, 
-                                        & instant messaging 
+                                        & instant <br> messaging 
                                         - wherever you are</p>
                             </div>
                             <img class="pt-2" src="{{ asset('images/web/kario-card-icon.png') }}" alt="">

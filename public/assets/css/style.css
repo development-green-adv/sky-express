@@ -18,6 +18,10 @@ p {
     font-weight: 500;
 }
 
+#view-details-btn {
+    color: #f1592a !important;
+}
+
 .orange-text {
     color: #f1592a !important;
 }

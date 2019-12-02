@@ -31,9 +31,9 @@
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-5 mb-4">
-                            Avast is one of the largest security companies in the world using next-gen technologies to fight cyber 
-                            attacks in real time. It combines artificial intelligence with human ingenuity to create the world‘s largest 
-                            cybersecurity network protecting people and 
+                            Avast is one of the largest security companies in the world using <br> next-gen technologies to fight cyber
+                            attacks in real time. It combines artificial intelligence with human ingenuity to create the world‘s largest
+                            cybersecurity network protecting people and
                             businesses from attacks online.
                     </p>
                     <p class="pr-5  mb-4">
@@ -41,22 +41,22 @@
                     </p>
                     
                     <p class="pr-5">
-                            The company’s threat detection network is among the most advanced in the world, using machine learning and artificial intelligence technologies to detect and stop threats in real time. Avast creates top-ranked 
+                            The company’s threat detection network is among the most advanced in the world, using machine learning and artificial intelligence technologies to detect and stop threats in real time. Avast creates <br> top-ranked 
                             digital security products for Mobile, PC, and Mac.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
-                        <h4 class="mb-4">Business Security</h4>
-                        <p class="mb-5">
+                        <h4 class="mb-4 pl-5">Business Security</h4>
+                        <p class="mb-5 pl-5">
                             Safeguarding businesses with top-rated endpoint 
                             protection and managed services solutions, including on-premise and cloud security as well as remote 
                             management and monitoring tools and services.
                         </p>
                         
-                        <h4 class="mb-4">Avast is focused on:</h4>
+                        <h4 class="mb-4 pl-5">Avast is focused on:</h4>
 
-                        <ul class="avast-first-part-ul">
+                        <ul class="avast-first-part-ul pl-5">
                             <li class="mb-4">
                                 <div class="row">
                                     <div class="col-md-1">
