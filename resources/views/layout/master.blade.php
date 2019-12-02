@@ -32,24 +32,40 @@
     @section('content')
         @show
 
-    <div id="contact-us-right" class="contact-us-right">
-        <p>CONTACT US</p>
-    </div>
-    <div id="contact-us-right-inner" class="contact-us-right-inner">
-        <h4>Get In Touch</h4>
-        <p>We look forward to <br> hearing from you.</p>
-        <a href="/contact">CONTACT US</a>
+    <div class="contact-us-right-wrapper">
+        <div id="contact-us-right" onclick="moveContact(this)" br="0" class="contact-us-right">
+            <p>CONTACT US</p>
+        </div>
+        <div id="contact-us-right-inner" class="contact-us-right-inner">
+            <h4>Get In Touch</h4>
+            <p>We look forward to <br> hearing from you.</p>
+            <a href="/contact">CONTACT US</a>
+        </div>
     </div>
 
     <script>
-        
-        $('#contact-us-right').click(function() {
 
-            //$('#contact-us-right').toggle('toggle-btn-contact');
-            //$('#contact-us-right-inner').toggle('toggle-btn-contact-2');
-             $('#contact-us-right').css('right', '125px');
-             $('#contact-us-right-inner').css('display', 'block');
+        $(document).ready(function(){
+        $("#contact-us-right").click(function(){
+            $(this).toggleClass('toggle-btn-contact');
+            $("#contact-us-right-inner").toggle();
         });
+        });
+        // function moveContact(el){
+
+        //     $('#contact-us-right').css('right', '125px');
+        //     $('#contact-us-right-inner').css('display', 'block');
+
+        // }
+
+
+
+        // $('#contact-us-right').click(function() {
+            
+        //     $('#contact-us-right').css('right', '125px');
+        //     $('#contact-us-right-inner').css('display', 'block');
+            
+        // });
 
     </script>
 
