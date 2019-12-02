@@ -23,7 +23,8 @@ Route::get('/clear-cache', function() {
 Route::get('/', "FrontController@getHomePage");
 
 Route::get('/about-us', function () {
-    return view('about-us');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('about-us', compact("data"));
 });
 
 Route::get('/careers', function () {
@@ -55,31 +56,38 @@ Route::get('/single-blog', function () {
 });
 
 Route::get('/pen-testing', function () {
-    return view('pen-testing');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('pen-testing', compact("data"));
 });
 
 Route::get('/security-consulting', function () {
-    return view('security-consulting');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('security-consulting', compact("data"));
 });
 
 Route::get('/security-awareness-planning', function () {
-    return view('security-awareness-planning');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('security-awareness-planning', compact("data"));
 });
 
 Route::get('/security-analysis', function () {
-    return view('security-analysis');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('security-analysis', compact("data"));
 });
 
 Route::get('/compliance-analysis', function () {
-    return view('compliance-analysis');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('compliance-analysis', compact("data"));
 });
 
 Route::get('/managed-security-services', function () {
-    return view('managed-security-services');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('managed-security-services', compact("data"));
 });
 
 Route::get('/information-security-management-system', function () {
-    return view('information-security-management-system');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('information-security-management-system', compact("data"));
 });
 
 Route::get('/contact', function () {
@@ -87,7 +95,8 @@ Route::get('/contact', function () {
 });
 
 Route::get('/df-labs', function () {
-    return view('df-labs');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('df-labs', compact("data"));
 });
 
 Route::get('/news', 'FrontController@getNews');
@@ -128,31 +137,38 @@ Route::get('/carbon-black', function () {
 });
 
 Route::get('/avast', function () {
-    return view('avast');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('avast', compact("data"));
 });
 
 Route::get('/eperi', function () {
-    return view('eperi');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('eperi', compact("data"));
 });
 
 Route::get('/kerio', function () {
-    return view('kerio');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('kerio', compact("data"));
 });
 
 Route::get('/logpoint', function () {
-    return view('logpoint');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('logpoint', compact("data"));
 });
 
 Route::get('/onapsis', function () {
-    return view('onapsis');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('onapsis', compact("data"));
 });
 
 Route::get('/open-systems', function () {
-    return view('open-systems');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('open-systems', compact("data"));
 });
 
 Route::get('/security-scorecard', function () {
-    return view('security-scorecard');
+    $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
+    return view('security-scorecard', compact("data"));
 });
 
 Route::get('/all-products', function () {
@@ -209,18 +225,6 @@ Route::get("/admin/lista-pozicija", "AdminController@listPozicija")->middleware(
 Route::get("/admin/izmeni-poziciju/{id}", "AdminController@getUpdatePoziciju")->middleware("auth");
 Route::post("/admin/izmeni-poziciju", "AdminController@updatePoziciju")->middleware("auth");
 Route::get("/admin/obrisi-poziciju/{id}", "AdminController@deletePoziciju")->middleware("auth");
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
