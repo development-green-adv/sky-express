@@ -175,7 +175,7 @@
                                       </tr>
                                     </thead>
                                     <tbody>
-                                      <tr>Sales Consultant_Sky Express job.pdf
+                                      <tr>
                                       <td scope="row"><a href="{{ asset('assets/pdf/Sales Consultant_Sky Express job.pdf') }}" target="_blank">Sales Consultant</a></td>
                                         <td>Sales</td>
                                         <td>Serbian</td>
