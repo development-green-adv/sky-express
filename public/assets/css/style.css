@@ -17,6 +17,30 @@ p, h1, h2, h3, h4, h5, h6, a, li{
 p {
     font-weight: 500;
 }
+.all-products-links a {display: none; width: 81px; height: 111px;}
+.all-products-links a#carbon-black-link {
+    display: block;
+    position: absolute;
+    left: calc(50% - 20px);
+    width: 81px;
+    height: 111px;
+
+}
+
+.all-products-links a#df-labs-link {
+    display: block;
+    position: absolute;
+    left: calc(50% + 101px);
+    top: 177px;
+
+}
+
+.all-products-links a#open-systems-link {
+    display: block;
+    position: absolute;
+    left: calc(50% + 101px);
+    top: 177px;
+}
 
 #view-details-btn {
     color: #f1592a !important;

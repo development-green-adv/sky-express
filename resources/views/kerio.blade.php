@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-5 mb-4">
-                            Connect, communicate, and collaborate without compromise — Kerio’s award-winning products are tailored to the needs of small and <br> mid-sized businesses.
+                            Connect, communicate, and collaborate without <br> compromise — Kerio’s award-winning products are tailored to the needs of small and mid-sized businesses.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
