@@ -147,7 +147,7 @@
                                 </p>
                             <p class="mb-4">Next-generation firewall</p>
                             <p  class="mb-4">Preserve the integrity of your servers with deep packet 
-                                    inspection and advanced network routing 
+                                    inspection and advanced network routing <br>
                                     capabilities -- including simultaneous IPv4 and IPv6 
                                     support. Create inbound and outbound traffic policies, 
                                     restricting communication by specific URL, application, traffic type, content category and time of day.</p>
