@@ -70,6 +70,11 @@
                             <p class="text-white pl-5 pr-5">Sky Express provides security solutions that are 
                                 unobtrusive, cost effective and deliver actual business value in terms of improved process efficiency,greater transparency, and increased confidence to you, your 
                                 auditors and your regulators. </p>
+                            <div class="text-center mt-5">
+                                <div class="get-btn">
+                                    <a href="/contact">GET IN TOUCH <span class="d-block">with our experts</span></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

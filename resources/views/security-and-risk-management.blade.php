@@ -67,6 +67,11 @@
                         <div class="text-center">
                             <p>Sky Express can analyze overall security posture of your organization, identify gaps and reduce <br> identified cyber risks.</p>
                         </div>
+                        <div class="text-center mt-5">
+                                <div class="get-btn">
+                                    <a href="/contact">GET IN TOUCH <span class="d-block">with our experts</span></a>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>

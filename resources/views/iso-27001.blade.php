@@ -36,7 +36,16 @@
                         The standard defines how to maintain an 
                         information security management system in order to ensure confidentiality, integrity and availability of information.
                     </p>
-                    <h5 class="mb-4 pr-5">ISO 27001 will help reduce information security and data protection risks to your organization</h5>
+                    {{-- <h5 class="mb-4 pr-5">ISO 27001 will help reduce information security and data protection risks to your organization</h5> --}}
+                    <h5 class="mb-4">Are you ISO 27001 compliant?</h5>
+                    <p class="mb-4">At Sky Express, we offer compliance analysis with 
+                        regulations like ISO 2700, GDPR, PCI DSS, etc. to ensure that your company is operating within the relevant laws and 
+                        regulations.</p>
+                    <div class="text-center mt-5">
+                            <div class="get-btn">
+                                <a href="/contact">GET IN TOUCH <span class="d-block">with our experts</span></a>
+                            </div>
+                        </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
@@ -61,10 +70,11 @@
                     </ul>
                     <p class="pl-5 mb-4">The standard is especially suitable where the protection of information is critical, such as in the banking, financial, health, public and IT sectors. The standard is also applicable to organisations which manage high volumes of data, or 
                         information on behalf of other organisations such as data centres and IT outsourcing companies.</p>
-                    <h5 class="mb-4 pl-5">Are you ISO 27001 compliant?</h5>
+                    {{-- <h5 class="mb-4 pl-5">Are you ISO 27001 compliant?</h5>
                     <p class="pl-5 mb-4">At Sky Express, we offer compliance analysis with 
                         regulations like ISO 2700, GDPR, PCI DSS, etc. to ensure that your company is operating within the relevant laws and 
-                        regulations.</p>
+                        regulations.</p> --}}
+                    <h5 class="mb-4 pr-5 pl-5">ISO 27001 will help reduce information security and data protection risks to your organization</h5>
                 </div>
             </div>
         </div>
