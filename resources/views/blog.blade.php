@@ -36,8 +36,10 @@
                     </div>
 
                     <div class="row" style="margin-top: 50px;">
-
-                        <div class="col-12 col-md-4 blog_item" style="margin-top: 40px;">
+                        <div class="col-12 col-md-12">  
+                            <h5><b>Currently we don't have active blogs</b></h5>
+                        </div>
+                        <!--<div class="col-12 col-md-4 blog_item" style="margin-top: 40px;">
                             <div class="card" style="width: 18rem;">
                                 <img class="img-fluid" src="{{ asset('images/web/network.jpg') }}" class="card-img-top">
                                 <div class="card-body">
@@ -96,7 +98,7 @@
                                     <a href="/single-blog" style="color: #f1592a;">Read blog</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
 
                     </div>
 
