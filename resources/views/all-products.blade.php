@@ -31,7 +31,7 @@
                             proven and tailored to fit market requirements.</h3>
                             <a id="carbon-black-link" href="/carbon-black"></a>
                             <a id="df-labs-link" href="/df-labs"></a>
-                            <a id="open-systems-link" href="#">open systems</a>
+                            {{-- <a id="open-systems-link" href="#">open systems</a> --}}
                             <a href="#">onapsis</a>
                             <a href="#">logpoint</a>
                             <a href="#">eperi</a>
