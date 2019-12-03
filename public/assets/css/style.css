@@ -3184,3 +3184,17 @@ ul.open-systems-first-ul li:last-child {
 
 /* SECURITY ANALISIS */
 
+@media(max-width: 768px) {
+    .solutions-second-left ul li, .solutions-second-right ul li {
+        font-size: 18px;
+    }
+
+    .experts_pen-right img {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .experts_pen-left h1 {
+        margin-bottom: 100px;
+    }
+}

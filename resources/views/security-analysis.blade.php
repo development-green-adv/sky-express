@@ -56,31 +56,36 @@
             </div>
         </div>
 
-        <div class="container-fluid benefites_pen-testing">
+        <div class=" benefites_pen-testing">
             <div class="benefites_pen-testing-overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3>Our specialties are:</h3>
-                        <ul>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Security management;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Threat analysis and risk assessment;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> IT Security;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Incident management;</li>
-                        </ul>
+                        <div class="solutions-second-left">
+                            <h3>Our specialties are:</h3>
+                            <ul>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Security management;</div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Threat analysis and risk assessment;</div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">IT Security;</div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Incident management;</div></div></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <h3 class="invisible">Benefitsof Penetration Testing</h3>
-                        <ul>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Enhancement of company's security;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Overview of the Security Level;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Improvement of security awareness;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Testing of escalation scenarios;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Design and introduction of security quidelines;</li>
-                        </ul>
+                        <div class="solutions-second-right">
+                            <ul>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11"> Enhancement of company's security;</div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Overview of the Security Level;</div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11"> Improvement of security awareness;</div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Testing of escalation scenarios;</div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""> </div><div class="col-10 col-md-11">Design and introduction of security <span>quidelines;</span></div></div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </div>
 
 
