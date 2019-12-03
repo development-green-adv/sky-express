@@ -36,17 +36,17 @@
                     <h6>
                         No industry is immune from security issues. 
                     </h6><br>
-                    <p class="pr-5">
+                    <p class="pr-0 pr-md-5">
                         The world is becoming ever more digitized and connected, from personal devices to complex systems in industry. Billions of inteligent devices and 
                         machines generate and exchange massive amounts of data. Using these vast amounts of data to make inteligent decisions and to create
                         value is crucial. But with the increased use of data, the vulnerability increases, too.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
-                    <h5 class="orange_text pl-5">
+                    <h5 class="orange_text pl-0 pl-md-5 mt-4 mt-md-0">
                         Looking for industry Specific Cyber Security?
                     </h5><br>
-                    <p class="pl-5">
+                    <p class="pl-0 pl-md-5">
                         Sky Express provides advanced solutions and services to fit different industry requirements. Our mission is to ensure the security and integrity of data in all aspects 
                         of business areas such as education, health, state administration, military, police and many others.
                     </p>

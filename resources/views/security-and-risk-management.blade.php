@@ -25,21 +25,21 @@
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>Security and Risk Management</h4><br>
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 pr-md-5 mb-4">
                         Risk is a crucial element in all our lives. In every action we plan to take in our personal and 
                         professional lives, we need to analyze the risks 
                         associated with it. From a cyber security 
                         perspective, industries such as energy, healthcare, banking, insurance, retail, etc., involves a lot of risks which impedes the adoption of technology and which needs to be effectively managed.  
                     </p>
-                    <p class="pr-5 mb-4 orange-text">
+                    <p class="pr-0 pr-md-5 mb-4 orange-text">
                         Cyber risk commonly refers to any risk of financial loss, disruption or damage to the reputation of an organization resulting from the failure of its 
                         information technology systems. 
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">Whether you’re a small business or a multi-million euros corporation, cybercrime could be lurking right around the corner. In fact, more small businesses are being targeted by cyber criminals than you might imagine, and without the right preventative measures in place, yours could be next.</p>
-                    <p class="pl-5 mb-4">Risk comes from all sides. Determined, malicious 
+                    <p class="pl-0 pl-md-5 mb-4">Whether you’re a small business or a multi-million euros corporation, cybercrime could be lurking right around the corner. In fact, more small businesses are being targeted by cyber criminals than you might imagine, and without the right preventative measures in place, yours could be next.</p>
+                    <p class="pl-0 pl-md-5 mb-4">Risk comes from all sides. Determined, malicious 
                         “outsiders.” Careless or disgruntled “insiders.” Either one can wreak havoc since anyone who gains possession of them to control organization resources, disable security systems, and access vast amounts of sensitive data. 
                         Unmanaged privileged access is the common vulnerability in both cases.</p>
                 </div>

@@ -3109,3 +3109,26 @@ ul.open-systems-first-ul li:last-child {
         margin-bottom: 30px;
     }
 } 
+
+
+/* BY COMPLIANCE */
+
+@media(max-width: 768px) {
+    .by-com-first-right h4 {
+        display: none;
+    }
+    
+    .get-btn a {
+        font-size: 20px;
+    }
+
+    .get-btn a span {
+        font-size: 16px;
+    }
+
+    .by-compliance-third-part-images .col-md-4 {
+        margin-bottom: 80px;
+    }
+
+
+}
