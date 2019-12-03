@@ -21,52 +21,54 @@
         </div>
 
 
-        <div class="container about_desc open-systems-first-page">
-            <div class="row">
-                <div class="col-12 mb-5">
-                    <img style="width:300px;" src="{{ asset('images/web/open-systems-page-logo.png') }}" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-12  col-md-6">
-                        <div class="row">
-                            <div class="col-12 mb-4">
-                                <h4>Leading Managed Security Service Provider</h4><br>
+        <div class="container-fluid about_desc open-systems-first-page">
+            <div class="container">
+                    <div class="row">
+                            <div class="col-12 mb-5">
+                                <img class="open-systems-page-logo" src="{{ asset('images/web/open-systems-page-logo.png') }}" alt="">
                             </div>
-                            <div class="col-12 mb-4 mb-md-0">
-                                <p class="mb-4 pr-5">
-                                    With assured security, AI-assisted automation, and expert management that free valuable IT resources, Open Systems delivers the visibility, flexibility, and control you want with the performance, simplicity, and security you absolutely need.
-                                </p>
-                                <p class="mb-4 pr-5">
-                                    More than 80% of all network problems are proactively detected and ticketed by AI-based automated monitoring technology, so our experts are free to focus on resolving them quickly. By effectively combining human and machine intelligence, 90% of all tickets are resolved without customer intervention.
-                                </p>
+            
+                            <div class="row">
+                                <div class="col-12  col-md-6">
+                                    <div class="row">
+                                        <div class="col-12 mb-4">
+                                            <h4>Leading Managed Security Service Provider</h4><br>
+                                        </div>
+                                        <div class="col-12 mb-4 mb-md-0">
+                                            <p class="mb-4 pr-0 pr-md-5">
+                                                With assured security, AI-assisted automation, and expert management that free valuable IT resources, Open Systems delivers the visibility, flexibility, and control you want with the performance, simplicity, and security you absolutely need.
+                                            </p>
+                                            <p class="mb-4 pr-0 pr-md-5">
+                                                More than 80% of all network problems are proactively detected and ticketed by AI-based automated monitoring technology, so our experts are free to focus on resolving them quickly. By effectively combining human and machine intelligence, 90% of all tickets are resolved without customer intervention.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="df-labs-right-first-part">
+                                        <h4 class="invisible">Leading Managed Security Service Provider</h4><br class="d-none d-md-block"><br class="d-none d-md-block">
+                                        <ul class="open-systems-first-ul">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-2 col-md-1">
+                                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                                    </div>
+                                                    <div class="col-10 col-md-11"><p>Open Systems Delivers All the Performance and Protection You’ll Need</p></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-2 col-md-1">
+                                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                                    </div>
+                                                    <div class="col-10 col-md-11"><p>Remove the competitive disadvantage of vulnerability to cyber attack</p></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="df-labs-right-first-part">
-                            <h4 class="invisible">Leading Managed Security Service Provider</h4><br><br>
-                            <ul class="open-systems-first-ul">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-md-1">
-                                            <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                        </div>
-                                        <div class="col-md-11"><p>Open Systems Delivers All the Performance and Protection You’ll Need</p></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row">
-                                        <div class="col-md-1">
-                                            <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                        </div>
-                                        <div class="col-md-11"><p>Remove the competitive disadvantage of vulnerability to cyber attack</p></div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         
@@ -102,7 +104,7 @@
             </div>
         </div>
 
-        <div class="container-fluid avast-third-part eperi-third-part open-system-third-part">
+        <div class="avast-third-part eperi-third-part open-system-third-part">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">

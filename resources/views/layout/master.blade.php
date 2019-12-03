@@ -13,6 +13,8 @@
     <script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('lib/bootstrap/js/bootstrap.min.js') }}"></script>
 
+    {{-- <script src="{{ asset('assets/image-map/js/jquery.maphilight.min') }}"></script> --}}
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="icon" href=" {{ asset('images/web/android-icon-36x36.png') }} ">

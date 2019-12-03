@@ -25,7 +25,7 @@
                                 <br>
                                 <h3 data-aos="fade-right">DEFEND YOUR ORGANIZATION AGAINST CYBER THREATS</h3>
                                 <br><br>
-                                <a class="orange_link" data-aos="fade-up" href="/contact">Contact our team</a>
+                                <a class="orange_link slider-btn-home" data-aos="fade-up" href="/contact">Contact our team</a>
                             </div>
 
                             <div class="col-12 pb-3" data-aos="fade-up">
@@ -34,7 +34,7 @@
                                 <br>
                                 <h3>SELECTIVE RANGE OF COMPLEMENTAL, COMPATIBLE AND APPLICABLE SOLUTIONS</h3>
                                 <br><br>
-                                <a class="orange_link" href="/all-products">Discover more</a>
+                                <a class="orange_link  slider-btn-home" href="/all-products">Discover more</a>
                             </div>
 
                             <div class="col-12 pb-3" data-aos="fade-up">
@@ -43,7 +43,7 @@
                                 <br>
                                 <h3>HIGHLY QUALIFIED AND EXPERIENCED CYBERSECURITY PROFESSIONALS </h3>
                                 <br><br>
-                                <a class="orange_link" href="/why-us">Learn more</a>
+                                <a class="orange_link  slider-btn-home" href="/why-us">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -383,11 +383,11 @@
 
                                 <p class="mb-5">Sky Express d.o.o</p>
 
-                                <div class="row">
-                                    <div class="col-md-1 mt-2">
+                                <div class="row mb-3 mb-md-0">
+                                    <div class="col-2 col-sm-1 col-md-1 mt-2">
                                         <img src="{{ asset('images/web/location.svg') }}" alt="">
                                     </div>
-                                    <div class="col-md-11">
+                                    <div class="col-10 col-sm-11 col-md-11 location-div">
                                         <p>Bulevar Milutina Milankovića 11A <br>
                                         1107, Belgrade, Serbia
                                         </p>
@@ -415,7 +415,7 @@
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
 
-                        <form>
+                        <form class="form-home-page">
                             <input type="text" placeholder="First name">
                             <input type="email" placeholder="email">
                             <textarea  placeholder="Type your message here..."></textarea>

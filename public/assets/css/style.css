@@ -17,7 +17,8 @@ p, h1, h2, h3, h4, h5, h6, a, li{
 p {
     font-weight: 500;
 }
-.all-products-links a {display: none; width: 81px; height: 111px;}
+
+/* .all-products-links a {display: none; width: 81px; height: 111px;}
 .all-products-links a#carbon-black-link {
     display: block;
     position: absolute;
@@ -40,7 +41,7 @@ p {
     position: absolute;
     left: calc(50% + 101px);
     top: 177px;
-}
+} */
 
 #view-details-btn {
     color: #f1592a !important;
@@ -1990,6 +1991,10 @@ button.orange_btn:hover {
 
 /* CARBON BLACK */
 
+.carbon-black-logo-img {
+    width: 400px;
+}
+
 .carbon-black-first-part {
     background-image: none;
 }
@@ -2255,6 +2260,10 @@ h6.eperi-gateway-title {
 
 /* LOGPOINT */
 
+.logpoint-page-logo {
+    width: 300px;
+}
+
 .logpoint-first-part {
     background-image: none;
 }
@@ -2365,6 +2374,10 @@ ul.onapsis-second-part-ul li p {
 }
 
 /* OPEN SYSTEMS */
+
+.open-systems-page-logo {
+    width: 300px;
+}
 
 .open-systems-first-page {
     background-image: none;
@@ -2690,12 +2703,6 @@ ul.open-systems-first-ul li:last-child {
     }
 }
 
-@media(min-width: 993px) and (max-width: 1318px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        font-size: 12px;
-    }
-}
-
 /* SLIDER */
 
 #slick-slider {
@@ -2706,7 +2713,8 @@ ul.open-systems-first-ul li:last-child {
 }
 
 #slider-showcase {
-    width: 60%;
+    /* width: 60%; */
+    width: 100%;
     height: auto;
 }
 
@@ -2757,5 +2765,265 @@ ul.open-systems-first-ul li:last-child {
         display: block;
     }
 
+}
+
+
+@media(min-width: 993px) and (max-width: 1318px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 1177px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 30px;
+    }
+}
+
+@media(max-width: 1130px) {
+    .nav-item span {
+        display: none;
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 1091px) {
+/*     
+    #navbarNavDropdown {
+        padding-top: 100px;
+    } */
+
+    .navbar-brand img {
+        width: 100px;
+    }
+}
+
+
+@media(max-width: 1350px) {
+    .video_section .slider-showcase h1 {
+        font-size: 30px;
+    }
+    .video_section .slider-showcase h2 {
+        font-size: 25px;
+    }
+
+    .slider-btn-home {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 768px) {
+    .orange_btn {
+        width: 100%;
+    }
+}
+
+@media(max-width: 530px) {
+    .form-home-page {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 407px) {
+    .contact-form-top p {
+        font-size: 14px;
+    }
+
+    .contact-form-top-middle ul li a {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 500px) {
+    .contact-form-top-middle ul {
+        padding-left: 0px;
+    }
+
+    .location-div {
+        padding-left: 0px;
+    }
+
+    .location-div p {
+        margin-left: -10px;
+    }
+
+}
+
+@media(max-width: 360px) {
+    .contact-form-top-middle ul {
+        padding-left: 0px;
+    }
+
+    .location-div p {
+        margin-left: 0px;
+    }
+}
+
+/* WHY US */ 
+
+@media(max-width: 992px) {
+    .why-us-page-cert {
+        flex-direction: column;
+    }
+
+    .why-us-page-cert .why-us-page-cert-card {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    .why-us-second-part {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+/* CONTACT */
+
+@media(max-width: 768px) {
+    .contact-page-left form button {
+        font-size: 18px;
+    }
+
+    .contact-page-left {
+        margin-bottom: 40px;
+    }
+
+    .location-contact-page p {
+        font-size: 15px;
+    }
+
+    .phone-email-contact-page li a {
+        font-size: 15px;
+    }
+    
+}
+
+@media(max-width: 414px) {
+    .location-contact-page {
+        margin-left: -17px;
+    }
+}
+
+/* CAREERS */
+
+@media(max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}
+
+
+/* CARBON BLACK */
+
+@media(max-width: 500px) {
+    .carbon-black-logo-img {
+        width: 100%;
+    }
+
+    .carbon-black-third-part-right h3 {
+        display: none;
+    }
+
+    .carbon-black-sixth-part-right ul {
+        padding-left: 0;
+    }
+
+    .carbon-black-fifth-part-image h2 {
+        display: none;
+    }
+}
+
+/* DF LABS */
+
+@media(max-width: 328px) {
+    .df-labs-page-logo {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .df-labs-right-first-part ul {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 1070px) {
+    .df-labs-second-part-right img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 992px) {
+
+    .df-labs-third-part {
+        flex-direction: column;
+    }
+
+    .df-labs-third-part-card {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media(max-width: 992px) {
+    .df-labs-fourth-part-right ul {
+        padding-left: 0;
+    }
+
+    .df-labs-sixth-part-middle-left div, .df-labs-sixth-part-middle-right div {
+        text-align: center;
+    }
+}
+
+/* LOGPOINT */
+
+
+@media(max-width: 350px) {
+    .logpoint-page-logo {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .logpoint-cards-wrapper {
+        margin-top: 80px;
+    }
+
+    .logpoint-third-card {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .logpoint-third-card img, .logpoint-third-card p{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+/* ONAPSIS */
+
+@media(max-width: 768px) {
+    .onapsis-second-part h3 {
+        padding-left: 0;
+    }
+    .onapsis-second-part-card-wrapper .col-md-4{
+        margin-bottom: 80px;
+    }
+}
+
+/* OPEN SYSTEMS */
+@media(max-width: 367px) {
+    .open-systems-page-logo {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .df-labs-right-first-part h4 {
+        display: none;
+    }
 }
 

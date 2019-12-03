@@ -27,15 +27,15 @@
                     <img style="width: 300px;" src="{{ asset('images/web/onapsis-page-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 mb-4">
-                    <h4>Cyber security and compliance solutions for cloud and on-premise ERP <br> 
+                    <h4>Cyber security and compliance solutions for cloud and on-premise ERP <br class="d-none d-md-block"> 
                             and mission critical business applications</h4><br>
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 pr-md-5 mb-4">
                         Critical business applications such as SAP®, SAP S/4HANA® and Oracle® EBS are the engines that drive the world’s economy. 
                         It’s critical that these applications are stable, secure against internal and external cyber threats and compliant with regulations. 
                     </p>
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 pr-md-5 mb-4">
                         That’s why more than 300 of the world’s leading 
                         organizations protect their most critical 
                         systems with Onapsis change assurance and 
@@ -45,14 +45,14 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
-                        <h5 class="pl-5 mb-4">ONAPSIS PROTECTS</h5>
+                        <h5 class="pl-0 pl-md-5 mb-4">ONAPSIS PROTECTS</h5>
 
-                        <h5 class="pl-5 mb-2 orange_text">SAP</h5>
-                        <p class="pl-5 mb-4">Inspect, control and secure SAP NetWeaver®, ABAP®, J2EE, SAP HANA® and S/4HANA® platforms to ensure stability and performance. Continuously monitor your SAP infrastructure whether on-prem or in a private, public or hybrid cloud environment.
+                        <h5 class="pl-0 pl-md-5 mb-2 orange_text">SAP</h5>
+                        <p class="pl-0 pl-md-5 mb-4">Inspect, control and secure SAP NetWeaver®, ABAP®, J2EE, SAP HANA® and S/4HANA® platforms to ensure stability and performance. Continuously monitor your SAP infrastructure whether on-prem or in a private, public or hybrid cloud environment.
                             </p>
 
-                        <h5 class="pl-5 mb-2 orange_text">ORACLE E-BUSINESS SUITE</h5>
-                        <p class="pl-5">Automate monitoring and protection to gain visibility into blind spots and get actionable information to keep these systems compliant and protected </p>
+                        <h5 class="pl-0 pl-md-5 mb-2 orange_text">ORACLE E-BUSINESS SUITE</h5>
+                        <p class="pl-0 pl-md-5">Automate monitoring and protection to gain visibility into blind spots and get actionable information to keep these systems compliant and protected </p>
                     </div>
                 </div>
             </div>
@@ -74,92 +74,104 @@
                     <div class="col-12">
                         <h3>ONAPSIS SECURITY PLATFORM</h3>
                     </div>
+                </div>
+
+                <div class="row">
                     <div class="col-12">
-                            <ul class="onapsis-second-part-ul">
-                                <li class="mb-3">
-                                        <div class="row">
-                                            <div class="col-md-1">
-                                                <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
-                                            </div>
-                                            <div class="col-md-11">
-                                                <p class="orange_text">AUTOMATE</p>
-                                            </div>
-                                        </div>
-                                </li>
-                                <li class="mb-3">
-                                    <div class="row">
-                                        <div class="col-md-1">
-                                            <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                        </div>
-                                        <div class="col-md-11">
-                                            <p>Continuous vulnerability scanning and alerts proactively identify and bring attention to misconfigurations and outside threats.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="mb-3">
-                                    <div class="row">
-                                        <div class="col-md-1">
-                                            <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                        </div>
-                                        <div class="col-md-11">
-                                            <p>Improve work flows to reduce resources committed to audit and compliance data tasks.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="mb-3">
-                                    <div class="row">
-                                        <div class="col-md-1">
-                                            <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                        </div>
-                                        <div class="col-md-11">
-                                            <p>Compensating controls help satisfy regulators and maintain compliance between audits.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
                             <ul class="onapsis-second-part-ul">
                                     <li class="mb-3">
                                             <div class="row">
-                                                <div class="col-md-1">
+                                                <div class="col-2 col-md-1">
                                                     <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
                                                 </div>
-                                                <div class="col-md-11">
-                                                    <p class="orange_text">INTEGRATE</p>
+                                                <div class="col-10 col-md-11">
+                                                    <p class="orange_text">AUTOMATE</p>
                                                 </div>
                                             </div>
                                     </li>
                                     <li class="mb-3">
                                         <div class="row">
-                                            <div class="col-md-1">
+                                            <div class="col-2 col-md-1">
                                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                             </div>
-                                            <div class="col-md-11">
-                                                <p>Implementation and customer success services accelerate the maturity of an enterprise’s cybersecurity organization.</p>
+                                            <div class="col-10 col-md-11">
+                                                <p>Continuous vulnerability scanning and alerts proactively identify and bring attention to misconfigurations and outside threats.</p>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="mb-3">
                                         <div class="row">
-                                            <div class="col-md-1">
+                                            <div class="col-2 col-md-1">
                                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                             </div>
-                                            <div class="col-md-11">
-                                                <p>Custom data links feed your existing SIEM tools, including Splunk and QRadar, to provide a unified view of risk.</p>
+                                            <div class="col-10 col-md-11">
+                                                <p>Improve work flows to reduce resources committed to audit and compliance data tasks.</p>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="mb-3">
                                         <div class="row">
-                                            <div class="col-md-1">
+                                            <div class="col-2 col-md-1">
                                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                             </div>
-                                            <div class="col-md-11">
-                                                <p>SAP-certified add-on assures BASIS teams of system compatibility.</p>
+                                            <div class="col-10 col-md-11">
+                                                <p>Compensating controls help satisfy regulators and maintain compliance between audits.</p>
                                             </div>
                                         </div>
                                     </li>
                             </ul>
-                            <ul class="onapsis-second-part-ul">
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-12">
+                                <ul class="onapsis-second-part-ul">
+                                        <li class="mb-3">
+                                                <div class="row">
+                                                    <div class="col-2 col-md-1">
+                                                        <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
+                                                    </div>
+                                                    <div class="col-10 col-md-11">
+                                                        <p class="orange_text">INTEGRATE</p>
+                                                    </div>
+                                                </div>
+                                        </li>
+                                        <li class="mb-3">
+                                            <div class="row">
+                                                <div class="col-2 col-md-1">
+                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                                </div>
+                                                <div class="col-10 col-md-11">
+                                                    <p>Implementation and customer success services accelerate the maturity of an enterprise’s cybersecurity organization.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="mb-3">
+                                            <div class="row">
+                                                <div class="col-2 col-md-1">
+                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                                </div>
+                                                <div class="col-10 col-md-11">
+                                                    <p>Custom data links feed your existing SIEM tools, including Splunk and QRadar, to provide a unified view of risk.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="mb-3">
+                                            <div class="row">
+                                                <div class="col-2 col-md-1">
+                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                                </div>
+                                                <div class="col-10 col-md-11">
+                                                    <p>SAP-certified add-on assures BASIS teams of system compatibility.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                                <ul class="onapsis-second-part-ul">
                                         <li class="mb-3">
                                                 <div class="row">
                                                     <div class="col-md-1">
@@ -199,10 +211,13 @@
                                                     <p>More than 300 SAP and Oracle vulnerabilities reported to date.</p>
                                                 </div>
                                             </div>
-                                 </li>
+                                        </li>
                             </ul>
+                        </div>
                     </div>
-                </div>
+    
+
+
                 <div class="row onapsis-second-part-card-wrapper">
                     <div class="col-md-4">
                         <div class="onapsis-second-part-card text-center">

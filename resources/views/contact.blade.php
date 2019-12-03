@@ -29,7 +29,7 @@
                     <div class="contact-page-left">
                         <form>
                             <input type="text" placeholder="First name" required>
-                            <input type="email" placeholder="email" required>
+                            <input type="email" placeholder="Email" required>
                             <textarea cols="30" rows="10" placeholder="Type your message here..." required></textarea>
                             <button type="submit">Submit</button>
                         </form>
@@ -39,23 +39,23 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-5">
 
-                    <div class="contact-page-right pl-5">
+                    <div class="contact-page-right pl-0 pl-md-5">
                         <h5 class="mb-4">HOW TO REACH US</h5>
                         <div class="row">
                             <div class="col-md-1"></div>
                             <div class="col-md-11"><p class="mb-4 sky-doo">Sky Express d.o.o</p></div>
                         </div>
                         <div class="row mb-4">
-                            <div class="col-md-1 mt-2">
+                            <div class="col-2 col-md-1 mt-2">
                                 <img src="{{ asset('images/web/location.svg') }}" alt="">
                             </div>
-                            <div class="col-md-11">
+                            <div class="col-10 col-md-11 location-contact-page">
                                 <p>Bulevar Milutina Milankovića 11A <br>
                                 1107, Belgrade, Serbia
                                 </p>
                             </div>
                         </div>
-                        <ul>
+                        <ul class="phone-email-contact-page">
                             <li class="mb-3 mb-4"><img class="mr-3"  src="{{ asset('images/web/phone.svg') }}"> <a class="mb-3" href="tel:+381646414461"> +381 64 641 44 61</a></li>
                             <li class="mb-4"> <img class="mr-3" src="{{ asset('images/web/mail.svg') }}"><a href="mailto:prodaja@sky-express.rs">sales@sky-express.rs</a></li>
                         </ul>

@@ -25,17 +25,17 @@
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>Deep Expretise</h4><br>
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 pr-md-5 mb-4">
                         Highly qualified and experienced, our cybersecurity professionals embrace strong foundations in all 
                         aspects of information technology and 
                         cybersecurity.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
-                    <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">They bring together decades of experience in cybersecurity and significant experience from leading companies in 
+                    <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br class="d-none d-md-block">
+                    <p class="pl-0 pl-md-5 mb-4">They bring together decades of experience in cybersecurity and significant experience from leading companies in 
                     diverse global markets and various areas, such as finance, military, health, insurance, government agencies and the intelligence community.</p>
-                    <p class="pl-5 mb-4">Our professionals have spent major part of their careers protecting some of the most sensitive data and systems in different companies and are now ready to apply 
+                    <p class="pl-0 pl-md-5 mb-4">Our professionals have spent major part of their careers protecting some of the most sensitive data and systems in different companies and are now ready to apply 
                     collected experience and expertise in defending your 
                     business and data.</p>
                 </div>
@@ -54,9 +54,9 @@
             <!-- <div class="benefites_pen-testing-overlay"></div> -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-4 mb-md-0">
                         <div class="why-us-second-part-left">
-                            <p class="pr-5">Our team members also serve as trusted 
+                            <p class="pr-0 pr-md-5">Our team members also serve as trusted 
                                 advisors, providing clients with expert 
                                 support protecting networks, computers, 
                                 applications and data from all kinds 
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="why-us-second-part-right">
-                            <p class="pl-5">Our employees are certified professionals holding OSCE, OSCP, CISSP, MBCI, CTSPA, CISA and other relevant certificates covering all aspects of information security.</p>
+                            <p class="pr-0 pr-md-5">Our employees are certified professionals holding OSCE, OSCP, CISSP, MBCI, CTSPA, CISA and other relevant certificates covering all aspects of information security.</p>
 
                         </div>
                     </div>

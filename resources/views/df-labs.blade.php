@@ -24,11 +24,11 @@
         <div class="container about_desc df-labs-first-part">
             <div class="row">
                 <div class="col-12 mb-5">
-                    <img src="{{ asset('images/web/dflabs-logo.png') }}" alt="">
+                    <img class="df-labs-page-logo" src="{{ asset('images/web/dflabs-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 col-md-5 mb-4 mb-md-0">
-                    <h4>Automated incident response and <br> orchestration security software </h4><br>
-                    <p class="pr-5">
+                    <h4>Automated incident response and <br class="d-none d-md-block"> orchestration security software </h4><br>
+                    <p class="pr-0 pr-md-5">
                         DFLabs is the pioneer in Security Orchestration, Automation and Response (SOAR) Technology,
                         leveraging your existing security products to dramatically reduce the response and remediation gap
                         caused by limited resources and the increasing volume of threats and incidents.
@@ -37,10 +37,10 @@
                 <div class="col-12 col-md-7">
                     <div class="df-labs-right-first-part">
                         <ul>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Minimize Incident resolution time by 90%</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Improve Analyst efficiency by 80%</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Increase handled incidents 300%</li>
-                            <li><img class="mr-4 invisible" src="{{ asset('images/web/correct.svg') }}" alt="">Automated, Orchestrate & Measure</li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Minimize Incident resolution time by 90%</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Improve Analyst efficiency by 80%</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Increase handled incidents 300%</div></div></li>
+                            <li><img class="mr-0 mr-md-4 invisible d-none d-md-block " src="{{ asset('images/web/correct.svg') }}" alt="">Automated, Orchestrate & Measure</li>
                         </ul>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="df-labs-second-part-right text-center">
+                        <div class="df-labs-second-part-right text-center mt-5 mt-md-0">
                             <img src="{{ asset('images/web/df-labs-second-part-right.png') }}" alt="">
                         </div>
                     </div>
@@ -132,24 +132,24 @@
                     <div class="col-md-6">
                         <div class="df-labs-fourth-part-left">
                             <h2 class="mb-5">Key Features & Capabilities <br> The DFLabs Difference</h2>
-                            <p class="mb-4 pr-5">IncMan includes many bidirectional integrations with a variety of product categories including SIEM,
+                            <p class="mb-4 pr-0 pr-md-5">IncMan includes many bidirectional integrations with a variety of product categories including SIEM,
                                 network defense, endpoint protection and threat intelligence, chosen to broaden the orchestration
                                 and automation capabilities of companies.</p>
-                            <p class="pr-5">IncMan has been designed with industry standards, regulatory frameworks and best practices in
+                            <p class="pr-0 pr-md-5 mb-5 mb-md-0 ">IncMan has been designed with industry standards, regulatory frameworks and best practices in
                                 mind, supporting ISO, GDPR, NIST and SEC regulations amongst others.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="df-labs-fourth-part-right">
                             <ul>
-                                <li class="mb-4"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Automation & Orchestration</li>
-                                <li class="mb-4"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Hunting & Investigation</li>
-                                <li class="mb-4"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Incident Management</li>
-                                <li class="mb-4"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Flexible Integrations & Event Parsing</li>
-                                <li class="mb-4"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Forensic Evidence Management</li>
-                                <li class="mb-4"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Reporting & KPIs</li>
-                                <li class="mb-4"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Knowledge Transfer & Machine Learning</li>
-                                <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Community Portal & Community Edition</li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Automation & Orchestration</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Hunting & Investigation</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Incident Management</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11"> Flexible Integrations & Event Parsing</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Forensic Evidence Management</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Reporting & KPIs</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Knowledge Transfer & Machine Learning</div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Community Portal & Community Edition</div></div></li>
                             </ul>
                         </div>
                     </div>
@@ -170,20 +170,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="df-labs-fifth-part-left">
-                            <h2 class="mb-4">Complete and Comprehensive <br> SOAR Platform</h2>
-                            <p class="mb-4 pr-5">DFLabs covers the entire spectrum of security orchestration, automation and response components
+                        <div class="df-labs-fifth-part-left mb-5 mb-md-0">
+                            <h2 class="mb-4">Complete and Comprehensive <br class="d-none d-md-block"> SOAR Platform</h2>
+                            <p class="mb-4 pr-0 pr-md-5">DFLabs covers the entire spectrum of security orchestration, automation and response components
                                 as outlined by Gartner, with a unique combination of features and capabilities, driven through
                                 continuous improvement and innovation.</p>
-                            <p class="mb-4 pr-5">IncMan SOAR is the only platform to offer full incident
+                            <p class="mb-4 pr-0 pr-md-5">IncMan SOAR is the only platform to offer full incident
                                 response lifecycle management with machine learning and threat hunting.</p>
-                            <p class=" pr-5">Acting as a force multiplier, it enables security teams to do more with less, empowering security
+                            <p class="pr-0 pr-md-5">Acting as a force multiplier, it enables security teams to do more with less, empowering security
                                 analysts, while ensuring organizations stay one step ahead of any potential threat.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="df-labs-fifth-part-right text-center">
-                            <img src="{{ asset('images/web/df-labs-fifth-part-right.png') }}" alt="">
+                            <img class="w-100" src="{{ asset('images/web/df-labs-fifth-part-right.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -212,13 +212,13 @@
                     <div class="col-md-6">
                         <div class="df-labs-sixth-part-middle-left">
                             <img src="{{ asset('images/web/df-labs-sixth-part-middle-left.png') }}" alt="">
-                            <div><p>Intergrated GDPR incident response and <br>breach notification playbooks</p></div>
+                            <div ><p>Intergrated GDPR incident response and <br class="d-none d-md-block" >breach notification playbooks</p></div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="df-labs-sixth-part-middle-right">
                             <img src="{{ asset('images/web/df-labs-sixth-part-middle-right.png') }}" alt="">
-                            <div><p>Formalized, repeatable and enforceable incident <br> response workflows form GDPR</p></div>
+                            <div><p>Formalized, repeatable and enforceable incident <br class="d-none d-md-block"> response workflows form GDPR</p></div>
                         </div>
                     </div>
                 </div>

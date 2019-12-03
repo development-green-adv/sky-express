@@ -24,18 +24,18 @@
         <div class="container about_desc logpoint-first-part">
             <div class="row">
                 <div class="col-12 mb-5">
-                    <img style="width: 300px;" src="{{ asset('images/web/logpoint-page-logo.png') }}" alt="">
+                    <img class="logpoint-page-logo" src="{{ asset('images/web/logpoint-page-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 mb-4">
                     <h4>Next generation security information and event management platform (SIEM)</h4><br>
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 mr-md-5 mb-4">
                             LogPoint leverages advanced analytics, 
                             accelerated by machine learning, to improve your cybersecurity posture and efficiently 
                             automate relevant responses to both internal and external threats.
                     </p>
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 mr-md-5 mb-4">
                             The LogPoint’s SIEM system is designed from the ground up to be simple, flexible, and 
                             scalable, providing streamlined design, 
                             deployment, and integration tools to open the use of a network security tool up to all 
@@ -45,30 +45,30 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
-                        <h5 class="pl-5 mb-4">The LogPoint system is built on a set <br> of specific tenants:</h5>
+                        <h5 class="pl-0 pl-md-5 mb-4">The LogPoint system is built on a set <br class="d-none d-md-block"> of specific tenants:</h5>
                         <ul class="logpoint-ul-first-part">
                             <li>
                                 <div class="row">
-                                    <div class="col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                    <div class="col-md-11"><p>No company should be limited by the amount of data they can ingest into a SIEM system</p></div>
+                                    <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
+                                    <div class="col-10 col-md-11"><p>No company should be limited by the amount of data they can ingest into a SIEM system</p></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
-                                        <div class="col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-md-11"><p>Simplified architectural principles to enable faster and more efficient software deployments</p></div>
+                                        <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
+                                        <div class="col-10 col-md-11"><p>Simplified architectural principles to enable faster and more efficient software deployments</p></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
-                                    <div class="col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                    <div class="col-md-11"><p>World-class support available 24×7 to help 
+                                    <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
+                                    <div class="col-10 col-md-11"><p>World-class support available 24×7 to help 
                                             customers get the most value from their SIEM system</p></div>
                                 </div>
                             </li>
                         </ul>
 
-                        <h5 class="pl-5 mb-4 orange_text">LogPoint ranked #1 and named Leader 
+                        <h5 class="pl-0 pl-md-5 mb-4 orange_text">LogPoint ranked #1 and named Leader 
                                 in the 2019 SoftwareReviews SIEM Data Quadrant</h5>
                     </div>
                 </div>
@@ -94,34 +94,34 @@
                             <ul class="logpoint-ul-second-part">
                                 <li class="mb-4">
                                     <div class="row">
-                                        <div class="col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-md-11"><p class="pr-5">Rapid analytic insight into incidents across the infrastructure;</p></div>
+                                        <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
+                                        <div class="col-10 col-md-11"><p class="pr-5">Rapid analytic insight into incidents across the infrastructure;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-4">
                                     <div class="row">
-                                            <div class="col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                            <div class="col-md-11"><p class="pr-5">Removed dependencies of specific personnel with restricted system access;</p></div>
+                                            <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
+                                            <div class="col-10  col-md-11"><p class="pr-5">Removed dependencies of specific personnel with restricted system access;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-4">
                                     <div class="row">
-                                        <div class="col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-md-11"><p class="pr-5">Big data analytics for sharp, easy analysis of all issues and 
+                                        <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
+                                        <div class="col-10  col-md-11"><p class="pr-5">Big data analytics for sharp, easy analysis of all issues and 
                                                 incidents related all aspects of information system 
                                                 architecture – network, system, services and applications;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-4">
                                     <div class="row">
-                                        <div class="col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-md-11"><p class="pr-5">Reduction of the number of false positives and eliminating the hassle of maintaining and developing expert rules;</p></div>
+                                        <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
+                                        <div class="col-10  col-md-11"><p class="pr-5">Reduction of the number of false positives and eliminating the hassle of maintaining and developing expert rules;</p></div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="row">
-                                        <div class="col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-md-11"><p class="pr-5">Forensic investigation with the execution of custom 
+                                        <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
+                                        <div class="col-10  col-md-11"><p class="pr-5">Forensic investigation with the execution of custom 
                                                 playbooks should an incident arise.</p></div>
                                     </div>
                                 </li>
@@ -131,10 +131,10 @@
                     <div class="col-md-6">
                         <div class="logpoint-page-second-part-left">
                             <h5 class="invisible mb-5">With LogPoint, you can quickly troubleshoot potential issues via:</h5>
-                            <p class="mb-4 pr-5"><span class="orange_text">Ease of use</span> - Lightning-fast analytics and rich 
+                            <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Ease of use</span> - Lightning-fast analytics and rich 
                                     reporting without requiring an advanced skillset.</p>
-                            <p class="mb-4 pr-5"><span  class="orange_text">Cost management</span> - No extra cost related to the growth of the company’s data volume or how many events per second you receive.</p>
-                            <p class="pr-5"><span  class="orange_text">Unmatched certification</span> - Has EAL 3+ certification. It’s required by NATO and in critical infrastructure organizations like the military, intelligence 
+                            <p class="mb-4 pr-0 pr-md-5"><span  class="orange_text">Cost management</span> - No extra cost related to the growth of the company’s data volume or how many events per second you receive.</p>
+                            <p class="pr-0 pr-md-5"><span  class="orange_text">Unmatched certification</span> - Has EAL 3+ certification. It’s required by NATO and in critical infrastructure organizations like the military, intelligence 
                                     agencies, utility companies and telcos.</p>
                         </div>
                     </div>
