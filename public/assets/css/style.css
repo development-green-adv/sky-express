@@ -1227,8 +1227,9 @@ button.orange_btn:hover {
 }
 
 .benefites_pen-testing {
-    height: 580px;
+    /* height: 580px; */
     padding-top: 150px;
+    padding-bottom: 150px;
     background-image: url('../../images/web/pen-testing-bg-image.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -2508,15 +2509,44 @@ ul.open-systems-first-ul li:last-child {
     padding-bottom: 80px;
 }
 
+.all-solutions-card {
+    border: 2px solid #fff;
+    padding-bottom: 20px;
+}
+
 .all-solutions-card h3{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    padding: 20px;
+}
+
+.all-solutions-card p {
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .all-solutions-card ul li {
     font-size: 25px;
     color: #fff;
     margin-bottom: 20px;
+}
+
+.all-solutions-card ul li a {
+    background: transparent;
+
+}
+
+.all-solutions-card div.delatis-btn {
+    padding-left: 20px;
+}
+
+.all-solutions-card ul li a:hover {
+    background: transparent;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .all-solutions-card ul li:last-child {
@@ -2529,6 +2559,18 @@ ul.open-systems-first-ul li:last-child {
     background-color: #f1592a;
     padding: 5px 15px;
     transition: all .3s;
+}
+
+.delatis-btn a {
+    background: transparent;
+    color: #f1592a;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.delatis-btn a:hover {
+    text-decoration: underline;
+    background: transparent !important;
 }
 
 .all-solutions-card a:hover {
@@ -3132,3 +3174,13 @@ ul.open-systems-first-ul li:last-child {
 
 
 }
+
+/* ALL SOLUTIONS */
+
+.all-solutions-card {
+    margin-bottom: 80px;
+}
+
+
+/* SECURITY ANALISIS */
+
