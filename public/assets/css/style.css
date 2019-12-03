@@ -2114,6 +2114,10 @@ button.orange_btn:hover {
 
 /* AVAST */
 
+.avast-page-logo {
+    width: 300px;
+}
+
 .avast-first-part {
     background-image: none;
 }
@@ -2215,6 +2219,10 @@ h6.eperi-gateway-title {
 }
 
 /* KERIO */
+
+.kerio-page-logo {
+    width:  300px;
+}
 
 .kerio-first-part {
     background-image: none;
@@ -3027,3 +3035,77 @@ ul.open-systems-first-ul li:last-child {
     }
 }
 
+/* EPERI */
+
+@media(max-width: 768px) {
+    .eperi-third-part-card {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .eperi-third-part-card h6 {
+        text-align: center;
+    }
+
+    .eperi-third-part-card p {
+        text-align: center;
+    }
+}
+
+/* AVAST */
+
+@media(max-width: 350px) {
+    .avast-page-logo {
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .avast-right-first-part h4 {
+        display: block;
+    }
+}
+
+/* SECURITY SCORE_CARD  */
+
+@media(max-width: 475px) {
+    .security-scorecard-page-logo {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .sscard-right-first-part h4 {
+        display: block;
+    }
+
+    .security-scorecard-second-right-imgs {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .security-scorecard-second-right-imgs img {
+        margin-bottom: 20px;
+    }
+}
+
+/* KERIO  */
+
+@media(max-width: 350px) {
+    .kerio-page-logo {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .kerio-card {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .kerio-card img {
+        margin-bottom: 30px;
+    }
+} 

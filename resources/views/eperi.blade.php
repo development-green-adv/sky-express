@@ -30,13 +30,13 @@
                     <h4>Security, performance and privacy solutions for consumer and business users</h4><br>
                 </div> --}}
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 pr-md-5 mb-4">
                             Eperi is a leading provider of cloud data protection solutions (CDP). It’s pioneering solutions provides customers with the highest standards of data security and compliance for widespread cloud services, such as Office 365 and Salesforce, as well as databases and enterprise applications. 
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
-                        <p class="mb-5 pl-5">
+                        <p class="mb-5 pl-0 pl-md-5">
                                 Eperi solutions help ensure that internal and external privacy and compliance requirements are enforced 
                                 internally and centrally and that customers can retain sole control over all their privacy processes. 
                                 
@@ -54,7 +54,7 @@
         </div>
 
 
-        <div class="container-fluid df-labs-second-part carbon-black-second-part">
+        <div class="df-labs-second-part carbon-black-second-part">
             <div class="df-labs-second-part-overlay"></div>
             <div class="container">
                 <div class="row">
@@ -64,44 +64,44 @@
                     </div>
                     <div class="col-md-6">
                         <div class="df-labs-second-part-left eperi-page-second-part-left">
-                            <h4  class="mb-4 text-white pl-5 ">Eperi guarantees:</h4>
+                            <h4  class="mb-4 text-white pl-0 pl-md-5">Eperi guarantees:</h4>
                             <ul class="eperi-first-part-ul">
                                     <li class="mb-3">
                                         <div class="row">
-                                            <div class="col-md-1">
+                                            <div class="col-2 col-md-1">
                                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                             </div>
-                                            <div class="col-md-11">
+                                            <div class="col-10 col-md-11">
                                                 <p>Real time data encryption;</p>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="mb-3">
                                         <div class="row">
-                                            <div class="col-md-1">
+                                            <div class="col-2 col-md-1">
                                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                             </div>
-                                            <div class="col-md-11">
+                                            <div class="col-10 col-md-11">
                                                 <p>Only authorized users can access protected data;</p>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="mb-3">
                                         <div class="row">
-                                            <div class="col-md-1">
+                                            <div class="col-2 col-md-1">
                                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                             </div>
-                                            <div class="col-md-11">
+                                            <div class="col-10 col-md-11">
                                                 <p>Completely stand-alone security system without needs for any  adaptation of existing application, database or interface;</p>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="mb-3">
                                         <div class="row">
-                                            <div class="col-md-1">
+                                            <div class="col-2 col-md-1">
                                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                             </div>
-                                            <div class="col-md-11">
+                                            <div class="col-10 col-md-11">
                                                 <p>German quality;</p>
                                             </div>
                                         </div>
@@ -112,8 +112,8 @@
                     <div class="col-md-6">
                         <div class="df-labs-second-part-right carbon-black-second-part-right avast-page-second-part avast-page-second-part-right">
                             <div class="avast-page-second-part-card">
-                                <h4 class="text-white mb-4 pl-5">eperi SECURE YOUR DATA IN THE CLOUD.</h4>
-                                <p class="pl-5 pr-5">
+                                <h4 class="text-white mb-4 pl-0 pl-md-5">eperi SECURE YOUR DATA IN THE CLOUD.</h4>
+                                <p class="pl-0 pr-0 pl-md-5 pr-md-5">
                                         Office applications, CRM, data storage or HR software: more than 65 % of all companies use cloud applications to organize work more cost-effectively, efficiently and flexibly. How do you protect your business-critical data from unauthorized access? And do you comply with data protection regulations, 
                                         for example for customer, employee or development data, without exceptions? eperi Cloud Data Protection is the simple, secure encryption solution for all SaaS and web applications to master these challenges.
                                         

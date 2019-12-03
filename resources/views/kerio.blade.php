@@ -24,19 +24,19 @@
         <div class="container about_desc kerio-first-part">
             <div class="row">
                 <div class="col-12 mb-5">
-                    <img style="width: 300px;" src="{{ asset('images/web/kerio-page-logo.png') }}" alt="">
+                    <img class="kerio-page-logo" src="{{ asset('images/web/kerio-page-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 mb-4">
                     <h4>Fast deployment. High usability.</h4><br>
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 pr-md-5 mb-4">
                             Connect, communicate, and collaborate without <br> compromise — Kerio’s award-winning products are tailored to the needs of small and mid-sized businesses.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
-                        <p class="mb-5 pl-5">
+                        <p class="mb-5 pl-0 pl-md-5">
                                 All products combine powerful features with ease of use for business users and IT professionals. 
                                 Our attractive licensing packages and flexibility to run on many hardware and software configurations 
                                 deliver enterprise-class functionality for a low total cost of ownership.
@@ -54,7 +54,7 @@
         </div>
 
 
-        <div class="container-fluid df-labs-second-part carbon-black-second-part">
+        <div class="df-labs-second-part carbon-black-second-part">
             <div class="df-labs-second-part-overlay"></div>
             <div class="container">
                 <div class="row">
@@ -82,7 +82,7 @@
             </div>
         </div>
 
-        <div class="container-fluid avast-third-part eperi-third-part">
+        <div class="avast-third-part eperi-third-part">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -94,10 +94,10 @@
                             <ul class="eperi-first-part-ul kerio-third-part-left-ul">
                                 <li class="mb-3">
                                     <div class="row">
-                                        <div class="col-md-1">
+                                        <div class="col-2 col-md-1">
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
-                                        <div class="col-md-11">
+                                        <div class="col-10 col-md-11">
                                             <p>Kerio Connect delivers all the features and 
                                                     functionality for collaboration and messaging solution without the complexity and high price tag of other 
                                                     systems.</p>
@@ -106,10 +106,10 @@
                                 </li>
                                 <li class="mb-3">
                                     <div class="row">
-                                        <div class="col-md-1">
+                                        <div class="col-2 col-md-1">
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
-                                        <div class="col-md-11">
+                                        <div class="col-10 col-md-11">
                                             <p>Email is integrated with shared calendars and 
                                                     scheduling, contacts management, tasks, notes, shared and public folders, and instant messaging.
                                                     </p>
@@ -118,20 +118,20 @@
                                 </li>
                                 <li class="mb-3">
                                     <div class="row">
-                                        <div class="col-md-1">
+                                        <div class="col-2 col-md-1">
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
-                                        <div class="col-md-11">
+                                        <div class="col-10 col-md-11">
                                             <p>Synchronize messages by direct push to your choice of mobile device via Microsoft ActiveSync(R)</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="mb-3">
                                     <div class="row">
-                                        <div class="col-md-1">
+                                        <div class="col-2 col-md-1">
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
-                                        <div class="col-md-11">
+                                        <div class="col-10 col-md-11">
                                             <p>Instant Messaging is XMPP-compatible and can be used from various 3rd party chat/IM applications on desktop and mobile phones</p>
                                         </div>
                                     </div>
@@ -143,7 +143,7 @@
                     <div class="col-md-5">
                         <div class="kerio-third-part-left">
                             <h5 class="orange_text mb-2">Kerio Control</h5>
-                            <p class="pr-5 mb-5"> Detect threats, block viruses, and filter traffic with the firewall built for SMB
+                            <p class="pr-0 pr-md-5 mb-5"> Detect threats, block viruses, and filter traffic with the firewall built for SMB
                                 </p>
                             <p class="mb-4">Next-generation firewall</p>
                             <p  class="mb-4">Preserve the integrity of your servers with deep packet 
