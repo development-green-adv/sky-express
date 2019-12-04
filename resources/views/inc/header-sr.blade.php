@@ -88,7 +88,7 @@
                                     <a class="nav-link" href="#">Novosti i događaji</a><span>|</span>
                                     <div  class="dropdown-menu">
                                         <ul style="margin-top: 0px; padding-top: 0px;" class="dropdown-menu-ul">
-                                            <li><a href="/events">Događaji</a>
+                                            <li><a href="#">Događaji</a>
                                             </li>
                                             <li><a href="#">Novosti</a></li>
                                         </ul>
@@ -101,7 +101,7 @@
                                             <!-- <p>PRODUCTS</p> -->
                                             <li><a href="#">Blog</a></li>
                                             {{-- <li><a href="#">Reports</a></li> --}}
-                                            <li><a href="#">F&Q</a></li>
+                                            <li><a href="/sr/faq">F&Q</a></li>
                                             {{-- <li><a href="#">Case Studies</a></li> --}}
                                         </ul>
                                         {{-- <ul class="dropdown-menu-ul">

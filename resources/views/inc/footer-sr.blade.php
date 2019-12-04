@@ -21,13 +21,13 @@
                     <a href="#">Tehnička podrška</a><br>
                     <a href="#">Novosti</a><br>
                     <a href="#">Blog</a><br>
-                    <a href="#">Carijera</a><br>
+                    <a href="#">Karijera</a><br>
                     <a href="#">Lokacija kancelarije</a>
                 </div>
                 <div class="col-6 col-md-3 mb-4 mb-md-0">
                     <h5>PROIZVODI</h5>
                     <a href="/sr/carbon-black">Carbon Black</a><br>
-                    <a href="/df-labs">DF Labs</a><br>
+                    <a href="#">DF Labs</a><br>
                     <a href="#">Eperi</a><br>
                     <a href="#">Onapsys</a><br>
                     <a href="/sr/open-systems">Open Systems</a><br>
@@ -60,8 +60,8 @@
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-md-4 mb-3 mb-md-0">
-                            <a class="ml-auto" href="#">Odredbe i uslovi</a>
-                            <a class="ml-auto" href="#">Politika privatnosti</a>
+                            <a class="ml-auto" href="/sr/odredbe-i-uslovi">Odredbe i uslovi</a>
+                            <a class="ml-auto" href="/sr/politika-privatnosti">Politika privatnosti</a>
                             <a href="/sr/politika-kolacica">Politika kolačića</a>
                         </div>
                         <div class="col-12 col-md-4 mb-3 mb-md-0">
