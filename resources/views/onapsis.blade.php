@@ -24,7 +24,7 @@
         <div class="container about_desc onapsis-first-page">
             <div class="row">
                 <div class="col-12 mb-5">
-                    <img style="width: 300px;" src="{{ asset('images/web/onapsis-page-logo.png') }}" alt="">
+                    <img class="onapsis-page-logo" src="{{ asset('images/web/onapsis-page-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 mb-4">
                     <h4>Cyber security and compliance solutions for cloud and on-premise ERP <br class="d-none d-md-block"> 
@@ -67,7 +67,7 @@
         </div>
 
 
-        <div class="container-fluid df-labs-second-part onapsis-second-part">
+        <div class="df-labs-second-part onapsis-second-part">
             <div class="df-labs-second-part-overlay"></div>
             <div class="container">
                 <div class="row">
@@ -78,143 +78,143 @@
 
                 <div class="row">
                     <div class="col-12">
-                            <ul class="onapsis-second-part-ul">
-                                    <li class="mb-3">
-                                            <div class="row">
-                                                <div class="col-2 col-md-1">
-                                                    <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                </div>
-                                                <div class="col-10 col-md-11">
-                                                    <p class="orange_text">AUTOMATE</p>
-                                                </div>
-                                            </div>
-                                    </li>
-                                    <li class="mb-3">
-                                        <div class="row">
-                                            <div class="col-2 col-md-1">
-                                                <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                            </div>
-                                            <div class="col-10 col-md-11">
-                                                <p>Continuous vulnerability scanning and alerts proactively identify and bring attention to misconfigurations and outside threats.</p>
-                                            </div>
+                        <ul class="onapsis-second-part-ul">
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p class="orange_text">AUTOMATE</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p>Continuous vulnerability scanning and alerts proactively identify and bring attention to misconfigurations and outside threats.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                        <div class="col-10 col-md-11">
+                                            <p>Improve work flows to reduce resources committed to audit and compliance data tasks.</p>
                                         </div>
-                                    </li>
-                                    <li class="mb-3">
-                                        <div class="row">
-                                            <div class="col-2 col-md-1">
-                                                <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                            </div>
-                                            <div class="col-10 col-md-11">
-                                                <p>Improve work flows to reduce resources committed to audit and compliance data tasks.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mb-3">
-                                        <div class="row">
-                                            <div class="col-2 col-md-1">
-                                                <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                            </div>
-                                            <div class="col-10 col-md-11">
-                                                <p>Compensating controls help satisfy regulators and maintain compliance between audits.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                            </ul>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                         <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p>Compensating controls help satisfy regulators and maintain compliance between audits.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                    <div class="row">
-                        <div class="col-12">
-                                <ul class="onapsis-second-part-ul">
-                                        <li class="mb-3">
-                                                <div class="row">
-                                                    <div class="col-2 col-md-1">
-                                                        <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                    </div>
-                                                    <div class="col-10 col-md-11">
-                                                        <p class="orange_text">INTEGRATE</p>
-                                                    </div>
-                                                </div>
-                                        </li>
-                                        <li class="mb-3">
-                                            <div class="row">
-                                                <div class="col-2 col-md-1">
-                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                </div>
-                                                <div class="col-10 col-md-11">
-                                                    <p>Implementation and customer success services accelerate the maturity of an enterprise’s cybersecurity organization.</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="mb-3">
-                                            <div class="row">
-                                                <div class="col-2 col-md-1">
-                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                </div>
-                                                <div class="col-10 col-md-11">
-                                                    <p>Custom data links feed your existing SIEM tools, including Splunk and QRadar, to provide a unified view of risk.</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="mb-3">
-                                            <div class="row">
-                                                <div class="col-2 col-md-1">
-                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                </div>
-                                                <div class="col-10 col-md-11">
-                                                    <p>SAP-certified add-on assures BASIS teams of system compatibility.</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                        </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="onapsis-second-part-ul">
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p class="orange_text">INTEGRATE</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p>Implementation and customer success services accelerate the maturity of an enterprise’s cybersecurity organization.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p>Custom data links feed your existing SIEM tools, including Splunk and QRadar, to provide a unified view of risk.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p>SAP-certified add-on assures BASIS teams of system compatibility.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
+                </div>
 
-                    <div class="row">
-                        <div class="col-12">
-                                <ul class="onapsis-second-part-ul">
-                                        <li class="mb-3">
-                                                <div class="row">
-                                                    <div class="col-md-1">
-                                                        <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                    </div>
-                                                    <div class="col-md-11">
-                                                        <p class="orange_text">ANTICIPATE</p>
-                                                    </div>
-                                                </div>
-                                        </li>
-                                        <li class="mb-3">
-                                            <div class="row">
-                                                <div class="col-md-1">
-                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                </div>
-                                                <div class="col-md-11">
-                                                    <p>Onapsis Research Labs provides industry-defining threat intelligence to prepare our customers for what’s next.</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="mb-3">
-                                            <div class="row">
-                                                <div class="col-md-1">
-                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                </div>
-                                                <div class="col-md-11">
-                                                    <p>Research feeds development of new features to address emerging needs.</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="mb-3">
-                                            <div class="row">
-                                                <div class="col-md-1">
-                                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
-                                                </div>
-                                                <div class="col-md-11">
-                                                    <p>More than 300 SAP and Oracle vulnerabilities reported to date.</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                            </ul>
-                        </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="onapsis-second-part-ul">
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img class="invisible" src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p class="orange_text">ANTICIPATE</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                         <p>Onapsis Research Labs provides industry-defining threat intelligence to prepare our customers for what’s next.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p>Research feeds development of new features to address emerging needs.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <div class="row">
+                                    <div class="col-2 col-md-1">
+                                        <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                    </div>
+                                    <div class="col-10 col-md-11">
+                                        <p>More than 300 SAP and Oracle vulnerabilities reported to date.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
+                </div>
     
 
 

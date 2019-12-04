@@ -2335,6 +2335,10 @@ ul.logpoint-ul-second-part li p {
 
 /* ONAPSIS */
 
+.onapsis-page-logo {
+    width: 300px;
+}
+
 .onapsis-first-page {
     background-image: none;
 }
@@ -3062,11 +3066,24 @@ ul.open-systems-first-ul li:last-child {
 /* ONAPSIS */
 
 @media(max-width: 768px) {
+
+    .onapsis-page-logo {
+        width: 100%;
+    }
+
+    ul.onapsis-second-part-ul {
+        padding: initial;
+    }
+
     .onapsis-second-part h3 {
         padding-left: 0;
     }
     .onapsis-second-part-card-wrapper .col-md-4{
         margin-bottom: 80px;
+    }
+
+    ul.onapsis-second-part-ul li p {
+        margin-left: 0;
     }
 }
 
