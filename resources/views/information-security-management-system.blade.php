@@ -21,23 +21,25 @@
         </div>
 
 
-        <div class="container about_desc pen_services">
-            <div class="row">
-                <div class="col-12 col-md-6 mb-4 mb-md-0">
-                    <h4>Information Security Management Systems (ISMS)</h4><br>
-                    <p class="pr-5">
-                        Sky Express’ information security services protect your business from data breaches, negative publicity, damaged credibility and disruption of services. We
-                        deliver world-class offerings, security knowledge and experience to provide you with comprehensive information security. Our offerings combine
-                        unmatched technology, services, support and training from highly certified security experts. 
-                    </p>
-
-                    <h5 class="mt-4 mb-4">Achieve the standards relevant to your organization and reduce <br> your IT Security risks</h5>
-
-                </div>
-                <div class="col-12 col-md-6">
-                    <h4 class="invisible mb-4">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">ISMS Advisory Services help you develop a coherent set of policies, processes and systems to manage risks to information assets and improve IT
-                        governance. Our consultants look at an organization across the three core dimensions of technologies, processes and people.</p>                    
+        <div class="about_desc pen_services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <h4>Information Security Management Systems (ISMS)</h4><br>
+                        <p class="pr-0 pr-md-5">
+                            Sky Express’ information security services protect your business from data breaches, negative publicity, damaged credibility and disruption of services. We
+                            deliver world-class offerings, security knowledge and experience to provide you with comprehensive information security. Our offerings combine
+                            unmatched technology, services, support and training from highly certified security experts. 
+                        </p>
+    
+                        <h5 class="mt-4 mb-4">Achieve the standards relevant to your organization and reduce <br> your IT Security risks</h5>
+    
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="invisible mb-4 d-none d-md-block">Pen Testing & Ethical Hacking</h4><br>
+                        <p class="pl-0 pl-md-5 mb-4">ISMS Advisory Services help you develop a coherent set of policies, processes and systems to manage risks to information assets and improve IT
+                            governance. Our consultants look at an organization across the three core dimensions of technologies, processes and people.</p>                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,12 +60,12 @@
                         <h3>We can help you to:</h3>
 
                         <ul>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Identity critical infrastructure and data;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Keep track of IT security solutions and investments;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Indentify existing points of failure and implement solutions to mitigate them;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Monitor changes that might render current solutions obsolete or inadeqate;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Report, escalate and record adverse cybersecurity events;</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Monitor staff training needs, and document relevant training programs;</li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Identity critical infrastructure and data;</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11"> Keep track of IT security solutions and investments;</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Indentify existing points of failure and implement solutions to mitigate them;</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Monitor changes that might render current solutions obsolete or inadeqate;</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Report, escalate and record adverse cybersecurity events;</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Monitor staff training needs, and document relevant training programs;</div></div></li>
                         </ul>
                     </div>
                 </div>

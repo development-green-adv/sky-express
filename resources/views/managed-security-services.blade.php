@@ -21,26 +21,28 @@
         </div>
 
 
-        <div class="container about_desc pen_services">
-            <div class="row">
-                <div class="col-12 col-md-6 mb-4 mb-md-0">
-                    <h4>Managed Security Services (MSSP)</h4><br>
-                    <p class="pr-5 mb-4">
-                        Whether you're facing overcoming skills shortages, fighting new threat adversaries or looking for more value from your IT initiatives, we understand that
-                        all businesses are different, and that's why our Managed Security Services (MSS) are designed for flexibility. 
-                    </p>
-                    <p class="pr-5 mb-4">
-                        Managed security services refer to the aspects of an organization’s recurring cybersecurity activities outsourced to a third-party provider. Many
-                        organizations take advantages of MSS since they provide access to cybersecurity talent and resources that exceeds what the organization could operate
-                        internally. 
-                    </p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-5 mb-4">The key function of managed security services is to provide the customer with the information, resources, and access to personnel that they need to
-                        appropriately secure their network and resources.</p>
-                    <p class="pl-5 mb-4">Sky Express Managed Security Services (MSS) deliver a diversified portfolio of services to meet the demands of a wide range of organizations through a
-                        tailor-made approach working with client provided legacy technologies.</p>
+        <div class="about_desc pen_services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <h4>Managed Security Services (MSSP)</h4><br>
+                        <p class="pr-0 pr-md-5 mb-4">
+                            Whether you're facing overcoming skills shortages, fighting new threat adversaries or looking for more value from your IT initiatives, we understand that
+                            all businesses are different, and that's why our Managed Security Services (MSS) are designed for flexibility. 
+                        </p>
+                        <p class="pr-0 pr-md-5 mb-4">
+                            Managed security services refer to the aspects of an organization’s recurring cybersecurity activities outsourced to a third-party provider. Many
+                            organizations take advantages of MSS since they provide access to cybersecurity talent and resources that exceeds what the organization could operate
+                            internally. 
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
+                        <p class="pl-0 pl-md-5 mb-4">The key function of managed security services is to provide the customer with the information, resources, and access to personnel that they need to
+                            appropriately secure their network and resources.</p>
+                        <p class="pl-0 pl-md-5 mb-4">Sky Express Managed Security Services (MSS) deliver a diversified portfolio of services to meet the demands of a wide range of organizations through a
+                            tailor-made approach working with client provided legacy technologies.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -60,11 +62,11 @@
                     <div class="col-md-6">
                         <h3>Benefits:</h3>
                         <ul>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Infrastructure monitoring and detection</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Enhanced security posture</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Scalable and cost-efficient</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Always in line with latest developments</li>
-                            <li><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""> Full-time dedicated personnel</li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Infrastructure monitoring and detection</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Enhanced security posture</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Scalable and cost-efficient</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11"> Always in line with latest developments</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Full-time dedicated personnel</div></div></li>
                         </ul>
                     </div>
                 </div>

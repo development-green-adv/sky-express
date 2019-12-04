@@ -21,21 +21,23 @@
         </div>
 
 
-        <div class="container about_desc pen_services">
-            <div class="row">
-                <div class="col-12 col-md-6 mb-4 mb-md-0 pr-5">
-                    <h4>Security Consulting</h4><br>
-                    <p class="pr-5">
-                        Protecting your business and data against sophisticated and resourceful cyber criminals while meeting security compliance regulations is getting more
-                        difficult every day. Sky Express offers comprehensive security consulting services including assessments, master planning, policy development, business
-                        continuity and strategies. Our team of security experts help clients prevent, plan for and respond appropriately to a multitude of security risks so they can
-                        focus on their business.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 pl-5">
-                    <h5 class="mt-5 mb-4">Prevent a problem before it is presented</h5>
-                    <p class="">Sky Express experts can help you create a robust security environment with services that include current and emerging threat assessments, policy review
-                        and development, and master planning.</p>
+        <div class=" about_desc pen_services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0 pr-3 pr-md-5">
+                        <h4>Security Consulting</h4><br>
+                        <p class="pr-0 pr-md-5">
+                            Protecting your business and data against sophisticated and resourceful cyber criminals while meeting security compliance regulations is getting more
+                            difficult every day. Sky Express offers comprehensive security consulting services including assessments, master planning, policy development, business
+                            continuity and strategies. Our team of security experts help clients prevent, plan for and respond appropriately to a multitude of security risks so they can
+                            focus on their business.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 pl-3 pl-md-5">
+                        <h5 class="mt-5 mb-4">Prevent a problem before it is presented</h5>
+                        <p class="">Sky Express experts can help you create a robust security environment with services that include current and emerging threat assessments, policy review
+                            and development, and master planning.</p>
+                    </div>
                 </div>
             </div>
         </div>

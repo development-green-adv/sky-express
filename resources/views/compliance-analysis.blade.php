@@ -25,16 +25,16 @@
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0 pr-5">
                     <h4>Compliance Analysis</h4><br>
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 pr-md-5 mb-4">
                         In today’s regulated business environment, compliance is essential to long-term business success. Non-compliance is not an option – loss of revenue,
                         fines, lawsuits, and penalties can be crippling.
                     </p>
-                    <p class="pr-5 mb-4">
+                    <p class="pr-0 pr-md-5 mb-4">
                         Compliance is also not something most companies can handle on their own. It requires a tremendous
                         amount of human efforts and organizational focus.
                     </p>
                 </div>
-                <div class="col-12 col-md-6 pl-5">
+                <div class="col-12 col-md-6 pl-3 pl-md-5">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
                     <p class="mb-4">Achieving compliance with regulatory and industry standards doesn't have to be as difficult as it seems.</p>
                     <p class="">Sky Express guides you through compliance

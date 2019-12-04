@@ -58,7 +58,7 @@ p {
 .contact-us-right-wrapper {
     position: fixed;
     right: 0;
-    width: calc(200px + 200px);
+    /* width: calc(200px + 200px); */
     height: 200px;
     top: 400px;
     z-index: 99;
@@ -2594,6 +2594,10 @@ ul.open-systems-first-ul li:last-child {
 
 @media (max-width: 768px) {
 
+    .contact-us-right-wrapper {
+        display: none;
+    }
+
     .navbar-toggler {
         margin-left: auto;
     }
@@ -2673,6 +2677,8 @@ ul.open-systems-first-ul li:last-child {
 
     .orange_btn {
         font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .about_section h3 {
@@ -3162,6 +3168,8 @@ ul.open-systems-first-ul li:last-child {
     
     .get-btn a {
         font-size: 20px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
 
     .get-btn a span {
@@ -3170,6 +3178,16 @@ ul.open-systems-first-ul li:last-child {
 
     .by-compliance-third-part-images .col-md-4 {
         margin-bottom: 80px;
+    }
+
+    .experts_pen-left .get-btn a {
+        font-size: 20px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .experts_pen-left .get-btn span {
+        font-size: 16px !important;
     }
 
 
@@ -3196,5 +3214,28 @@ ul.open-systems-first-ul li:last-child {
 
     .experts_pen-left h1 {
         margin-bottom: 100px;
+        font-size: 25px;
+    }
+
+    .experts_pen-left {
+        text-align: center;
+    }
+
+    .benefites_pen-testing h3 {
+        font-size: 30px;
+    }
+}
+
+/* COMPLIANCE ANALISIS */
+
+@media(max-width: 768px) {
+    .security-consulting-benefites {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .benefites_pen-testing {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }

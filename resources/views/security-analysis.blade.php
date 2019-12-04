@@ -100,8 +100,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="experts_pen-left">
-                            <h1>Talk an experienced consultant about where <br> you are on your cybersecurity journey and <br> where you'd like to improve.</h1>
+                        <div class="experts_pen-left ">
+                            <h1>Talk an experienced consultant about where <br class="d-none d-md-block"> you are on your cybersecurity journey and <br class="d-none d-md-block"> where you'd like to improve.</h1>
                             <div class="get-btn">
                                 <a href="/contact">GET IN TOUCH <span>with our experts</span></a>
                             </div>
