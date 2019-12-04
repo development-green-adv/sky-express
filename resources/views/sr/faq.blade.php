@@ -4,7 +4,7 @@
 
 @section("content")
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">
@@ -93,6 +93,6 @@
 
 
 
-    @include("inc/footer")
+    @include("inc/footer-sr")
 
 @endsection

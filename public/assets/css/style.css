@@ -2596,11 +2596,13 @@ ul.open-systems-first-ul li:last-child {
     color: #f1592a;
 }
 
-/* SINGLE NEWS */
-
 
 
 @media (max-width: 768px) {
+
+    /* br {
+        display: none !important;
+    } */
 
     .footer {
         padding-top: 40px;

@@ -4,7 +4,7 @@
 
 @section("content")
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">
             <div class="row">
@@ -147,12 +147,11 @@
         </div>
 
 
-        <div class="container-fluid footer">
+        {{-- <div class="container-fluid footer">
             <div class="row">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-3 mb-4 mb-md-0">
-                            <!-- <h5>SKY EXPRESS LOGO</h5> -->
                             <a class="navbar-brand logo-footer" href="/"><img src="{{ asset('images/web/logo-sky-express.png') }}" alt=""></a>
                         </div>
                         <div class="col-12 col-md-3 mb-4 mb-md-0">
@@ -208,8 +207,79 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
+
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                            <!-- <h5>SKY EXPRESS LOGO</h5> -->
+                            <a class="navbar-brand logo-footer" href="/"><img src="{{ asset('images/web/logo-sky-express.png') }}" alt=""></a>
+                        </div>
+                        <div class="col-6 col-md-3 mb-4 mb-md-0">
+                            <h5>BRZI LINKOVI</h5>
+                            <a href="/sr/zasto-sky-express">Zašto mi?</a><br>
+                            <a href="/contact">Tehnička podrška</a><br>
+                            <a href="/news">Novosti</a><br>
+                            <a href="/blog">Blog</a><br>
+                            <a href="/careers">Carijera</a><br>
+                            <a href="#">Lokacija kancelarije</a>
+                        </div>
+                        <div class="col-6 col-md-3 mb-4 mb-md-0">
+                            <h5>PROIZVODI</h5>
+                            <a href="/carbon-black">Carbon Black</a><br>
+                            <a href="/df-labs">DF Labs</a><br>
+                            <a href="/eperi">Eperi</a><br>
+                            <a href="/onapsis">Onapsys</a><br>
+                            <a href="/open-systems">Open Systems</a><br>
+                            <a href="/logpoint">Logpoint</a><br>
+                            <a href="/avast">Avast</a><br>
+                            <a href="/kerio">Kerio</a><br>
+                            <a href="/security-scorecard">Security Scorecard</a>
+                        </div>
+                        <div class="col-12 text-center text-md-left col-md-3 mb-4 mb-md-0 mt-4 mt-md-0">
+                            <h5>Sky Express d.o.o.</h5>
+                            <p>Radno vreme:</p>
+                            <p>Ponedeljak - Petak</p>
+                            <p>09:00 - 17:00</p>
+                            <br>
+                            <div class="social-icons">
+                                <h5>PRATITE NAS</h5>
+                                <a href="https://www.linkedin.com/company/sky-express-it-security-company/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/skyexpressrs/?ref=bookmarks" target="_blank"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid footer_line">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <a class="ml-auto" href="/terms">Odredbe i uslovi</a>
+                                    <a class="ml-auto" href="/privacy-policy">Politika privatnosti</a>
+                                    <a href="/sr/politika-kolacica">Politika kolačića</a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <a href="#">Copyright {{ date("Y") }} www.sky-express.rs</a>
+                                    <a href="#">All right reserved</a>
+                                </div>
+                                <div class="col-12 text-center text-md-left col-md-4">
+                                    <a target="_blank" href="https://www.green-adv.rs">websajt development</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     {{-- @include("inc/footer") --}}

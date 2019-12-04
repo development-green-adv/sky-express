@@ -4,7 +4,7 @@
 
 @section("content")
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
         <div class="container-fluid video_section">
             <div class="row" style="position: relative;">
@@ -328,7 +328,6 @@
                         <button class="btn btn-default orange_btn">NAJNOVIJE VESTI</button>
                         <div class="row" style="margin-top: 70px;">
                             
-
                             @if(count($data) > 0)
                                 @foreach($data as $new)
 
@@ -424,6 +423,6 @@
         </div>
         
 
-    @include("inc/footer")
+    @include("inc/footer-sr")
 
 @endsection
