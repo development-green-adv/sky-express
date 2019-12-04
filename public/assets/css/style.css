@@ -2598,6 +2598,16 @@ ul.open-systems-first-ul li:last-child {
 
 @media (max-width: 768px) {
 
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+    }
+
+    .solutions_item h3 {
+        font-size: 30px;
+    }
+
     .contact-us-right-wrapper {
         display: none;
     }
@@ -2961,10 +2971,27 @@ ul.open-systems-first-ul li:last-child {
     
 }
 
+@media(max-width: 320px) {
+    .location-contact-page {
+        margin-left: -17px !important;
+    }
+}
+
+
+@media(max-width: 360px) {
+    .location-contact-page {
+        margin-left: -20px !important;
+    }
+}
+
 @media(max-width: 414px) {
     .location-contact-page {
-        margin-left: -17px;
+        margin-left: -30px;
     }
+}
+
+@media(max-width: 414px) {
+
 }
 
 /* CAREERS */
