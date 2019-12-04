@@ -64,7 +64,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col-12 text-center">
-                        <button class="btn btn-default orange_btn">CYBERSECURITY SOLUTIONS</button>
+                        <button class="btn btn-default orange_btn">SAJBER SIGURNOSNA REŠENJA</button>
                         <p>
                             Sky Express offers a very selective range of complemental, compatibile and applicable solutions. 
                             All the solutions distribute, either directly or throuht sales partners. are recognized, 

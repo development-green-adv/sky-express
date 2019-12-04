@@ -38,6 +38,10 @@ Route::get('/careers', function () {
     return view('carers');
 });
 
+Route::get('/sr/karijera', function () {
+    return view('/sr/carers');
+});
+
 Route::get('/cookie-policy', function () {
     return view('cookie-policy');
 });
@@ -50,8 +54,16 @@ Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 });
 
+Route::get('/sr/politika-privatnosti', function () {
+    return view('/sr/privacy-policy');
+});
+
 Route::get('/terms', function () {
     return view('terms');
+});
+
+Route::get('/sr/odredbe-i-uslovi', function () {
+    return view('/sr/terms');
 });
 
 Route::get('/faq', function () {
@@ -168,6 +180,10 @@ Route::get('/security-and-risk-management', function () {
 
 Route::get('/sap-security-guidelines', function () {
     return view('sap-security-guidelines');
+});
+
+Route::get('/sr/sap-bezbednosne-smernice', function () {
+    return view('/sr/sap-security-guidelines');
 });
 
 Route::get('/meeting-gdpr', function () {
