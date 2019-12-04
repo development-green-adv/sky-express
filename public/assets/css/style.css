@@ -3251,3 +3251,20 @@ ul.open-systems-first-ul li:last-child {
         padding-right: 20px;
     }
 }
+
+/* FOOTER */
+
+@media(max-width: 768px) {
+    .footer_line {
+        text-align: center;
+    }
+    .footer_line a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 320px) {
+    .footer_line a {
+        font-size: 10px;
+    }
+}

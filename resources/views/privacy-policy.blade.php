@@ -25,7 +25,7 @@
         <div class="container cookie_content">
             <div class="row">
                 <div class="col-12">
-                    <div class="text-right mb-4 orange_text"><b>Effective as of November 2019</b></div>
+                    <div class="text-left text-md-right mb-4 orange_text"><b>Effective as of November 2019</b></div>
                     <p>
                         Sky Express doo, with its registered seat at Milutina Milankovica 11a, 11000 Belgrade, Serbia, PIB: 102707059(hereinafter: Sky Express), respects and protects privacy of every person whose private data it collects. Privacy policy defines which personal data Sky Express collects, for which purpose it uses them, how it protects them, and what your rights are.
                     </p><br>

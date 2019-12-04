@@ -22,7 +22,7 @@
         </div>
 
         <div class="faq_section">
-            <div class="container-fluid">
+            <div>
                 <div class="row">
                     <div class="container">
                         <div class="col-md-12">
@@ -34,7 +34,7 @@
         </div>
 
         <div class="faq_section-questions">
-            <div class="container-fluid">
+            <div>
                 <div class="row">
                     <div class="container">
                         <div class="col-md-12">
