@@ -16,6 +16,13 @@ class FrontController extends Controller
 
     }
 
+    public function getSrbHome(){
+
+        $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+        return view("/sr/welcome", compact("data"));
+
+    }
+
 
     public function getNews(){
 

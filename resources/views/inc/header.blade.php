@@ -111,7 +111,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-inline pr-0" href="#">SRP</a>
+                                    <a class="nav-link d-inline pr-0" href="/sr">SRP</a>
                                 </li>
                             </ul>
                         </div>

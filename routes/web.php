@@ -22,9 +22,16 @@ Route::get('/clear-cache', function() {
 
 Route::get('/', "FrontController@getHomePage");
 
+Route::get("/sr", "FrontController@getSrbHome");
+
 Route::get('/about-us', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('about-us', compact("data"));
+});
+
+Route::get("/sr/o-nama", function(){
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view("/sr/about-us", compact("data"));
 });
 
 Route::get('/careers', function () {
@@ -33,6 +40,10 @@ Route::get('/careers', function () {
 
 Route::get('/cookie-policy', function () {
     return view('cookie-policy');
+});
+
+Route::get('/sr/politika-kolacica', function () {
+    return view('/sr/cookie-policy');
 });
 
 Route::get('/privacy-policy', function () {
@@ -45,6 +56,10 @@ Route::get('/terms', function () {
 
 Route::get('/faq', function () {
     return view('faq');
+});
+
+Route::get('/sr/faq', function () {
+    return view('/sr/faq');
 });
 
 Route::get('/blog', function () {
@@ -60,9 +75,19 @@ Route::get('/pen-testing', function () {
     return view('pen-testing', compact("data"));
 });
 
+Route::get('/sr/pentesting-i-hakovanje', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/pen-testing', compact("data"));
+});
+
 Route::get('/security-consulting', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('security-consulting', compact("data"));
+});
+
+Route::get('/sr/konsultantske-usluge', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/security-consulting', compact("data"));
 });
 
 Route::get('/security-awareness-planning', function () {
@@ -70,9 +95,19 @@ Route::get('/security-awareness-planning', function () {
     return view('security-awareness-planning', compact("data"));
 });
 
+Route::get('/sr/planiranje-svesti-o-bezbednosti', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/security-awareness-planning', compact("data"));
+});
+
 Route::get('/security-analysis', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('security-analysis', compact("data"));
+});
+
+Route::get('/sr/bezbedonosna-analiza', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/security-analysis', compact("data"));
 });
 
 Route::get('/compliance-analysis', function () {
@@ -80,14 +115,29 @@ Route::get('/compliance-analysis', function () {
     return view('compliance-analysis', compact("data"));
 });
 
+Route::get('/sr/analiza-uskladjenosti', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/compliance-analysis', compact("data"));
+});
+
 Route::get('/managed-security-services', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('managed-security-services', compact("data"));
 });
 
+Route::get('/sr/managed-security-services', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/managed-security-services', compact("data"));
+});
+
 Route::get('/information-security-management-system', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('information-security-management-system', compact("data"));
+});
+
+Route::get('/sr/information-security-management-system', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/information-security-management-system', compact("data"));
 });
 
 Route::get('/contact', function () {
@@ -103,8 +153,13 @@ Route::get('/news', 'FrontController@getNews');
 
 Route::get('/events', "FrontController@getEvents");
 
+
 Route::get('/why-us', function () {
     return view('why-us');
+});
+
+Route::get('/sr/zasto-sky-express', function () {
+    return view('/sr/why-us');
 });
 
 Route::get('/security-and-risk-management', function () {
@@ -123,6 +178,10 @@ Route::get('/iso-27001', function () {
     return view('iso-27001');
 });
 
+Route::get('/sr/iso-27001', function () {
+    return view('/sr/iso-27001');
+});
+
 Route::get('/by-compliance', function () {
     return view('by-compliance');
 });
@@ -131,9 +190,18 @@ Route::get('/solutions', function () {
     return view('solutions');
 });
 
+Route::get('/sr/resenja', function () {
+    return view('/sr/solutions');
+});
+
 Route::get('/carbon-black', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('carbon-black', compact("data"));
+});
+
+Route::get('/sr/carbon-black', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/carbon-black', compact("data"));
 });
 
 Route::get('/avast', function () {
@@ -166,6 +234,11 @@ Route::get('/open-systems', function () {
     return view('open-systems', compact("data"));
 });
 
+Route::get('/sr/open-systems', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/open-systems', compact("data"));
+});
+
 Route::get('/security-scorecard', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('security-scorecard', compact("data"));
@@ -175,11 +248,20 @@ Route::get('/all-products', function () {
     return view('all-products');
 });
 
+Route::get('/sr/proizvodi', function () {
+    return view('/sr/all-products');
+});
+
 Route::get('/all-solutions', function () {
     return view('all-solutions');
 });
 
 Route::get('/single-news/{alias}', "FrontController@getSingleNews");
+
+
+
+
+
 
 
 
