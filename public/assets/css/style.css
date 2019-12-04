@@ -653,6 +653,10 @@ button.orange_btn:hover {
     transform: scale(1.1);
 }
 
+.home-aboute {
+    margin-top: 160px;
+}
+
 
 .about_section a{
     background-color: #f1592a;
@@ -2885,6 +2889,25 @@ ul.open-systems-first-ul li:last-child {
 }
 
 @media(max-width: 768px) {
+
+    .home-aboute {
+        margin-top: 60px;
+    }
+    
+
+    .about_section {
+        padding-bottom: 60px;
+    }
+
+    .service_section {
+        padding-bottom: 60px;
+    }
+
+    .contact-form {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
     .orange_btn {
         width: 100%;
     }
@@ -2945,8 +2968,8 @@ ul.open-systems-first-ul li:last-child {
 
 @media(max-width: 768px) {
     .why-us-second-part {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 
@@ -2997,8 +3020,30 @@ ul.open-systems-first-ul li:last-child {
 /* CAREERS */
 
 @media(max-width: 768px) {
+    .your_career {
+        padding-bottom: 60px;
+    }
     table {
-        font-size: 14px;
+        font-size: 12px;
+    }
+}
+
+/* ABOUT */ 
+
+@media(max-width: 768px) {
+
+    .about_solutions {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .about_mission {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .about_mission .first-pharagraf {
+        padding-right: 0%;
     }
 }
 
@@ -3023,6 +3068,13 @@ ul.open-systems-first-ul li:last-child {
     }
 }
 
+@media(max-width: 768px) {
+    .carbon-black-second-part {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
 /* DF LABS */
 
 @media(max-width: 328px) {
@@ -3032,6 +3084,20 @@ ul.open-systems-first-ul li:last-child {
 }
 
 @media(max-width: 768px) {
+
+    .security_solutions {
+        padding-bottom: 60px;
+    }
+
+    .df-labs-fourth-part {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .df-labs-second-part-left {
+        padding-top: 10px;
+    }
+
     .df-labs-right-first-part ul {
         padding-left: 0;
     }
@@ -3075,6 +3141,11 @@ ul.open-systems-first-ul li:last-child {
 }
 
 @media(max-width: 768px) {
+
+    .logpoint-first-part {
+        padding-bottom: 60px;
+    }
+
     .logpoint-cards-wrapper {
         margin-top: 80px;
     }
@@ -3104,9 +3175,14 @@ ul.open-systems-first-ul li:last-child {
 
     .onapsis-second-part h3 {
         padding-left: 0;
+        margin-top: 0;
     }
-    .onapsis-second-part-card-wrapper .col-md-4{
+    .onapsis-second-part-card-wrapper .col-md-4 {
         margin-bottom: 80px;
+    }
+
+    .onapsis-second-part-card-wrapper .col-md-4:last-child {
+        margin-bottom: 20px;
     }
 
     ul.onapsis-second-part-ul li p {
@@ -3122,6 +3198,12 @@ ul.open-systems-first-ul li:last-child {
 }
 
 @media(max-width: 768px) {
+
+    .open-system-third-part {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
     .df-labs-right-first-part h4 {
         display: none;
     }
@@ -3130,6 +3212,16 @@ ul.open-systems-first-ul li:last-child {
 /* EPERI */
 
 @media(max-width: 768px) {
+
+    .eperi-third-part {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .eperi-first-part {
+        padding-bottom: 0px;
+    }
+
     .eperi-third-part-card {
         margin-bottom: 80px;
         text-align: center;
@@ -3147,6 +3239,7 @@ ul.open-systems-first-ul li:last-child {
 /* AVAST */
 
 @media(max-width: 350px) {
+
     .avast-page-logo {
         width: 100%;
     }
@@ -3154,6 +3247,11 @@ ul.open-systems-first-ul li:last-child {
 }
 
 @media(max-width: 768px) {
+
+    .avast-third-part {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
     .avast-right-first-part h4 {
         display: block;
@@ -3206,6 +3304,17 @@ ul.open-systems-first-ul li:last-child {
 /* BY COMPLIANCE */
 
 @media(max-width: 768px) {
+
+    .sec-and-risk-management-second-part {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .by-compliance-third-part {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
     .by-com-first-right h4 {
         display: none;
     }
@@ -3273,6 +3382,12 @@ ul.open-systems-first-ul li:last-child {
 /* COMPLIANCE ANALISIS */
 
 @media(max-width: 768px) {
+
+    .exprerts_pen_testing {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
     .security-consulting-benefites {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -3286,6 +3401,11 @@ ul.open-systems-first-ul li:last-child {
 
 /* EVENTS */
 @media (max-width: 768px) {
+
+    .event-card {
+        /* padding-top: 0; */
+    }
+
     .events_section h3 {
         border-right: none;
     }

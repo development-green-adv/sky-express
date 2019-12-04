@@ -33,7 +33,7 @@
                         advanced cybersecurity solutions and services <br class="d-none d-md-block"> in the
                         field of information security, covering SEE market.
                     </p> --}}
-                    <p class="pr-5"><b>Sky Express</b> is an exclusive distributor of advanced cybersecurity solutions and services in the field of information security for Serbian market, but also Bosnia and Herzegovina, Montenegro, and North Macedonia.</p>
+                    <p class="pr-0 pr-md-5"><b>Sky Express</b> is an exclusive distributor of advanced cybersecurity solutions and services in the field of information security for Serbian market, but also Bosnia and Herzegovina, Montenegro, and North Macedonia.</p>
                 </div>
                 <div class="col-12 col-md-7">
                     <p class="pl-0 pl-md-5">
@@ -94,7 +94,7 @@
         <div class="container about_desc about_mission">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <p class="first-pharagraf">
+                    <p class="first-pharagraf mb-5 mb-md-0">
                         <span class="orange_text">Our mission</span> is to ensure the safety,
                         security and privacy of data in all
                         aspects of business areas such as

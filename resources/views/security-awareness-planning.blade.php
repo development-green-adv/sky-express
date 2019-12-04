@@ -37,7 +37,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-md-6 pl-3 pl-md-5">
-                        <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
+                        <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br class="d-none d-md-block">
                         <p class="mb-4">By bringing cyber security awareness and training to all your employees, you heighten the chances of catching a scam or attack before it is fully enacted,
                             minimizing damage to your brand and reducing the cost of recovery.</p>
                         <p class="">Having the right security software and procedures in place is important, but never make the mistake of overlooking your employees’ training and fostering
@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 position-relative">
-                        <div class="security-consulting-benefites-area text-center mt-5">
+                        <div class="security-consulting-benefites-area text-center mt-0 mt-md-5">
                             <h4 class="orange_text">When you choose to incorporate cyber defense training, many companies can see <br class="d-none d-md-block"> up to a 72% reduction of impact on their brand and operational stability from any attacks!</h4>
                             <h5 class="text-white">Sky Express combines numerous training topics and teaching strategies to help guarantee employee preparedness and optimize your defensive responses.
                                 This includes maintaining physical security, online security, password management, malware and phishing defense simulations, and much more.</h5>

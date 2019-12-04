@@ -34,7 +34,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-md-6 pl-3 pl-md-5">
-                        <h5 class="mt-5 mb-4">Prevent a problem before it is presented</h5>
+                        <h5 class="mt-0 mb-4 mt-md-5">Prevent a problem before it is presented</h5>
                         <p class="">Sky Express experts can help you create a robust security environment with services that include current and emerging threat assessments, policy review
                             and development, and master planning.</p>
                     </div>
@@ -55,7 +55,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 position-relative">
-                        <div class="security-consulting-benefites-area text-center mt-5">
+                        <div class="security-consulting-benefites-area text-center mt-0 mt-md-5">
                             <h4>We'll work alongside management to best align security polices and <br> practieswith business objectives to advance your operational goals. </h4>
                         </div>
                     </div>

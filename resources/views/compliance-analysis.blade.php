@@ -56,7 +56,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 position-relative">
-                        <div class="security-consulting-benefites-area text-center mt-5">
+                        <div class="security-consulting-benefites-area text-center mt-0 mt-md-5">
                             <h4 class="orange_text mb-4">Scalable & efficient compliance services, tailored to your organization's needs</h4>
                             <h5 class="text-white mb-3">If you need to comply with multiple regulatory, industry and data security compliance standards, you can leverage our experience and know-how by
                                 combining your requirements into a single assessment. We work with you to make the process as simple as possible.</h5>

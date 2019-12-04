@@ -33,10 +33,10 @@
                         budget and growth plans.
                     </p>
 
-                    <h4>Keep your information System Secured</h4><br>
+                    <h4>Keep your information System Secured</h4><br class="d-none d-md-bock">
                 </div>
                 <div class="col-12 col-md-6">
-                    <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
+                    <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br>
                     <p class="pl-0 pl-md-5 mb-4">Protecting the value of your company data in a long
                         term takes all-round attention: Between updates,
                         upgrades and end of support, your infrastructure is

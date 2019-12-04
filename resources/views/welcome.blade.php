@@ -151,7 +151,7 @@
                         <button class="btn btn-default orange_btn">ABOUT SKY EXPRESS</button>
                     </div>
 
-                    <div class="row" style="margin-top: 160px;">
+                    <div class="row home-aboute">
                         <div class="col-12 col-md-6">
                             <h3>Your trusted <br> Cybersecurity Partner</h3>
                         </div>
@@ -165,7 +165,7 @@
                                     Sky Express offers a very selective range of complemental, compatibile and applicable solutions.
                                     All the solutions we distribute, either directly or through sales partners, are recognized, proven and tailored to fit market requirements.
                             </p>
-                            <br><br><br><br><br>
+                            <br><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block">
                             <a class="btn btn-default" href="/about-us">Learn more</a>
                         </div>
                     </div>

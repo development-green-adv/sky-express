@@ -37,7 +37,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-md-6">
-                        <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
+                        <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br class="d-none d-md-block">
                         <p class="pl-0 pl-md-5 mb-4">The key function of managed security services is to provide the customer with the information, resources, and access to personnel that they need to
                             appropriately secure their network and resources.</p>
                         <p class="pl-0 pl-md-5 mb-4">Sky Express Managed Security Services (MSS) deliver a diversified portfolio of services to meet the demands of a wide range of organizations through a

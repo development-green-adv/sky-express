@@ -32,7 +32,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
-                    <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br class="d-none d-md-block">
+                    <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br class="d-none d-md-block">
                     <p class="pl-0 pl-md-5 mb-4">They bring together decades of experience in cybersecurity and significant experience from leading companies in 
                     diverse global markets and various areas, such as finance, military, health, insurance, government agencies and the intelligence community.</p>
                     <p class="pl-0 pl-md-5 mb-4">Our professionals have spent major part of their careers protecting some of the most sensitive data and systems in different companies and are now ready to apply 
