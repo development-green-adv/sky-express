@@ -3239,3 +3239,15 @@ ul.open-systems-first-ul li:last-child {
         padding-bottom: 60px;
     }
 }
+
+/* EVENTS */
+@media (max-width: 768px) {
+    .events_section h3 {
+        border-right: none;
+    }
+
+    .previous-events-title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

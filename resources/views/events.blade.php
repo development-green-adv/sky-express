@@ -113,8 +113,8 @@
 
                                 ?>
 
-                                <div class="col-12 col-md-1">
-                                    <h3 class="orange_text">{{ $ev[2] }}<br>{{ $ev[1] }}<br>{{ $ev[0] }}</h3>
+                                <div class="col-12 col-md-1 mb-3 mb-md-0">
+                                    <h3 class="orange_text">{{ $ev[2] }} <br class="d-none d-md-block">{{ $ev[1] }} <br class="d-none d-md-block">{{ $ev[0] }}</h3>
                                 </div>
                                 <div class="col-12 col-md-4">
                                     <h4 class="mb-3">{{ $event->title }}</h4>
@@ -123,10 +123,10 @@
 
                                     {!! $event->text !!}
 
-                                    <br><br><br>
+                                    <br><br><br class="d-none d-md-block">
                                     <a class="org_link" target="_blank" href="{{ $event->link }}">VIEW DETAILS</a>
                                 </div>
-                                <div class="col-12 col-md-7">
+                                <div class="col-12 col-md-7 mt-5 mt-md-0">
                                     @if($event->main_image != "") <img class="img-fluid" src="images_gallery/{{ $event->main_image }}"> @else <img class="img-fluid" src="{{ asset('images/web/single-news-image.png') }}"> @endif
                                 </div>
                             </div>
@@ -218,7 +218,7 @@
                                 ?>
 
                                 <div class="col-12 col-md-1">
-                                    <h3 class="orange_text">{{ $ev[2] }}<br>{{ $ev[1] }}<br>{{ $ev[0] }}</h3>
+                                    <h3 class="orange_text">{{ $ev[2] }} <br class="d-none d-md-block">{{ $ev[1] }} <br class="d-none d-md-block">{{ $ev[0] }}</h3>
                                 </div>
                                 <div class="col-12 col-md-4">
                                     <h4 class="mb-3">{{ $event->title }}</h4>
@@ -230,7 +230,7 @@
                                     <br>
                                     @if($event->link != "") <a target="_blank" href="{{ $event->link }}">VIEW DETAILS</a> @else @endif
                                 </div>
-                                <div class="col-12 col-md-7">
+                                <div class="col-12 col-md-7 mt-5 mt-md-0">
                                     @if($event->main_image != "") <img class="img-fluid" src="images_gallery/{{ $event->main_image }}"> @else <img class="img-fluid" src="{{ asset('images/web/single-news-image.png') }}"> @endif
                                 </div>
                             </div>
