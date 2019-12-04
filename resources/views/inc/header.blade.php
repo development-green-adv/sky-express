@@ -57,9 +57,10 @@
                                             <li><a href="/security-consulting">Security Consulting</a></li>
                                         </ul>
                                         <ul class="dropdown-menu-ul">
-                                            <p class="mb-4">TEHNICAL SUPPORT</p>
-                                            <h5 class="mb-4">CONTACT SUPPORT</h5>
-                                            <h6 class="mb-3">Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6>
+                                            <p class="mb-3">TEHNICAL SUPPORT</p>
+                                            {{-- <h5 class="mb-4">CONTACT SUPPORT</h5> --}}
+                                            {{-- <h6 class="mb-3">Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6> --}}
+                                            <h6 class="mb-3">Sky Express's highly skilled team of experts offers a combination of technology and cyber security expertise.</h6>
                                             <a href="/contact">Contact Support</a>
                                         </ul>
                                     </div>

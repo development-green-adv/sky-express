@@ -98,9 +98,9 @@
                             <div class="why-us-page-cert-card">
                                 <img class="img-fluid" class="mb-auto" src="{{ asset('images/web/cert-2.png') }}" alt="">
                             </div>
-                            <div class="why-us-page-cert-card">
+                            {{-- <div class="why-us-page-cert-card">
                                 <img class="img-fluid" class="mb-auto" src="{{ asset('images/web/cert-3.jpg') }}" alt="">
-                            </div>
+                            </div> --}}
                             <div class="why-us-page-cert-card">
                                 <img class="img-fluid" class="mb-auto" src="{{ asset('images/web/cert-4.png') }}" alt="">
                             </div>
