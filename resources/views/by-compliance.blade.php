@@ -154,6 +154,7 @@
             </div>
         </div>
 
+        
         <div class="container-fluid footer">
             <div class="row">
                 <div class="container">
@@ -162,16 +163,16 @@
                             <!-- <h5>SKY EXPRESS LOGO</h5> -->
                             <a class="navbar-brand logo-footer" href="/"><img src="{{ asset('images/web/logo-sky-express.png') }}" alt=""></a>
                         </div>
-                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                        <div class="col-6 col-md-3 mb-4 mb-md-0">
                             <h5>QUICK LINKS</h5>
-                            <a href="/why-us">Why Us?</a><br>
-                            <a href="#">Technical support</a><br>
+                            <a href="/why-us">Why us?</a><br>
+                            <a href="/contact">Technical support</a><br>
                             <a href="/news">News</a><br>
                             <a href="/blog">Blog</a><br>
                             <a href="/careers">Careers</a><br>
                             <a href="#">Office locations</a>
                         </div>
-                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                        <div class="col-6 col-md-3 mb-4 mb-md-0">
                             <h5>PRODUCTS</h5>
                             <a href="/carbon-black">Carbon Black</a><br>
                             <a href="/df-labs">DF Labs</a><br>
@@ -183,7 +184,7 @@
                             <a href="/kerio">Kerio</a><br>
                             <a href="/security-scorecard">Security Scorecard</a>
                         </div>
-                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                        <div class="col-12 text-center text-md-left col-md-3 mb-4 mb-md-0 mt-4 mt-md-0">
                             <h5>Sky Express d.o.o.</h5>
                             <p>Work hours:</p>
                             <p>Monday - Friday</p>
@@ -205,17 +206,26 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <a href="/terms">Terms & Conditions</a> 
-                            <a href="/privacy-policy">Privacy Policy</a>
-                            <a href="/cookie-policy">Cookie Policy</a>
-                            <a href="#">Copyright {{ date("Y") }} www.sky-express.rs</a>
-                            <a href="#">All right reserved</a>
-                            <a target="_blank" href="https://www.green-adv.rs">website development</a>
+                            <div class="row">
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <a class="ml-auto" href="/terms">Terms & Conditions</a>
+                                    <a class="ml-auto" href="/privacy-policy">Privacy Policy</a>
+                                    <a href="/cookie-policy">Cookie Policy</a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <a href="#">Copyright {{ date("Y") }} www.sky-express.rs</a>
+                                    <a href="#">All right reserved</a>
+                                </div>
+                                <div class="col-12 text-center text-md-left col-md-4">
+                                    <a target="_blank" href="https://www.green-adv.rs">website development</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         
 
 
