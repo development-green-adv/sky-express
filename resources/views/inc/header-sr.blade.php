@@ -48,20 +48,20 @@
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
                                             <p>USLUGE</p>
-                                            <li><a href="/security-analysis">Security Analysis</a></li>
-                                            <li><a href="/compliance-analysis">Compliance Analysis</a></li>
-                                            <li><a href="/managed-security-services">Management Security Services (MSSP)</a></li>
-                                            <li><a href="/information-security-management-system">Security Management Systems (ISMS)</a></li>
-                                            <li><a href="/pen-testing">Pen Testing & Ethical Hacking</a></li>
-                                            <li><a href="/security-awareness-planning">Security Awareness Planning</a></li>
-                                            <li><a href="/security-consulting">Security Consulting</a></li>
+                                            <li><a href="#">Security Analysis</a></li>
+                                            <li><a href="#">Compliance Analysis</a></li>
+                                            <li><a href="#">Management Security Services (MSSP)</a></li>
+                                            <li><a href="#">Security Management Systems (ISMS)</a></li>
+                                            <li><a href="#">Pen Testing & Ethical Hacking</a></li>
+                                            <li><a href="#">Security Awareness Planning</a></li>
+                                            <li><a href="#">Security Consulting</a></li>
                                         </ul>
                                         <ul class="dropdown-menu-ul">
                                             <p class="mb-3">TEHNIČKA PODRŠKA</p>
                                             {{-- <h5 class="mb-4">CONTACT SUPPORT</h5> --}}
                                             {{-- <h6 class="mb-3">Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6> --}}
                                             <h6 class="mb-3">Sky Express's highly skilled team of experts offers a combination of technology and cyber security expertise.</h6>
-                                            <a href="/contact">Kontakt podrška</a>
+                                            <a href="#">Kontakt podrška</a>
                                         </ul>
                                     </div>
                                 </li>
@@ -70,16 +70,16 @@
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
                                             <p>COMPANY OVERVIEW</p>
-                                            <li><a href="/about-us">O nama</a></li>
-                                            <li><a href="/why-us">Zašto mi?</a></li>
-                                            <li><a href="/careers">Karijera</a></li>
-                                            <li><a href="/contact">Kontakt</a></li>
+                                            <li><a href="#">O nama</a></li>
+                                            <li><a href="#">Zašto mi?</a></li>
+                                            <li><a href="#">Karijera</a></li>
+                                            <li><a href="#">Kontakt</a></li>
                                             {{-- <li><a href="#">Office Locations</a></li> --}}
                                         </ul>
                                         <ul class="dropdown-menu-ul">
                                             <p class="mb-4">KARIJERA U SKY EXPREES-U</p>
                                             <h6>Sky Express is looking for talented individuals who bring a diverse range of experiance and capabilities. View our open positions below to find your next career opportunity with us.</h6>
-                                            <a href="/careers">Pridružite nam se</a>
+                                            <a href="#">Pridružite nam se</a>
                                         </ul>
                                     </div>
                                 </li>
@@ -90,7 +90,7 @@
                                         <ul style="margin-top: 0px; padding-top: 0px;" class="dropdown-menu-ul">
                                             <li><a href="/events">Događaji</a>
                                             </li>
-                                            <li><a href="/news">Novosti</a></li>
+                                            <li><a href="#">Novosti</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -99,9 +99,9 @@
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
                                             <!-- <p>PRODUCTS</p> -->
-                                            <li><a href="/blog">Blog</a></li>
+                                            <li><a href="#">Blog</a></li>
                                             {{-- <li><a href="#">Reports</a></li> --}}
-                                            <li><a href="/faq">F&Q</a></li>
+                                            <li><a href="#">F&Q</a></li>
                                             {{-- <li><a href="#">Case Studies</a></li> --}}
                                         </ul>
                                         {{-- <ul class="dropdown-menu-ul">
