@@ -1,6 +1,13 @@
 @extends("layout/master")
 
-@section("title", "Sky Express")
+@section("title", "Ekskluzivni distributer naprednih sajber bezbednosnih rešenja")
+
+@section("seo")
+
+    <meta name="keywords" content="ky Express, SkyExpress, Sajber Bezbednost, IT Bezbednost, Carbon Black, DFLabs, LogPoint, Onapsis, Avast, Eperi, Open Systems, Security Scorecard, PenTest, Pen Testing, SAP Security, Bezbednosna analiza, etičko hakovanje, GDPR, EndPoint Detekcija, Incident Management, Antivirus zaštita, MSSP, WAF…" />
+    <meta name="description" content="Sky Express nudi pažljivo odabran spektar komplementarnih, kompatibilnih i primenljivih sajber bezbednosnih rešenja, koja su prilagođena potrebama tržišta" />
+
+@endsection
 
 @section("content")
 
@@ -29,7 +36,7 @@
                             </div>
 
                             <div class="col-12 pb-3" data-aos="fade-up">
-                                <h1 class="orange_text">NAPREDNA</h1>
+                                <h1 class="orange_text"><b>NAPREDNA</b></h1>
                                 <h2>SAJBER SIGURNOSNA REŠENJA </h2>
                                 <br>
                                 <h3>ODABRANI NIVO DOKAZANIH, KOMPLEMENTARNIH, KOMPATIBILNIH I PRIMENLJIVIH REŠENJA  </h3>
@@ -38,7 +45,7 @@
                             </div>
 
                             <div class="col-12 pb-3" data-aos="fade-up">
-                                <h1 class="orange_text">SAJBER SIGURNOSNI EKSPERTI</h1>
+                                <h1 class="orange_text">SAJBER SIGURNOSNI <b>EKSPERTI</b></h1>
                                 <h2>VAMA NA USLUZI</h2>
                                 <br>
                                 <h3>VISOKO KVALIFIKOVANI I ISKUSNI SAJBERSIGURNOSNI PROFESIONALCI</h3>

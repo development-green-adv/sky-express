@@ -26,8 +26,17 @@ class FrontController extends Controller
 
     public function getNews(){
 
-        $data = News::where("status", 1)->orderBy("id", "desc")->paginate(4);
-        $dataRight = News::where("status", 1)->orderBy("id", "desc")->skip(0)->take(4)->get();
+        $data = News::where("status", 1)->where('lang', "en")->orderBy("id", "desc")->paginate(4);
+        $dataRight = News::where("status", 1)->where("lang", "en")->orderBy("id", "desc")->skip(0)->take(4)->get();
+
+        return view("news", compact('data', 'dataRight'));
+
+    }
+
+    public function getNewsSrb(){
+
+        $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "desc")->paginate(4);
+        $dataRight = News::where("status", 1)->where("lang", "sr")->orderBy("id", "desc")->skip(0)->take(4)->get();
 
         return view("news", compact('data', 'dataRight'));
 
@@ -35,10 +44,19 @@ class FrontController extends Controller
 
     public function getEvents(){
 
-        $dataNext = Event::where("status", 1)->orderBy("date", "desc")->get();
-        $dataPrevious = Event::where("status", 1)->orderBy("date", "desc")->paginate(10);
+        $dataNext = Event::where("status", 1)->where("lang", "en")->orderBy("date", "desc")->get();
+        $dataPrevious = Event::where("status", 1)->where("lang", "en")->orderBy("date", "desc")->paginate(10);
 
         return view("events", compact("dataNext", "dataPrevious"));
+
+    }
+
+    public function getEventsSrb(){
+
+        $dataNext = Event::where("status", 1)->where('lang', "sr")->orderBy("date", "desc")->get();
+        $dataPrevious = Event::where("status", 1)->where('lang', 'sr')->orderBy("date", "desc")->paginate(10);
+
+        return view("/sr/events", compact("dataNext", "dataPrevious"));
 
     }
 

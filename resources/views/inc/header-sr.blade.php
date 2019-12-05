@@ -48,20 +48,20 @@
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
                                             <p>USLUGE</p>
-                                            <li><a href="#">Security Analysis</a></li>
-                                            <li><a href="#">Compliance Analysis</a></li>
-                                            <li><a href="#">Management Security Services (MSSP)</a></li>
-                                            <li><a href="#">Security Management Systems (ISMS)</a></li>
-                                            <li><a href="#">Pen Testing & Ethical Hacking</a></li>
-                                            <li><a href="#">Security Awareness Planning</a></li>
-                                            <li><a href="#">Security Consulting</a></li>
+                                            <li><a href="#">Bezbednosna analiza</a></li>
+                                            <li><a href="#">Analiza usklađenosti sa regulativama</a></li>
+                                            <li><a href="#">Managed Security Services (MSSP)</a></li>
+                                            <li><a href="#">Upravljanje informacionom bezbednošću (ISMS)</a></li>
+                                            <li><a href="#">PenTest i etičko hakovanje</a></li>
+                                            <li><a href="#">Podizanje svesti o bezbednosti</a></li>
+                                            <li><a href="#">Konsalting u oblasti informacione bezbednosti</a></li>
                                         </ul>
                                         <ul class="dropdown-menu-ul">
                                             <p class="mb-3">TEHNIČKA PODRŠKA</p>
                                             {{-- <h5 class="mb-4">CONTACT SUPPORT</h5> --}}
                                             {{-- <h6 class="mb-3">Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6> --}}
-                                            <h6 class="mb-3">Sky Express's highly skilled team of experts offers a combination of technology and cyber security expertise.</h6>
-                                            <a href="#">Kontakt podrška</a>
+                                            <h6 class="mb-3">Visoko kvalifikovani tim kompanije Sky Express pruža klijentima stručnu podršku u oblasti zaštite mreža, računara, aplikacija i podataka od svih vrsta sajber pretnji.</h6>
+                                            <a href="#">Kontaktirajte podršku</a>
                                         </ul>
                                     </div>
                                 </li>
@@ -69,7 +69,7 @@
                                     <a class="nav-link" href="#">Kompanija</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
-                                            <p>COMPANY OVERVIEW</p>
+                                            <p>KOMPANIJA SKY EXPRESS d.o.o.</p>
                                             <li><a href="#">O nama</a></li>
                                             <li><a href="#">Zašto mi?</a></li>
                                             <li><a href="#">Karijera</a></li>
@@ -101,7 +101,7 @@
                                             <!-- <p>PRODUCTS</p> -->
                                             <li><a href="#">Blog</a></li>
                                             {{-- <li><a href="#">Reports</a></li> --}}
-                                            <li><a href="/sr/faq">F&Q</a></li>
+                                            <li><a href="/sr/faq">FAQ</a></li>
                                             {{-- <li><a href="#">Case Studies</a></li> --}}
                                         </ul>
                                         {{-- <ul class="dropdown-menu-ul">

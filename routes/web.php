@@ -165,6 +165,8 @@ Route::get('/news', 'FrontController@getNews');
 
 Route::get('/events', "FrontController@getEvents");
 
+Route::get('/sr/dogadjaji', "FrontController@getEventsSrb");
+
 
 Route::get('/why-us', function () {
     return view('why-us');
