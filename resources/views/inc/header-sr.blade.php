@@ -70,9 +70,9 @@
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
                                             <p>COMPANY OVERVIEW</p>
-                                            <li><a href="#">O nama</a></li>
-                                            <li><a href="#">Zašto mi?</a></li>
-                                            <li><a href="#">Karijera</a></li>
+                                            <li><a href="/sr/o-nama">O nama</a></li>
+                                            <li><a href="/sr/zasto-sky-express">Zašto mi?</a></li>
+                                            <li><a href="/sr/karijera">Karijera</a></li>
                                             <li><a href="#">Kontakt</a></li>
                                             {{-- <li><a href="#">Office Locations</a></li> --}}
                                         </ul>
