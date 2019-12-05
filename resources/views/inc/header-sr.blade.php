@@ -69,10 +69,17 @@
                                     <a class="nav-link" href="#">Kompanija</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
+<<<<<<< HEAD
                                             <p>KOMPANIJA SKY EXPRESS d.o.o.</p>
                                             <li><a href="#">O nama</a></li>
                                             <li><a href="#">Zašto mi?</a></li>
                                             <li><a href="#">Karijera</a></li>
+=======
+                                            <p>COMPANY OVERVIEW</p>
+                                            <li><a href="/sr/o-nama">O nama</a></li>
+                                            <li><a href="/sr/zasto-sky-express">Zašto mi?</a></li>
+                                            <li><a href="/sr/karijera">Karijera</a></li>
+>>>>>>> 99e807bb4202b3bbaba75acb88b26689a5ee3235
                                             <li><a href="#">Kontakt</a></li>
                                             {{-- <li><a href="#">Office Locations</a></li> --}}
                                         </ul>
