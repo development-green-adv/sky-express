@@ -2167,6 +2167,10 @@ ul.avast-first-part-ul li:last-child {
 
 /* EPERI */
 
+.eperi-page-logo {
+    width: 300px;
+}
+
 .eperi-first-part {
     background-image: none;
 }
@@ -2600,9 +2604,9 @@ ul.open-systems-first-ul li:last-child {
 
 @media (max-width: 768px) {
 
-    /* br {
-        display: none !important;
-    } */
+    .solution_item p{
+        text-align: center;
+    }
 
     .footer {
         padding-top: 40px;
@@ -3194,12 +3198,17 @@ ul.open-systems-first-ul li:last-child {
 
 /* OPEN SYSTEMS */
 @media(max-width: 367px) {
+
     .open-systems-page-logo {
         width: 100%;
     }
 }
 
 @media(max-width: 768px) {
+
+    .open-system-third-part-left p {
+        padding-right: 0%;
+    }
 
     .open-system-third-part {
         padding-top: 60px;
@@ -3214,6 +3223,10 @@ ul.open-systems-first-ul li:last-child {
 /* EPERI */
 
 @media(max-width: 768px) {
+
+    .eperi-page-logo {
+        width: 100%;
+    }
 
     .eperi-third-part {
         padding-top: 60px;
@@ -3292,6 +3305,10 @@ ul.open-systems-first-ul li:last-child {
 }
 
 @media(max-width: 768px) {
+
+    .kerio-first-part {
+        padding-bottom: 0;
+    }
     .kerio-card {
         flex-direction: column-reverse;
         margin-bottom: 50px;
@@ -3368,7 +3385,7 @@ ul.open-systems-first-ul li:last-child {
     }
 
     .experts_pen-left h1 {
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         font-size: 25px;
     }
 

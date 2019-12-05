@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-0 pr-md-5 mb-4">
-                            Connect, communicate, and collaborate without <br> compromise — Kerio’s award-winning products are tailored to the needs of small and mid-sized businesses.
+                            Connect, communicate, and collaborate without <br class="d-none d-md-block"> compromise — Kerio’s award-winning products are tailored to the needs of small and mid-sized businesses.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
@@ -147,7 +147,7 @@
                                 </p>
                             <p class="mb-4">Next-generation firewall</p>
                             <p  class="mb-4">Preserve the integrity of your servers with deep packet 
-                                    inspection and advanced network routing <br>
+                                    inspection and advanced network routing <br class="d-none d-md-block">
                                     capabilities -- including simultaneous IPv4 and IPv6 
                                     support. Create inbound and outbound traffic policies, 
                                     restricting communication by specific URL, application, traffic type, content category and time of day.</p>
@@ -164,7 +164,7 @@
                                 <p class="my-2">MAIL SERVER + MORE</p>
                                 <p class="px-5">Enterprise-class email, 
                                         calendars, contacts, tasks, 
-                                        & instant <br> messaging 
+                                        & instant <br class="d-none d-md-block"> messaging 
                                         - wherever you are</p>
                             </div>
                             <img class="pt-2" src="{{ asset('images/web/kario-card-icon.png') }}" alt="">

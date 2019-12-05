@@ -65,8 +65,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="by-compliance-second-part-right">
-                            <h1 class="text-white pl-0 pl-md-5">Choose the compliance solution that <br> your business needs</h1>
-                            <h2 class="orange-text pl-5 invisible">Explore our cyber security compliance <br> solutions</h2>
+                            <h1 class="text-white pl-0 pl-md-5 mb-4 mb-md-0">Choose the compliance solution that <br class=" d-none d-md-block"> your business needs</h1>
+                            <h2 class="orange-text pl-5 invisible d-none d-md-block">Explore our cyber security compliance <br class=" d-none d-md-block"> solutions</h2>
                             <p class="text-white pl-0 pr-0 pl-md-5 pr-md-5">Sky Express provides security solutions that are 
                                 unobtrusive, cost effective and deliver actual business value in terms of improved process efficiency,greater transparency, and increased confidence to you, your 
                                 auditors and your regulators. </p>

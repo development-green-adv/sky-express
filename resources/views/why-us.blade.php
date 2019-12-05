@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     <div class="col-12 text-center">
-                        <h3 class="why-us-cet-text">Protect your data by establishing reliable partnership with trusted IT solution <br> provider who knows how to keep your business safe and secure.</h3>
+                        <h3 class="why-us-cet-text">Protect your data by establishing reliable partnership with trusted IT solution <br class="d-none d-md-block"> provider who knows how to keep your business safe and secure.</h3>
                     </div>
                 </div>
             </div>

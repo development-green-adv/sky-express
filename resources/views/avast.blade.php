@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-0 pr-md-5 mb-4">
-                            Avast is one of the largest security companies in the world using <br> next-gen technologies to fight cyber
+                            Avast is one of the largest security companies in the world using <br class="d-none d-md-block"> next-gen technologies to fight cyber
                             attacks in real time. It combines artificial intelligence with human ingenuity to create the world‘s largest
                             cybersecurity network protecting people and
                             businesses from attacks online.
@@ -41,7 +41,7 @@
                     </p>
                     
                     <p class="pr-0 pr-md-5">
-                            The company’s threat detection network is among the most advanced in the world, using machine learning and artificial intelligence technologies to detect and stop threats in real time. Avast creates <br> top-ranked 
+                            The company’s threat detection network is among the most advanced in the world, using machine learning and artificial intelligence technologies to detect and stop threats in real time. Avast creates <br class="d-none d-md-block"> top-ranked 
                             digital security products for Mobile, PC, and Mac.
                     </p>
                 </div>

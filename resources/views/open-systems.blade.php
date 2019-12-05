@@ -111,7 +111,7 @@
                         <div class="open-system-third-part-left">
                             <h3 >NETWORK SECURITY MONITORING</h3>
                             <h4 class="mb-4">Eliminate Your Network Blind Spots</h4>
-                            <p>The key to managing network breaches is finding them quickly. Open Systems Network Security Monitoring closes the gap between traditional detection and 
+                            <p class="mb-5 mb-md-0">The key to managing network breaches is finding them quickly. Open Systems Network Security Monitoring closes the gap between traditional detection and 
                                     security monitoring and more complex SIEM/SOC 
                                     solutions.</p>
                         </div>

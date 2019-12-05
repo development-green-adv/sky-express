@@ -78,7 +78,7 @@
                     </ul>
                 </div>
                 <div class="col-12 col-md-6">
-                    <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
+                    <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br>
                     <p class="pl-0 pl-md-5 mb-4">There is no doubt cybersecurity has been and will continue to be a big deal for everybody and keeping ERP applications secure is a big part of how to protect organization against both cyberattacks and other types of data fraud and theft.</p>
                     <p class="pl-0 pl-md-5 mb-4">Sky Express offers a comprehensive solution such is 
                         Onapsis, that delivers actionable intelligence, continuous monitoring and automated governance to ensure the secure operations of your SAP systems, but also eliminates the 

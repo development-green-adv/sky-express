@@ -53,19 +53,54 @@
                         information security management best practice that helps organisations to:</p>
                     <ul class="iso-2700-list">
                         <li class="mb-4 pl-0 pl-md-5">
-                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Protect client and employee information
+                            <div class="row">
+                                <div class="col-2 col-md-1">
+                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                </div>
+                                <div class="col-10 col-md-11">
+                                    Protect client and employee information
+                                </div>
+                            </div>
                         </li>
                         <li class="mb-4 pl-0 pl-md-5">
-                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Manage risks to information security effectively
+                            <div class="row">
+                                <div class="col-2 col-md-1">
+                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                </div>
+                                <div class="col-10 col-md-11">
+                                    Manage risks to information security effectively
+                                </div>
+                            </div>
                         </li>
                         <li class="mb-4 pl-0 pl-md-5">
-                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Achieve compliance with regulations such as the European
+                            <div class="row">
+                                <div class="col-2 col-md-1">
+                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                </div>
+                                <div class="col-10 col-md-11">
+                                    Achieve compliance with regulations such as the European
+                                </div>
+                            </div>
                         </li>
                         <li class="mb-4 pl-0 pl-md-5">
-                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Union General Data Protection Regulation (EUGDPR)
+                            <div class="row">
+                                <div class="col-2 col-md-1">
+                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                </div>
+                                <div class="col-10 col-md-11">
+                                    Union General Data Protection Regulation (EUGDPR)
+                                </div>
+                            </div>
                         </li>
                         <li class="mb-4 pl-0 pl-md-5">
-                            <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Protect the company's brand image
+                            <div class="row">
+                                <div class="col-2 col-md-1">
+                                    <img src="{{ asset('images/web/correct.svg') }}" alt="">
+                                </div>
+                                <div class="col-10 col-md-11">
+                                    Protect the company's brand image
+                                </div>
+                            </div>
                         </li>
                     </ul>
                     <p class="pl-0 pl-md-5 mb-4">The standard is especially suitable where the protection of information is critical, such as in the banking, financial, health, public and IT sectors. The standard is also applicable to organisations which manage high volumes of data, or 

@@ -37,9 +37,9 @@
                 <div class="col-12 col-md-7">
                     <div class="df-labs-right-first-part">
                         <ul>
-                            <li><div class="row"><div class="col-2 col-md-1"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Minimize Incident resolution time by 90%</div></div></li>
-                            <li><div class="row"><div class="col-2 col-md-1"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Improve Analyst efficiency by 80%</div></div></li>
-                            <li><div class="row"><div class="col-2 col-md-1"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Increase handled incidents 300%</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Minimize Incident resolution time by 90%</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Improve Analyst efficiency by 80%</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Increase handled incidents 300%</div></div></li>
                             <li><img class="mr-0 mr-md-4 invisible d-none d-md-block " src="{{ asset('images/web/correct.svg') }}" alt="">Automated, Orchestrate & Measure</li>
                         </ul>
                     </div>
@@ -61,7 +61,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="df-labs-second-part-left ">
-                            <h1 class="mb-5">DFLabs' Security Orchestration, <br> Automation and Response Platform</h1>
+                            <h1 class="mb-5">DFLabs' Security Orchestration, <br class="d-none d-md-block"> Automation and Response Platform</h1>
                             <p><b>DFLabs IncMan SOAR</b> is the <b>only</b> Security Orchestration, Automation and Response (SOAR) platform
                                 capable of full incident lifecycle automation, that includes built-in, automated threat intelligence
                                 gathering, risk assessment, triage and notification, context enrichment, hunting and investigating,
@@ -131,7 +131,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="df-labs-fourth-part-left">
-                            <h2 class="mb-5">Key Features & Capabilities <br> The DFLabs Difference</h2>
+                            <h2 class="mb-5">Key Features & Capabilities <br class="d-none d-md-block"> The DFLabs Difference</h2>
                             <p class="mb-4 pr-0 pr-md-5">IncMan includes many bidirectional integrations with a variety of product categories including SIEM,
                                 network defense, endpoint protection and threat intelligence, chosen to broaden the orchestration
                                 and automation capabilities of companies.</p>

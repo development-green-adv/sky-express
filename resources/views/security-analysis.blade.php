@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="invisible">Benefitsof Penetration Testing</h3>
+                        <h3 class="invisible d-none d-md-block">Benefitsof Penetration Testing</h3>
                         <div class="solutions-second-right">
                             <ul>
                                 <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11"> Enhancement of company's security;</div></div></li>

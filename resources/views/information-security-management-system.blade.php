@@ -24,7 +24,7 @@
         <div class="about_desc pen_services">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="col-12 col-md-6 mb-0 mb-md-0">
                         <h4>Information Security Management Systems (ISMS)</h4><br>
                         <p class="pr-0 pr-md-5">
                             Sky Express’ information security services protect your business from data breaches, negative publicity, damaged credibility and disruption of services. We
@@ -85,7 +85,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="experts_pen-left">
-                            <h1>Talk an experienced consultant about where <br> you are on your cybersecurity journey and <br> where you'd like to improve.</h1>
+                            <h1>Talk an experienced consultant about where <br class="d-none d-md-block"> you are on your cybersecurity journey and <br class="d-none d-md-block"> where you'd like to improve.</h1>
                             <div class="get-btn">
                                 <a href="/contact">GET IN TOUCH <span>with our experts</span></a>
                             </div>

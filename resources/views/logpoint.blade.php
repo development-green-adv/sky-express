@@ -95,19 +95,19 @@
                                 <li class="mb-4">
                                     <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10 col-md-11"><p class="pr-5">Rapid analytic insight into incidents across the infrastructure;</p></div>
+                                        <div class="col-10 col-md-11"><p class="pr-0 pr-md-5">Rapid analytic insight into incidents across the infrastructure;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-4">
                                     <div class="row">
                                             <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                            <div class="col-10  col-md-11"><p class="pr-5">Removed dependencies of specific personnel with restricted system access;</p></div>
+                                            <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Removed dependencies of specific personnel with restricted system access;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-4">
                                     <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10  col-md-11"><p class="pr-5">Big data analytics for sharp, easy analysis of all issues and 
+                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Big data analytics for sharp, easy analysis of all issues and 
                                                 incidents related all aspects of information system 
                                                 architecture – network, system, services and applications;</p></div>
                                     </div>
@@ -115,13 +115,13 @@
                                 <li class="mb-4">
                                     <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10  col-md-11"><p class="pr-5">Reduction of the number of false positives and eliminating the hassle of maintaining and developing expert rules;</p></div>
+                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Reduction of the number of false positives and eliminating the hassle of maintaining and developing expert rules;</p></div>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="mb-5 mb-md-0">
                                     <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10  col-md-11"><p class="pr-5">Forensic investigation with the execution of custom 
+                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Forensic investigation with the execution of custom 
                                                 playbooks should an incident arise.</p></div>
                                     </div>
                                 </li>
@@ -130,7 +130,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="logpoint-page-second-part-left">
-                            <h5 class="invisible mb-5">With LogPoint, you can quickly troubleshoot potential issues via:</h5>
+                            <h5 class="invisible mb-5 d-none d-md-block">With LogPoint, you can quickly troubleshoot potential issues via:</h5>
                             <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Ease of use</span> - Lightning-fast analytics and rich 
                                     reporting without requiring an advanced skillset.</p>
                             <p class="mb-4 pr-0 pr-md-5"><span  class="orange_text">Cost management</span> - No extra cost related to the growth of the company’s data volume or how many events per second you receive.</p>

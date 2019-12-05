@@ -133,7 +133,7 @@
                     <div class="row">
                         <div class="col-12">
                             <h4>Advanced cybersecurity solutions</h4><br>
-                            <h2><b>Providing impenetrable Defense<br> For Enterprise Companies</b></h2><br>
+                            <h2><b>Providing impenetrable Defense<br class="d-none d-md-block"> For Enterprise Companies</b></h2><br>
                             <p>
                                 Defend your organization against the latest cyber threats. Sky Express offers a very selective range<br>
                                 of complemental, compatible and applicable solutions.

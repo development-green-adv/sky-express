@@ -35,7 +35,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-6 pl-3 pl-md-5">
-                    <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
+                    <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br>
                     <p class="mb-4">Achieving compliance with regulatory and industry standards doesn't have to be as difficult as it seems.</p>
                     <p class="">Sky Express guides you through compliance
                         validation processes quickly and smoothly to help get your organization compliant and back to running your business.</p>
@@ -80,7 +80,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="experts_pen-left">
-                            <h1>Talk an experienced consultant about where <br> you are on your cybersecurity journey and <br> where you'd like to improve.</h1>
+                            <h1>Talk an experienced consultant about where <br class="d-none d-md-block"> you are on your cybersecurity journey and <br class="d-none d-md-block"> where you'd like to improve.</h1>
                             <div class="get-btn">
                                 <a href="/contact">GET IN TOUCH <span>with our experts</span></a>
                             </div>

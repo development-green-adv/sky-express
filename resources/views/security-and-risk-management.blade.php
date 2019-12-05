@@ -60,12 +60,12 @@
                 <div class="row">
                     <div class="col-12 mb-5">
                         <div class="text-center">
-                            <p>All businesses face the risk of a cyber breach at some point during their life cyclem, <br> but understanding your rist level <br> - and where the threats could come from - can go a long way to preparing and effective <br> response.</p>
+                            <p>All businesses face the risk of a cyber breach at some point during their life cyclem, <br class="d-none d-md-block"> but understanding your rist level <br class="d-none d-md-block"> - and where the threats could come from - can go a long way to preparing and effective <br class="d-none d-md-block"> response.</p>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="text-center">
-                            <p>Sky Express can analyze overall security posture of your organization, identify gaps and reduce <br> identified cyber risks.</p>
+                            <p>Sky Express can analyze overall security posture of your organization, identify gaps and reduce <br class="d-none d-md-block"> identified cyber risks.</p>
                         </div>
                         <div class="text-center mt-5">
                                 <div class="get-btn">

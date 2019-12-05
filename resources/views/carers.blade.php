@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-12">
                     <h5 style="color: #231f20; font-size: 25px;">
-                        <b>Get the opportunity to work in one of the most exciting and advancing areas <br> within the cyber security industries with Sky Express</b>
+                        <b>Get the opportunity to work in one of the most exciting and advancing areas <br class="d-none d-md-block"> within the cyber security industries with Sky Express</b>
                     </h5>
                 </div>
             </div><br>
@@ -65,7 +65,7 @@
                             <p class="mb-4">We believe in respecting and celebrating each person's uniqueness: their ideas, perspectives and
                                 contributions - empowering them to bring their "whole selves" to work.</p>
                             <p class="mb-4">We actively promote and continually shape an environment where associates feel truly engaged and
-                                understood; a place where they can share their point of view and offer ideas openly and fearlessly.<br>
+                                understood; a place where they can share their point of view and offer ideas openly and fearlessly.<br class="d-none d-md-block">
                                 That means being the best for the team, not necessarily the best in the team.</p>
                             <p class="mb-4">We strive to build a stronger, smarter team by hiring people who are better than us.
                                 A winning team is more than just our work: a strong social bond often helps overcome
@@ -141,8 +141,8 @@
                             <h5>We offer a first-line view on the future of cyber security. Choose to fully develop your potential!</h5><br><br><br>
                             <!-- <h5>Your application to Sky Express: That's how it works</h5><br> -->
                             <p>
-                                Sky Express is looking for talented individuals who will bring diverse range of experience and capabilities. <br>
-                                We are glad that you are interested in us as an employer - maybe you will join the team soon! <br>
+                                Sky Express is looking for talented individuals who will bring diverse range of experience and capabilities. <br class="d-none d-md-block">
+                                We are glad that you are interested in us as an employer - maybe you will join the team soon! <br class="d-none d-md-block">
                                 Check out our job openings below to find your next career opportunity with us.
                         </p>
                         </div>

@@ -24,7 +24,7 @@
         <div class="container about_desc eperi-first-part">
             <div class="row">
                 <div class="col-12 mb-5">
-                    <img style="width: 300px;" src="{{ asset('images/web/eperi-page-logo.png') }}" alt="">
+                    <img class="eperi-page-logo" src="{{ asset('images/web/eperi-page-logo.png') }}" alt="">
                 </div>
                 {{-- <div class="col-12 mb-4">
                     <h4>Security, performance and privacy solutions for consumer and business users</h4><br>
@@ -60,7 +60,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h4 class="mb-4 text-white">DATA PROTECTION, GDPR COMPLIANCE, USABILITY.</h4>
-                        <h4 class="orange_text">Everything from a single source with the eperi Gateway.</h4>
+                        <h4 class="orange_text mb-4 mb-md-0">Everything from a single source with the eperi Gateway.</h4>
                     </div>
                     <div class="col-md-6">
                         <div class="df-labs-second-part-left eperi-page-second-part-left">
@@ -136,7 +136,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h4 class="mb-5 text-white">HOW DOES YOUR ORGANIZATION BENEFIT <br> FROM EPERI CLOUD DATA PROTECTION?</h4>
+                        <h4 class="mb-0 mb-md-5 text-white">HOW DOES YOUR ORGANIZATION BENEFIT <br class="d-none d-md-block"> FROM EPERI CLOUD DATA PROTECTION?</h4>
                     </div>
                 </div>
                 <div class="row mt-5">
