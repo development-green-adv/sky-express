@@ -4,6 +4,18 @@
 
 @section("content")
 
+@section("seo")
+
+    <style>
+
+        #contact-eng{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
     @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">
@@ -12,7 +24,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1>SERVICES</h1>
+                                <h1>USLUGE</h1>
                             </div>
                         </div>
                     </div>
@@ -26,7 +38,7 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <h4>Bezbednosna analiza </h4><br>
                     <p class="pr-0 pr-md-5 mb-4">
-                            Nakon analize postojeće bezbednosne slike vaše organizacije, možemo vam dati preporuke za unapređenje, koje su usklađenje sa vašim poslovnim sistemima i aplikacijama, imajući u vidu vaš budžet i planove proširenja.
+                        Nakon analize postojeće bezbednosne slike vaše organizacije, možemo vam dati preporuke za unapređenje, koje su usklađenje sa vašim poslovnim sistemima i aplikacijama, imajući u vidu vaš budžet i planove proširenja.
                     </p>
 
                     <h4>Zaštita Vašeg informacionog sistema</h4><br>
@@ -115,62 +127,62 @@
             </div>
         </div>
 
-
         <div class="container-fluid service_section">
-            <div class="row">
-                <div class="container">
-                    <div class="row h-100">
-                        <div class="col-12 text-center" style="margin-bottom: 30px;">
-                            <h3>OUR SERVICES</h3>
-                        </div>
-                        
-                        <div class="col-12 col-md-3 my-5 text-center align-self-center service_item">
-                            <a href="/security-analysis">
-                                <img class="img-fluid" src="{{ asset('images/web/secu.png') }}">
-                                <p>Security Analysis</p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <a href="/compliance-analysis">
-                                <img class="img-fluid" src="{{ asset('images/web/compi.png') }}">
-                                <p>Compilance Analysis</p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <a href="/managed-security-services">
-                                <img class="img-fluid" src="{{ asset('images/web/pin.png') }}">
-                                <p>Managed Security Services (MSSP)</p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <a href="/information-security-management-system">
-                                <img class="img-fluid" src="{{ asset('images/web/sec.png') }}"> 
-                                <p>Security Management Systems (ISMS)</p>
-                            </a>
-                        </div>
-                        
-                        <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <a href="/security-awareness-planning">
-                                <img class="img-fluid" src="{{ asset('images/web/se.png') }}">
-                                <p>Security Awareness Planning</p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <a href="/pen-testing">
-                                <img class="img-fluid" src="{{ asset('images/web/pen.png') }}">
-                                <p>Pen Testing & Ethical Hacking</p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <a href="/security-consulting">
-                                <img class="img-fluid" src="{{ asset('images/web/consult.png') }}">
-                                <p>Security Consulting</p>
-                            </a>
+                <div class="row">
+                    <div class="container">
+                        <div class="row h-100">
+                            <div class="col-12 text-center" style="margin-bottom: 30px;">
+                                <h3>NAŠE USLUGE </h3>
+                            </div>
+                            
+                            <div class="col-12 col-md-3 my-5 text-center align-self-center service_item">
+                                <a href="/sr/bezbedonosna-analiza">
+                                    <img class="img-fluid" src="{{ asset('images/web/secu.png') }}">
+                                    <p>Bezbednosna analiza</p>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
+                                <a href="/sr/analiza-uskladjenosti">
+                                    <img class="img-fluid" src="{{ asset('images/web/compi.png') }}">
+                                    <p>Analiza usklađenosti sa regulativama</p>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
+                                <a href="/sr/managed-security-services">
+                                    <img class="img-fluid" src="{{ asset('images/web/pin.png') }}">
+                                    <p>Managed Security Services (MSSP)</p>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
+                                <a href="/sr/information-security-management-system">
+                                    <img class="img-fluid" src="{{ asset('images/web/sec.png') }}"> 
+                                    <p>Upravljanje informacionom bezbednošću (ISMS)</p>
+                                </a>
+                            </div>
+                            
+                            <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
+                                <a href="/sr/pentesting-i-hakovanje">
+                                    <img class="img-fluid" src="{{ asset('images/web/se.png') }}">
+                                    <p>Pentest i etičko hakovanje </p>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
+                                <a href="/sr/planiranje-svesti-o-bezbednosti">
+                                    <img class="img-fluid" src="{{ asset('images/web/pen.png') }}">
+                                    <p>Podizanje svesti o bezbednosti</p>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
+                                <a href="/sr/konsultantske-usluge">
+                                    <img class="img-fluid" src="{{ asset('images/web/consult.png') }}">
+                                    <p>Konsalting u oblasti informacione bezbednosti</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+
 
         <div class="container-fluid rose_section">
             <div class="row">
@@ -198,7 +210,7 @@
 
                                             {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
 
-                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/sr/vest/{{ $new->alias }}">SAZNAJ VIŠE</a>
                                         </div>
                                         
                                     @endforeach

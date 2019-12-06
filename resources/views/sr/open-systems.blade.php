@@ -4,6 +4,18 @@
 
 @section("content")
 
+@section("seo")
+
+    <style>
+
+        #contact-eng{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
     @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/df-labs.png') }}'); background-repeat: no-repeat; background-color: #0b0b0d;">
@@ -163,7 +175,7 @@
 
                                             {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
 
-                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/sr/vest/{{ $new->alias }}">SAZNAJ VIŠE</a>
                                         </div>
                                         
                                     @endforeach

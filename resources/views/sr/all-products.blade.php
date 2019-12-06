@@ -4,6 +4,18 @@
 
 @section("content")
 
+@section("seo")
+
+    <style>
+
+        #contact-eng{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
     @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/df-labs.png') }}'); background-repeat: no-repeat; background-color: #0b0b0d;">

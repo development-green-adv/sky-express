@@ -25,7 +25,7 @@
 
     <title>@yield('title')</title>
 
-    @section("")
+    @section("seo")
         @show
 
     @section("style")
@@ -37,8 +37,8 @@
     @section('content')
         @show
 
-    <div class="contact-us-right-wrapper">
-        <div id="contact-us-right" onclick="moveContact(this)" br="0" class="contact-us-right">
+    <div id="contact-eng" class="contact-us-right-wrapper">
+        <div id="contact-us-right" class="contact-us-right">
             <p>CONTACT US</p>
         </div>
         <div id="contact-us-right-inner" class="contact-us-right-inner">
@@ -48,13 +48,32 @@
         </div>
     </div>
 
+    
+    <div id="contact-srb" class="contact-us-right-wrapper">
+            <div id="contact-us-right1" class="contact-us-right">
+                <p>KONTAKT</p>
+            </div>
+            <div id="contact-us-right-inner1" class="contact-us-right-inner">
+                <h4>Kontakt</h4>
+                <p>Zelimo da vas cujemo.</p>
+                <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
+            </div>
+        </div>
+
+
     <script>
 
         $(document).ready(function(){
-        $("#contact-us-right").click(function(){
-            $(this).toggleClass('toggle-btn-contact');
-            $("#contact-us-right-inner").toggle();
-        });
+
+            $("#contact-us-right").click(function(){
+                $(this).toggleClass('toggle-btn-contact');
+                $("#contact-us-right-inner").toggle();
+            });
+
+            $("#contact-us-right1").click(function(){
+                $(this).toggleClass('toggle-btn-contact');
+                $("#contact-us-right-inner1").toggle();
+            });
         });
         // function moveContact(el){
 

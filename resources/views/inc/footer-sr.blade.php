@@ -27,14 +27,14 @@
                 <div class="col-6 col-md-3 mb-4 mb-md-0">
                     <h5>PROIZVODI</h5>
                     <a href="/sr/carbon-black">Carbon Black</a><br>
-                    <a href="#">DF Labs</a><br>
-                    <a href="#">Eperi</a><br>
-                    <a href="#">Onapsys</a><br>
+                    <a href="/sr/df-labs">DF Labs</a><br>
+                    <a href="/sr/eperi">Eperi</a><br>
+                    <a href="/sr/onapsis">Onapsys</a><br>
                     <a href="/sr/open-systems">Open Systems</a><br>
-                    <a href="#">Logpoint</a><br>
-                    <a href="#">Avast</a><br>
-                    <a href="#">Kerio</a><br>
-                    <a href="#">Security Scorecard</a>
+                    <a href="/sr/logpoint">Logpoint</a><br>
+                    <a href="/sr/avast">Avast</a><br>
+                    <a href="/sr/kerio">Kerio</a><br>
+                    <a href="/sr/security-scorecard">Security Scorecard</a>
                 </div>
                 <div class="col-12 text-center text-md-left col-md-3 mb-4 mb-md-0 mt-4 mt-md-0">
                     <h5>Sky Express d.o.o.</h5>

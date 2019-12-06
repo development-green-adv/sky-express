@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Contact | Sky Express")
+@section("title", "Kontakt | Sky Express")
 
 @section("content")
 
@@ -8,7 +8,7 @@
 
     <style>
 
-        #contact-srb{
+        #contact-eng{
             display: none;
         }
 
@@ -16,7 +16,7 @@
 
 @endsection
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">
             <div class="row">
@@ -24,8 +24,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="mb-2">CONTACT US</h1>
-                                <h3>LET'S GET IN TOUCH</h3>
+                                <h1 class="mb-2">KONTAKTIRAJTE NAS</h1>
+                                {{-- <h3>LET'S GET IN TOUCH</h3> --}}
                             </div>
                         </div>
                     </div>
@@ -40,10 +40,10 @@
 
                     <div class="contact-page-left">
                         <form>
-                            <input type="text" placeholder="First name" required>
+                            <input type="text" placeholder="Ime" required>
                             <input type="email" placeholder="Email" required>
-                            <textarea cols="30" rows="10" placeholder="Type your message here..." required></textarea>
-                            <button type="submit">Submit</button>
+                            <textarea cols="30" rows="10" placeholder="Vaša poruka..." required></textarea>
+                            <button type="submit">Pošalji</button>
                         </form>
                     </div>
 
@@ -52,7 +52,7 @@
                 <div class="col-md-5">
 
                     <div class="contact-page-right pl-0 pl-md-5">
-                        <h5 class="mb-4">HOW TO REACH US</h5>
+                        <h5 class="mb-4">KAKO DA DODJETE DO NAS</h5>
                         <div class="row">
                             <div class="col-md-1"></div>
                             <div class="col-md-11"><p class="mb-4 sky-doo">Sky Express d.o.o</p></div>
@@ -63,7 +63,7 @@
                             </div>
                             <div class="col-10 col-md-11 location-contact-page">
                                 <p>Bulevar Milutina Milankovića 11A <br>
-                                1107, Belgrade, Serbia
+                                1107, Beograd, Srbija
                                 </p>
                             </div>
                         </div>
@@ -81,7 +81,7 @@
 
 
 
-    @include("inc/footer")
+    @include("inc/footer-sr")
 
 
 @endsection

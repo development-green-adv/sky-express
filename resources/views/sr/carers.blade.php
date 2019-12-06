@@ -4,7 +4,19 @@
 
 @section("content")
 
-    @include("inc/header")
+@section("seo")
+
+    <style>
+
+        #contact-eng{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
+    @include("inc/header-sr")
 
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">
@@ -145,7 +157,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <button class="btn btn-default orange_btn text-uppercase">Pogledajte trenutno otvorene pozicije: </button>
+                            <button class="btn btn-default orange_btn text-uppercase">Trenutno otvorene pozicije: </button>
 
                                 <table class="table table-borderless">
                                     <thead>
@@ -177,7 +189,7 @@
             </div>
         </div>
 
-        @include("inc/footer")
+        @include("inc/footer-sr")
 
 @endsection
 

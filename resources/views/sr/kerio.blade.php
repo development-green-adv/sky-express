@@ -8,7 +8,7 @@
 
     <style>
 
-        #contact-srb{
+        #contact-eng{
             display: none;
         }
 
@@ -16,7 +16,7 @@
 
 @endsection
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/df-labs.png') }}'); background-repeat: no-repeat; background-color: #0b0b0d;">
             <div class="row">
@@ -24,7 +24,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="text-white">PRODUCTS</h1>
+                                <h1 class="text-white">PROIZVODI</h1>
                             </div>
                         </div>
                     </div>
@@ -39,11 +39,11 @@
                     <img class="kerio-page-logo" src="{{ asset('images/web/kerio-page-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 mb-4">
-                    <h4>Fast deployment. High usability.</h4><br>
+                    <h4>Brzo uvođenje. Velika upotrebljivost.</h4><br>
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-0 pr-md-5 mb-4">
-                            Connect, communicate, and collaborate without <br class="d-none d-md-block"> compromise — Kerio’s award-winning products are tailored to the needs of small and mid-sized businesses.
+                        Povežite se, komunicirajte i sarađujte bez kompromisa — nagrađivani proizvodi kompanije Kerio prilagođeni su potrebama malih i srednjih preduzeća. Svi proizvodi kombinuju moćne funkcije sa lakoćom korišćenja za poslovne korisnike i IT profesionalce. Naši atraktivni licencni paketi i fleksibilnost rada na mnogim hardverskim i softverskim konfiguracijama pružaju funkcionalnost poslovne klase uz niske ukupne troškove vlasništva.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
@@ -71,16 +71,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h4 class="orange_text mb-5">Kerio products have three important principles:</h4>
+                        <h4 class="orange_text mb-5">Proizvodi kompanije Kerio imaju tri važna principa:</h4>
                     </div>
                     <div class="col-12">
                         <div class="kerio-second-part">
-                            <p class="mb-3">SIMPLICITY - Robust solutions that focus on flexibility, accessibility and functionality without 
-                                    unnecessary IT complexity. </p>
-                            <p class="mb-3">STABILITY - Reliable, dependable communication and collaboration without disruptive and 
-                                    expensive unplanned downtime.</p>
-                            <p>SECURITY - Protection that extends from the network to the business -- role-based policies, “office” phone calls routed to mobile devices, encrypted email -- and enables users to work 
-                                    anytime, anywhere.</p>
+                            <p class="mb-3">1. JEDNOSTAVNOST  - Robustna rešenja koja se fokusiraju na fleksibilnost, pristupačnost i funkcionalnost, bez nepotrebne IT složenosti. </p>
+                            <p class="mb-3">2. STABILNOST - Pouzdana komunikacija i saradnja bez ometanja i skupih neplaniranih zastoja.</p>
+                            <p>3. SIGURNOST  - Zaštita koja se širi sa mreže na preduzeće — politike zasnovane na ulogama, „kancelarijski” telefonski pozivi preusmereni na mobilne uređaje, šifrovana e-pošta — i omogućavaju korisnicima da rade bilo kada i bilo gde.</p>
                         </div>
                     </div>
                 </div>
@@ -100,9 +97,9 @@
                     <div class="col-md-6">
                         <div class="kerio-third-part-left">
                             <h5 class="orange_text mb-2">Kerio Connect</h5>
-                            <p class="pr-5 mb-5"> Secure, enterprise-style email, calendar & collaboration without the high cost
+                            <p class="pr-5 mb-5"> Sigurna e-pošta, kalendar i saradnja u poslovnom stilu bez visokih troškova 
                                 </p>
-                            <p class="mb-4">Email, calendar, IM and more - for less</p>
+                            <p class="mb-4">E-mail, kalendar, IM i još mnogo toga</p>
                             <ul class="eperi-first-part-ul kerio-third-part-left-ul">
                                 <li class="mb-3">
                                     <div class="row">
@@ -110,9 +107,7 @@
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
                                         <div class="col-10 col-md-11">
-                                            <p>Kerio Connect delivers all the features and 
-                                                    functionality for collaboration and messaging solution without the complexity and high price tag of other 
-                                                    systems.</p>
+                                            <p>Kerio Connect nudi sve funkcije i funkcionalnosti za rešenje za saradnju i razmenu poruka bez kompleksnosti i visokih cena drugih sistema,</p>
                                         </div>
                                     </div>
                                 </li>
@@ -122,8 +117,7 @@
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
                                         <div class="col-10 col-md-11">
-                                            <p>Email is integrated with shared calendars and 
-                                                    scheduling, contacts management, tasks, notes, shared and public folders, and instant messaging.
+                                            <p>E-mailovi su integrisani sa zajedničkim kalendarima i zakazivanjem, upravljanjem kontaktima, zadacima, beleškama, deljenim i javnih mapa i instant porukama,
                                                     </p>
                                         </div>
                                     </div>
@@ -134,7 +128,7 @@
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
                                         <div class="col-10 col-md-11">
-                                            <p>Synchronize messages by direct push to your choice of mobile device via Microsoft ActiveSync(R)</p>
+                                            <p>Sinhronizujte poruke direktnim transferom na vaš mobilni uređaj putem Microsoft ActiveSinc(R)</p>
                                         </div>
                                     </div>
                                 </li>
@@ -144,7 +138,7 @@
                                             <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                         </div>
                                         <div class="col-10 col-md-11">
-                                            <p>Instant Messaging is XMPP-compatible and can be used from various 3rd party chat/IM applications on desktop and mobile phones</p>
+                                            <p>Instant Messaging je kompatibilan sa XMPP i može se koristiti sa brojnim drugim aplikacijama za chat/IM aplikacije na desktop računarima ili mobilnim telefonima </p>
                                         </div>
                                     </div>
                                 </li>
@@ -155,16 +149,11 @@
                     <div class="col-md-5">
                         <div class="kerio-third-part-left">
                             <h5 class="orange_text mb-2">Kerio Control</h5>
-                            <p class="pr-0 pr-md-5 mb-5"> Detect threats, block viruses, and filter traffic with the firewall built for SMB
+                            <p class="pr-0 pr-md-5 mb-5"> Otkrijte pretnje, blokirajte viruse i filtrirajte saobraćaj zaštitnim firewall-om izgrađenim za SMB 
                                 </p>
                             <p class="mb-4">Next-generation firewall</p>
-                            <p  class="mb-4">Preserve the integrity of your servers with deep packet 
-                                    inspection and advanced network routing <br class="d-none d-md-block">
-                                    capabilities -- including simultaneous IPv4 and IPv6 
-                                    support. Create inbound and outbound traffic policies, 
-                                    restricting communication by specific URL, application, traffic type, content category and time of day.</p>
-                            <p>Kerio Control’s IPS adds a transparent layer of network protection, with Snort-based behavior analysis, and 
-                                    a regularly updated database of rules and blacklisted IP addresses from Emerging Threats.</p>
+                            <p  class="mb-4">Sačuvajte integritet vaših servera dubinskom inspekcijom paketa i naprednim mrežnim mogućnostima usmeravanja - uključujući istovremeno IPv4 i IPv6 podršku. Napravite ulazne i odlazne politike saobraćaja, ograničavajući komunikaciju prema određenom URL-u, aplikaciji, vrsti saobraćaja, kategoriji sadržaja i vremenu. </p>
+                            <p>IPS kompanije Kerio Control dodaje transparentan sloj mrežne zaštite, zasnovan na Snort-ovoj analizi ponašanja i redovno ažuriranoj bazi podataka s pravilima i sprečavaje saobraćaja od izvora pretnji.</p>
                         </div>
                     </div>
                 </div>
@@ -224,7 +213,7 @@
 
                                             {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
 
-                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/sr/vest/{{ $new->alias }}">SAZNAJ VIŠE</a>
                                         </div>
                                         
                                     @endforeach
@@ -237,7 +226,7 @@
         </div>
 
 
-    @include("inc/footer")
+    @include("inc/footer-sr")
 
 
 @endsection

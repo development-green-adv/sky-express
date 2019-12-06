@@ -4,6 +4,18 @@
 
 @section("content")
 
+@section("seo")
+
+    <style>
+
+        #contact-srb{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
     @include("inc/header")
 
 

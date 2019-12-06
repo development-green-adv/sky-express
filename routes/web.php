@@ -156,12 +156,23 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/sr/kontakt', function () {
+    return view('/sr/contact');
+});
+
 Route::get('/df-labs', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('df-labs', compact("data"));
 });
 
+Route::get('/sr/df-labs', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/df-labs', compact("data"));
+});
+
 Route::get('/news', 'FrontController@getNews');
+
+Route::get('/sr/vesti', 'FrontController@getNewsSrb');
 
 Route::get('/events', "FrontController@getEvents");
 
@@ -190,6 +201,10 @@ Route::get('/sr/sap-bezbednosne-smernice', function () {
 
 Route::get('/meeting-gdpr', function () {
     return view('meeting-gdpr');
+});
+
+Route::get('/sr/meeting-gdpr', function () {
+    return view('/sr/meeting-gdpr');
 });
 
 Route::get('/iso-27001', function () {
@@ -227,9 +242,19 @@ Route::get('/avast', function () {
     return view('avast', compact("data"));
 });
 
+Route::get('/sr/avast', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/avast', compact("data"));
+});
+
 Route::get('/eperi', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('eperi', compact("data"));
+});
+
+Route::get('/sr/eperi', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/eperi', compact("data"));
 });
 
 Route::get('/kerio', function () {
@@ -237,14 +262,29 @@ Route::get('/kerio', function () {
     return view('kerio', compact("data"));
 });
 
+Route::get('/sr/kerio', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/kerio', compact("data"));
+});
+
 Route::get('/logpoint', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('logpoint', compact("data"));
 });
 
+Route::get('/sr/logpoint', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/logpoint', compact("data"));
+});
+
 Route::get('/onapsis', function () {
     $data = News::where("status", 1)->where("lang", "en")->orderBy("id", "asc")->limit(3)->get();
     return view('onapsis', compact("data"));
+});
+
+Route::get('/sr/onapsis', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/onapsis', compact("data"));
 });
 
 Route::get('/open-systems', function () {
@@ -262,6 +302,11 @@ Route::get('/security-scorecard', function () {
     return view('security-scorecard', compact("data"));
 });
 
+Route::get('/sr/security-scorecard', function () {
+    $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
+    return view('/sr/security-scorecard', compact("data"));
+});
+
 Route::get('/all-products', function () {
     return view('all-products');
 });
@@ -274,7 +319,13 @@ Route::get('/all-solutions', function () {
     return view('all-solutions');
 });
 
+Route::get('/sr/sva-resenja', function () {
+    return view('/sr/all-solutions');
+});
+
 Route::get('/single-news/{alias}', "FrontController@getSingleNews");
+
+Route::get("/sr/vest/{alias}", "FrontController@getSingleNewsSrb");
 
 
 

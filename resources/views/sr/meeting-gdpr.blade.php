@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "SAP Security Guidelines | Sky Express")
+@section("title", "Meeting GDPR | Sky Express")
 
 @section("content")
 
@@ -36,55 +36,29 @@
         <div class="container about_desc pen_services sap-first-part">
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
-                    <h4>SAP BEZBEDNOSNE SMERNICE</h4><br>
+                    <h4>USKLAĐENOST SA GDPR-OM</h4><br>
                     <p class="pr-0 pr-md-5 mb-4">
-                        Sajber kriminal neprestano raste i napada vitalne delove svake kompanije – kao što je SAP. Često zaštita SAP sistema nije na zadovoljavajućem nivou. 
+                            GDPR je stupio na snagu 25. maja 2018. godine i od tog datuma obavezuje fizička i pravna lica sa prebivalištem, odnosno sedištem u Evropskoj Uniji, ali pod određenim uslovima GDPR ima primenu i u Srbiji. Ovom direktivom se uvode različiti izazovi u vezi sa zaštitom podataka za preduzeća širom sveta.  
                     </p>
-                    <h6 style="font-size: 18px;" class="mb-5">Postoji nekoliko razloga, koji uzrokuju ranjivost SAP klijenata na sajber napade:</h6>
-                    <ul>
-                        <li class="mb-3">
-                            <div class="row">
-                                <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11"><p><b>Velika napadna površina</b>.  Kada se u SAP sistemima povežu brojne IoT, mreže i alati za skladištenje, to može postati privlačan cilj hakerima, a osiguranje svih sistema može biti izazovno;</p></div>
-                            </div>
-                        </li>
-                        <li class="mb-3">
-                            <div class="row">
-                                <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11"><p><b>Primamljive mete</b>. Hakeri znaju da je implementacija SAP rešenja od strane klijenata prouzrokovana potrebom za upravljanjem tokovima podataka od velike vrednosti, stoga su njihovi napori da dobiju pristup tim podacima razumljivi</p></div>
-                            </div>
-                        </li>
-                        <li class="mb-3">
-                            <div class="row">
-                                <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11"><p><b>Loše procedure ažuriranja</b>. SAP rešenja moraju se zakrpiti i ažurirati redovno, kao i bilo koja druga rešenja. Ove zakrpe se ne primenjuju uvek, je povećavaju rizike povezane sa sajber napadima. Kompanije se često opiru potrebi da im je potrebna zakrpa i radije izbegavaju gnjavažu poremećaja CRM-a ili platnih sistema, na žalost ponekad s pogubnim rezultatima. 
-                                    </p></div>
-                            </div>
-                        </li>
-                        <li class="mb-3">
-                            <div class="row">
-                                <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11"><p><b>Loša sajber bezbednosna strategija</b>.U nekim slučajevima kompanije se odlučuju za implementaciju skupih SAP rešenja, ali ne uspevaju to da povežu sa ulaganjem u sajber bezbednost. Nekoliko tehničkih lica je možda upoznato sa rizicima, ali širokoj korporativnoj strukturi verovatno nedostaje bezbednosno znanje.</p></div>
-                            </div>
-                        </li>
-                        <li class="mb-3">
-                            <div class="row">
-                                <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11"><p><b>Neodgovorno ponašanje zaposlenih</b>. Ovo značajno povećava rizik. Mnoge firme se oslanjaju na rad SAP softvera, ali imaju zastarelu bezbednosnu politiku zaposlenih, što utiče na upotrebu lozinki i opštu mrežnu sigurnost.</p></div>
-                            </div>
-                        </li>
-                    </ul>
+
+                    <h5 class="mb-4">GDPR - Opšta uredba o zaštiti podataka o ličnosti</h5>
+                    <p class="pr-0 pr-md-5 mb-4">GDPR je osmišljen tako da usklađuje zakone koji se odnose na privatnost podataka širom Evrope i prilagođava način na koji organizacije širom sveta pristupaju privatnosti podataka kada se bave sistemima EU. Uredba je stupila na snagu 25. maja 2018. godine i odnosi se ne samo na subjekte EU koji se bave ličnim podacima bilo gde u svetu, već i na subjekte van EU koji se bave ličnim podacima stanovnika EU.</p>
+                    <p class="pr-0 pr-md-5 mb-5">Na mnogo načina, GDPR olakšava stvari, pojednostavljuje postojeći konglomerat pravila i pristupa koje nameće svaka država članica, praveći jedan skup pravila kojima će vladati svima njima. Sadrži 99 članaka ili klauzula koji pokrivaju gotovo svaki aspekt poslovanja i upravljanja informacijama - sve od saglasnosti za prikupljanje i obradu informacija, do „prava na brisanje“. Glavni cilj Opšte uredbe o zaštiti podataka (GDPR) je da osigura transparentnost, sigurnost i odgovornost od strane obrađivača podataka.</p>
+                    <h5 class="orange_text">Za više informacija o tome kako vam Sky Express može pomoći u usaglašavanju sa GDPR-om, obratite se našim stručnjacima za bezbednost.</h5>
+                    <div class="text-center mt-5">
+                        <div class="get-btn">
+                            <a href="/sr/kontakt">KONTAKTIRAJTE <span class="d-block">naš tim</span></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                    <p class="pl-0 pl-md-5 mb-4">Ovo značajno povećava rizik. Mnoge firme se oslanjaju na rad SAP softvera, ali imaju zastarelu bezbednosnu politiku zaposlenih, što utiče na upotrebu lozinki i opštu mrežnu sigurnost.</p>
-                    <p class="pl-0 pl-md-5 mb-4">Sky Express nudi sveobuhvatno rešenje kao što je Onapsis, koji pruža operativnu inteligenciju, kontinuirano nadgledanje i automatizovano upravljanje i na taj način omogućava bezbedno funkcionisanje SAP Sistema. Osim toga, Onapsis eleminiše operativne rizike vezane za održavanje i modernizaciju ERP sistema, intergrisanim rešenjem za SAP bazirane (orijentisane) timove za osiguravanje procesa prenosa, pristup prilagođenom kodu i proaktivno identifikovanje nepravilne konfiguracije i ranjivosti sistema.</p>
-                    <p class="pl-0 pl-md-5 mb-4 orange-text">Osigurajte vaše SAP i Oracle EBS aplikacije od internih i eksternih sajber pretnji i uverite se da vaše aplikacije postižu najbolje performanse.</p>
-                    <div class="text-center mt-5">
-                        <div class="get-btn">
-                            <a href="/sr/kontakt">KONTAKTIRAJTE NAS</span></a>
-                        </div>
-                    </div>
+                    <h5 class="mb-4 pl-0 pl-md-5">Zašto bi GDPR trebalo da vam bude važan?</h5>
+                    <p class="pl-0 pl-md-5 mb-4">Nove regulative primoravaju organizacije širom sveta da preispitaju privatnost i zaštitu podataka.</p>
+                    <p class="pl-0 pl-md-5 mb-4">GDPR propisuje brojne obaveze za kompanije, koje rukuju podacima o ličnosti. Propisi se odnose na to da se podaci mogu obrađivati samo u skladu sa Zakonom, da se to može vršiti samo u predviđene i dozvoljene svrhe, da se mora obezbediti tačnosti i sigurnost podataka, te da se isti moraju uništiti, nakon što je ostvarena njihova svrha. Za kompanije, koje se bave masovnim praćenjem i obradom ličnih podataka u velikom obimu, preporučljivo je da imenuju lice za zaštitu podataka o ličnosti (DPO - Data Protection Officer), a ukoliko se vrši obrada podataka građana EU,  u brojnim slučajevima, postojaće obaveza imenovanja predstavnika, koji se nalazi na teritoriji EU.</p>
+                    <h5 class="mb-4 pl-0 pl-md-5">Primena GDPR-a u Srbiji</h5>
+                    <p class="pl-0 pl-md-5  mb-4">U novembru 2018. pravni sistem Srbije je usaglašen sa EU propisima o zaštiti podataka o ličnosti nakon što je Narodna skupština Republike Srbije usvojila novi Zakon o zaštiti podataka o ličnosti koji je stupio na snagu 21. avgusta 2019. godine. Zakon je obavezujući za sve organizacije, institucije i kompanije u Srbiji koje obrađuju lične podatke građana EU u svom poslovanju bez obzira gde se sedište ili predstavništvo nalazi u svetu.</p>
+                    <p class="pl-0 pl-md-5 mb-4">Kao deo šireg procesa harmonizacije zakonodavstva Srbije sa zakonodavstvom EU, ovaj Zakon predviđa drastično veći nivo odgovornosti za sve entitete koji prikupljaju i obrađuju lične podatke. Zakonom su obuhvaćene različite situacije, posebno slučajevi zloupotreba. U eri informacionih tehnologija i interneta, suština nove evropske zaštite ličnih podataka je da svaka kompanija koja je uključena u proces prikupljanja i analize ličnih podataka mora biti dobro informisana o pravima ovih pojedinaca, kao jedno od glavnih ljudska prava i sloboda prema Ustavu Republike Srbije.</p>
                 </div>
             </div>
         </div>
@@ -126,7 +100,6 @@
                 </div>
             </div>
         </div>
-
 
         <div class="container-fluid footer">
                 <div class="row">
@@ -198,7 +171,6 @@
                 </div>
             </div>
             
-
 
 
     {{-- @include("inc/footer") --}}

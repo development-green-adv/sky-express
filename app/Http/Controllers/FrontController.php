@@ -38,7 +38,7 @@ class FrontController extends Controller
         $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "desc")->paginate(4);
         $dataRight = News::where("status", 1)->where("lang", "sr")->orderBy("id", "desc")->skip(0)->take(4)->get();
 
-        return view("news", compact('data', 'dataRight'));
+        return view("/sr/news", compact('data', 'dataRight'));
 
     }
 
@@ -66,6 +66,15 @@ class FrontController extends Controller
         $alia = $alias;
         $data = News::where("alias", "like", $alias)->first();
         return view("single-news", compact("data", "all", "alia"));
+
+    }
+
+    public function getSingleNewsSrb($alias){
+
+        $all = News::where("status", 1)->where("lang", "sr")->orderBy("id", "desc")->get();
+        $alia = $alias;
+        $data = News::where("alias", "like", $alias)->first();
+        return view("/sr/single-news", compact("data", "all", "alia"));
 
     }
 

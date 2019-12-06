@@ -101,7 +101,7 @@
                                             <!-- <p>PRODUCTS</p> -->
                                             <li><a href="/blog">Blog</a></li>
                                             {{-- <li><a href="#">Reports</a></li> --}}
-                                            <li><a href="/faq">F&Q</a></li>
+                                            <li><a href="/faq">FAQ</a></li>
                                             {{-- <li><a href="#">Case Studies</a></li> --}}
                                         </ul>
                                         {{-- <ul class="dropdown-menu-ul">

@@ -23,7 +23,7 @@
 
     <style>
 
-        #contact-srb{
+        #contact-eng{
             display: none;
         }
 
@@ -33,7 +33,7 @@
 
 @section("content")
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">
             <div class="row">
@@ -41,7 +41,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="text-white">NEWS</h1>
+                                <h1 class="text-white">VESTI</h1>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                         <div class="col-md-1"></div>
                         <div class="col-12 col-md-4">
                             
-                            <h4 style="color: #f1592a;">Previous news</h4><br>
+                            <h4 style="color: #f1592a;">Poslednje vesti</h4><br>
 
 
                             @if(count($all) > 0)
@@ -106,6 +106,6 @@
             </div>
         </div>
 
-    @include("inc/footer")
+    @include("inc/footer-sr")
 
 @endsection

@@ -8,7 +8,7 @@
 
     <style>
 
-        #contact-srb{
+        #contact-eng{
             display: none;
         }
 
@@ -16,7 +16,7 @@
 
 @endsection
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/df-labs.png') }}'); background-repeat: no-repeat; background-color: #0b0b0d;">
             <div class="row">
@@ -24,7 +24,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="text-white">PRODUCTS</h1>
+                                <h1 class="text-white">PROIZVODI</h1>
                             </div>
                         </div>
                     </div>
@@ -39,49 +39,44 @@
                     <img class="logpoint-page-logo" src="{{ asset('images/web/logpoint-page-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 mb-4">
-                    <h4>Next generation security information and event management platform (SIEM)</h4><br>
+                    <h4>Platforma za upravljanje događajima i sigurnosnim informacijama sledeće generacije (SIEM)</h4><br>
                 </div>
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <p class="pr-0 mr-md-5 mb-4">
-                            LogPoint leverages advanced analytics, 
-                            accelerated by machine learning, to improve your cybersecurity posture and efficiently 
-                            automate relevant responses to both internal and external threats.
+                        LogPoint maksimalno koristi naprednu analitiku, ubrzanu mašinskim učenjem, kako bi poboljšao vaše bezbednosno stanje i efikasno automatizovao relevantne odgovore na unutrašnje i spoljne pretnje.
                     </p>
                     <p class="pr-0 mr-md-5 mb-4">
-                            The LogPoint’s SIEM system is designed from the ground up to be simple, flexible, and 
-                            scalable, providing streamlined design, 
-                            deployment, and integration tools to open the use of a network security tool up to all 
-                            businesses. This means that the architecture can be continuously extended with additional 
-                            functionality without the need for a full major release, to continue to support your business’s growing and changing needs.
+                        SIEM sistem softvera LogPoint osmišljen je od samog početka da bude jednostavan, fleksibilan i skalabilan, da obezbedi efikasnije alate za dizajn, implementaciju i integraciju kako bi se omogućila upotreba mrežnog sigurnosnog alata za sva preduzeća. To znači da se arhitektura može stalno proširivati dodatnom funkcionalnošću, bez potrebe za punim osnovnim izdanjem, kako bi se nastavila podrška za rastuće i promenljive potrebe vašeg poslovanja.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="df-labs-right-first-part">
-                        <h5 class="pl-0 pl-md-5 mb-4">The LogPoint system is built on a set <br class="d-none d-md-block"> of specific tenants:</h5>
+                        <h5 class="pl-0 pl-md-5 mb-4">Sistem LogPoint je izgrađen na osnovu skupa <br class="d-none d-md-block"> određenih principa:</h5>
                         <ul class="logpoint-ul-first-part">
                             <li>
                                 <div class="row">
                                     <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                    <div class="col-10 col-md-11"><p>No company should be limited by the amount of data they can ingest into a SIEM system</p></div>
+                                    <div class="col-10 col-md-11"><p>Nijedna kompanija ne treba da bude ograničena količinom podataka koju može da unese u sistem SIEM</p></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10 col-md-11"><p>Simplified architectural principles to enable faster and more efficient software deployments</p></div>
+                                        <div class="col-10 col-md-11"><p>Pojednostavljeni arhitektonski principi koji omogućavaju brže i efikasnije uvođenje softvera</p></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                    <div class="col-10 col-md-11"><p>World-class support available 24×7 to help 
-                                            customers get the most value from their SIEM system</p></div>
+                                    <div class="col-10 col-md-11"><p>Na raspolaganju je podrška svetske klase 24 sata dnevno, 7 dana nedeljno kako bi klijenti dobili najveću vrednost od svog sistema SIEM</p></div>
                                 </div>
                             </li>
                         </ul>
 
-                        <h5 class="pl-0 pl-md-5 mb-4 orange_text">LogPoint ranked #1 and named Leader 
-                                in the 2019 SoftwareReviews SIEM Data Quadrant</h5>
+                        <div class="row">
+                            {{-- <div class="col-3"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div> --}}
+                            <div class="col-12"><h5 class="pl-0 pl-md-5 mb-4 orange_text">LogPoint je rangiran na prvom mestu i imenovan liderom u recenzijama SoftwareReviews SIEM Data Quadrant za 2019. godinu</h5></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,39 +97,36 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="logpoint-page-second-part-left">
-                            <h5 class="mb-5">With LogPoint, you can quickly troubleshoot potential issues via:</h5>
+                            <h5 class="mb-5">Sa softverom LogPoint možete brzo da rešite potencijalne probleme pomoću sledećeg:</h5>
                             <ul class="logpoint-ul-second-part">
                                 <li class="mb-4">
                                     <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10 col-md-11"><p class="pr-0 pr-md-5">Rapid analytic insight into incidents across the infrastructure;</p></div>
+                                        <div class="col-10 col-md-11"><p class="pr-0 pr-md-5">Brz analitički uvid u incidente u čitavoj infrastrukturi;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-4">
                                     <div class="row">
                                             <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                            <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Removed dependencies of specific personnel with restricted system access;</p></div>
+                                            <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Uklonjene zavisnosti određenog osoblja sa ograničenim pristupom sistemu;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-4">
                                     <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Big data analytics for sharp, easy analysis of all issues and 
-                                                incidents related all aspects of information system 
-                                                architecture – network, system, services and applications;</p></div>
+                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Analitika velike količine podataka za tačnu, jednostavnu analizu svih problema i incidenata vezanih za sve aspekte arhitekture informacionog sistema — mrežu, sistem, usluge i aplikacije;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-4">
                                     <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Reduction of the number of false positives and eliminating the hassle of maintaining and developing expert rules;</p></div>
+                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Smanjenje broja lažnih pozitivnih rezultata i izbegavanje komplikacija sa održavanjem i razvijanjem stručnih pravila;</p></div>
                                     </div>
                                 </li>
                                 <li class="mb-5 mb-md-0">
                                     <div class="row">
                                         <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Forensic investigation with the execution of custom 
-                                                playbooks should an incident arise.</p></div>
+                                        <div class="col-10  col-md-11"><p class="pr-0 pr-md-5">Forenzička istraga s izvršavanjem namenskih scenarija ukoliko dođe do incidenta.</p></div>
                                     </div>
                                 </li>
                             </ul>
@@ -143,11 +135,9 @@
                     <div class="col-md-6">
                         <div class="logpoint-page-second-part-left">
                             <h5 class="invisible mb-5 d-none d-md-block">With LogPoint, you can quickly troubleshoot potential issues via:</h5>
-                            <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Ease of use</span> - Lightning-fast analytics and rich 
-                                    reporting without requiring an advanced skillset.</p>
-                            <p class="mb-4 pr-0 pr-md-5"><span  class="orange_text">Cost management</span> - No extra cost related to the growth of the company’s data volume or how many events per second you receive.</p>
-                            <p class="pr-0 pr-md-5"><span  class="orange_text">Unmatched certification</span> - Has EAL 3+ certification. It’s required by NATO and in critical infrastructure organizations like the military, intelligence 
-                                    agencies, utility companies and telcos.</p>
+                            <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Jednostavnost upotrebe</span> - Neverovatno brza analitika i bogato izveštavanje, bez potrebe za naprednim skupom veština.</p>
+                            <p class="mb-4 pr-0 pr-md-5"><span  class="orange_text">Upravljanje troškovima </span> - Nema dodatnih troškova koji se odnose na rast obima podataka kompanije ili broj događaja u sekundi koji primate.</p>
+                            <p class="pr-0 pr-md-5"><span  class="orange_text">Sertifikacija bez konkurencije </span> - Ima sertifikat EAL 3+. Zahteva se u NATO i u organizacijama sa kritičnom infrastrukturom poput vojske, obaveštajnih agencija, komunalnih preduzeća i telekomunikacionih kompanija.</p>
                         </div>
                     </div>
                 </div>
@@ -164,7 +154,7 @@
         <div class="container-fluid logpoint-page-third-part">
             <div class="row">
                 <div class="container text-center">
-                    <button class="btn btn-default orange_btn">Key LogPoint benefits</button>
+                    <button class="btn btn-default orange_btn">Ključne prednosti softvera LogPoint</button>
                 </div>
             </div>
             <div class="container">
@@ -172,41 +162,29 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-1.png') }}" alt="">
-                            <p><b>Single taxonomy</b></p>
-                            <p>LogPoint ensures single 
-                                    taxonomy for normalisation 
-                                    of log data, enabling an easy-to-use search function for the creation of 
-                                    dashboards, alerts and 
-                                    reports. By translating all log files into a simplified single taxonomy, searching across a wide variety of log sources is made easier and more 
-                                    efficient.</p>
+                            <p><b>Jedinstvena taksonomija</b></p>
+                            <p>LogPoint osigurava jedinstvenu taksonomiju za normalizaciju podataka dnevnika, omogućujući jednostavnu funkciju pretrage za izradu kontrolnih tabli, upozorenja i izveštaja. Prevođenjem svih datoteka dnevnika u pojednostavljenu jedinstvenu taksonomiju, pretraživanje po širokom spektru različitih izvora dnevnika je mnogo lakše i efikasnije.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-2.png') }}" alt="">
-                            <p><b>Simplified role-based access control</b></p>
-                            <p>Administrative user access is bound into AD via LDAP for ease of permission definition. Group permissions to the system are aligned with a role based approach to 
-                                    administrative rights, giving full control over access to both the log repositories and the dashboard usage.</p>
+                            <p><b>Pojednostavljena kontrola pristupa na osnovu uloga</b></p>
+                            <p>Pristup administrativnog korisnika organizovan je u AD preko LDAP radi lakše definicije dozvola. Grupne dozvole za sistem su usklađene s pristupom administrativnim pravima koji se zasniva na ulogama, što daje punu kontrolu nad pristupom spremištima dnevnika i upotrebom kontrolne table.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-3.png') }}" alt="">
-                            <p><b>Full HA deployment</b></p>
-                            <p>The LogPoint HA architecture allows synchronisation of both index and event data in a fault tolerant fashion, 
-                                    providing a robust integrity to the data storage. 
-                                    Any recovery has a very speedy recovery point 
-                                    objective whilst the platform operates in failover mode.</p>
+                            <p><b>Puno uvođenje visoke dostupnosti</b></p>
+                            <p>Arhitektura za visoku dostupnost (HA) softvera LogPoint omogućava sinhronizaciju podataka o indeksima i o događajima na način koji je otporan na greške, što pruža robustan integritet skladištu podataka. Bilo koji oporavak ide vrlo brzo ka cilju tačke oporavka dok platforma radi u režimu zaobilaženja grešaka.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-4.png') }}" alt="">
-                            <p><b>Agile platform design</b></p>
-                            <p>The LogPoint system is agile in design with an intuitive 
-                                    interface, built for 
-                                    administrators with network security tool experience or ad-hoc users alike.
-                                    </p>
+                            <p><b>Agilan dizajn platforme</b></p>
+                            <p>Sistem LogPoint ima agilan dizajn sa intuitivnim interfejsom, izrađenim za administratore koji imaju iskustva s mrežnim sigurnosnim alatom ili za ad hoc korisnike.</p>
                         </div>
                     </div>
                 </div>
@@ -214,44 +192,29 @@
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-5.png') }}" alt="">
-                            <p><b>Flexible / scalable architecture</b></p>
-                            <p>LogPoint architecture is entirely flexible and scales linearly for large and complex 
-                                    implementations. The network security tool can be deployed in either physical or virtual 
-                                    environments and on premise or in the cloud</p>
+                            <p><b>Fleksibilna/skalabilna arhitektura</b></p>
+                            <p>Arhitektura LogPointa je u potpunosti fleksibilna i linearno se skalira za velike i složene implementacije. Mrežni sigurnosni alat se može uvesti bilo u fizičkim ili u virtuelnim okruženjima, u prostorijama ili u oblaku.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-6.png') }}" alt="">
-                            <p><b>Unique license model</b></p>
-                            <p>Fair and holistic license model, no hidden extra’s due to the transparent license structure. Adopting a node based model rather the EPS/MPS basis that many other SIEM vendors models follow for managed 
-                                    network security.
-                                    </p>
+                            <p><b>Jedinstveni model licence</b></p>
+                            <p>Korektan i celovit model licence, bez skrivenih dodataka, zahvaljujući transparentnoj strukturi licence. Usvajanje modela zasnovanog na čvorovima, a ne na EPS/MPS, čega se pridržavaju mnogi drugi prodavci modela SIEM za bezbednost upravljane mreže.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-7.png') }}" alt="">
-                            <p><b>Data Privacy mode</b></p>
-                            <p>By utilising Data Privacy Mode, it is possible to ensure the context of the log files can be included on multinational searches, 
-                                    without compromising the need to ensure the information 
-                                    remains secure. 
-                                    This functionality is particularly beneficial where data must remain</p>
+                            <p><b>Režim privatnosti podataka</b></p>
+                            <p>Korišćenjem režima privatnosti podataka, moguće je osigurati da kontekst datoteka dnevnika može da se uključi u multinacionalna pretraživanja, a da se pritom ne ugrozi potreba da informacije ostanu bezbedne. Ova funkcionalnost je naročito korisna kada podaci moraju da ostanu u nekoj oblasti.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="logpoint-third-card">
                             <img src="{{ asset('images/web/logpoint-third-part-8.png') }}" alt="">
-                            <p><b>Streamlined normalisation 
-                                    architecture</b></p>
-                            <p>Plugin architecture, enables 
-                                    dynamic development and custom enhancement. 
-                                    Being vendor agnostic, logs can be collected using varying 
-                                    methods and sources. If a plugin is not present prior to 
-                                    deployment, LogPoint, will create it. 
-                                    Development is not charged for 
-                                    commercial-off-the-shelf 
-                                    product.</p>
+                            <p><b>Efikasnije organizovana arhitektura normalizacije</b></p>
+                            <p>Arhitektura dodataka omogućava dinamičan razvoj i namensko unapređenje. S obzirom na nepristrasnost u pogledu prodavaca, dnevnici se mogu prikupljati korišćenjem različitih metoda i izvora. Ako dodatni modul nije prisutan pre implementacije, LogPoint će ga napraviti. Razvoj se ne naplaćuje za komercijalne proizvode iz postojećih zaliha.</p>
                         </div>
                     </div>
                 </div>
@@ -271,7 +234,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col-12 text-center">
-                        <button class="btn btn-default orange_btn">LATEST NEWS</button>
+                        <button class="btn btn-default orange_btn">NAJNOVIJE VESTI</button>
 
                         <div class="row" style="margin-top: 70px;">
                                 @if(count($data) > 0)
@@ -286,7 +249,7 @@
 
                                             {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
 
-                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/sr/vest/{{ $new->alias }}">SAZNAJ VIŠE</a>
                                         </div>
                                         
                                     @endforeach
@@ -299,7 +262,7 @@
         </div>
 
 
-    @include("inc/footer")
+    @include("inc/footer-sr")
 
 
 @endsection

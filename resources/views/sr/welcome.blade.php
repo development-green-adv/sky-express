@@ -7,6 +7,14 @@
     <meta name="keywords" content="ky Express, SkyExpress, Sajber Bezbednost, IT Bezbednost, Carbon Black, DFLabs, LogPoint, Onapsis, Avast, Eperi, Open Systems, Security Scorecard, PenTest, Pen Testing, SAP Security, Bezbednosna analiza, etičko hakovanje, GDPR, EndPoint Detekcija, Incident Management, Antivirus zaštita, MSSP, WAF…" />
     <meta name="description" content="Sky Express nudi pažljivo odabran spektar komplementarnih, kompatibilnih i primenljivih sajber bezbednosnih rešenja, koja su prilagođena potrebama tržišta" />
 
+    <style>
+
+        #contact-eng{
+            display: none;
+        }
+
+    </style>
+
 @endsection
 
 @section("content")
@@ -72,29 +80,27 @@
                 <div class="container">
                     <div class="col-12 text-center">
                         <button class="btn btn-default orange_btn">SAJBER SIGURNOSNA REŠENJA</button>
-                        <p>
-                            Sky Express offers a very selective range of complemental, compatibile and applicable solutions. 
-                            All the solutions distribute, either directly or throuht sales partners. are recognized, 
-                            proven and tailored to fit market requirements.
+                        <p>   
+                            Sky Express je ekskluzivni distributer naprednih sajber bezbednosnih rešenja i usluga u oblasti informacione bezbednosti, pokrivajući tržišta Srbije, Crne Gore, BiH, Severne Makedonije i Albanije.
                         </p>
                         <br><br>
-                        <a class="btn btn-default" href="/all-products">Saznajte više</a>
+                        <a class="btn btn-default" href="/sr/proizvodi">Saznajte više</a>
                         <br><br><br>
                         <div class="row">
                             <div class="col-12 col-md-4 solutions_item solutions_item-overlay">
                                 <img class="img-fluid" src="{{ asset('images/web/1.png') }}" alt="">
                                 <div class="white-overlay"></div>
-                                <a style="background-color: transparent !important; margin-top: -30px;" href="/by-compliance"><h4>Prema usklađenosti </h4></a>
+                                <a style="background-color: transparent !important; margin-top: -30px;" href="/sr/by-compliance"><h4>Prema usklađenosti </h4></a>
                             </div>
                             <div class="col-12 col-md-4 solutions_item solutions_item-overlay">
                                 <img class="img-fluid" src="{{ asset('images/web/2.png') }}" alt=""></a>
                                 <div class="white-overlay"></div>
-                                <a style="background-color: transparent !important; margin-top: -30px;" href="/solutions"><h4>Rešenja za industrije</h4></a>
+                                <a style="background-color: transparent !important; margin-top: -30px;" href="/sr/resenja"><h4>Rešenja za industrije</h4></a>
                             </div>
                             <div class="col-12 col-md-4 solutions_item solutions_item-overlay">
                                 <img class="img-fluid" src="{{ asset('images/web/3.png') }}" alt="">
                                 <div class="white-overlay"></div>
-                                <a style="background-color: transparent !important; margin-top: -30px;" href="/security-and-risk-management"><h4>Security & <br> Risk Management</h4></a>
+                                <a style="background-color: transparent !important; margin-top: -30px;" href="/sr/security-and-risk-management"><h4>Security & <br> Risk Management</h4></a>
                             </div>
                         </div>
 
@@ -111,31 +117,31 @@
                     <div class="row h-100">
 
                         <div class="col-12 text-center" style="margin-bottom: 30px;">
-                            <h3>SARAĐUJEMO SA NEKIM OD NAJBOLJIH RJEŠENJA ZA SAJBER BEZBEDNOST</h3>
+                            <h3>NAŠ PORTFOLIO ČINE NAPREDNA REŠENJA ZA SAJBER BEZBEDNOST</h3>
                         </div>
                         <div class="col-12 col-md-3 text-center align-self-center antivirus_item">
-                            <a href="/carbon-black"><img class="img-fluid" src="{{ asset('images/web/carbon.png') }}"></a>
+                            <a href="/sr/carbon-black"><img class="img-fluid" src="{{ asset('images/web/carbon.png') }}"></a>
                         </div>
                         <div class="col-12 col-md-3 text-center align-self-center antivirus_item">
-                            <a href="/df-labs"><img class="img-fluid" src="{{ asset('images/web/df.png') }}"></a>
+                            <a href="/sr/df-labs"><img class="img-fluid" src="{{ asset('images/web/df.png') }}"></a>
                         </div>
                         <div class="col-12 col-md-3 text-center align-self-center antivirus_item">
-                            <a href="/open-systems"><img class="img-fluid" src="{{ asset('images/web/open.png') }}"></a>
+                            <a href="/sr/open-systems"><img class="img-fluid" src="{{ asset('images/web/open.png') }}"></a>
                         </div>
                         <div class="col-12 col-md-3 text-center align-self-center antivirus_item">
-                            <a href="/onapsis"><img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}"></a>
+                            <a href="/sr/onapsis"><img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}"></a>
                         </div>
                         <div class="col-12 col-md-3 text-center align-self-center antivirus_item">
-                            <a href="/avast"><img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}"></a>
+                            <a href="/sr/avast"><img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}"></a>
                         </div>
                         <div class="col-12 col-md-3 text-center align-self-center antivirus_item">
-                           <a href="/eperi"> <img class="img-fluid" src="{{ asset('images/web/eperi.png') }}"></a>
+                           <a href="/sr/eperi"> <img class="img-fluid" src="{{ asset('images/web/eperi.png') }}"></a>
                         </div>
                         <div class="col-12 col-md-3 text-center align-self-center antivirus_item">
-                            <a href="/kerio"><img class="img-fluid" src="{{ asset('images/web/kerio.png') }}"></a>
+                            <a href="/sr/kerio"><img class="img-fluid" src="{{ asset('images/web/kerio.png') }}"></a>
                         </div>
                         <div style="margin-top: -10px;" class="col-12 col-md-3 text-center align-self-center antivirus_item">
-                            <a href="/security-scorecard"><img class="img-fluid" src="{{ asset('images/web/security.png') }}"></a>
+                            <a href="/sr/security-scorecard"><img class="img-fluid" src="{{ asset('images/web/security.png') }}"></a>
                         </div>
                     </div>
                 </div>
@@ -164,13 +170,11 @@
                         </div>
                         <div class="col-12 col-md-6">
                             <p>
-                                Kao partnerska kompanija švajcarskog fonda Evolution Equity Partners, Sky Express koristi jedinstvenu priliku za komunikaciju sa 
-                                vodećim svetskim dobavljačima sajber sigurnosnih rešenja, prateći najnovije trendove i razvoje u oblasti informacione bezbednosti 
-                                i uspostavljajući pouzdane odnose sa kupcima, zasnovane na kvalitetu i poverenju. 
+                                Sky Express je regionalni lider u zaštiti podataka. Kao partnerska kompanija švajcarskog fonda Evolution Equity Partners, Sky Express koristi jedinstvenu priliku za komunikaciju sa vodećim svetskim dobavljačima sajber sigurnosnih rešenja, prateći najnovije trendove i razvoje u oblasti informacione bezbednosti i uspostavljajući pouzdane odnose sa kupcima, zasnovane na kvalitetu i poverenju.
                             </p>
                             
                             <br><br><br><br><br>
-                            <a class="btn btn-default" href="/about-us">Saznajte više</a>
+                            <a class="btn btn-default" href="/sr/o-nama">Saznajte više</a>
                         </div>
                     </div>
                 </div>
@@ -187,44 +191,44 @@
                         </div>
                         
                         <div class="col-12 col-md-3 my-5 text-center align-self-center service_item">
-                            <a href="/security-analysis">
+                            <a href="/sr/bezbedonosna-analiza">
                                 <img class="img-fluid" src="{{ asset('images/web/secu.png') }}">
                                 <p>Bezbednosna analiza</p>
                             </a>
                         </div>
                         <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <a href="/compliance-analysis">
+                            <a href="/sr/analiza-uskladjenosti">
                                 <img class="img-fluid" src="{{ asset('images/web/compi.png') }}">
                                 <p>Analiza usklađenosti sa regulativama</p>
                             </a>
                         </div>
                         <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <a href="/managed-security-services">
+                            <a href="/sr/managed-security-services">
                                 <img class="img-fluid" src="{{ asset('images/web/pin.png') }}">
                                 <p>Managed Security Services (MSSP)</p>
                             </a>
                         </div>
                         <div class="col-12 col-md-3  my-5 text-center align-self-center service_item">
-                            <a href="/information-security-management-system">
+                            <a href="/sr/information-security-management-system">
                                 <img class="img-fluid" src="{{ asset('images/web/sec.png') }}"> 
                                 <p>Upravljanje informacionom bezbednošću (ISMS)</p>
                             </a>
                         </div>
                         
                         <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <a href="/security-awareness-planning">
+                            <a href="/sr/pentesting-i-hakovanje">
                                 <img class="img-fluid" src="{{ asset('images/web/se.png') }}">
                                 <p>Pentest i etičko hakovanje </p>
                             </a>
                         </div>
                         <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <a href="/pen-testing">
+                            <a href="/sr/planiranje-svesti-o-bezbednosti">
                                 <img class="img-fluid" src="{{ asset('images/web/pen.png') }}">
                                 <p>Podizanje svesti o bezbednosti</p>
                             </a>
                         </div>
                         <div class="col-12 col-md-4  my-5 text-center align-self-center service_item">
-                            <a href="/security-consulting">
+                            <a href="/sr/konsultantske-usluge">
                                 <img class="img-fluid" src="{{ asset('images/web/consult.png') }}">
                                 <p>Konsalting u oblasti informacione bezbednosti</p>
                             </a>
@@ -251,7 +255,7 @@
                             Visoko kvalifikovan i iskusan, naš tim inženjera i eksperata odlikuje posvećenost, efikasnost i izuzetno poznavanje svih oblasti informacione tehnologije i informacione bezbednosti. Sa sobom nose i decenije iskustva i značajno iskustvo iz vodećih kompanija sa različitih globalnih tržišta i iz različitih oblasti, kao što su finansije, vojska, zdravstvo, osiguranje i vladine agencije. 
                         </p>
                         <br><br>
-                        <a class="btn btn-default" href="/why-us">Learn more</a>
+                        <a class="btn btn-default" href="/why-us">Saznajte više</a>
                         <br><br><br>
                         <div class="row">
                             <div class="col-12 col-md-4 solutions_item">
@@ -286,7 +290,7 @@
                     <div class="row h-100">
 
                         <div class="col-12 text-center" style="margin-bottom: 30px;">
-                            <h3>REFERENCES</h3>
+                            <h3>REFERENCE</h3>
                         </div>
                         <div class="slider-for h-100" id="slick-slider">
                             <div class="text-center align-self-center antivirus_item">
@@ -347,7 +351,7 @@
 
                                         {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
 
-                                        <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">SAZNAJ VIŠE</a>
+                                        <a style="display: block; margin-top: 20px;" class="link_without" href="/sr/vest/{{ $new->alias }}">SAZNAJ VIŠE</a>
                                     </div>
                                     
                                 @endforeach
@@ -417,9 +421,9 @@
                     <div class="col-md-6">
 
                         <form class="form-home-page">
-                            <input type="text" placeholder="First name">
-                            <input type="email" placeholder="email">
-                            <textarea  placeholder="Type your message here..."></textarea>
+                            <input type="text" placeholder="Ime">
+                            <input type="email" placeholder="Email">
+                            <textarea  placeholder="Vaša poruka..."></textarea>
                             <button type="submit">Pošalji</button>
                         </form>
 

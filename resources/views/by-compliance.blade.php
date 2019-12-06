@@ -4,6 +4,18 @@
 
 @section("content")
 
+@section("seo")
+
+    <style>
+
+        #contact-srb{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
     @include("inc/header")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">

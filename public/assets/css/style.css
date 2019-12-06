@@ -592,6 +592,7 @@ button.orange_btn:hover {
 
 .security_solutions p {
     font-weight: 400;
+    color: #08090b !important;
 }
 
 .antivirus_section{
@@ -2522,15 +2523,16 @@ ul.open-systems-first-ul li:last-child {
 }
 
 .all-solutions-card {
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     padding-bottom: 20px;
 }
 
 .all-solutions-card h3{
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #fff;
+    /* border-bottom: 2px solid #fff; */
     padding: 20px;
+    /* text-align: center; */
 }
 
 .all-solutions-card p {
@@ -2543,16 +2545,18 @@ ul.open-systems-first-ul li:last-child {
 .all-solutions-card ul li {
     font-size: 25px;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .all-solutions-card ul li a {
     background: transparent;
+    font-size: 22px;
 
 }
 
 .all-solutions-card div.delatis-btn {
     padding-left: 20px;
+    text-align: center;
 }
 
 .all-solutions-card ul li a:hover {
@@ -2574,15 +2578,22 @@ ul.open-systems-first-ul li:last-child {
 }
 
 .delatis-btn a {
-    background: transparent;
-    color: #f1592a;
+    /* background: transparent; */
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
+    background-color: #f1592a;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .delatis-btn a:hover {
-    text-decoration: underline;
-    background: transparent !important;
+    text-decoration: none;
+    background-color: #f1592a;
+    color: #fff;
+    /* background: transparent !important; */
 }
 
 .all-solutions-card a:hover {

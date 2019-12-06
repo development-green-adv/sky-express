@@ -8,7 +8,7 @@
 
     <style>
 
-        #contact-srb{
+        #contact-eng{
             display: none;
         }
 
@@ -16,7 +16,7 @@
 
 @endsection
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/df-labs.png') }}'); background-repeat: no-repeat; background-color: #0b0b0d;">
             <div class="row">
@@ -24,7 +24,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="text-white">PRODUCTS</h1>
+                                <h1 class="text-white">PROIZVODI</h1>
                             </div>
                         </div>
                     </div>
@@ -42,29 +42,26 @@
             
                             <div class="row">
                                 <div class="col-12 mb-4">
-                                    <h4>Security ratings and continuous risk monitoring for vendor and third party risk assessment</h4><br>
+                                    <h4>Ocene bezbednosti i stalno praćenje rizika za procenu rizika prodavaca i trećih lica</h4><br>
                                 </div>
                                 <div class="col-12  col-md-6">
                                     <div class="row">
                                         <div class="col-12 mb-4 mb-md-0">
                                             <p class="mb-4 pr-0 pr-md-5">
-                                                    Security Scorecard enables organizations of all types and sizes, in every industry, to discover and solve complex cybersecurity, compliance and risk 
-                                                    management challenges. 
+                                                Security Scorecard (sistem bezbednosnih pokazatelja) omogućava organizacijama svih vrsta i veličina, u svakoj delatnosti, da otkriju i rešavaju složene izazove kibernetičke sigurnosti, usaglašenosti i upravljanja rizikom.  
                                             </p>
                                             <p class="mb-4 pr-0 pr-md-5">
-                                                    This product has some extremely useful unique 
-                                                    features that any organization can leverage. 
-                                                    Utilizing the score planning feature enables you to quickly and efficiently prioritize the issues that matter most to your organization. 
+                                                Ovaj proizvod ima neke izuzetno korisne jedinstvene karakteristike koje svaka organizacija može da iskoristi. Korišćenje funkcije planiranja rezultata omogućava vam da brzo i efikasno odredite prioritete za pitanja koja su najvažnija za vašu organizaciju. 
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="df-labs-right-first-part sscard-right-first-part">
-                                        <h4 class="mb-4 pl-0 pl-md-5">PLATFORM</h4>
-                                        <p class="mb-4 pl-0 pl-md-5"><b>Accurate security ratings, advanced data analytics, and actionable insights.</b>
+                                        <h4 class="mb-4 pl-0 pl-md-5">PLATFORMA</h4>
+                                        <p class="mb-4 pl-0 pl-md-5"><b>Tačne ocene bezbednosti, napredna analitika podataka i primenljivi uvidi</b>
                                             </p>
-                                        <p class="pl-0 pl-md-5">Discover and remediate your IT Infrastructure risk as well as cyber security risk in your vendor and business partner environment. Work collaboratively with third parties to reduce risk and improve security posture.</p>
+                                        <p class="pl-0 pl-md-5">Otkrijte i otklonite rizik za vašu IT infrastrukturu kao i rizik za kibernetičku sigurnost u okruženju vašeg prodavca i poslovnog partnera. Sarađujte sa trećim licima kako biste smanjili rizik i poboljšali bezbednosno stanje.</p>
             
                                     </div>
                                 </div>
@@ -86,41 +83,39 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="mb-4 pr-0 pr-md-5">SecurityScorecard enables users to view and 
-                            continuously monitor security ratings, easily add 
-                            vendors or partner organizations, and report on the 
-                            cyberhealth of their ecosystems.
+                        <p class="mb-4 pr-0 pr-md-5">
+                            SecurityScorecard omogućava korisnicima da pregledaju i neprekidno prate ocene bezbednosti, lako dodaju prodavce ili partnerske organizacije i izveštavaju o kibernetičkom zdravlju svojih ekosistema. Platforma automatski generiše preporučeni akcioni plan za otklanjanje problema kako bi se postigla „ciljnaʺ slovna ocena za klijente i njihove prodavce i partnerske organizacije.
                          </p>
-                        <p class="pr-0 pr-md-5 mb-4 mb-md-0">The platform automatically generates a 
-                            recommended action plan for issue remediation in order to achieve a “target” letter grade for customers and their vendor and partner organizations. 
+                        <p class="pr-0 pr-md-5 mb-4 mb-md-0">
+                            Ona takođe omogućava pristup uvidima o prekršajima i pokazuje jasnu evidenciju o problemima koji su tokom vremena uticali na rezultate. Dodatni alati za saradnju pomažu preduzećima da bolje upravljaju bezbednošću i da se pobrinu za stalno poštovanje regulatornih standarda i okvira. 
                         </p>
                         
                     </div>
                     <div class="col-md-6">
-                        <p class="mb-4 pl-0 pl-md-5">Security Scorecard is a powerful tool for organsations with extensive external supplier and vendor networks:</p>
+                        <p class="mb-4 pl-0 pl-md-5"><b>Security Scorecard</b> je alat velikih mogućnosti za organizacije sa širokim mrežama spoljnih isporučilaca i prodavaca:</p>
                         <ul class="security-scorecard-ul">
                             <li class="mb-4">
                                 <div class="row">
                                     <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                    <div class="col-10 col-md-11"><p><span>SECURITY RATINGS</span> - It all starts with a score</p></div>
+                                    <div class="col-10 col-md-11"><p><span>OCENE BEZBEDNOSTI </span> - Sve počinje očekivanim rezultatom</p></div>
                                 </div>
                             </li>
                             <li class="mb-4">
                                 <div class="row">
                                     <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                    <div class="col-10 col-md-11"><p><span>ATLAS</span> - A Revolutionary Questionnaire and Evidence Exchange Platform</p></div>
+                                    <div class="col-10 col-md-11"><p><span>ATLAS</span> - Revolucionarna platforma za upitnike i razmenu dokaza</p></div>
                                 </div>
                             </li>
                             <li class="mb-4">
                                 <div class="row">
                                     <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                    <div class="col-10 col-md-11"><p><span>THREATMARKET</span> - The intelligence behind the score</p></div>
+                                    <div class="col-10 col-md-11"><p><span>THREATMARKET</span> - Inteligencija koja stoji iza očekivanog rezultata</p></div>
                                 </div>
                             </li>
                             <li class="mb-4">
                                 <div class="row">
                                     <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                    <div class="col-10 col-md-11"><p><span>API CONNECTORS</span> - Data and analytics are a pillar of our platform</p></div>
+                                    <div class="col-10 col-md-11"><p><span>API KONEKTORI </span> - Podaci i analitika su stub naše platforme</p></div>
                                 </div>
                             </li>
                         </ul>
@@ -145,47 +140,42 @@
         <div class="container-fluid avast-third-part eperi-third-part open-system-third-part">
             <div class="container">
                 <div class="security-scorecard-third-title text-center mb-5">
-                    <h1 class="orange_text">SOLUTIONS</h1>
-                    <h3>Cybersecurity Risk Rating & Management Solutions</h3>
+                    <h1 class="orange_text">REŠENJA</h1>
+                    <h3>Ocena rizika za kibernetičku sigurnost i rešenja za upravljanje</h3>
                 </div>
                 <div class="row">
                     <div class="col-12">
                         <div class="security-scorecard-podnaslov">
-                            <p class="mb-4 orange_text">Implement the capabilities you need to build a more secure ecosystem.</p>
-                            <p  class="mb-5 text-white">SecurityScorecard enables organizations of all types and sizes, in every industry, to discover and solve complex cyber 
-                                    security, compliance and risk management challenges.</p>
+                            <p class="mb-4 orange_text">Implementirajte mogućnosti koje su vam potrebne za izgradnju sigurnijeg ekosistema</p>
+                            <p  class="mb-5 text-white">SecurityScorecard omogućava organizacijama svih vrsta i veličina, u svakoj delatnosti, da otkriju i reše složene izazove kibernetičke sigurnosti, usaglašenosti i upravljanja rizikom.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="security-scorecard-third-left mb-4">
-                            <p class="orange_text">Vendor Risk Management</p>
-                            <p class="pr-0 pr-md-5">SecurityScorecard provides instant visibility into the security posture of vendors and business partners across the entire ecosystem.</p>
+                            <p class="orange_text">Upravljanje rizikom prodavaca</p>
+                            <p class="pr-0 pr-md-5">SecurityScorecard obezbeđuje trenutnu vidljivost bezbednosnog stanja prodavaca i poslovnih partnera u čitavom ekosistemu.</p>
                         </div>
                         <div class="security-scorecard-third-left  mb-4">
-                            <p class="orange_text">Threat Reconnaissance</p>
-                            <p class="pr-0 pr-md-5">SecurityScorecard collect and analyze threat signals from across the globe to deliver the most accurate 
-                                    security ratings and detailed findings possible.</p>
+                            <p class="orange_text">Istraživanje pretnji</p>
+                            <p class="pr-0 pr-md-5">SecurityScorecard prikuplja i analizira signale pretnji širom sveta kako bi se dobile najtačnije ocene bezbednosti i najdetaljniji mogući nalazi.</p>
                         </div>
                         <div class="security-scorecard-third-left">
-                            <p class="orange_text">Self Assessment</p>
-                            <p class="pr-0 pr-md-5">This platform empowers organizations to discover, monitor, and report on the cyberhealth of 
-                                    IT infrastructure from the outside in -- to see what 
-                                    a hacker sees.</p>
+                            <p class="orange_text">Samoprocena</p>
+                            <p class="pr-0 pr-md-5">Ova platforma omogućava organizacijama da otkriju, nadgledaju i izveštavaju o kibernetičkom zdravlju IT infrastrukture spolja — da bi se videlo šta haker vidi.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mt-4 mt-md-0">
                         <div class="security-scorecard-third-left mb-4">
-                            <p class="orange_text pl-0 pl-md-5">Cyber Insurance</p>
-                            <p class="pl-0 pl-md-5">SecurityScorecard empower enterprises to take control of their risk profiles while giving insurers visibility into the cyberhealth of their policyholders.</p>
+                            <p class="orange_text pl-0 pl-md-5">Kibernetičko osiguranje</p>
+                            <p class="pl-0 pl-md-5">SecurityScorecard daje mogućnost preduzećima da preuzmu kontrolu nad svojim profilima rizika, omogućavajući u isto vreme osiguravačima da sagledaju kibernetičko zdravlje svojih osiguranika.</p>
                         </div>
                         <div class="security-scorecard-third-left mb-4">
-                            <p class="orange_text pl-0 pl-md-5">Mergers & Acquisitions</p>
-                            <p class="pl-0 pl-md-5">SecurityScorecard help investors avoid getting blindsided by hidden risks and compliance issues associated with M&A targets.</p>
+                            <p class="orange_text pl-0 pl-md-5">Spajanja i preuzimanja</p>
+                            <p class="pl-0 pl-md-5">SecurityScorecard pomaže investitorima da spreče iznenađenja usled skrivenih rizika i pitanja usklađenosti koji su povezani sa ciljevima spajanja i preuzimanja.</p>
                         </div>
                         <div class="security-scorecard-third-left mb-4">
-                            <p class="orange_text pl-0 pl-md-5">Compliance</p>
-                            <p class="pl-0 pl-md-5">This platform help organizations prove and maintain compliance with leading standards and regulations 
-                                    including PCI, NIST, SOX, GDPR, and many others.</p>
+                            <p class="orange_text pl-0 pl-md-5">Usklađenost</p>
+                            <p class="pl-0 pl-md-5">Ova platforma pomaže organizacijama da dokažu i održavaju usklađenost sa vodećim standardima i propisima uključujući PCI, NIST, SOX, GDPR i mnoge druge.</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +195,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col-12 text-center">
-                        <button class="btn btn-default orange_btn">LATEST NEWS</button>
+                        <button class="btn btn-default orange_btn">NAJNOVIJE VESTI</button>
 
                         <div class="row" style="margin-top: 70px;">
                                 @if(count($data) > 0)
@@ -220,7 +210,7 @@
 
                                             {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
 
-                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/sr/vest/{{ $new->alias }}">SAZNAJTE VIŠE</a>
                                         </div>
                                         
                                     @endforeach
@@ -233,7 +223,7 @@
         </div>
 
 
-    @include("inc/footer")
+    @include("inc/footer-sr")
 
 
 @endsection

@@ -2,6 +2,19 @@
 
 @section("title", "Sky Express")
 
+@section("seo")
+
+    <style>
+
+        #contact-srb{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
+
 @section("content")
 
     @include("inc/header")
@@ -66,9 +79,7 @@
                     <div class="col-12 text-center">
                         <button class="btn btn-default orange_btn">CYBERSECURITY SOLUTIONS</button>
                         <p>
-                            Sky Express offers a very selective range of complemental, compatibile and applicable solutions. 
-                            All the solutions distribute, either directly or throuht sales partners. are recognized, 
-                            proven and tailored to fit market requirements.
+                            Sky Express is an exclusive distributor of advanced cybersecurity solutions and services in the field of information security for Serbian market, but also Bosnia and Herzegovina, Montenegro, and North Macedonia.
                         </p>
                         <br><br>
                         <a class="btn btn-default" href="/all-products">Learn more</a>
@@ -157,14 +168,13 @@
                         </div>
                         <div class="col-12 col-md-6">
                             <p>
-                                    Sky Express is an exclusive distributor of advanced cybersecurity 
-                                    solutions and services in the field of information security, covering SEE market.
+                                    Sky Express is the regional leader in data protection. As an integral part of the Switzerland’s Evolution Equity Partners fund, Sky Express utilizes unique opportunity to communicate with world-leading cyber security solution providers, keeping the pace with latest trends and developments in the field of information security and establishing reliable relations with customers, based on quality and trust. 
                             </p>
                             <br>
-                            <p>
+                            <!--<p>
                                     Sky Express offers a very selective range of complemental, compatibile and applicable solutions.
                                     All the solutions we distribute, either directly or through sales partners, are recognized, proven and tailored to fit market requirements.
-                            </p>
+                            </p>-->
                             <br><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block">
                             <a class="btn btn-default" href="/about-us">Learn more</a>
                         </div>

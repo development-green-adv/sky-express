@@ -8,7 +8,7 @@
 
     <style>
 
-        #contact-srb{
+        #contact-eng{
             display: none;
         }
 
@@ -16,7 +16,7 @@
 
 @endsection
 
-    @include("inc/header")
+    @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/df-labs.png') }}'); background-repeat: no-repeat; background-color: #0b0b0d;">
             <div class="row">
@@ -24,7 +24,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="text-white">DFLABS</h1>
+                                <h1 class="text-white">PROIZVODI</h1>
                             </div>
                         </div>
                     </div>
@@ -39,20 +39,18 @@
                     <img class="df-labs-page-logo" src="{{ asset('images/web/dflabs-logo.png') }}" alt="">
                 </div>
                 <div class="col-12 col-md-5 mb-4 mb-md-0">
-                    <h4>Automated incident response and <br class="d-none d-md-block"> orchestration security software </h4><br>
+                    <h4>Automatizovani odgovor i koordinacija  <br class="d-none d-md-block"> bezbednosnih incidenata </h4><br>
                     <p class="pr-0 pr-md-5">
-                        DFLabs is the pioneer in Security Orchestration, Automation and Response (SOAR) Technology,
-                        leveraging your existing security products to dramatically reduce the response and remediation gap
-                        caused by limited resources and the increasing volume of threats and incidents.
+                        DFLabs je globalni lider u oblasti automatizacije i organizacije bezbednosnih sistema i reakcija na incidente (SOAR - Security Orchestration, Automation and Response). Upotreba DF Labs proizvoda omogućava vam dramatično bržu i efikasniju reakciju na incidente kao i oporavak, smanjujući probleme izazvane ograničenim resursima ili mogućim pretnjama.
                     </p>
                 </div>
                 <div class="col-12 col-md-7">
                     <div class="df-labs-right-first-part">
                         <ul>
-                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Minimize Incident resolution time by 90%</div></div></li>
-                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Improve Analyst efficiency by 80%</div></div></li>
-                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Increase handled incidents 300%</div></div></li>
-                            <li><img class="mr-0 mr-md-4 invisible d-none d-md-block " src="{{ asset('images/web/correct.svg') }}" alt="">Automated, Orchestrate & Measure</li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">90% brže rešavanje incidenata</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">80% efikasnija analiza</div></div></li>
+                            <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">300% povećanje broja obrađenih incidenata</div></div></li>
+                            <li><img class="mr-0 mr-md-4 invisible d-none d-md-block " src="{{ asset('images/web/correct.svg') }}" alt="">AUTOMATIZUJE, ORGANIZUJE I OBRAĐUJE</li>
                         </ul>
                     </div>
                 </div>
@@ -73,11 +71,8 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="df-labs-second-part-left ">
-                            <h1 class="mb-5">DFLabs' Security Orchestration, <br class="d-none d-md-block"> Automation and Response Platform</h1>
-                            <p><b>DFLabs IncMan SOAR</b> is the <b>only</b> Security Orchestration, Automation and Response (SOAR) platform
-                                capable of full incident lifecycle automation, that includes built-in, automated threat intelligence
-                                gathering, risk assessment, triage and notification, context enrichment, hunting and investigating,
-                                threat containment and more.</p>
+                            <h1 class="mb-5">Platforma za automatizaciju  i organizaciju bezbednosnih sistema i reakcije na incidente</h1>
+                            <p><b>DFLabs IncMan je jedina SOAR platforma, koja pruža mogućnost kompletne automatizacije životnog ciklusa, uključujući automatizovano prikupljanje podataka o pretnjama, procenu rizika, trijažu i obaveštavanje, proširenje konteksta, pretragu i istraživanje, sprečavanje pretnji i još mnogo toga. </p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -143,25 +138,22 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="df-labs-fourth-part-left">
-                            <h2 class="mb-5">Key Features & Capabilities <br class="d-none d-md-block"> The DFLabs Difference</h2>
-                            <p class="mb-4 pr-0 pr-md-5">IncMan includes many bidirectional integrations with a variety of product categories including SIEM,
-                                network defense, endpoint protection and threat intelligence, chosen to broaden the orchestration
-                                and automation capabilities of companies.</p>
-                            <p class="pr-0 pr-md-5 mb-5 mb-md-0 ">IncMan has been designed with industry standards, regulatory frameworks and best practices in
-                                mind, supporting ISO, GDPR, NIST and SEC regulations amongst others.</p>
+                            <h2 class="mb-5">Ključne karakteristike i mogućnosti</h2>
+                            <p class="mb-4 pr-0 pr-md-5">IncMan podržava dvosmernu integraciju sa različitim kategorijama proizvoda uključujući mrežnu i zaštitu krajnjih korisnika, a i rešenja za detekciju pretnji i SIEM rešenja. Ovaj skup integracija odabran je tako da učini proces koordinacije i automatizacije incidenata što sveobuhvatnijim.</p>
+                            <p class="pr-0 pr-md-5 mb-5 mb-md-0 ">IncMan je dizajniran u skladu sa odgovarajućim standardima, regulativom i preporučenom praksom. Zbog toga podržava ISO, GDPR, NIST i SEC regulative i preporuke. </p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="df-labs-fourth-part-right">
                             <ul>
-                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Automation & Orchestration</div></div></li>
-                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Hunting & Investigation</div></div></li>
-                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Incident Management</div></div></li>
-                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11"> Flexible Integrations & Event Parsing</div></div></li>
-                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Forensic Evidence Management</div></div></li>
-                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Reporting & KPIs</div></div></li>
-                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Knowledge Transfer & Machine Learning</div></div></li>
-                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Community Portal & Community Edition</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Automatizacija i organizacija</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Pretraga i istraživanje</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Upravljanje incidentima</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Fleksibilne integracije i segmentacija događaja</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Upravljanje forenzičkim dokazima</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Izveštavanje i ključni pokazatelji učinaka</div></div></li>
+                                <li class="mb-4"><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Transfer znanja i mašinsko učenje </div></div></li>
+                                <li><div class="row"><div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div><div class="col-10 col-md-11">Community portal i Community publikacija</div></div></li>
                             </ul>
                         </div>
                     </div>
@@ -183,14 +175,10 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="df-labs-fifth-part-left mb-5 mb-md-0">
-                            <h2 class="mb-4">Complete and Comprehensive <br class="d-none d-md-block"> SOAR Platform</h2>
-                            <p class="mb-4 pr-0 pr-md-5">DFLabs covers the entire spectrum of security orchestration, automation and response components
-                                as outlined by Gartner, with a unique combination of features and capabilities, driven through
-                                continuous improvement and innovation.</p>
-                            <p class="mb-4 pr-0 pr-md-5">IncMan SOAR is the only platform to offer full incident
-                                response lifecycle management with machine learning and threat hunting.</p>
-                            <p class="pr-0 pr-md-5">Acting as a force multiplier, it enables security teams to do more with less, empowering security
-                                analysts, while ensuring organizations stay one step ahead of any potential threat.</p>
+                            <h2 class="mb-4">Sveobuhvatna SOAR Platforma</h2>
+                            <p class="mb-4 pr-0 pr-md-5">DFLabs obuhvata celokupan spektar komponenti za bezbednu automatizaciju, organizaciju i reakciju, kako je to opisao Gartner, sa jedinstvenom kombinacijom inovativnih karateristika i mogućnosti. </p>
+                            <p class="mb-4 pr-0 pr-md-5">IncMan SOAR je jedina platforma, koja pruža mogućnost upravljanja celokupnim životnim ciklusom reakcija na incidente, uključujući mašinsko učenje i pretragu pretnji.</p>
+                            <p class="pr-0 pr-md-5">DFLabs IncMan SOAR unpaređuje efektivnost bezbednosnih timova i na taj način omogućava organizaciji da bude korak ispred bilo koje potencijalne pretnje.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -216,7 +204,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="df-labs-sixth-part-title text-center">
-                            <h1 class="orange_text">Demonstrating Compliance</h1>
+                            <h1 class="orange_text">Demonstracija usklađenosti</h1>
                         </div>
                     </div>
                 </div>
@@ -224,26 +212,21 @@
                     <div class="col-md-6">
                         <div class="df-labs-sixth-part-middle-left">
                             <img src="{{ asset('images/web/df-labs-sixth-part-middle-left.png') }}" alt="">
-                            <div ><p>Intergrated GDPR incident response and <br class="d-none d-md-block" >breach notification playbooks</p></div>
+                            <div ><p>Integrisani šabloni za postupanje u skladu sa <br class="d-none d-md-block" >GDPR regulativom</p></div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="df-labs-sixth-part-middle-right">
                             <img src="{{ asset('images/web/df-labs-sixth-part-middle-right.png') }}" alt="">
-                            <div><p>Formalized, repeatable and enforceable incident <br class="d-none d-md-block"> response workflows form GDPR</p></div>
+                            <div><p>Formalizovan i upotrebljiv šablon za postupanje <br class="d-none d-md-block"> po odredbama GDPR-a</p></div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
                         <div class="df-labs-sixth-part-bottom text-center">
-                            <h4>How DFLabs Can Help You Meet GDPR Requirements.</h4>
-                            <p>DFLabs’ SOAR solution provides capabilities to automate and prioritize incident response and related
-                                enrichment and containment tasks, distribute appropriate notifications and implement an incident
-                                response plan (IRP) in case of a potential data breach. IncMan SOAR handles different stages of the
-                                incident response and breach notification process, including providing advanced reporting
-                                capabilities with appropriate metrics and the ability to gather or share intelligence securely with
-                                third parties.</p>
+                            <h4>Kako DFLabs omogućava ispunjavanje GDPR uslova</h4>
+                            <p>DFLabs SOAR rešenje pruža mogućnosti za automatizaciju i određivanje prioriteta reagovanja na incidente i aktivnosti na njihovom suzbijanju, distribuciju odgovarajućih obaveštenja i implementaciju  plana reagovanja na incidente (IRP – Incident Response Plan), u slučaju potencijalnoog gubitka podataka. IncMan SOAR upravlja različitim fazama procesa reakcije na incidente  i obaveštavanja, uključujući pružanje naprednih mogućnosti izveštavanja, bezbednog prikupljanja obaveštajnih podataka i deljenja istih sa trećim stranama.</p>
                         </div>
                     </div>
                 </div>
@@ -262,7 +245,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col-12 text-center">
-                        <button class="btn btn-default orange_btn">LATEST NEWS</button>
+                        <button class="btn btn-default orange_btn">NAJNOVIJE VESTI</button>
 
                         <div class="row" style="margin-top: 70px;">
 
@@ -278,7 +261,7 @@
 
                                             {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
 
-                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/sr/vest/{{ $new->alias }}">SAZNAJ VIŠE</a>
                                         </div>
                                         
                                     @endforeach
@@ -292,7 +275,7 @@
         </div>
 
 
-    @include("inc/footer")
+    @include("inc/footer-sr")
 
 
 @endsection

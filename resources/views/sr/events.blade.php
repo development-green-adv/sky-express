@@ -23,6 +23,18 @@
 
 @endsection
 
+@section("seo")
+
+    <style>
+
+        #contact-eng{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
 @section("content")
 
     @include("inc/header-sr")
@@ -124,7 +136,7 @@
                                     {!! $event->text !!}
 
                                     <br><br><br class="d-none d-md-block">
-                                    <a class="org_link" target="_blank" href="{{ $event->link }}">VIEW DETAILS</a>
+                                    <a class="org_link" target="_blank" href="{{ $event->link }}">DETALJNIJE</a>
                                 </div>
                                 <div class="col-12 col-md-7 mt-5 mt-md-0">
                                     @if($event->main_image != "") <img class="img-fluid" src="images_gallery/{{ $event->main_image }}"> @else <img class="img-fluid" src="{{ asset('images/web/single-news-image.png') }}"> @endif
@@ -142,7 +154,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="previous-events-title">
-                        <h2>Previous events</h2>
+                        <h2>Prethodni dogadjaji</h2>
                     </div>
                 </div>
             </div>

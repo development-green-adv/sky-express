@@ -31,7 +31,7 @@
 
     <style>
 
-        #contact-srb{
+        #contact-eng{
             display: none;
         }
 
@@ -49,7 +49,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1>NEWS</h1>
+                                <h1>VESTI</h1>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                                             {!! mb_strlen($news->text) > 500 ? mb_substr($news->text,0,500)."..." : $news->text !!}
 
                                         <br><br>
-                                        <a href="/single-news/{{ $news->alias }}">Read more</a>
+                                        <a href="/sr/vesti/{{ $news->alias }}">SAZNAJ VIŠE</a>
                                         
                                     </div>
                                     
@@ -106,13 +106,13 @@
             
 
                 <div class="col-12 pl-3 pl-md-5 col-md-3 newss newss-right">
-                    <h4>Previous news</h4><br><br>
+                    <h4>POSLEDNJE VESTI</h4><br><br>
 
                     @if(count($dataRight) > 0)
 
                         @foreach($dataRight as $right)
 
-                            <a href="/single-news/{{ $right->alias }}">{{ $right->alias }}</a><br><br>
+                            <a href="/sr/vesti{{ $right->alias }}">{{ $right->alias }}</a><br><br>
 
                         @endforeach
 

@@ -4,6 +4,19 @@
 
 @section("content")
 
+@section("seo")
+
+    <style>
+
+        #contact-eng{
+            display: none;
+        }
+
+    </style>
+
+@endsection
+
+
     @include("inc/header-sr")
 
         <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">
@@ -27,7 +40,7 @@
                     <h2>O KOMPANIJI SKY EXPRESS</h2>
                 </div>
                 <div class="col-12 col-md-5 mb-4 mb-md-0">
-                    <h4>Vaš pouzdan Cybersecurity parner</h4><br>
+                    <h4>Vaš pouzdan Cybersecurity partner</h4><br>
                     {{-- <p class="pr-5">
                         <b>Sky Express</b> is an exclusive distributor of <br class="d-none d-md-block">
                         advanced cybersecurity solutions and services <br class="d-none d-md-block"> in the
@@ -59,28 +72,28 @@
             <div class="container">
                 <div class="slider-for slider-about">
                     <div>
-                        <a href="/carbon-black"><img class="img-fluid" src="{{ asset('images/web/carbon.png') }}"></a>
+                        <a href="/sr/carbon-black"><img class="img-fluid" src="{{ asset('images/web/carbon.png') }}"></a>
                     </div>
                     <div>
-                        <a href="/df-labs"><img class="img-fluid" src="{{ asset('images/web/df.png') }}"></a>
+                        <a href="/sr/df-labs"><img class="img-fluid" src="{{ asset('images/web/df.png') }}"></a>
                     </div>
                     <div>
-                        <a href="/open-systems"><img class="img-fluid" src="{{ asset('images/web/open.png') }}"></a>
+                        <a href="/sr/open-systems"><img class="img-fluid" src="{{ asset('images/web/open.png') }}"></a>
                     </div>
                     <div>
-                        <a href="/onapsis"><img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}"></a>
+                        <a href="/sr/onapsis"><img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}"></a>
                     </div>
                     <div>
-                        <a href="/avast"><img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}"></a>
+                        <a href="/sr/avast"><img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}"></a>
                     </div>
                     <div>
-                        <a href="/eperi"><img class="img-fluid" src="{{ asset('images/web/eperi.png') }}"></a>
+                        <a href="/sr/eperi"><img class="img-fluid" src="{{ asset('images/web/eperi.png') }}"></a>
                     </div>
                     <div>
-                        <a href="/kerio"><img class="img-fluid" src="{{ asset('images/web/kerio.png') }}"></a>
+                        <a href="/sr/kerio"><img class="img-fluid" src="{{ asset('images/web/kerio.png') }}"></a>
                     </div>
                     <div>
-                        <a href="/security-scorecard"><img class="img-fluid" src="{{ asset('images/web/security.png') }}"></a>
+                        <a href="/sr/security-scorecard"><img class="img-fluid" src="{{ asset('images/web/security.png') }}"></a>
                     </div>
                 </div>
             </div>
@@ -117,14 +130,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h4>Advanced cybersecurity solutions</h4><br>
-                            <h2><b>Providing impenetrable Defense<br> For Enterprise Companies</b></h2><br>
+                            <h4>Napredna sajber bezbednosnih rešenja</h4><br>
+                            <h2><b>Odbranite svoju organizaciju<br> od najnovijih sajber pretnji</b></h2><br>
                             <p>
-                                Defend your organization against the latest cyber threats. Sky Express offers a very selective range<br>
-                                of complemental, compatible and applicable solutions.
+                                Zaštitite svoje podatke uspostavljanjem partnerstva sa proverenim i pouzdanim distributerom rešenja za informacionu bezbednost. Sky Express nudi pažljivo odabran spektar komplementarnih, kompatibilnih i primenljivih rešenja.
                             </p>
                             <br><br>
-                            <a class="orange_link" href="#">View solutions</a>
+                            <a class="orange_link" href="/sr/proizvodi">Saznajte više</a>
                         </div>
                     </div>
                 </div>
@@ -158,7 +170,7 @@
 
                                             {!! mb_strlen($new->text) > 250 ? mb_substr($new->text,0,250)."..." : $new->text !!}
 
-                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/single-news/{{ $new->alias }}">READ MORE</a>
+                                            <a style="display: block; margin-top: 20px;" class="link_without" href="/sr/vest/{{ $new->alias }}">SAZNAJ VIŠE</a>
                                         </div>
                                         
                                     @endforeach
