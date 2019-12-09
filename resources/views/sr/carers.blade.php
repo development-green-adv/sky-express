@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Career | Sky Express")
+@section("title", "Karijera | Sky Express")
 
 @section("content")
 
@@ -160,24 +160,24 @@
                     <table class="table table-borderless">
                         <thead>
                             <tr>
-                                <th scope="col">Role</th>
-                                <th scope="col">Job Family</th>
-                                <th scope="col">Language</th>
-                                <th scope="col">Location</th>
+                                <th scope="col">Pozicija</th>
+                                <th scope="col">Sektor</th>
+                                <th scope="col">Jezik</th>
+                                <th scope="col">Lokacija</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td scope="row"><a href="{{ asset('assets/pdf/Sales Consultant_Sky Express job.pdf') }}" target="_blank">Sales Consultant</a></td>
                                 <td>Sales</td>
-                                <td>Serbian</td>
-                                <td>Belgrade</td>
+                                <td>Srpski</td>
+                                <td>Beograd</td>
                             </tr>
                             <tr>
                                 <td scope="row"><a href="{{ asset('assets/pdf/ERP Consultant_Sky Express job.pdf') }}" target="_blank">ERP Consultant</a> </td>
                                 <td>IT / Pre-sales</td>
-                                <td>Serbian</td>
-                                <td>Belgrade</td>
+                                <td>Srpski</td>
+                                <td>Beograd</td>
                             </tr>
                         </tbody>
                     </table>
