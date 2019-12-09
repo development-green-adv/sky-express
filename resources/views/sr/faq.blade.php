@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "FAQ | Sky Express")
+@section("title", "Najcesca pitanja | Sky Express")
 
 @section("content")
 

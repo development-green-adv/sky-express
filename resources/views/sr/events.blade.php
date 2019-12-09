@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Events | Sky Express")
+@section("title", "Dogadjaji | Sky Express")
 
 @section("style")
 
@@ -45,7 +45,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1>EVENTS</h1>
+                                <h1>Dogadjaji</h1>
                             </div>
                         </div>
                     </div>
