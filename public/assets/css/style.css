@@ -2525,9 +2525,20 @@ ul.open-systems-first-ul li:last-child {
     margin-bottom: 60px;
 }
 
-/* .all-products img {
-    width: 50%;
-} */
+.all-products img {
+    margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+    map area {
+        display: none !important;
+    }
+}
+
+.all-products-links div {
+    margin: 0 auto;
+    /* height: 694px !important; */
+}
 
 /* ALL SOLUTIONS */
 

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="{{ asset('assets/css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('lib/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -13,7 +14,7 @@
     <script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('lib/bootstrap/js/bootstrap.min.js') }}"></script>
 
-    {{-- <script src="{{ asset('assets/image-map/js/jquery.maphilight.min') }}"></script> --}}
+    <script src="{{ asset('assets/image-map/jquery.maphilight.min.js') }}"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -26,16 +27,17 @@
     <title>@yield('title')</title>
 
     @section("seo")
-        @show
+    @show
 
     @section("style")
-        @show
-    
+    @show
+
 </head>
+
 <body>
-    
+
     @section('content')
-        @show
+    @show
 
     <div id="contact-eng" class="contact-us-right-wrapper">
         <div id="contact-us-right" class="contact-us-right">
@@ -48,54 +50,58 @@
         </div>
     </div>
 
-    
+
     <div id="contact-srb" class="contact-us-right-wrapper">
-            <div id="contact-us-right1" class="contact-us-right">
-                <p>KONTAKT</p>
-            </div>
-            <div id="contact-us-right-inner1" class="contact-us-right-inner">
-                <h4>Kontakt</h4>
-                <p>Zelimo da vas cujemo.</p>
-                <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
-            </div>
+        <div id="contact-us-right1" class="contact-us-right">
+            <p>KONTAKT</p>
         </div>
+        <div id="contact-us-right-inner1" class="contact-us-right-inner">
+            <h4>Kontakt</h4>
+            <p>Zelimo da vas cujemo.</p>
+            <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
+        </div>
+    </div>
 
 
     <script>
+        $(document).ready(function() {
 
-        $(document).ready(function(){
-
-            $("#contact-us-right").click(function(){
+            $("#contact-us-right").click(function() {
                 $(this).toggleClass('toggle-btn-contact');
                 $("#contact-us-right-inner").toggle();
             });
 
-            $("#contact-us-right1").click(function(){
+            $("#contact-us-right1").click(function() {
                 $(this).toggleClass('toggle-btn-contact');
                 $("#contact-us-right-inner1").toggle();
             });
         });
-        // function moveContact(el){
-
-        //     $('#contact-us-right').css('right', '125px');
-        //     $('#contact-us-right-inner').css('display', 'block');
-
-        // }
-
-
-
-        // $('#contact-us-right').click(function() {
-            
-        //     $('#contact-us-right').css('right', '125px');
-        //     $('#contact-us-right-inner').css('display', 'block');
-            
-        // });
-
     </script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script>
+        // image map
+        $('img[usemap]').maphilight({
+            fillColor: 'ffffff',
+            strokeColor: '#ffffff',
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    fill: false,
+                    fillColor: 'transparent'
+                }
+            }]
+        });
+
+        if ($(window).width() < 768) {
+            document.getElementById("imgmap").setAttribute('usemap', 'disabled');
+        }
+        if ($(window).width() > 768) {
+            document.getElementById("imgmap").setAttribute('usemap', '#skymap');
+        }
+
+
 
         $('.slider-showcase').slick({
             autoplay: true,
@@ -115,35 +121,34 @@
             accessibility: false,
             dots: false,
             infinite: true,
-            responsive: [
-                {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
                 },
                 {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
                 },
                 {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-                }
-            ]   
+            ]
         });
     </script>
 
-    
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -156,11 +161,8 @@
 
 
     <script>
-
-    $("#video_player")[0].play();
-    $('#video_player').attr('loop','loop');
-
-
+        $("#video_player")[0].play();
+        $('#video_player').attr('loop', 'loop');
     </script>
 
     <!-- <script>
@@ -192,4 +194,5 @@
     </script> -->
 
 </body>
+
 </html>
