@@ -53,7 +53,7 @@
                                 <li class="nav-item position-relative">
                                     <a class="nav-link" href="#">Usluge i podrška</a><span>|</span>
                                     <div class="dropdown-menu">
-                                        <ul class="dropdown-menu-ul">
+                                        <ul class="dropdown-menu-ul siri-meni">
                                             <p>USLUGE</p>
                                             <li><a href="/sr/bezbedonosna-analiza">Bezbednosna analiza</a></li>
                                             <li><a href="/sr/analiza-uskladjenosti">Analiza usklađenosti sa regulativama</a></li>
@@ -63,12 +63,12 @@
                                             <li><a href="/sr/planiranje-svesti-o-bezbednosti">Podizanje svesti o bezbednosti</a></li>
                                             <li><a href="/sr/konsultantske-usluge">Konsalting u oblasti informacione bezbednosti</a></li>
                                         </ul>
-                                        <ul class="dropdown-menu-ul">
+                                        <ul class="dropdown-menu-ul siri-meni">
                                             <p class="mb-3">TEHNIČKA PODRŠKA</p>
                                             {{-- <h5 class="mb-4">CONTACT SUPPORT</h5> --}}
                                             {{-- <h6 class="mb-3">Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6> --}}
                                             <h6 class="mb-3">Visoko kvalifikovani tim kompanije Sky Express pruža klijentima stručnu podršku u oblasti zaštite mreža, računara, aplikacija i podataka od svih vrsta sajber pretnji.</h6>
-                                            <a href="/sr/kontakt">Kontaktirajte podršku</a>
+                                            <a href="/sr/kontakt">KONTAKTIRAJTE PODRŠKU</a>
                                         </ul>
                                     </div>
                                 </li>

@@ -8,7 +8,7 @@
                         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="icon-bar top-bar"></span>
                             <span class="icon-bar middle-bar"></span>
-                            <span class="icon-bar bottom-bar"></span>	
+                            <span class="icon-bar bottom-bar"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
@@ -16,7 +16,9 @@
                                     <a class="nav-link" href="#">Products & Solutions</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
-                                            <li><a href="/all-products"><p>PRODUCTS</p></a></li>
+                                            <li><a href="/all-products">
+                                                    <p>PRODUCTS</p>
+                                                </a></li>
                                             <li><a href="/carbon-black">Carbon Black</a></li>
                                             <li><a href="/df-labs">DF Labs</a></li>
                                             <li><a href="/logpoint">Logpoint</a></li>
@@ -29,10 +31,14 @@
                                             {{-- <a href="#">View All</a> --}}
                                         </ul>
                                         <ul class="dropdown-menu-ul">
-                                            <li><a href="/all-solutions"><p>SOLUTIONS</p></a></li>
+                                            <li><a href="/all-solutions">
+                                                    <p>SOLUTIONS</p>
+                                                </a></li>
                                             <li class="position-relative"><a href="/by-compliance">By Compliance</a>
                                                 <ul class="dropdown-sub-menu">
-                                                    <li class="invisible"><a href="/all-solutions"><p>SOLUTIONS</p></a></li>
+                                                    <li class="invisible"><a href="/all-solutions">
+                                                            <p>SOLUTIONS</p>
+                                                        </a></li>
                                                     <li class="gdpr-link"><a href="/meeting-gdpr">Meeting GDPR</a></li>
                                                     <li><a href="/iso-27001">ISO 27001</a></li>
                                                     <li><a href="/sap-security-guidelines">SAP Security Guidelines</a></li>
@@ -86,7 +92,7 @@
 
                                 <li class="nav-item position-relative">
                                     <a class="nav-link" href="#">News & Events</a><span>|</span>
-                                    <div  class="dropdown-menu">
+                                    <div class="dropdown-menu">
                                         <ul style="margin-top: 0px; padding-top: 0px;" class="dropdown-menu-ul">
                                             <li><a href="/events">Events</a>
                                             </li>
