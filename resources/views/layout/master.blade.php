@@ -39,6 +39,7 @@
     @section('content')
     @show
 
+
     <div id="contact-eng" class="contact-us-right-wrapper">
         <div id="contact-us-right" class="contact-us-right">
             <p>CONTACT US</p>
@@ -63,6 +64,56 @@
     </div>
 
 
+
+    @if(Cookie::get('prvi') == "")
+
+    <div id="pop-up" class="pop-up-srb">
+        <div id="remove-pop-up" class="remove-pop-up">x</div>
+        <div class="container">
+            <h5>
+                Sky Express koristi kolačiće (cookies) koji služe poboljšanju funkcionalnosti sajta i ne sadrže lične
+                podatke. Više o kolačićima pročitajte u <a href="/sr/politika-privatnosti">Politici privatnosti</a>.
+            </h5>
+        </div>
+    </div>
+
+    @endif
+
+    @if(Cookie::get('prvi') == "")
+
+    <div id="pop-up-eng" class="pop-up-srb pop-up-eng">
+        <div id="remove-pop-up-eng" class="remove-pop-up">x</div>
+        <div class="container">
+            <h5>
+                Sky Express uses cookies to improve the functionality of the site and do not contain personal
+                information. Read more about cookies in our <a href="/privacy-policy">Privacy Policy</a>.
+            </h5>
+        </div>
+    </div>
+
+    @endif
+
+
+    <script>
+        $(document).ready(function() {
+
+            $("#remove-pop-up").click(function() {
+                $('#pop-up').css('display', 'none');
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+
+            $("#remove-pop-up-eng").click(function() {
+                $('#pop-up-eng').css('display', 'none');
+            });
+        });
+    </script>
+
+
+
     <script>
         $(document).ready(function() {
 
@@ -81,7 +132,6 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script>
-
         // image map
         $('img[usemap]').maphilight({
             fillColor: 'ffffff',
@@ -101,12 +151,10 @@
         if ($(window).width() > 768) {
             document.getElementById("imgmap").setAttribute('usemap', '#skymap');
         }
-
     </script>
 
 
     <script>
-
         $('.slider-showcase').slick({
             autoplay: true,
             arrows: false,

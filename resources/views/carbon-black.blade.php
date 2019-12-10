@@ -10,6 +10,10 @@
     #contact-srb {
         display: none;
     }
+
+    #pop-up {
+        display: none;
+    }
 </style>
 
 @endsection

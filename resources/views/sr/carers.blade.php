@@ -10,6 +10,10 @@
     #contact-eng {
         display: none;
     }
+
+    #pop-up-eng {
+        display: none;
+    }
 </style>
 
 @endsection

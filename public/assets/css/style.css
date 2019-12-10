@@ -26,6 +26,40 @@ p {
     font-weight: 500;
 }
 
+
+.pop-up-srb {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #08090b;
+    color: #fff;
+    z-index: 99999;
+    text-align: center;
+    border-top: 2px solid #f1592a;
+}
+
+.remove-pop-up {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all .3s;
+    background-color: #f1592a;
+}
+
+.pop-up-srb h5 {
+    font-size: 16px;
+}
+
+.pop-up-srb a {
+    text-decoration:
+}
+
 /* .all-products-links a {display: none; width: 81px; height: 111px;}
 .all-products-links a#carbon-black-link {
     display: block;
@@ -450,7 +484,7 @@ p {
 }
 
 .rose_section_top {
-    height: 120px;
+    height: 90px;
     background-color: #e7e7e8;
     border-top: 2px solid #f1592a;
 }

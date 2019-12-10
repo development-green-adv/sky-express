@@ -13,6 +13,10 @@
     .cc:hover {
         color: #f1592a;
     }
+
+    #pop-up-eng {
+        display: none;
+    }
 </style>
 
 @endsection

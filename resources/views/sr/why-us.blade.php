@@ -4,7 +4,22 @@
 
 @section("content")
 
+@section("seo")
+
+<style>
+    #contact-eng {
+        display: none;
+    }
+
+    #pop-up-eng {
+        display: none;
+    }
+</style>
+
+@endsection
+
 @include("inc/header-sr")
+
 
 <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/showcase.jpg') }}'); background-repeat: no-repeat;">
     <div class="row">
