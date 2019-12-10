@@ -81,6 +81,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script>
+
         // image map
         $('img[usemap]').maphilight({
             fillColor: 'ffffff',
@@ -101,7 +102,10 @@
             document.getElementById("imgmap").setAttribute('usemap', '#skymap');
         }
 
+    </script>
 
+
+    <script>
 
         $('.slider-showcase').slick({
             autoplay: true,
