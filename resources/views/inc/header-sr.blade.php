@@ -69,6 +69,7 @@
                                             {{-- <h6 class="mb-3">Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6> --}}
                                             <h6 class="mb-3">Visoko kvalifikovani tim kompanije Sky Express pruža klijentima stručnu podršku u oblasti zaštite mreža, računara, aplikacija i podataka od svih vrsta sajber pretnji.</h6>
                                             <a href="/sr/kontakt">KONTAKTIRAJTE PODRŠKU</a>
+
                                         </ul>
                                     </div>
                                 </li>

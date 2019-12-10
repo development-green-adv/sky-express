@@ -30,6 +30,15 @@ p {
     width: 300px !important;
 }
 
+.contact-phone-info p {
+    font-size: 15px !important;
+    color: #f1592a !important;
+}
+
+.contact-phone-info a {
+    color: #08090b
+}
+
 @media(max-width: 992px) {
 
     .navbar-nav {
