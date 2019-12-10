@@ -8,15 +8,17 @@
                         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="icon-bar top-bar"></span>
                             <span class="icon-bar middle-bar"></span>
-                            <span class="icon-bar bottom-bar"></span>	
+                            <span class="icon-bar bottom-bar"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item position-relative">
-                                    <a class="nav-link" href="#">Proizvodi i rešenja</a><span>|</span>
+                                    <a class="nav-link" href="#">Proizvodi i Resenja</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
-                                            <li><a href="/sr/proizvodi"><p>PROIZVODI</p></a></li>
+                                            <li><a href="/sr/proizvodi">
+                                                    <p>PROIZVODI</p>
+                                                </a></li>
                                             <li><a href="/sr/carbon-black">Carbon Black</a></li>
                                             <li><a href="/sr/df-labs">DF Labs</a></li>
                                             <li><a href="/sr/logpoint">Logpoint</a></li>
@@ -29,17 +31,22 @@
                                             {{-- <a href="#">View All</a> --}}
                                         </ul>
                                         <ul class="dropdown-menu-ul">
-                                            <li><a href="/sr/sva-resenja"><p>REŠENJA</p></a></li>
-                                            <li class="position-relative"><a href="#">By Compliance</a>
+                                            <li><a href="/sr/sva-resenja">
+                                                    <p>REŠENJA</p>
+                                                </a></li>
+                                            <li class="position-relative"><a href="#">Po usklađenosti</a>
                                                 <ul class="dropdown-sub-menu">
-                                                    <li class="invisible"><a href="/sr/resenja"><p>SOLUTIONS</p></a></li>
-                                                    <li class="gdpr-link"><a href="/sr/meeting-gdpr">Meeting GDPR</a></li>
-                                                    <li><a href="/sr/iso-27001">ISO 27001</a></li>
-                                                    <li><a href="/sr/sap-bezbednosne-smernice">SAP Security Guidelines</a></li>
+                                                    <li class="invisible"><a href="/sr/resenja">
+                                                            <p>SOLUTIONS</p>
+                                                        </a></li>
+                                                    <li class="gdpr-link"><a href="/sr/meeting-gdpr">GDPR</a></li>
+                                                    <li><a href="/sr/iso-27001">ISO27001</a></li>
+                                                    <li><a href="/sr/sap-bezbednosne-smernice">SAP bezbednosne smernice</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="position-relative"><a href="/sr/resenja">Industry Solutions</a></li>
-                                            <li><a href="#">Security & Risk Management</a></li>
+                                            <li class="position-relative"><a href="/sr/resenja">Industrijska rešenja</a></li>
+                                            <li><a href="#">Upravljanje rizicima i
+                                                    informacionom bezbednoscu</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -86,7 +93,7 @@
 
                                 <li class="nav-item position-relative">
                                     <a class="nav-link" href="#">Novosti i događaji</a><span>|</span>
-                                    <div  class="dropdown-menu">
+                                    <div class="dropdown-menu">
                                         <ul style="margin-top: 0px; padding-top: 0px;" class="dropdown-menu-ul">
                                             <li><a href="/sr/dogadjaji">Događaji</a>
                                             </li>

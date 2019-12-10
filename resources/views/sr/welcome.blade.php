@@ -42,7 +42,7 @@
                         <br>
                         <h3 data-aos="fade-right">ODBRANITE VAŠE PREDUZEĆE OD SAJBER PRETNJI</h3>
                         <br><br>
-                        <a class="orange_link slider-btn-home" data-aos="fade-up" href="/contact">Kontaktirajte nas</a>
+                        <a class="orange_link slider-btn-home" data-aos="fade-up" href="/sr/kontakt">Kontaktirajte nas</a>
                     </div>
 
                     <div class="col-12 pb-3" data-aos="fade-up">
@@ -51,7 +51,7 @@
                         <br>
                         <h3>ODABRANI NIVO DOKAZANIH, KOMPLEMENTARNIH, KOMPATIBILNIH I PRIMENLJIVIH REŠENJA </h3>
                         <br><br>
-                        <a class="orange_link  slider-btn-home" href="/all-products">Saznajte više</a>
+                        <a class="orange_link  slider-btn-home" href="/sr/proizvodi">Saznajte više</a>
                     </div>
 
                     <div class="col-12 pb-3" data-aos="fade-up">
@@ -60,7 +60,7 @@
                         <br>
                         <h3>VISOKO KVALIFIKOVANI I ISKUSNI SAJBERSIGURNOSNI PROFESIONALCI</h3>
                         <br><br>
-                        <a class="orange_link  slider-btn-home" href="/why-us">Kontaktirajte naš tim</a>
+                        <a class="orange_link  slider-btn-home" href="/sr/zasto-sky-express">Saznajte više</a>
                     </div>
                 </div>
             </div>
