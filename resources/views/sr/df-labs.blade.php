@@ -112,7 +112,7 @@
     <div class="row">
         <div class="container">
             <div class="col-12 text-center">
-                <button class="btn btn-default orange_btn">Award-Winning SOAR Platform</button>
+                <button class="btn btn-default orange_btn">Nagrađivana SOAR platforma</button>
             </div>
             <div class="col-12">
                 <div class="df-labs-third-part">
