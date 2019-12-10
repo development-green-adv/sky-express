@@ -18,11 +18,11 @@
                 <div class="col-6 col-md-3 mb-4 mb-md-0">
                     <h5>BRZI LINKOVI</h5>
                     <a href="/sr/zasto-sky-express">Zašto mi?</a><br>
-                    <a href="#">Tehnička podrška</a><br>
-                    <a href="#">Novosti</a><br>
+                    <a href="/sr/kontakt">Tehnička podrška</a><br>
+                    <a href="/sr/vesti">Novosti</a><br>
                     <a href="#">Blog</a><br>
                     <a href="/sr/karijera">Karijera</a><br>
-                    <a href="#">Lokacija kancelarije</a>
+                    <a href="/sr/kontakt">Lokacija kancelarije</a>
                 </div>
                 <div class="col-6 col-md-3 mb-4 mb-md-0">
                     <h5>PROIZVODI</h5>
@@ -77,4 +77,3 @@
         </div>
     </div>
 </div>
-

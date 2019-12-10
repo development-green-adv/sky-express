@@ -34,7 +34,7 @@
                                             <li><a href="/sr/sva-resenja">
                                                     <p>REŠENJA</p>
                                                 </a></li>
-                                            <li class="position-relative"><a href="#">Po usklađenosti</a>
+                                            <li class="position-relative"><a href="/sr/po-uskladjenosti">Po usklađenosti</a>
                                                 <ul class="dropdown-sub-menu">
                                                     <li class="invisible"><a href="/sr/resenja">
                                                             <p>SOLUTIONS</p>

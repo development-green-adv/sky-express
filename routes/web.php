@@ -13,7 +13,7 @@
 
 use App\News;
 
-Route::get('/clear-cache', function() {
+Route::get('/clear-cache', function () {
     Artisan::call('cache:clear');
     Artisan::call('view:clear');
     Artisan::call('config:clear');
@@ -29,7 +29,7 @@ Route::get('/about-us', function () {
     return view('about-us', compact("data"));
 });
 
-Route::get("/sr/o-nama", function(){
+Route::get("/sr/o-nama", function () {
     $data = News::where("status", 1)->where("lang", "sr")->orderBy("id", "asc")->limit(3)->get();
     return view("/sr/about-us", compact("data"));
 });
@@ -217,6 +217,10 @@ Route::get('/sr/iso-27001', function () {
 
 Route::get('/by-compliance', function () {
     return view('by-compliance');
+});
+
+Route::get('/sr/po-uskladjenosti', function () {
+    return view('/sr/by-complinace');
 });
 
 Route::get('/solutions', function () {
