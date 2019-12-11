@@ -88,7 +88,7 @@
                     </li>
                 </ul>
 
-                <h5 class="pl-0 pl-md-5 mb-4 orange_text">LogPoint ranked #1 and named Leader
+                <h5 class="pl-0 pl-md-5 mb-4 orange_text"><img src="{{ asset('images/web/logpoint-nagrada.png') }}" alt=""> LogPoint ranked #1 and named Leader
                     in the 2019 SoftwareReviews SIEM Data Quadrant</h5>
             </div>
         </div>

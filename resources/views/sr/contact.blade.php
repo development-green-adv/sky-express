@@ -90,7 +90,7 @@
                             </div>
                             <div class="col-md-12 mb-4 contact-phone-info">
                                 <p>Opšti korporativni poslovi</p>
-                                <a href="mailto:podrska@sky-express.rs">podrska@sky-express.rs</a> <br>
+                                <a href="mailto:administracija@sky-express.rs">administracija@sky-express.rs</a> <br>
                                 <a href="tel:+381112421580">011/242 15 80</a>
                             </div>
                         </div>
