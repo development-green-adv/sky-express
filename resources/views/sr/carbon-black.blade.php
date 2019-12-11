@@ -175,7 +175,7 @@
                 <div class="carbon-black-fourth-part-right">
                     <h4 class="text-white pl-0 pr-0 pr-md-5 pl-md-5 ">The VMware Carbon Black Cloud <br class="d-none d-md-block"> je sistem za upravljanje bezbednošću krajnjih tačaka, <br class="d-none d-md-block"> koje
                         centralizuje prikupljanje i analizu podataka <br class="d-none d-md-block"> i pojednostavljuje administraciju sistema bezbednosti.
-                        Primenjena analitika svih prikupljenih podataka <br class="d-none d-md-block"> sa krajnjih sistema, omogućava i obezbeđuje pouzdanu zaštitu.
+                        Primenjena analitika svih prikupljenih podataka sa krajnjih sistema, omogućava i obezbeđuje pouzdanu zaštitu.
                     </h4>
                 </div>
             </div>
