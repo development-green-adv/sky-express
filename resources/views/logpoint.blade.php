@@ -88,8 +88,15 @@
                     </li>
                 </ul>
 
-                <h5 class="pl-0 pl-md-5 mb-4 orange_text"><img src="{{ asset('images/web/logpoint-nagrada.png') }}" alt=""> LogPoint ranked #1 and named Leader
-                    in the 2019 SoftwareReviews SIEM Data Quadrant</h5>
+                <h5 class="pl-0 pl-md-5 mb-4 orange_text">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img style="width: 100px;" src="{{ asset('images/web/logpoint-nagrada.png') }}" alt="">
+                        </div>
+                        <div class="col-md-6">LogPoint ranked #1 and named Leader
+                            in the 2019 SoftwareReviews SIEM Data Quadrant</div>
+                    </div>
+                </h5>
             </div>
         </div>
     </div>
