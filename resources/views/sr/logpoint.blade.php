@@ -84,7 +84,12 @@
                 <div class="row">
                     {{-- <div class="col-3"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div> --}}
                 <div class="col-12">
-                    <h5 class="pl-0 pl-md-5 mb-4 orange_text"><img src="{{ asset('images/web/logpoint-nagrada.png') }}" alt=""> LogPoint je rangiran na prvom mestu i imenovan liderom u recenzijama SoftwareReviews SIEM Data Quadrant za 2019. godinu</h5>
+                    <h5 class="pl-0 pl-md-5 mb-4 orange_text">
+                        <div class="row">
+                            <div class="col-md-3"><img style="width: 100px;" src="{{ asset('images/web/logpoint-nagrada.png') }}" alt=""></div>
+                            <div class="col-md-9 pt-3">LogPoint je rangiran na prvom mestu i imenovan liderom u recenzijama SoftwareReviews SIEM Data Quadrant za 2019. godinu</div>
+                        </div>
+                    </h5>
                 </div>
             </div>
         </div>
