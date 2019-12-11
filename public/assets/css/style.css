@@ -2096,7 +2096,14 @@ button.orange_btn:hover {
 
 .carbon-black-fourth-part-top h4 {
     color: #fff;
+    font-size: 25px;
     margin-bottom: 30px;
+}
+
+@media(max-width: 768px) {
+    .carbon-black-fourth-part-top h4 {
+        font-size: 25px;
+    }
 }
 
 .carbon-black-fifth-part-left p {
