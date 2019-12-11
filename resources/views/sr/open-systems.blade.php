@@ -104,10 +104,13 @@
         <div class="row ">
             <div class="col-12 text-center">
                 <p class="mb-4">
-                    Ovaj sistem je u potpunosti usklađen sa međunarodnim regulativama, vašim internim pravilima i procedurama i specifično namenjen zaštiti svih resursa koji su dostupni na javnoj mreži. Integrisani Secure Web Gateway, sa funkcijama SSL skeniranja, URL filtriranja i malver zaštite, unapređuje stepen zaštite mašinske inteligencije klijenata od štetnih sadržaja i virusa i ograničava pristup URL kategorijama.
+                    Osigurajte bezbedno sprovođenje vaših pristupnih procedura za resurse koji se nalaze na internetu. Integrisani
+                    Secure Web Gateway, sa funkcijama SSL skeniranja, URL filtriranja i malware zaštite,
+                    unapređuje stepen zaštite mašinske inteligencije klijenata od štetnih sadržaja i virusa i ograničava
+                    pristup URL kategorijama.
                 </p>
                 <p class="mb-5">
-                    <b>The Mission Control WAF</b> proverava sve pokušaje pristupa od interneta do web aplikacije na mrežnoj infrastrukturi. WAF prekida SSL konekciju, verifikuje HTTP zahtev za validiranjem protokola, spaja ga sa zahtevima za određenu aplikciju i ako je neophodno vrši redirekciju korisnika ka servisu za registraciju.
+                    <b>The Mission Control WAF</b> proverava sve pokušaje pristupa od interneta do web aplikacije na mrežnoj infrastrukturi. WAF prekida SSL konekciju, verifikuje HTTP zahtev za validiranjem protokola, spaja ga sa zahtevima za određenu aplikaciju i ako je neophodno vrši redirekciju korisnika ka servisu za registraciju.
                 </p>
                 <h4>Open Systems garantuje 99,9% pouzdanosti sistema u procesu rada ICT korisničkog servisa.</h4>
             </div>
@@ -137,16 +140,16 @@
             <div class="col-md-6">
                 <div class="open-system-third-part-right">
                     <h3 class="mb-5 text-white">Detekcija u realnom vremenu</h3>
-                    <h4 class="mb-2">Agregirano nadgledanje celokupne korporativne mreže</h4>
+                    <h4 class="mb-2">Nadgledanje celokupne korporativne mreže</h4>
                     <p class="mb-4">
-                        Omogućite holistički pogled na pretnje iz cele mreže
+                        Omogućite holistički pogled na pretnje iz cele mreže.
                     </p>
                     <h4 class="mb-2">Sagledajte sve detalje</h4>
-                    <p class="mb-4">Od globalnog stepenovanja rizika do detalja na nivou mrežnih paketa</p>
+                    <p class="mb-4">Od globalnog stepenovanja rizika do detalja na nivou mrežnih paketa.</p>
                     <h4 class="mb-2">Omogućite brzu analizu i reakciju</h4>
-                    <p class="mb-4">Mi ćemo izvršiti trijažu događaja za vas i eskalirati ka vama ukoliko je to potrebno</p>
+                    <p class="mb-4">Izvršićemo trijažu događaja za vas i eskalirati ukoliko je to potrebno.</p>
                     <h4 class="mb-2">Mašinsko učenje omogućava bolju analizu</h4>
-                    <p>U kontinuitetu dajemo više kvalitetnih podataka a manje šuma</p>
+                    <p>Kontinuirano podešavanje za više pravih podataka a manje „šuma“.</p>
                 </div>
             </div>
         </div>

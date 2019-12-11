@@ -40,12 +40,13 @@
         <div class="col-12 col-md-6 mb-4 mb-md-0">
             <h4>USKLAĐENOST SA GDPR-OM</h4><br>
             <p class="pr-0 pr-md-5 mb-4">
-                GDPR je stupio na snagu 25. maja 2018. godine i od tog datuma obavezuje fizička i pravna lica sa prebivalištem, odnosno sedištem u Evropskoj Uniji, ali pod određenim uslovima GDPR ima primenu i u Srbiji. Ovom direktivom se uvode različiti izazovi u vezi sa zaštitom podataka za preduzeća širom sveta.
+                GDPR je stupio na snagu 25. maja 2018. godine i od tog datuma se primenjuje na fizička i pravna lica
+                sa prebivalištem u Evropskoj Uniji. Pod određenim uslovima GDPR ima primenu i u Srbiji. Ovom direktivom se uvode različiti izazovi u vezi sa zaštitom podataka za preduzeća širom sveta.
             </p>
 
             <h5 class="mb-4">GDPR - Opšta uredba o zaštiti podataka o ličnosti</h5>
-            <p class="pr-0 pr-md-5 mb-4">GDPR je osmišljen tako da usklađuje zakone koji se odnose na privatnost podataka širom Evrope i prilagođava način na koji organizacije širom sveta pristupaju privatnosti podataka kada se bave sistemima EU. Uredba je stupila na snagu 25. maja 2018. godine i odnosi se ne samo na subjekte EU koji se bave ličnim podacima bilo gde u svetu, već i na subjekte van EU koji se bave ličnim podacima stanovnika EU.</p>
-            <p class="pr-0 pr-md-5 mb-5">Na mnogo načina, GDPR olakšava stvari, pojednostavljuje postojeći konglomerat pravila i pristupa koje nameće svaka država članica, praveći jedan skup pravila kojima će vladati svima njima. Sadrži 99 članaka ili klauzula koji pokrivaju gotovo svaki aspekt poslovanja i upravljanja informacijama - sve od saglasnosti za prikupljanje i obradu informacija, do „prava na brisanje“. Glavni cilj Opšte uredbe o zaštiti podataka (GDPR) je da osigura transparentnost, sigurnost i odgovornost od strane obrađivača podataka.</p>
+            <p class="pr-0 pr-md-5 mb-4">GDPR je osmišljen tako da usklađuje zakone koji se odnose na privatnost podataka širom Evrope i prilagođava način na koji organizacije širom sveta pristupaju privatnosti podataka kada se bave ličnim podacima građana EU. Uredba je stupila na snagu 25. maja 2018. godine i odnosi se ne samo na subjekte EU već i na subjekte van EU koji se bave ličnim podacima stanovnika EU.</p>
+            <p class="pr-0 pr-md-5 mb-5">Na mnogo načina, GDPR olakšava stvari, pojednostavljuje postojeći paket pravila i pristupa koje nameće svaka država članica, praveći jedan skup pravila koji će vladati svima njima. Sadrži 99 članaka ili klauzula koji pokrivaju gotovo svaki aspekt poslovanja i upravljanja informacijama - sve od saglasnosti za prikupljanje i obradu informacija, do „prava na brisanje“. Glavni cilj Opšte uredbe o zaštiti podataka (GDPR) je da osigura transparentnost, sigurnost i odgovornost od strane obrađivača podataka.</p>
             <h5 class="orange_text">Za više informacija o tome kako vam Sky Express može pomoći u usaglašavanju sa GDPR-om, obratite se našim stručnjacima za bezbednost.</h5>
             <div class="text-center mt-5">
                 <div class="get-btn">

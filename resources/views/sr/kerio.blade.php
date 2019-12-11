@@ -45,7 +45,7 @@
         </div>
         <div class="col-12 col-md-6 mb-4 mb-md-0">
             <p class="pr-0 pr-md-5 mb-4">
-                Povežite se, komunicirajte i sarađujte bez kompromisa — nagrađivani proizvodi kompanije Kerio prilagođeni su potrebama malih i srednjih preduzeća. Svi proizvodi kombinuju moćne funkcije sa lakoćom korišćenja za poslovne korisnike i IT profesionalce. Naši atraktivni licencni paketi i fleksibilnost rada na mnogim hardverskim i softverskim konfiguracijama pružaju funkcionalnost poslovne klase uz niske ukupne troškove vlasništva.
+                Povežite se, komunicirajte i sarađujte bez kompromisa — nagrađivani proizvodi kompanije Kerio prilagođeni su potrebama malih i srednjih preduzeća. Svi proizvodi kombinuju moćne funkcije sa lakoćom korišćenja za poslovne korisnike i IT profesionalce. Naši atraktivni licencni paketi i fleksibilnost rada na mnogim hardverskim i softverskim konfiguracijama pružaju funkcionalnost poslovne klase uz ukupno niske troškove vlasništva.
             </p>
         </div>
         <div class="col-12 col-md-6">
@@ -99,7 +99,7 @@
             <div class="col-md-6">
                 <div class="kerio-third-part-left">
                     <h5 class="orange_text mb-2">Kerio Connect</h5>
-                    <p class="pr-5 mb-5"> Sigurna e-pošta, kalendar i saradnja u poslovnom stilu bez visokih troškova
+                    <p class="pr-5 mb-5"> Sigurna e-pošta, kalendar i saradnja u poslovnom stilu bez visokih troškova.
                     </p>
                     <p class="mb-4">E-mail, kalendar, IM i još mnogo toga</p>
                     <ul class="eperi-first-part-ul kerio-third-part-left-ul">
@@ -109,7 +109,7 @@
                                     <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p>Kerio Connect nudi sve funkcije i funkcionalnosti za rešenje za saradnju i razmenu poruka bez kompleksnosti i visokih cena drugih sistema,</p>
+                                    <p>Kerio Connect nudi sve funkcije i funkcionalnosti za rešenje za saradnju i razmenu poruka bez kompleksnosti i visokih cena drugih sistema;</p>
                                 </div>
                             </div>
                         </li>
@@ -119,7 +119,7 @@
                                     <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p>E-mailovi su integrisani sa zajedničkim kalendarima i zakazivanjem, upravljanjem kontaktima, zadacima, beleškama, deljenim i javnih mapa i instant porukama,
+                                    <p>E-mailovi su integrisani sa zajedničkim kalendarima i zakazivanjem, upravljanjem kontaktima, zadacima, beleškama, deljenim i javnih mapa i instant porukama;
                                     </p>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@
                                     <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p>Sinhronizujte poruke direktnim transferom na vaš mobilni uređaj putem Microsoft ActiveSinc(R)</p>
+                                    <p>Sinhronizujte poruke direktnim transferom na vaš mobilni uređaj putem Microsoft ActiveSinc(R);</p>
                                 </div>
                             </div>
                         </li>
@@ -140,7 +140,7 @@
                                     <img src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p>Instant Messaging je kompatibilan sa XMPP i može se koristiti sa brojnim drugim aplikacijama za chat/IM aplikacije na desktop računarima ili mobilnim telefonima </p>
+                                    <p>Instant Messaging je kompatibilan sa XMPP i može se koristiti sa brojnim drugim aplikacijama za chat/IM aplikacije na desktop računarima ili mobilnim telefonima. </p>
                                 </div>
                             </div>
                         </li>
@@ -151,11 +151,15 @@
             <div class="col-md-5">
                 <div class="kerio-third-part-left">
                     <h5 class="orange_text mb-2">Kerio Control</h5>
-                    <p class="pr-0 pr-md-5 mb-5"> Otkrijte pretnje, blokirajte viruse i filtrirajte saobraćaj zaštitnim firewall-om izgrađenim za SMB
+                    <p class="pr-0 pr-md-5 mb-5"> Otkrijte pretnje, blokirajte viruse i filtrirajte saobraćaj zaštitnim firewall-om izgrađenim za SMB.
                     </p>
                     <p class="mb-4">Next-generation firewall</p>
                     <p class="mb-4">Sačuvajte integritet vaših servera dubinskom inspekcijom paketa i naprednim mrežnim mogućnostima usmeravanja - uključujući istovremeno IPv4 i IPv6 podršku. Napravite ulazne i odlazne politike saobraćaja, ograničavajući komunikaciju prema određenom URL-u, aplikaciji, vrsti saobraćaja, kategoriji sadržaja i vremenu. </p>
-                    <p>IPS kompanije Kerio Control dodaje transparentan sloj mrežne zaštite, zasnovan na Snort-ovoj analizi ponašanja i redovno ažuriranoj bazi podataka s pravilima i sprečavaje saobraćaja od izvora pretnji.</p>
+                    <p>
+                        IPS kompanije Kerio Control dodaje transparentan sloj mrežne zaštite, zasnovan na Snort-ovoj analizi
+                        ponašanja i redovno ažuriranoj bazi podataka s pravilima i stavljanjem na listu blokiranih IP adresa
+                        izvora pretnji.
+                    </p>
                 </div>
             </div>
         </div>
@@ -164,11 +168,9 @@
                 <div class="kerio-card">
                     <div class="kerio-card-content text-center pt-4">
                         <h6 class="orange_text">Kerio<strong>Connect</strong></h6>
-                        <p class="my-2">MAIL SERVER + MORE</p>
-                        <p class="px-5">Enterprise-class email,
-                            calendars, contacts, tasks,
-                            & instant <br class="d-none d-md-block"> messaging
-                            - wherever you are</p>
+                        <p class="my-2">MAIL SERVER + MNOGO VIŠE</p>
+                        <p class="px-5">Prvoklasan email, kalendar, kontakti, zadaci i instant
+                            poruke <br class="d-none d-md-block"> – gde god da ste.</p>
                     </div>
                     <img class="pt-2" src="{{ asset('images/web/kario-card-icon.png') }}" alt="">
                 </div>
@@ -177,8 +179,8 @@
                 <div class="kerio-card">
                     <div class="kerio-card-content text-center">
                         <h6 class="orange_text">Kerio<strong>Control</strong></h6>
-                        <p class="my-2">FIREWALL + MORE</p>
-                        <p class="px-5">Unified Threat Management and Network Intelligence for the higest level of protection </p>
+                        <p class="my-2">FIREWALL + MNOGO VIŠE</p>
+                        <p class="px-5">Objedinjen Threat Management i Network Intelligence za naveći nivo zaštite.</p>
                     </div>
                     <img src="{{ asset('images/web/kario-card-icon-right.png') }}" alt="">
                 </div>

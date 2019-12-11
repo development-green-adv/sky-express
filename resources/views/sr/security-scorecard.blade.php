@@ -44,16 +44,16 @@
 
             <div class="row">
                 <div class="col-12 mb-4">
-                    <h4>Ocene bezbednosti i stalno praćenje rizika za procenu rizika prodavaca i trećih lica</h4><br>
+                    <h4>Ocena bezbednosti i stalno praćenje rizika za procenu rizika prodavaca i trećih lica</h4><br>
                 </div>
                 <div class="col-12  col-md-6">
                     <div class="row">
                         <div class="col-12 mb-4 mb-md-0">
                             <p class="mb-4 pr-0 pr-md-5">
-                                Security Scorecard (sistem bezbednosnih pokazatelja) omogućava organizacijama svih vrsta i veličina, u svakoj delatnosti, da otkriju i rešavaju složene izazove kibernetičke sigurnosti, usaglašenosti i upravljanja rizikom.
+                                SecurityScorecard (sistem bezbednosnih pokazatelja) omogućava organizacijama svih vrsta i veličina, u svakoj delatnosti, da otkriju i rešavaju složene izazove informacione sigurnosti, usaglašenosti i upravljanja rizikom.
                             </p>
                             <p class="mb-4 pr-0 pr-md-5">
-                                Ovaj proizvod ima neke izuzetno korisne jedinstvene karakteristike koje svaka organizacija može da iskoristi. Korišćenje funkcije planiranja rezultata omogućava vam da brzo i efikasno odredite prioritete za pitanja koja su najvažnija za vašu organizaciju.
+                                Ovaj proizvod ima jedinstvene i izuzetno korisne karakteristike koje svaka organizacija može da iskoristi. Korišćenje funkcije planiranja rezultata omogućava vam da brzo i efikasno odredite prioritete za pitanja koja su najvažnija za vašu organizaciju.
                             </p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                         <h4 class="mb-4 pl-0 pl-md-5">PLATFORMA</h4>
                         <p class="mb-4 pl-0 pl-md-5"><b>Tačne ocene bezbednosti, napredna analitika podataka i primenljivi uvidi</b>
                         </p>
-                        <p class="pl-0 pl-md-5">Otkrijte i otklonite rizik za vašu IT infrastrukturu kao i rizik za kibernetičku sigurnost u okruženju vašeg prodavca i poslovnog partnera. Sarađujte sa trećim licima kako biste smanjili rizik i poboljšali bezbednosno stanje.</p>
+                        <p class="pl-0 pl-md-5">Otkrijte i otklonite rizik za vašu IT infrastrukturu kao i rizik za informacionu sigurnost u okruženju vašeg prodavca i poslovnog partnera. Sarađujte sa trećim licima kako biste smanjili rizik i poboljšali bezbednosno stanje.</p>
 
                     </div>
                 </div>
@@ -94,7 +94,7 @@
 
             </div>
             <div class="col-md-6">
-                <p class="mb-4 pl-0 pl-md-5"><b>Security Scorecard</b> je alat velikih mogućnosti za organizacije sa širokim mrežama spoljnih isporučilaca i prodavaca:</p>
+                <p class="mb-4 pl-0 pl-md-5"><b>SecurityScorecard</b> je alat velikih mogućnosti za organizacije sa širokim mrežama spoljnih isporučilaca i prodavaca:</p>
                 <ul class="security-scorecard-ul">
                     <li class="mb-4">
                         <div class="row">
@@ -151,13 +151,13 @@
     <div class="container">
         <div class="security-scorecard-third-title text-center mb-5">
             <h1 class="orange_text">REŠENJA</h1>
-            <h3>Ocena rizika za kibernetičku sigurnost i rešenja za upravljanje</h3>
+            <h3>Ocena rizika za informacionu sigurnost i rešenja za upravljanje</h3>
         </div>
         <div class="row">
             <div class="col-12">
                 <div class="security-scorecard-podnaslov">
                     <p class="mb-4 orange_text">Implementirajte mogućnosti koje su vam potrebne za izgradnju sigurnijeg ekosistema</p>
-                    <p class="mb-5 text-white">SecurityScorecard omogućava organizacijama svih vrsta i veličina, u svakoj delatnosti, da otkriju i reše složene izazove kibernetičke sigurnosti, usaglašenosti i upravljanja rizikom.</p>
+                    <p class="mb-5 text-white">SecurityScorecard omogućava organizacijama svih vrsta i veličina, u svakoj delatnosti, da otkriju i reše složene izazove informatičke sigurnosti, usaglašenosti i upravljanja rizikom.</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -171,17 +171,17 @@
                 </div>
                 <div class="security-scorecard-third-left">
                     <p class="orange_text">Samoprocena</p>
-                    <p class="pr-0 pr-md-5">Ova platforma omogućava organizacijama da otkriju, nadgledaju i izveštavaju o kibernetičkom zdravlju IT infrastrukture spolja — da bi se videlo šta haker vidi.</p>
+                    <p class="pr-0 pr-md-5">Ova platforma omogućava organizacijama da otkriju, nadgledaju i izveštavaju o zdravlju IT infrastrukture — da bi se proverila ranjivost.</p>
                 </div>
             </div>
             <div class="col-md-6 mt-4 mt-md-0">
                 <div class="security-scorecard-third-left mb-4">
-                    <p class="orange_text pl-0 pl-md-5">Kibernetičko osiguranje</p>
-                    <p class="pl-0 pl-md-5">SecurityScorecard daje mogućnost preduzećima da preuzmu kontrolu nad svojim profilima rizika, omogućavajući u isto vreme osiguravačima da sagledaju kibernetičko zdravlje svojih osiguranika.</p>
+                    <p class="orange_text pl-0 pl-md-5">Osiguranje</p>
+                    <p class="pl-0 pl-md-5">SecurityScorecard daje mogućnost preduzećima da preuzmu kontrolu nad svojim profilima rizika, omogućavajući u isto vreme osiguravačima da sagledaju informaciono zdravlje svojih osiguranika.</p>
                 </div>
                 <div class="security-scorecard-third-left mb-4">
                     <p class="orange_text pl-0 pl-md-5">Spajanja i preuzimanja</p>
-                    <p class="pl-0 pl-md-5">SecurityScorecard pomaže investitorima da spreče iznenađenja usled skrivenih rizika i pitanja usklađenosti koji su povezani sa ciljevima spajanja i preuzimanja.</p>
+                    <p class="pl-0 pl-md-5">SecurityScorecard pomaže investitorima da spreče iznenađenja usled skrivenih rizika i pitanja usklađenosti koja su povezani sa ciljevima spajanja i preuzimanja.</p>
                 </div>
                 <div class="security-scorecard-third-left mb-4">
                     <p class="orange_text pl-0 pl-md-5">Usklađenost</p>

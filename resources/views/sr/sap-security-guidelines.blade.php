@@ -40,7 +40,7 @@
         <div class="col-12 col-md-6 mb-4 mb-md-0">
             <h4>SAP BEZBEDNOSNE SMERNICE</h4><br>
             <p class="pr-0 pr-md-5 mb-4">
-                Sajber kriminal neprestano raste i napada vitalne delove svake kompanije – kao što je SAP. Često zaštita SAP sistema nije na zadovoljavajućem nivou.
+                Sajber kriminal neprestano raste i napada vitalne delove svake kompanije – jedan od njih je SAP. Često zaštita SAP sistema nije na zadovoljavajućem nivou.
             </p>
             <h6 style="font-size: 18px;" class="mb-5">Postoji nekoliko razloga, koji uzrokuju ranjivost SAP klijenata na sajber napade:</h6>
             <ul>
@@ -89,8 +89,10 @@
         </div>
         <div class="col-12 col-md-6">
             <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-            <p class="pl-0 pl-md-5 mb-4">Ovo značajno povećava rizik. Mnoge firme se oslanjaju na rad SAP softvera, ali imaju zastarelu bezbednosnu politiku zaposlenih, što utiče na upotrebu lozinki i opštu mrežnu sigurnost.</p>
-            <p class="pl-0 pl-md-5 mb-4">Sky Express nudi sveobuhvatno rešenje kao što je Onapsis, koji pruža operativnu inteligenciju, kontinuirano nadgledanje i automatizovano upravljanje i na taj način omogućava bezbedno funkcionisanje SAP Sistema. Osim toga, Onapsis eleminiše operativne rizike vezane za održavanje i modernizaciju ERP sistema, intergrisanim rešenjem za SAP bazirane (orijentisane) timove za osiguravanje procesa prenosa, pristup prilagođenom kodu i proaktivno identifikovanje nepravilne konfiguracije i ranjivosti sistema.</p>
+            <p class="pl-0 pl-md-5 mb-4">Nema sumnje da je sajber bezbednost bila i nastavlja da bude bitan faktor za poslovanje kompanija,
+                a zaštita ERP aplikacija je važan segment zaštite organizacija kako od sajber napada, tako i od drugih
+                vrsta prevara i krađe podataka.</p>
+            <p class="pl-0 pl-md-5 mb-4">Sky Express nudi sveobuhvatno rešenje kao što je Onapsis, koji pruža operativnu inteligenciju, kontinuirano nadgledanje i automatizovano upravljanje i na taj način omogućava bezbedno funkcionisanje SAP sistema. Osim toga, Onapsis eleminiše operativne rizike vezane za održavanje i modernizaciju ERP sistema, intergrisanim rešenjem za SAP bazirane (orijentisane) timove za osiguravanje procesa prenosa, pristup prilagođenom kodu i proaktivno identifikovanje nepravilne konfiguracije i ranjivosti sistema.</p>
             <p class="pl-0 pl-md-5 mb-4 orange-text">Osigurajte vaše SAP i Oracle EBS aplikacije od internih i eksternih sajber pretnji i uverite se da vaše aplikacije postižu najbolje performanse.</p>
             <div class="text-center mt-5">
                 <div class="get-btn">

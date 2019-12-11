@@ -73,7 +73,7 @@
                                     <a class="nav-link" href="#">Kompanija</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
-                                            <p>COMPANY OVERVIEW</p>
+                                            <p>SKY EXPRESS D.O.O</p>
                                             <li><a href="/sr/o-nama">O nama</a></li>
                                             <li><a href="/sr/zasto-sky-express">Zašto mi?</a></li>
                                             <li><a href="/sr/karijera">Karijera</a></li>
@@ -82,7 +82,7 @@
                                         </ul>
                                         <ul class="dropdown-menu-ul">
                                             <p class="mb-4">KARIJERA U SKY EXPREES-U</p>
-                                            <h6>Sky Express is looking for talented individuals who bring a diverse range of experiance and capabilities. View our open positions below to find your next career opportunity with us.</h6>
+                                            <h6>Sky Express traži talentovane pojedince koji poseduju širok raspon iskustva i veština. Pogledajte naše otvorene pozicije kako bi ste pronašli sledeću priliku za vašu karijeru.</h6>
                                             <a href="/sr/karijera">Pridružite nam se</a>
                                         </ul>
                                     </div>

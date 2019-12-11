@@ -43,7 +43,10 @@
         <div class="col-12 col-md-5 mb-4 mb-md-0">
             <h4>Automatizovani odgovor i koordinacija <br class="d-none d-md-block"> bezbednosnih incidenata </h4><br>
             <p class="pr-0 pr-md-5">
-                DFLabs je globalni lider u oblasti automatizacije i organizacije bezbednosnih sistema i reakcija na incidente (SOAR - Security Orchestration, Automation and Response). Upotreba DF Labs proizvoda omogućava vam dramatično bržu i efikasniju reakciju na incidente kao i oporavak, smanjujući probleme izazvane ograničenim resursima ili mogućim pretnjama.
+                DFLabs je globalni lider u oblasti automatizacije i organizacije bezbednosnih sistema i reakcija na
+                incidente (SOAR - Security Orchestration, Automation and Response). Upotreba DF Labs proizvoda
+                omogućava dramatično bržu i efikasniju reakciju na incidente kao i oporavak, smanjujući
+                probleme izazvane ograničenim resursima ili mogućim pretnjama.
             </p>
         </div>
         <div class="col-12 col-md-7">
@@ -89,7 +92,7 @@
             <div class="col-md-6">
                 <div class="df-labs-second-part-left ">
                     <h1 class="mb-5">Platforma za automatizaciju i organizaciju bezbednosnih sistema i reakcije na incidente</h1>
-                    <p><b>DFLabs IncMan je jedina SOAR platforma, koja pruža mogućnost kompletne automatizacije životnog ciklusa, uključujući automatizovano prikupljanje podataka o pretnjama, procenu rizika, trijažu i obaveštavanje, proširenje konteksta, pretragu i istraživanje, sprečavanje pretnji i još mnogo toga. </p>
+                    <p><b>DFLabs IncMan je jedina SOAR platforma, koja pruža mogućnost kompletne automatizacije životnog ciklusa, uključujući: automatizovano prikupljanje podataka o pretnjama, procenu rizika, trijažu i obaveštavanje, proširenje konteksta, pretragu i istraživanje, sprečavanje pretnji i još mnogo toga. </p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -156,7 +159,7 @@
             <div class="col-md-6">
                 <div class="df-labs-fourth-part-left">
                     <h2 class="mb-5">Ključne karakteristike i mogućnosti</h2>
-                    <p class="mb-4 pr-0 pr-md-5">IncMan podržava dvosmernu integraciju sa različitim kategorijama proizvoda uključujući mrežnu i zaštitu krajnjih korisnika, a i rešenja za detekciju pretnji i SIEM rešenja. Ovaj skup integracija odabran je tako da učini proces koordinacije i automatizacije incidenata što sveobuhvatnijim.</p>
+                    <p class="mb-4 pr-0 pr-md-5">IncMan podržava integraciju sa različitim kategorijama proizvoda uključujući mrežnu i zaštitu krajnjih korisnika, kao i rešenja za detekciju pretnji i SIEM rešenja. Ovaj skup integracija odabran je tako da učini proces koordinacije i automatizacije incidenata što sveobuhvatnijim.</p>
                     <p class="pr-0 pr-md-5 mb-5 mb-md-0 ">IncMan je dizajniran u skladu sa odgovarajućim standardima, regulativom i preporučenom praksom. Zbog toga podržava ISO, GDPR, NIST i SEC regulative i preporuke. </p>
                 </div>
             </div>
@@ -166,49 +169,49 @@
                         <li class="mb-4">
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Automatizacija i organizacija</div>
+                                <div class="col-10 col-md-11">Automatizacija i organizacija;</div>
                             </div>
                         </li>
                         <li class="mb-4">
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Pretraga i istraživanje</div>
+                                <div class="col-10 col-md-11">Pretraga i istraživanje;</div>
                             </div>
                         </li>
                         <li class="mb-4">
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Upravljanje incidentima</div>
+                                <div class="col-10 col-md-11">Upravljanje incidentima;</div>
                             </div>
                         </li>
                         <li class="mb-4">
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Fleksibilne integracije i segmentacija događaja</div>
+                                <div class="col-10 col-md-11">Fleksibilne integracije i segmentacija događaja;</div>
                             </div>
                         </li>
                         <li class="mb-4">
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Upravljanje forenzičkim dokazima</div>
+                                <div class="col-10 col-md-11">Upravljanje forenzičkim dokazima;</div>
                             </div>
                         </li>
                         <li class="mb-4">
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Izveštavanje i ključni pokazatelji učinaka</div>
+                                <div class="col-10 col-md-11">Izveštavanje i ključni pokazatelji učinaka;</div>
                             </div>
                         </li>
                         <li class="mb-4">
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Transfer znanja i mašinsko učenje </div>
+                                <div class="col-10 col-md-11">Transfer znanja i mašinsko učenje;</div>
                             </div>
                         </li>
                         <li>
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Community portal i Community publikacija</div>
+                                <div class="col-10 col-md-11">Community portal i Community publikacija;</div>
                             </div>
                         </li>
                     </ul>
@@ -287,7 +290,14 @@
             <div class="col-12">
                 <div class="df-labs-sixth-part-bottom text-center">
                     <h4>Kako DFLabs omogućava ispunjavanje GDPR uslova</h4>
-                    <p>DFLabs SOAR rešenje pruža mogućnosti za automatizaciju i određivanje prioriteta reagovanja na incidente i aktivnosti na njihovom suzbijanju, distribuciju odgovarajućih obaveštenja i implementaciju plana reagovanja na incidente (IRP – Incident Response Plan), u slučaju potencijalnoog gubitka podataka. IncMan SOAR upravlja različitim fazama procesa reakcije na incidente i obaveštavanja, uključujući pružanje naprednih mogućnosti izveštavanja, bezbednog prikupljanja obaveštajnih podataka i deljenja istih sa trećim stranama.</p>
+                    <p>
+                        DFLabs SOAR rešenje pruža mogućnosti za automatizaciju i određivanje prioriteta reagovanja na
+                        incidente i aktivnosti na njihovom suzbijanju, distribuciju odgovarajućih obaveštenja i
+                        implementaciju plana reagovanja na incidente (IRP – Incident Response Plan), u slučaju
+                        potencijalnog gubitka podataka. IncMan SOAR upravlja različitim fazama procesa reakcije na
+                        incidente i obaveštavanja, uključujući pružanje naprednih mogućnosti izveštavanja, bezbednog
+                        prikupljanja obaveštajnih podataka i deljenja istih sa trećim stranama.
+                    </p>
                 </div>
             </div>
         </div>

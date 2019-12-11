@@ -73,7 +73,7 @@
             </div>
             <div class="col-md-6">
                 <div class="why-us-second-part-right">
-                    <p class="pr-0 pr-md-5">Naši zaposleni su sertifikovani profesionalci koji poseduju OEBS, OSCP, CISSP, MBCI, CTSPA, CISA i druge priznate sertifikate koji pokrivaju sve aspekte informacione bezbednosti.</p>
+                    <p class="pr-0 pr-md-5">Naši zaposleni su sertifikovani profesionalci koji poseduju OEBS, OSCP, CISSP, ISO2701, DPO, MCSE, MBCI, CTSPA, CISA i druge priznate sertifikate koji pokrivaju sve aspekte informacione bezbednosti.</p>
 
                 </div>
             </div>

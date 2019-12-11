@@ -59,7 +59,11 @@
             <div class="df-labs-right-first-part avast-right-first-part">
                 <h4 class="mb-4 pl-0 pl-md-5">Poslovna sigurnost</h4>
                 <p class="mb-5 pl-0 pl-md-5">
-                    Očuvanje sigurnosti preduzeća vrhunskom zaštitom krajnjih tačaka i rešenjima upravljanih usluga, uključujući bezbednost u prostorijama i u oblaku, kao i alate i usluge za daljinsko upravljanje i nadzor.
+                    Očuvanje poslovanja sa vrhunskom Avast
+                    endpoint zaštitom i rešenjem upravljivih
+                    servisa, uključujući lokalnu ili cloud zaštitu,
+                    kao i upravljanje sa udaljenih lokacija, alati za
+                    monitoring i servise.
                 </p>
 
                 <h4 class="mb-4 pl-0 pl-md-5">Avast je fokusiran na sledeće:</h4>
@@ -91,7 +95,7 @@
                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                             </div>
                             <div class="col-10 col-md-11">
-                                <h5 class="mt-2">Internet stvari;</h5>
+                                <h5 class="mt-2">IoT;</h5>
                             </div>
                         </div>
                     </li>
@@ -101,7 +105,7 @@
                                 <img src="{{ asset('images/web/correct.svg') }}" alt="">
                             </div>
                             <div class="col-10 col-md-11">
-                                <h5 class="mt-2">Tehnologije lociranja.</h5>
+                                <h5 class="mt-2">Geolociranje.</h5>
                             </div>
                         </div>
                     </li>
@@ -126,7 +130,7 @@
         <div class="row">
             <div class="col-12">
                 <h3 class="mb-4 mb-md-2 text-white">Proizvodi i platforme</h3>
-                <p style="font-size: 18px; font-weight: 400;" class="text-white pr-0 pr-md-5">Birajte iz palete moćnih sigurnosnih proizvoda i upravljačkih platformi koji se lako implementiraju, a osmišljeni su tako da omoguće zaštitu malih i srednjih preduzeća od bilo koje kibernetičke pretnje.</p>
+                <p style="font-size: 18px; font-weight: 400;" class="text-white pr-0 pr-md-5">Birajte iz palete moćnih sigurnosnih proizvoda i upravljačkih platformi koji se lako implementiraju, a osmišljeni su tako da omoguće zaštitu malih i srednjih preduzeća od bilo koje informatičke pretnje.</p>
             </div>
             <div class="col-md-6">
                 <div class="df-labs-second-part-left avast-page-second-part-left">
@@ -136,7 +140,7 @@
                     </div>
                     <div class="avast-page-second-part-card">
                         <h4 class="orange_text mb-2">Upravljani antivirusni proizvodi</h4>
-                        <p class="pr-0 pr-md-5">Sačuvajte podatke, uređaje i ljude u vašoj mreži od kibernetičkih pretnji naprednom antivirusnom zaštitom i intuitivnom upravljačkom konzolom.</p>
+                        <p class="pr-0 pr-md-5">Sačuvajte podatke, uređaje i ljude u vašoj mreži od IT pretnji naprednom antivirusnom zaštitom i intuitivnom upravljačkom konzolom.</p>
                     </div>
                 </div>
             </div>
@@ -144,11 +148,11 @@
                 <div class="df-labs-second-part-right carbon-black-second-part-right avast-page-second-part avast-page-second-part-right">
                     <div class="avast-page-second-part-card mb-4">
                         <h4 class="orange_text mb-2 pl-0 pl-md-5">CloudCare</h4>
-                        <p class="pl-0 pr-0 pr-md-5 pl-md-5">Obezbedite slojevite usluge zaštite krajnjih tačaka i mrežne sigurnosti, pratite opasnosti i rešavajte probleme — sve sa jedne platforme zasnovane na oblaku.</p>
+                        <p class="pl-0 pr-0 pr-md-5 pl-md-5">Obezbedite slojevite usluge zaštite endpoint klijenata i mrežne sigurnosti, pratite opasnosti i rešavajte probleme — sve sa jedne platforme zasnovane na cloud-u.</p>
                     </div>
                     <div class="avast-page-second-part-card">
                         <h4 class="orange_text mb-2 pl-0 pl-md-5">Konzola za upravljanje</h4>
-                        <p class="pl-0 pr-0 pr-md-5 pl-md-5">Na jednostavan način uvedite rešenja zaštite krajnjih tačaka na uređajima u vašoj mreži i nadgledajte ih sa centralne kontrolne table.</p>
+                        <p class="pl-0 pr-0 pr-md-5 pl-md-5">Na jednostavan način uvedite rešenja zaštite endpoint klijenata na uređajima u vašoj mreži i nadgledajte ih sa centralne kontrolne table.</p>
                     </div>
                 </div>
             </div>
@@ -167,8 +171,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h4 class="orange_text mb-5">Slojevite usluge kibernetičke sigurnosti za potpunu zaštitu.</h4>
-                <p class="text-white">Avast Business pruža napredna, integrisana rešenja za bezbednost krajnjih tačaka i mreže za preduzeća i dobavljače IT usluga. Portfelj sigurnosti kompanije Avast Business, podržan najvećom i globalno najšire distribuiranom mrežom za otkrivanje pretnji na svetu, omogućuje obezbeđenje, upravljanje i praćenje promenljivih poslovnih mreža na lak način i po pristupačnoj ceni. Rezultat je vrhunska zaštita na koju preduzeća mogu da računaju.</p>
+                <h4 class="orange_text mb-5">Slojevite usluge informacione sigurnosti za potpunu zaštitu.</h4>
+                <p class="text-white">Avast Business pruža napredna, integrisana rešenja za bezbednost endpoint klijenata
+                    i mreže za preduzeća i dobavljače IT usluga. Podržan od strane najveće mreže za detekciju na svetu
+                    Avast Business security portfolio čini lakim i pristupačnim da obezbedi, upravlja i vrši monitoring
+                    uvek promenljivih poslovnih mreža. Rezultat je vrhunska zaštita na koju organizacije mogu da
+                    računaju.</p>
             </div>
         </div>
     </div>

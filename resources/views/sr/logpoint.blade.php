@@ -48,7 +48,11 @@
                 LogPoint maksimalno koristi naprednu analitiku, ubrzanu mašinskim učenjem, kako bi poboljšao vaše bezbednosno stanje i efikasno automatizovao relevantne odgovore na unutrašnje i spoljne pretnje.
             </p>
             <p class="pr-0 mr-md-5 mb-4">
-                SIEM sistem softvera LogPoint osmišljen je od samog početka da bude jednostavan, fleksibilan i skalabilan, da obezbedi efikasnije alate za dizajn, implementaciju i integraciju kako bi se omogućila upotreba mrežnog sigurnosnog alata za sva preduzeća. To znači da se arhitektura može stalno proširivati dodatnom funkcionalnošću, bez potrebe za punim osnovnim izdanjem, kako bi se nastavila podrška za rastuće i promenljive potrebe vašeg poslovanja.
+                SIEM osmišljen je od samog početka da bude jednostavan,
+                fleksibilan i skalabilan, da obezbedi efikasnije alate za dizajn, implementaciju i integraciju kako bi se
+                omogućila upotreba mrežnog sigurnosnog alata za sva preduzeća. To znači da se arhitektura može
+                stalno proširivati dodatnom funkcionalnošću, bez potrebe za punim osnovnim izdanjem, kako bi se
+                nastavila podrška za rastuće i promenljive potrebe vašeg poslovanja.
             </p>
         </div>
         <div class="col-12 col-md-6">
@@ -67,7 +71,7 @@
                         <div class="row">
                             <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
                             <div class="col-10 col-md-11">
-                                <p>Pojednostavljeni arhitektonski principi koji omogućavaju brže i efikasnije uvođenje softvera</p>
+                                <p>Pojednostavljena arhitektura omogućava bržu i efikasniju implementaciju.</p>
                             </div>
                         </div>
                     </li>
@@ -75,7 +79,8 @@
                         <div class="row">
                             <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
                             <div class="col-10 col-md-11">
-                                <p>Na raspolaganju je podrška svetske klase 24 sata dnevno, 7 dana nedeljno kako bi klijenti dobili najveću vrednost od svog sistema SIEM</p>
+                                <p>Na raspolaganju je podrška 24 sata dnevno, 7 dana nedeljno
+                                    kako bi klijenti dobili najveću vrednost od svog sistema SIEM</p>
                             </div>
                         </div>
                     </li>
@@ -126,7 +131,7 @@
                             <div class="row">
                                 <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
                                 <div class="col-10  col-md-11">
-                                    <p class="pr-0 pr-md-5">Uklonjene zavisnosti određenog osoblja sa ograničenim pristupom sistemu;</p>
+                                    <p class="pr-0 pr-md-5">Mogućnost prilaska sistemu i za neadministratore;</p>
                                 </div>
                             </div>
                         </li>
@@ -134,7 +139,11 @@
                             <div class="row">
                                 <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
                                 <div class="col-10  col-md-11">
-                                    <p class="pr-0 pr-md-5">Analitika velike količine podataka za tačnu, jednostavnu analizu svih problema i incidenata vezanih za sve aspekte arhitekture informacionog sistema — mrežu, sistem, usluge i aplikacije;</p>
+                                    <p class="pr-0 pr-md-5">
+                                        Big data analitika za tačnu, jednostavnu analizu svih problema i
+                                        incidenata vezanih za sve aspekte arhitekture informacionog sistema — mrežu, sistem,
+                                        usluge i aplikacije;
+                                    </p>
                                 </div>
                             </div>
                         </li>
@@ -142,7 +151,8 @@
                             <div class="row">
                                 <div class="col-2 col-md-1"> <img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
                                 <div class="col-10  col-md-11">
-                                    <p class="pr-0 pr-md-5">Smanjenje broja lažnih pozitivnih rezultata i izbegavanje komplikacija sa održavanjem i razvijanjem stručnih pravila;</p>
+                                    <p class="pr-0 pr-md-5">Smanjenje broja lažnih pozitivnih rezultata i izbegavanje komplikacija sa održavanjem i
+                                        razvojem kompleksnih pravila;</p>
                                 </div>
                             </div>
                         </li>
@@ -161,8 +171,10 @@
                 <div class="logpoint-page-second-part-left">
                     <h5 class="invisible mb-5 d-none d-md-block">With LogPoint, you can quickly troubleshoot potential issues via:</h5>
                     <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Jednostavnost upotrebe</span> - Neverovatno brza analitika i bogato izveštavanje, bez potrebe za naprednim skupom veština.</p>
-                    <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Upravljanje troškovima </span> - Nema dodatnih troškova koji se odnose na rast obima podataka kompanije ili broj događaja u sekundi koji primate.</p>
-                    <p class="pr-0 pr-md-5"><span class="orange_text">Sertifikacija bez konkurencije </span> - Ima sertifikat EAL 3+. Zahteva se u NATO i u organizacijama sa kritičnom infrastrukturom poput vojske, obaveštajnih agencija, komunalnih preduzeća i telekomunikacionih kompanija.</p>
+                    <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Upravljanje troškovima </span> - Nema dodatnih troškova koji se odnose na rast obima podataka kompanije ili na broj događaja u sekundi koji primate.</p>
+                    <p class="pr-0 pr-md-5"><span class="orange_text">Sertifikacija bez konkurencije </span> - Ima sertifikat EAL 3+. Koristi se u NATO i u
+                        organizacijama sa kritičnom infrastrukturom poput vojske, obaveštajnih agencija, komunalnih
+                        preduzeća i telekomunikacionih kompanija.</p>
                 </div>
             </div>
         </div>
@@ -187,8 +199,11 @@
             <div class="col-md-3">
                 <div class="logpoint-third-card">
                     <img src="{{ asset('images/web/logpoint-third-part-1.png') }}" alt="">
-                    <p><b>Jedinstvena taksonomija</b></p>
-                    <p>LogPoint osigurava jedinstvenu taksonomiju za normalizaciju podataka dnevnika, omogućujući jednostavnu funkciju pretrage za izradu kontrolnih tabli, upozorenja i izveštaja. Prevođenjem svih datoteka dnevnika u pojednostavljenu jedinstvenu taksonomiju, pretraživanje po širokom spektru različitih izvora dnevnika je mnogo lakše i efikasnije.</p>
+                    <p><b>Jedinstvena klasifikacija podataka</b></p>
+                    <p>LogPoint osigurava jedinstvenu klasifikaciju za normalizaciju podataka dnevnika,
+                        omogućujući jednostavnu funkciju pretrage za izradu kontrolnih tabli, upozorenja i izveštaja.
+                        Prevođenjem svih log-ova u pojednostavljenu jedinstvenu celinu,
+                        pretraživanje po širokom spektru različitih izvora log-ova je mnogo lakše i efikasnije.</p>
                 </div>
             </div>
             <div class="col-md-3">
@@ -231,8 +246,11 @@
             <div class="col-md-3">
                 <div class="logpoint-third-card">
                     <img src="{{ asset('images/web/logpoint-third-part-7.png') }}" alt="">
-                    <p><b>Režim privatnosti podataka</b></p>
-                    <p>Korišćenjem režima privatnosti podataka, moguće je osigurati da kontekst datoteka dnevnika može da se uključi u multinacionalna pretraživanja, a da se pritom ne ugrozi potreba da informacije ostanu bezbedne. Ova funkcionalnost je naročito korisna kada podaci moraju da ostanu u nekoj oblasti.</p>
+                    <p><b>Režim potpune privatnosti podataka</b></p>
+                    <p>Korišćenjem režima potpune privatnosti podataka, omogućena je anonimizacija podataka koji će biti
+                        uključeni u analitička pretraživanja, uz potpuno uklanjanje rizika po bezbednost i privatnost
+                        podataka. Ova funkcionalnost je naročito korisna kada poslovni procesi moraju biti usklađeni sa
+                        regulativama iz oblasti zaštite ličnih podataka.</p>
                 </div>
             </div>
             <div class="col-md-3">

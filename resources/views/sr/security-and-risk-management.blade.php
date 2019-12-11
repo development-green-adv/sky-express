@@ -48,7 +48,7 @@
                 kontrolisan.
             </p>
             <p class="pr-0 pr-md-5 mb-4 orange-text">
-                Cyber rizik se obično odnosi na finansijki gubitak bilo koje vrste ili
+                Cyber rizik se obično odnosi na finansijki gubitak bilo koje vrste poremećaj\uzurpaciju ili
                 načinjenu štetu reputaciji organizacije do koje je došlo propustom informacionih sistema.
             </p>
         </div>
@@ -60,8 +60,8 @@
                 trenutku pomislili, i bez odgovarajuće preventivne mere vaš (bizis) bi mogao biti sledeći.
             </p>
             <p class="pl-0 pl-md-5 mb-4">
-                Rizici dolaze sa svih strana. Odlučan i maliciozni spoljni faktor ili nemarani i
-                nezadovoljani unutrašnji. Bilo ko od njih može da izazove haos pristupom
+                Rizici dolaze sa svih strana. Odlučan i maliciozni spoljni faktor (haker), ili nemarani i
+                nezadovoljani unutrašnji (zaposleni). Bilo ko od njih može da izazove haos pristupom
                 osetljivim podacima. Nekontrolisan privilegovan pristup je uobičajena ranjivost u oba
                 slučaja.
             </p>
