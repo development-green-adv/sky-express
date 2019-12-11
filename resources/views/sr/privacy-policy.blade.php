@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Privacy Policy | Sky Express")
+@section("title", "Politika privatnosti | Sky Express")
 
 @section("content")
 

@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Meeting GDPR | Sky Express")
+@section("title", "Uskladjenost sa GDPR-om | Sky Express")
 
 @section("content")
 

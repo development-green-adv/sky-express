@@ -34,7 +34,7 @@
                                             <li><a href="/all-solutions">
                                                     <p>SOLUTIONS</p>
                                                 </a></li>
-                                            <li class="position-relative"><a href="/by-compliance">By Compliance</a>
+                                            <li class="position-relative"><a href="/by-compliance">By Compliance <img class="ml-4" src="{{ asset('images/web/arrow-right.svg') }}" alt=""></a>
                                                 <ul class="dropdown-sub-menu">
                                                     <li class="invisible"><a href="/all-solutions">
                                                             <p>SOLUTIONS</p>

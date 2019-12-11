@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Pen Testing & Ethical Hacking | Sky Express")
+@section("title", "Pentesting i eticko hakovanje | Sky Express")
 
 @section("content")
 

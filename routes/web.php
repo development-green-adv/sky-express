@@ -191,6 +191,10 @@ Route::get('/security-and-risk-management', function () {
     return view('security-and-risk-management');
 });
 
+Route::get('/sr/security-and-risk-management', function () {
+    return view('/sr/security-and-risk-management');
+});
+
 Route::get('/sap-security-guidelines', function () {
     return view('sap-security-guidelines');
 });

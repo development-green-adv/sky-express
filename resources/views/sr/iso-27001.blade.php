@@ -68,9 +68,6 @@
                     <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Postizanju usklađenosti sa propisima kao što je Opšta uredba o zaštiti podataka Evropske unije (EU GDPR)
                 </li>
                 <li class="mb-4 pl-0 pl-md-5">
-                    <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Union General Data Protection Regulation (EUGDPR)
-                </li>
-                <li class="mb-4 pl-0 pl-md-5">
                     <img class="pr-2" src="{{ asset('images/web/correct.svg') }}" alt=""> Zaštitite imidža kompanije.
                 </li>
             </ul>

@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Cookie Policy | Sky Express")
+@section("title", "Politika o kolacicima | Sky Express")
 
 @section("content")
 

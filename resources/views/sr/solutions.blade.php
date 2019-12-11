@@ -63,7 +63,7 @@
             </p>
             <div class="text-center mt-5">
                 <div class="get-btn">
-                    <a href="/contact">KONTAKTIRAJTE NAS</span></a>
+                    <a href="/sr/kontakt">KONTAKTIRAJTE NAS</span></a>
                 </div>
             </div>
         </div>
@@ -141,28 +141,28 @@
     <div class="container">
         <div class="slider-for slider-about">
             <div>
-                <a href="/carbon-black"><img class="img-fluid" src="{{ asset('images/web/carbon.png') }}"></a>
+                <a href="/sr/carbon-black"><img class="img-fluid" src="{{ asset('images/web/carbon.png') }}"></a>
             </div>
             <div>
-                <a href="/df-labs"><img class="img-fluid" src="{{ asset('images/web/df.png') }}"></a>
+                <a href="/sr/df-labs"><img class="img-fluid" src="{{ asset('images/web/df.png') }}"></a>
             </div>
             <div>
-                <a href="/open-systems"><img class="img-fluid" src="{{ asset('images/web/open.png') }}"></a>
+                <a href="/sr/open-systems"><img class="img-fluid" src="{{ asset('images/web/open.png') }}"></a>
             </div>
             <div>
-                <a href="/onapsis"><img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}"></a>
+                <a href="/sr/onapsis"><img class="img-fluid" src="{{ asset('images/web/onapsis.png') }}"></a>
             </div>
             <div>
-                <a href="/avast"><img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}"></a>
+                <a href="/sr/avast"><img class="img-fluid" src="{{ asset('images/web/avast-logo.png') }}"></a>
             </div>
             <div>
-                <a href="/eperi"><img class="img-fluid" src="{{ asset('images/web/eperi.png') }}"></a>
+                <a href="/sr/eperi"><img class="img-fluid" src="{{ asset('images/web/eperi.png') }}"></a>
             </div>
             <div>
-                <a href="/kerio"><img class="img-fluid" src="{{ asset('images/web/kerio.png') }}"></a>
+                <a href="/sr/kerio"><img class="img-fluid" src="{{ asset('images/web/kerio.png') }}"></a>
             </div>
             <div>
-                <a href="/security-scorecard"><img class="img-fluid" src="{{ asset('images/web/security.png') }}"></a>
+                <a href="/sr/security-scorecard"><img class="img-fluid" src="{{ asset('images/web/security.png') }}"></a>
             </div>
         </div>
     </div>

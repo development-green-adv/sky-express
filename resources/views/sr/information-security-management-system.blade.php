@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Information Security Management Systems | Sky Express")
+@section("title", "Upravljanje informacionom bezbednoscu (ISMS) | Sky Express")
 
 @section("content")
 

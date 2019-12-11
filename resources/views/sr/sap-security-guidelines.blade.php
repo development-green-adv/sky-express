@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "SAP Security Guidelines | Sky Express")
+@section("title", "SAP bezbednosne smernice | Sky Express")
 
 @section("content")
 

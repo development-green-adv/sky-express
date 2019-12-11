@@ -28,13 +28,12 @@
                                             <li><a href="/sr/avast">Avast</a></li>
                                             <li><a href="/sr/security-scorecard">Security Scorecard</a></li>
                                             <li><a href="/sr/kerio">Kerio</a></li>
-                                            {{-- <a href="#">View All</a> --}}
                                         </ul>
                                         <ul class="dropdown-menu-ul">
                                             <li><a href="/sr/sva-resenja">
                                                     <p>REŠENJA</p>
                                                 </a></li>
-                                            <li class="position-relative"><a href="/sr/po-uskladjenosti">Po usklađenosti</a>
+                                            <li class="position-relative"><a href="/sr/po-uskladjenosti">Po usklađenosti <img class="ml-4" src="{{ asset('images/web/arrow-right.svg') }}" alt=""></a>
                                                 <ul class="dropdown-sub-menu">
                                                     <li class="invisible"><a href="/sr/resenja">
                                                             <p>SOLUTIONS</p>
@@ -45,8 +44,8 @@
                                                 </ul>
                                             </li>
                                             <li class="position-relative"><a href="/sr/resenja">Industrijska rešenja</a></li>
-                                            <li><a href="#">Upravljanje rizicima i
-                                                    informacionom bezbednoscu</a></li>
+                                            <li><a href="/sr/security-and-risk-management">Upravljanje rizicima i
+                                                    informacionom bezbednošću</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -65,8 +64,6 @@
                                         </ul>
                                         <ul class="dropdown-menu-ul siri-meni">
                                             <p class="mb-3">TEHNIČKA PODRŠKA</p>
-                                            {{-- <h5 class="mb-4">CONTACT SUPPORT</h5> --}}
-                                            {{-- <h6 class="mb-3">Sky Express's highly skilled Services organization offers a combination of technology and cyber security expertise</h6> --}}
                                             <h6 class="mb-3">Visoko kvalifikovani tim kompanije Sky Express pruža klijentima stručnu podršku u oblasti zaštite mreža, računara, aplikacija i podataka od svih vrsta sajber pretnji.</h6>
                                             <a href="/sr/kontakt">KONTAKTIRAJTE PODRŠKU</a>
 
@@ -108,14 +105,8 @@
                                         <ul class="dropdown-menu-ul">
                                             <!-- <p>PRODUCTS</p> -->
                                             <li><a href="#">Blog</a></li>
-                                            {{-- <li><a href="#">Reports</a></li> --}}
                                             <li><a href="/sr/faq">Česta pitanja</a></li>
-                                            {{-- <li><a href="#">Case Studies</a></li> --}}
                                         </ul>
-                                        {{-- <ul class="dropdown-menu-ul">
-                                            <p>REQUEST DEMO</p>
-                                            <h6>Register here to get a demo that can be conducted on premises.</h6>
-                                        </ul> --}}
                                     </div>
                                 </li>
                                 <li class="nav-item">
