@@ -110,12 +110,12 @@
                     <p class="pl-0 pl-md-5">
                         Brinemo o zdravlju naših zaposlenih kroz organizovanje brojnih programa i inicijativa i podstičemo stvaranje ravnoteže između posla i privatnog života.
                     </p><br>
-                    <p class="pl-0 pl-md-5">
+                    <!-- <p class="pl-0 pl-md-5">
                         There are many benefits at Sky Express - from
                         individual personal development opportunities to
                         a diverse health and sports program and an attractive
                         salary with special benefits.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

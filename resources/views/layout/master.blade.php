@@ -58,7 +58,7 @@
         </div>
         <div id="contact-us-right-inner1" class="contact-us-right-inner">
             <h4>Kontakt</h4>
-            <p>Zelimo da vas cujemo.</p>
+            <p>Želimo da vas čujemo.</p>
             <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
         </div>
     </div>

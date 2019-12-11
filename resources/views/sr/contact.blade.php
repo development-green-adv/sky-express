@@ -54,7 +54,7 @@
         <div class="col-md-6">
 
             <div class="contact-page-right pl-0 pl-md-5">
-                <h5 class="mb-4">KAKO DA DODJETE DO NAS</h5>
+                <h5 class="mb-4">KAKO DA DOĐETE DO NAS</h5>
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-11">

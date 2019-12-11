@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "News | Sky Express")
+@section("title", "Vesti | Sky Express")
 
 @section("style")
 
@@ -41,7 +41,7 @@
 
 @section("content")
 
-@include("inc/header")
+@include("inc/header-sr")
 
 <div class="container-fluid top_section" style="background-image: url('{{ asset('images/web/news.png') }}'); background-repeat: no-repeat; background-color: #0b0b0d;">
     <div class="row">
@@ -123,7 +123,7 @@
 </div>
 
 
-@include("inc/footer")
+@include("inc/footer-sr")
 
 
 @endsection

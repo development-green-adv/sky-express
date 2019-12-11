@@ -1,7 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Upravljanje rizicima i
-informacionom bezbednoscu | Sky Express")
+@section("title", "Sigurnost i upravljanje rizicima | Sky Express")
 
 @section("content")
 
@@ -89,12 +88,13 @@ informacionom bezbednoscu | Sky Express")
                 </div>
             </div>
             <div class="col-12">
-                <!-- <div class="text-center">
-                    <p>Sky Express can analyze overall security posture of your organization, identify gaps and reduce <br class="d-none d-md-block"> identified cyber risks.</p>
-                </div> -->
+                <div class="text-center">
+                    <p>Sky Express tim može da analizira  postojeću bezbednosnu sliku vaše organizacije,
+                        identifikuje nedostatke i umanji identifikovane informacione rizike.</p>
+                </div>
                 <div class="text-center mt-5">
                     <div class="get-btn">
-                        <a href="/sr/kontakt">KONTAKTIRAJTE <span class="d-block">naš tim</span></a>
+                        <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item position-relative">
-                                    <a class="nav-link" href="#">Proizvodi i Resenja</a><span>|</span>
+                                    <a class="nav-link" href="#">Proizvodi i rešenja</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
                                             <li><a href="/sr/proizvodi">
@@ -44,8 +44,7 @@
                                                 </ul>
                                             </li>
                                             <li class="position-relative"><a href="/sr/resenja">Industrijska rešenja</a></li>
-                                            <li><a href="/sr/security-and-risk-management">Upravljanje rizicima i
-                                                    informacionom bezbednošću</a></li>
+                                            <li><a href="/sr/security-and-risk-management">Sigurnost i upravljanje rizicima</a></li>
                                         </ul>
                                     </div>
                                 </li>

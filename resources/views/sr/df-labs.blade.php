@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "DfLabs | Sky Express")
+@section("title", "DFLabs | Sky Express")
 
 @section("content")
 

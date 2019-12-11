@@ -43,7 +43,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1>Dogadjaji</h1>
+                        <h1>Događaji</h1>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                     <a class="org_link" target="_blank" href="{{ $event->link }}">DETALJNIJE</a>
                 </div>
                 <div class="col-12 col-md-7 mt-5 mt-md-0">
-                    @if($event->main_image != "") <img class="img-fluid" src="images_gallery/{{ $event->main_image }}"> @else <img class="img-fluid" src="{{ asset('images/web/single-news-image.png') }}"> @endif
+                    @if($event->main_image != "") <img class="img-fluid" src="/public/images_gallery/{{ $event->main_image }}"> @else <img class="img-fluid" src="{{ asset('images/web/single-news-image.png') }}"> @endif
                 </div>
         </div>
     </div>
@@ -152,7 +152,7 @@
     <div class="row">
         <div class="col-12 text-center">
             <div class="previous-events-title">
-                <h2>Prethodni dogadjaji</h2>
+                <h2>Prethodni događaji</h2>
             </div>
         </div>
     </div>
@@ -238,10 +238,10 @@
                     {!! $event->text !!}
 
                     <br>
-                    @if($event->link != "") <a target="_blank" href="{{ $event->link }}">VIEW DETAILS</a> @else @endif
+                    @if($event->link != "") <a target="_blank" href="{{ $event->link }}">SAZNAJTE VIŠE</a> @else @endif
                 </div>
                 <div class="col-12 col-md-7 mt-5 mt-md-0">
-                    @if($event->main_image != "") <img class="img-fluid" src="images_gallery/{{ $event->main_image }}"> @else <img class="img-fluid" src="{{ asset('images/web/single-news-image.png') }}"> @endif
+                    @if($event->main_image != "") <img class="img-fluid" src="/public/images_gallery/{{ $event->main_image }}"> @else <img class="img-fluid" src="{{ asset('images/web/single-news-image.png') }}"> @endif
                 </div>
         </div>
     </div>
