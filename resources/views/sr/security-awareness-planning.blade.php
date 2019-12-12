@@ -93,7 +93,7 @@
                 <div class="experts_pen-left">
                     <h1>Obratite se kompaniji Sky Express radi informisanja i obuke o sajber bezbednosti i dopustite da vam pomognemo da zaštitimo vaše najdragocenije imovine.</h1>
                     <div class="get-btn">
-                        <a href="/contact">KONTAKTIRAJTE NAS</a>
+                        <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
                     </div>
                 </div>
             </div>

@@ -42,15 +42,15 @@
             <p class="pr-0 pr-md-5 mb-4">
                 Novi propisi primoravaju organizacije širom sveta da preispitaju privatnost i zaštitu podataka.
             </p>
-        </div>
-        <div class="col-12 col-md-6 by-com-first-right">
-            <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br class=" d-none d-md-block">
-            <p class="pl-0 pl-md-5 mb-4">
+            <p class="pr-0 pr-md-5">
                 Uspostavljanje efikasnog programa za sajber bezbednost predstavlja glavni je izazov za svaku
                 kompaniju bez obzira kojoj industriju pripada i gde se nalazi. Međutim, izazov je mnogo veći za
                 kompanije koje posluju međunarodno jer one moraju da se pridržavaju propisa iz više jurisdikcija i
                 više regulatora.
             </p>
+        </div>
+        <div class="col-12 col-md-6 by-com-first-right">
+            <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br class=" d-none d-md-block">
             <p class="pl-0 pl-md-5">
                 Da bi se zadovoljili novi standardi, vidljivost svih krajnjih tačaka, aktivnosti mreže i
                 aplikacija, od presudnog je značaja dobijanje kritičnih informacija koje će umanjiti rizik, smanjiti

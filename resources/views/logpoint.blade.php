@@ -91,7 +91,7 @@
                 <h5 class="pl-0 pl-md-5 mb-4 orange_text">
                     <div class="row">
                         <div class="col-md-3">
-                            <img style="width: 100px;" src="{{ asset('images/web/logpoint-nagrada.png') }}" alt="">
+                            <img style="width: 135px;" src="{{ asset('images/web/logpoint-nagrada.png') }}" alt="">
                         </div>
                         <div class="col-md-9 pt-3">LogPoint ranked #1 and named Leader
                             in the 2019 SoftwareReviews SIEM Data Quadrant</div>

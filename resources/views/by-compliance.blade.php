@@ -42,11 +42,13 @@
             <p class="pr-0 pr-md-5 mb-4">
                 New regulations have forced organizations around the globe to rethink data privacy and protection.
             </p>
+            <p class="pr-0 pr-md-5">
+                Establishing an effective cybersecurity program is a major challenge for every company regardless of industry and
+                geography. However, the challenge is much greater for businesses that operate internationally since they must comply with regulations from multiple jurisdictions and multiple regulators.
+            </p>
         </div>
         <div class="col-12 col-md-6 by-com-first-right">
             <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br class=" d-none d-md-block">
-            <p class="pl-0 pl-md-5 mb-4">Establishing an effective cybersecurity program is a major challenge for every company regardless of industry and
-                geography. However, the challenge is much greater for businesses that operate internationally since they must comply with regulations from multiple jurisdictions and multiple regulators.</p>
             <p class="pl-0 pl-md-5">To meet the new standards, visibility into all endpoint,
                 network and applications activity is essential to get critical information that will reduce risk, lower liability, and prove security control assurance across the cybersecurity kill chain.</p>
         </div>

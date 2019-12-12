@@ -68,7 +68,7 @@
         <div class="row">
             <div class="col-md-12 position-relative">
                 <div class="security-consulting-benefites-area text-center mt-5">
-                    <h4 class="orange_text mb-4">Skalabilne & efikasne usluge postizanja usklađenosti, prilagođene potrebama vaše organizacije</h4>
+                    <h4 class="orange_text mb-4">Skalabilne i efikasne usluge postizanja usklađenosti, prilagođene potrebama vaše organizacije</h4>
                     <h5 class="text-white mb-3">Poslujte u skladu sa najnovijom regulativom, industrijskim standardima i standardima u oblasti bezbednosti podataka. Iskoristite naše znanje i iskustvo. Radimo sa vama, kako bismo proces učinili što jednostavnijim.</h5>
                     <h5 class="text-white">Kontaktirajte nas i saznajte više o uslugama postizanja usklađenosti. </h5>
                 </div>
@@ -92,7 +92,7 @@
                 <div class="experts_pen-left">
                     <h1>Kontaktirajte iskusnog konsultanta i unapredite nivo bezbednosti vaše kompanije.</h1>
                     <div class="get-btn">
-                        <a href="/contact">KONTAKTIRAJTE NAS</a>
+                        <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
                     </div>
                 </div>
             </div>

@@ -94,7 +94,7 @@
                                     <a class="nav-link" href="#">News & Events</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul style="margin-top: 0px; padding-top: 0px;" class="dropdown-menu-ul">
-                                            <li><a href="/events">Events</a>
+                                            <li style="margin-top: 15px;"><a href="/events">Events</a>
                                             </li>
                                             <li><a href="/news">In The News</a></li>
                                         </ul>

@@ -45,15 +45,15 @@
         </div>
         <div class="col-12 col-md-6 mb-4 mb-md-0">
             <p class="pr-0 pr-md-5 mb-4">
-                Povežite se, komunicirajte i sarađujte bez kompromisa — nagrađivani proizvodi kompanije Kerio prilagođeni su potrebama malih i srednjih preduzeća. Svi proizvodi kombinuju moćne funkcije sa lakoćom korišćenja za poslovne korisnike i IT profesionalce. Naši atraktivni licencni paketi i fleksibilnost rada na mnogim hardverskim i softverskim konfiguracijama pružaju funkcionalnost poslovne klase uz ukupno niske troškove vlasništva.
+                Povežite se, komunicirajte i sarađujte bez kompromisa — nagrađivani proizvodi kompanije Kerio prilagođeni su potrebama malih i srednjih preduzeća. Svi proizvodi kombinuju moćne funkcije sa lakoćom korišćenja za poslovne korisnike i IT profesionalce.
             </p>
         </div>
         <div class="col-12 col-md-6">
             <div class="df-labs-right-first-part">
                 <p class="mb-5 pl-0 pl-md-5">
-                    All products combine powerful features with ease of use for business users and IT professionals.
-                    Our attractive licensing packages and flexibility to run on many hardware and software configurations
-                    deliver enterprise-class functionality for a low total cost of ownership.
+                    Naši atraktivni licencni paketi i fleksibilnost rada na mnogim hardverskim i
+                    softverskim konfiguracijama pružaju funkcionalnost poslovne klase uz ukupno niske
+                    troškove vlasništva.
                 </p>
             </div>
         </div>

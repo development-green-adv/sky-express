@@ -92,7 +92,7 @@
                                     <a class="nav-link" href="#">Novosti i događaji</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul style="margin-top: 0px; padding-top: 0px;" class="dropdown-menu-ul">
-                                            <li><a href="/sr/dogadjaji">Događaji</a>
+                                            <li tyle="margin-top: 15px;"><a href="/sr/dogadjaji">Događaji</a>
                                             </li>
                                             <li><a href="/sr/vesti">Novosti</a></li>
                                         </ul>

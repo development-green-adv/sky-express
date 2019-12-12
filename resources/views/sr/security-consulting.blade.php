@@ -46,7 +46,7 @@
             </div>
             <div class="col-12 col-md-6 pl-3 pl-md-5">
                 <h5 class="mt-5 mb-4">Sprečite problem pre njegove pojave.</h5>
-                <p class="">Naši eksperti Vam mogu pomoći u kreiranju robusnog bezbednog okruženja sa servisima, koji uključuju trenutne I buduće procene rizika, pregled I razvoj politike, kao I master planiranje.</p>
+                <p class="">Naši eksperti vam mogu pomoći u kreiranju robusnog bezbednog okruženja sa servisima, koji uključuju trenutne i buduće procene rizika, pregled i razvoj politike, kao i master planiranje.</p>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@
                 <div class="experts_pen-left">
                     <h1>Obratite se kompaniji Sky Express radi informisanja i obuke o sajber bezbednosti i dopustite da vam pomognemo da zaštitimo vaše najdragocenije imovine.</h1>
                     <div class="get-btn">
-                        <a href="/contact">KONTAKTIRAJTE NAS</a>
+                        <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
                     </div>
                 </div>
             </div>

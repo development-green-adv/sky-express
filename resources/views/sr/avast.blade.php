@@ -171,7 +171,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h4 class="orange_text mb-5">Slojevite usluge informacione sigurnosti za potpunu zaštitu.</h4>
+                <h4 class="orange_text mb-5">Slojevite usluge informacione sigurnosti za potpunu zaštitu</h4>
                 <p class="text-white">Avast Business pruža napredna, integrisana rešenja za bezbednost endpoint klijenata
                     i mreže za preduzeća i dobavljače IT usluga. Podržan od strane najveće mreže za detekciju na svetu
                     Avast Business security portfolio čini lakim i pristupačnim da obezbedi, upravlja i vrši monitoring

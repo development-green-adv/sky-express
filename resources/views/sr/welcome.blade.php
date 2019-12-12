@@ -92,7 +92,7 @@
                     <div class="col-12 col-md-4 solutions_item solutions_item-overlay">
                         <img class="img-fluid" src="{{ asset('images/web/1.png') }}" alt="">
                         <div class="white-overlay"></div>
-                        <a style="background-color: transparent !important; margin-top: -30px;" href="/sr/by-compliance">
+                        <a style="background-color: transparent !important; margin-top: -30px;" href="/sr/po-uskladjenosti">
                             <h4>Prema usklađenosti </h4>
                         </a>
                     </div>
@@ -107,7 +107,7 @@
                         <img class="img-fluid" src="{{ asset('images/web/3.png') }}" alt="">
                         <div class="white-overlay"></div>
                         <a style="background-color: transparent !important; margin-top: -30px;" href="/sr/security-and-risk-management">
-                            <h4>Security & <br> Risk Management</h4>
+                            <h4>Sigurnost i <br> upravljanje rizicima</h4>
                         </a>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <p>
-                        Sky Express je regionalni lider u zaštiti podataka. Kao partnerska kompanija švajcarskog fonda Evolution Equity Partners, Sky Express koristi jedinstvenu priliku za komunikaciju sa vodećim svetskim dobavljačima sajber sigurnosnih rešenja, prateći najnovije trendove i razvoje u oblasti informacione bezbednosti i uspostavljajući pouzdane odnose sa kupcima, zasnovane na kvalitetu i poverenju.
+                        Sky Express je regionalni lider u zaštiti digitalnih podataka. Kao partnerska kompanija švajcarskog fonda Evolution Equity Partners, Sky Express koristi jedinstvenu priliku za saradnju sa vodećim svetskim dobavljačima sajber sigurnosnih rešenja, prateći najnovije trendove i razvoje u oblasti informacione bezbednosti i uspostavljajući pouzdane odnose sa kupcima, zasnovane na kvalitetu i poverenju.
                     </p>
 
                     <br><br><br><br><br>

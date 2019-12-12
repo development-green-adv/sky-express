@@ -41,7 +41,7 @@
             <div class="col-12 col-md-6 mb-4 mb-md-0">
                 <h4>Information Security Management Systems (ISMS)</h4><br>
                 <p class="pr-0 pr-md-5">
-                    Naše usluge zaštite informacija štite Vaše poslovanje od gubitka podataka, lošeg kredibiliteta I prekida servisa. Pružamo ponude i prenosimo znanja I iskustva, neophodna za sveobuhvatnu bezbednost informacija. Naše ponude uključuju najsavremenije tehnologije I servise, podršku I trening od strane sertifikovanih stručnjaka u oblasti informacione bezbednosti.
+                    Naše usluge zaštite informacija štite Vaše poslovanje od gubitka podataka, lošeg kredibiliteta i prekida servisa. Pružamo ponude i prenosimo znanja i iskustva, neophodna za sveobuhvatnu bezbednost informacija. Naše ponude uključuju najsavremenije tehnologije i servise, podršku i trening od strane sertifikovanih stručnjaka u oblasti informacione bezbednosti.
                 </p>
 
                 <h5 class="mt-4 mb-4">Postignite relevantne standarde i smanjite IT bezbednosne rizike Vaše organizacije</h5>
@@ -49,7 +49,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <h4 class="invisible mb-4 d-none d-md-block">Pen Testing & Ethical Hacking</h4><br>
-                <p class="pl-0 pl-md-5 mb-4">Savetodavne usluge ISMS pomažu vam da razvijete koherentan skup politika, procesa i sistema za upravljanje rizicima informacionih sredstava i poboljšaju IT upravljanje. Naši konsultanti analiziraju organizaciju kroz tri osnovne dimenzije tehnologije, procesa i ljudi.</p>
+                <p class="pl-0 pl-md-5 mb-4">Savetodavne usluge ISMS pomažu vam da razvijete koherentan skup politika, procesa i sistema za upravljanje rizicima informacionih sredstava i poboljšaju IT upravljanje. Naši konsultanti analiziraju organizaciju kroz tri osnovna parametra: tehnologije, procesa i ljudi.</p>
             </div>
         </div>
     </div>
@@ -128,7 +128,7 @@
                 <div class="experts_pen-left">
                     <h1>Kontaktirajte Sky Express za ISMS savetodavne usluge i dozvolite nam da vam pomognemo u zaštiti vaše najvrednije imovine. </h1>
                     <div class="get-btn">
-                        <a href="/contact">KONTAKTIRAJTE NAS</span></a>
+                        <a href="/sr/kontakt">KONTAKTIRAJTE NAS</span></a>
                     </div>
                 </div>
             </div>

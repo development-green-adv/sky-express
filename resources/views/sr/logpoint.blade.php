@@ -91,7 +91,7 @@
                 <div class="col-12">
                     <h5 class="pl-0 pl-md-5 mb-4 orange_text">
                         <div class="row">
-                            <div class="col-md-3"><img style="width: 100px;" src="{{ asset('images/web/logpoint-nagrada.png') }}" alt=""></div>
+                            <div class="col-md-3"><img style="width: 135px;" src="{{ asset('images/web/logpoint-nagrada.png') }}" alt=""></div>
                             <div class="col-md-9 pt-3">LogPoint je rangiran na prvom mestu i imenovan liderom u recenzijama SoftwareReviews SIEM Data Quadrant za 2019. godinu</div>
                         </div>
                     </h5>
@@ -170,8 +170,8 @@
             <div class="col-md-6">
                 <div class="logpoint-page-second-part-left">
                     <h5 class="invisible mb-5 d-none d-md-block">With LogPoint, you can quickly troubleshoot potential issues via:</h5>
-                    <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Jednostavnost upotrebe</span> - Neverovatno brza analitika i bogato izveštavanje, bez potrebe za naprednim skupom veština.</p>
-                    <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Upravljanje troškovima </span> - Nema dodatnih troškova koji se odnose na rast obima podataka kompanije ili na broj događaja u sekundi koji primate.</p>
+                    <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Jednostavnost upotrebe</span> - Neverovatno brza analitika i bogato izveštavanje, bez potrebe za naprednim skupom veština;</p>
+                    <p class="mb-4 pr-0 pr-md-5"><span class="orange_text">Upravljanje troškovima </span> - Nema dodatnih troškova koji se odnose na rast obima podataka kompanije ili na broj događaja u sekundi;</p>
                     <p class="pr-0 pr-md-5"><span class="orange_text">Sertifikacija bez konkurencije </span> - Ima sertifikat EAL 3+. Koristi se u NATO i u
                         organizacijama sa kritičnom infrastrukturom poput vojske, obaveštajnih agencija, komunalnih
                         preduzeća i telekomunikacionih kompanija.</p>

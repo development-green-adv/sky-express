@@ -39,25 +39,32 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 mb-4 mb-md-0">
-                <h4>Pentesting & Etičko hakovanje</h4><br>
+                <h4>Pentesting i Etičko hakovanje</h4><br>
                 <p class="pr-0 pr-md-5">
                     Budite proaktivni i ojačajte svoju odbranu SkyExpress uslugom pentestinga i etičkog hakovanja.
                 </p>
 
                 <h5 class="mt-4 mb-4">Ovo je jedini test koji želite da prođe neuspešno.</h5>
                 <p class="mb-4 pr-0 pr-md-5">Pri penetration testiranju, naši sertifikovani stručnjaci za informacionu bezbednost koriste dokazane metodologije i najbolje prakse u industriji. Sky Express inženjeri znaju na koji način razmišljaju zlonamerni hakeri što pomaže u lociranju slabosti sistema. Naše usluge pentestinga i etičkog hakovanja utvrđuju da li je neku slabost zaista moguće iskoristiti i dovesti do kompromitacije osetljivih podataka. </p>
-                <p class="pr-0 pr-md-5">The test process is the combination of several different activities that ultimately provide your organization with a clear view of exploitable threats that can
-                    easily compromise your system.</p>
+                <p class="pr-0 pr-md-5">
+                    Sa našom mogućnošću da testiramo sa udaljene lokacije, u mogućnosti smo da vam pružimo uslugu
+                    brzo i ekonomski isplativo. Sky Express vam omogućava da se fokusirate na vaš biznis, preuzimajući
+                    na sebe komplikovano izvođenje Pentesta.
+                </p>
             </div>
             <div class="col-12 col-md-6">
                 <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-                <p class="pl-0 pl-md-5 mb-4">With our ability to test remotely, we are able to service you quickly and cost effectively. Sky Express allows you to focus on your core business, removing
-                    the burden of performing penetration testing with complicated tools.</p>
-                <p class="pl-0 pl-md-5 mb-4">Your penetration test results can be reconciled with your ongoing Sky Express vulnerability scanning program. No more digging through dense reports that
-                    are difficult to manage and interpret.</p>
-                <p class="pl-0 pl-md-5">The Ethical Hacking service simulates an external or internal attacker. Our attack strategies can be focused on the technology layer, but also on what is
-                    often the weakest link of the system: the human factor. This means that non-conventional attack techniques can be used – Social Engineering, exploiting
-                    loopholes in physical security and procedures, intercepting communications...</p>
+                <p class="pl-0 pl-md-5 mb-4">
+                    Vaši Pentesta rezultati mogu biti usklađeni sa tekućim Sky Express programom za pretragu slabosti
+                    sistema.
+                </p>
+                <p class="pl-0 pl-md-5 mb-4">
+                    Usluga etičkog hakovanja simulira spoljnog ili unutrašnjeg napadača. Naše strategije napada mogu
+                    biti fokusirane na tehnološki deo, ali takođe i na ono što je obično najslabija karika u sistemu, ljudski
+                    faktor. Ovo znači da ne-konvencionalne tehnike napada mogu biti korišćene, od socijalnog
+                    inženjeringa, iskorišćavanja “rupa” u fizičkom obezbeđenju i procedurama, presretanje
+                    komunikacija….
+                </p>
             </div>
         </div>
     </div>
@@ -76,8 +83,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3>Benefitsof Penetration Testing</h3>
-                <h4 class="text-white">Prednosti pentestinga:</h4>
+                <h3>Prednosti pentestinga:</h3>
                 <ul>
                     <li>
                         <div class="row">
@@ -124,7 +130,7 @@
                 <div class="experts_pen-left">
                     <h1>Za usluge pentestinga i etičkog hakovanja, pišite nam na sales@sky-express.rs i zaštitite vaše dragocene podatke.</h1>
                     <div class="get-btn">
-                        <a href="/contact">KONTAKTIRAJTE NAS</a>
+                        <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
                     </div>
                 </div>
             </div>

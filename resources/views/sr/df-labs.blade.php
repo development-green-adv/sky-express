@@ -211,7 +211,7 @@
                         <li>
                             <div class="row">
                                 <div class="col-2 col-md-1"><img src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Community portal i Community publikacija;</div>
+                                <div class="col-10 col-md-11">Community portal i Community publikacija.</div>
                             </div>
                         </li>
                     </ul>

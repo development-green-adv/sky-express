@@ -122,7 +122,7 @@
                 <div class="experts_pen-left">
                     <h1>Kontaktirajte Sky Express i saznajte više o Managed Security servisima, a mi ćemo obezbediti zaštitu Vašeg poslovanja. </h1>
                     <div class="get-btn">
-                        <a href="/contact">KONTAKTIRAJTE NAS</a>
+                        <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
                     </div>
                 </div>
             </div>

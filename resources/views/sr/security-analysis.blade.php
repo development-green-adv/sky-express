@@ -40,14 +40,14 @@
         <div class="col-12 col-md-6 mb-4 mb-md-0">
             <h4>Bezbednosna analiza </h4><br>
             <p class="pr-0 pr-md-5 mb-4">
-                Nakon analize postojeće bezbednosne slike vaše organizacije, možemo vam dati preporuke za unapređenje, koje su usklađenje sa vašim poslovnim sistemima i aplikacijama, imajući u vidu vaš budžet i planove proširenja.
+                Nakon analize postojeće bezbednosne slike vaše organizacije, možemo vam dati preporuke za unapređenje, koje su usklađene sa vašim poslovnim sistemima i aplikacijama, imajući u vidu vaš budžet i planove proširenja.
             </p>
 
             <h4>Zaštita Vašeg informacionog sistema</h4><br>
         </div>
         <div class="col-12 col-md-6">
             <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
-            <p class="pl-0 pl-md-5 mb-4">Dugoročna zaštita vaših podataka ima veliki značaj: Osim ažuriranja, nadogradnji i završetka podrške, Vaša infrastruktura se stalno menja. </p>
+            <p class="pl-0 pl-md-5 mb-4">Dugoročna zaštita vaših podataka ima veliki značaj: Osim ažuriranja, nadogradnji i završetka podrške, vaša infrastruktura se stalno menja. </p>
             <p class="pl-0 pl-md-5 mb-4">Mi pružamo preventivne usluge, kako u obliku sveobuhvatnih analiza rizika, tako i u obliku dubljih i naprednijih sigurnosnih analiza.</p>
         </div>
     </div>
@@ -153,7 +153,7 @@
                 <div class="experts_pen-left ">
                     <h1>Kontaktirajte iskusnog konsultanta i unapredite nivo bezbednosti vaše kompanije.</h1>
                     <div class="get-btn">
-                        <a href="/contact">KONTAKTIRAJTE NAS</a>
+                        <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
                     </div>
                 </div>
             </div>

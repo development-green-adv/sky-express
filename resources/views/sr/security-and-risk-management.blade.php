@@ -44,10 +44,10 @@
                 Rizik je sastavni deo naše svakodnevnice. Na svakom koraku koji planiramo u našim
                 privatnim i profesionalnim životima moramo da analiziramo rizike koji dolaze uz to. Iz ugla
                 cyber bezbednosti, industrije kao što su energetska, bankarska, osiguravajuća, maloprodaja
-                itd..., uključuje dosta rizika koji iziskuje prihvatanje tehnologije i koji mora biti efikasno
+                itd..., uključuju dosta rizika koji iziskuje prihvatanje tehnologije i koji mora biti efikasno
                 kontrolisan.
             </p>
-            <p class="pr-0 pr-md-5 mb-4 orange-text">
+            <p class="pr-0 pr-md-5 mb-4 orange-text" style="font-weight: 700;">
                 Cyber rizik se obično odnosi na finansijki gubitak bilo koje vrste poremećaj\uzurpaciju ili
                 načinjenu štetu reputaciji organizacije do koje je došlo propustom informacionih sistema.
             </p>

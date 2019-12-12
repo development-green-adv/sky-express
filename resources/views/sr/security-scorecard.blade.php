@@ -151,7 +151,7 @@
     <div class="container">
         <div class="security-scorecard-third-title text-center mb-5">
             <h1 class="orange_text">REŠENJA</h1>
-            <h3>Ocena rizika za informacionu sigurnost i rešenja za upravljanje</h3>
+            <h3>Ocena rizika za informacionu sigurnost i rešenja za upravljanje.</h3>
         </div>
         <div class="row">
             <div class="col-12">
