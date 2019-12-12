@@ -151,11 +151,11 @@
             <div class="col-md-6">
                 <div class="df-labs-second-part-right carbon-black-second-part-right avast-page-second-part avast-page-second-part-right">
                     <div class="avast-page-second-part-card mb-4">
-                        <h4 class="orange_text mb-2 pl-0 pl-md-0">CloudCare</h4>
+                        <h4 class="orange_text mb-2 pl-0 pl-md-5">CloudCare</h4>
                         <p class="pl-0 pr-0 pr-md-5 pl-md-5">Deliver layered endpoint and network security services, monitor threats, and resolve issues -- all from a single, cloud-based platform.</p>
                     </div>
                     <div class="avast-page-second-part-card">
-                        <h4 class="orange_text mb-2 pl-0 pl-md-0">Management Console</h4>
+                        <h4 class="orange_text mb-2 pl-0 pl-md-5">Management Console</h4>
                         <p class="pl-0 pr-0 pr-md-5 pl-md-5">Easily deploy endpoint protection solutions to devices in your network and monitor them from a central
                             dashboard.</p>
                     </div>
