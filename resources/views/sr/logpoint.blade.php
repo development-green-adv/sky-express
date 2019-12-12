@@ -48,7 +48,7 @@
                 LogPoint maksimalno koristi naprednu analitiku, ubrzanu mašinskim učenjem, kako bi poboljšao vaše bezbednosno stanje i efikasno automatizovao relevantne odgovore na unutrašnje i spoljne pretnje.
             </p>
             <p class="pr-0 mr-md-5 mb-4">
-                SIEM osmišljen je od samog početka da bude jednostavan,
+                LogPoint SIEM osmišljen je od samog početka da bude jednostavan,
                 fleksibilan i skalabilan, da obezbedi efikasnije alate za dizajn, implementaciju i integraciju kako bi se
                 omogućila upotreba mrežnog sigurnosnog alata za sva preduzeća. To znači da se arhitektura može
                 stalno proširivati dodatnom funkcionalnošću, bez potrebe za punim osnovnim izdanjem, kako bi se
@@ -200,7 +200,7 @@
                 <div class="logpoint-third-card">
                     <img src="{{ asset('images/web/logpoint-third-part-1.png') }}" alt="">
                     <p><b>Jedinstvena klasifikacija podataka</b></p>
-                    <p>LogPoint osigurava jedinstvenu klasifikaciju za normalizaciju podataka dnevnika,
+                    <p>LogPoint osigurava jedinstvenu klasifikaciju za normalizaciju podataka Logova,
                         omogućujući jednostavnu funkciju pretrage za izradu kontrolnih tabli, upozorenja i izveštaja.
                         Prevođenjem svih log-ova u pojednostavljenu jedinstvenu celinu,
                         pretraživanje po širokom spektru različitih izvora log-ova je mnogo lakše i efikasnije.</p>
@@ -210,7 +210,7 @@
                 <div class="logpoint-third-card">
                     <img src="{{ asset('images/web/logpoint-third-part-2.png') }}" alt="">
                     <p><b>Pojednostavljena kontrola pristupa na osnovu uloga</b></p>
-                    <p>Pristup administrativnog korisnika organizovan je u AD preko LDAP radi lakše definicije dozvola. Grupne dozvole za sistem su usklađene s pristupom administrativnim pravima koji se zasniva na ulogama, što daje punu kontrolu nad pristupom spremištima dnevnika i upotrebom kontrolne table.</p>
+                    <p>Pristup administrativnog korisnika organizovan je u AD preko LDAP radi lakše definicije dozvola. Grupne dozvole za sistem su usklađene s pristupom administrativnim pravima koji se zasniva na ulogama, što daje punu kontrolu nad pristupom spremištima Logova i upotrebom kontrolne table.</p>
                 </div>
             </div>
             <div class="col-md-3">
@@ -233,7 +233,7 @@
                 <div class="logpoint-third-card">
                     <img src="{{ asset('images/web/logpoint-third-part-5.png') }}" alt="">
                     <p><b>Fleksibilna/skalabilna arhitektura</b></p>
-                    <p>Arhitektura LogPointa je u potpunosti fleksibilna i linearno se skalira za velike i složene implementacije. Mrežni sigurnosni alat se može uvesti bilo u fizičkim ili u virtuelnim okruženjima, u prostorijama ili u oblaku.</p>
+                    <p>Arhitektura LogPointa je u potpunosti fleksibilna i linearno se skalira za velike i složene implementacije. Mrežni sigurnosni alat se može uvesti bilo u fizičkim ili u virtuelnim okruženjima, na lokaciji korisnika ili u oblaku.</p>
                 </div>
             </div>
             <div class="col-md-3">

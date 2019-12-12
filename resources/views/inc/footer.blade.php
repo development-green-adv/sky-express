@@ -45,8 +45,8 @@
                     <br>
                     <div class="social-icons">
                         <h5>FOLLOW US</h5>
-                        <a href="https://www.linkedin.com/company/sky-express-it-security-company/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/skyexpressrs/?ref=bookmarks" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/sky-express-it-security-company/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/skyexpressrs/" target="_blank"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                             <a href="/cookie-policy">Cookie Policy</a>
                         </div>
                         <div class="col-12 col-md-4 mb-3 mb-md-0">
-                            <a href="#">Copyright {{ date("Y") }} www.sky-express.rs</a>
+                            <a href="#">Copyright {{ date("Y") }} Sky Express d.o.o.</a>
                             <a href="#">All right reserved</a>
                         </div>
                         <div class="col-12 text-center text-md-left col-md-4">
@@ -78,4 +78,3 @@
         </div>
     </div>
 </div>
-

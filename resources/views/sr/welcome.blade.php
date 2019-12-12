@@ -402,7 +402,7 @@
                                 </div>
                                 <div class="col-10 col-sm-11 col-md-11 location-div">
                                     <p>Bulevar Milutina Milankovića 11A <br>
-                                        11070, Belgrade, Serbia
+                                        11070, Beograd, Srbija
                                     </p>
                                 </div>
                             </div>

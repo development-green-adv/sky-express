@@ -238,7 +238,7 @@
                     <h2 class="mb-4">Sveobuhvatna SOAR Platforma</h2>
                     <p class="mb-4 pr-0 pr-md-5">DFLabs obuhvata celokupan spektar komponenti za bezbednu automatizaciju, organizaciju i reakciju, kako je to opisao Gartner, sa jedinstvenom kombinacijom inovativnih karateristika i mogućnosti. </p>
                     <p class="mb-4 pr-0 pr-md-5">IncMan SOAR je jedina platforma, koja pruža mogućnost upravljanja celokupnim životnim ciklusom reakcija na incidente, uključujući mašinsko učenje i pretragu pretnji.</p>
-                    <p class="pr-0 pr-md-5">DFLabs IncMan SOAR unpaređuje efektivnost bezbednosnih timova i na taj način omogućava organizaciji da bude korak ispred bilo koje potencijalne pretnje.</p>
+                    <p class="pr-0 pr-md-5">DFLabs IncMan SOAR unapređuje efektivnost bezbednosnih timova i na taj način omogućava organizaciji da bude korak ispred bilo koje potencijalne pretnje.</p>
                 </div>
             </div>
             <div class="col-md-6">

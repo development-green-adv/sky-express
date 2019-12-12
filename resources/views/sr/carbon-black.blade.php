@@ -41,21 +41,20 @@
             <img class="carbon-black-logo-img" src="{{ asset('images/web/carbon-black-logo.png') }}" alt="">
         </div>
         <div class="col-12 col-md-6 mb-4 mb-md-0">
-            <h4>Vodeći prozivođač zaštite krajnjih korisnika naredne generacije</h4><br>
+            <h4>Vodeći prozivođač zaštite krajnjih uređaja naredne generacije</h4><br>
             <p class="pr-0 pr-md-5">
                 Kao cyber security inovator, Carbon Black je
-                je kreirao više kategorija proizvoda za zaštitu krajnjih korisnika, servera i servisa, uključujući kontrolu aplikacija, detekciju i odgovor na pretnje (EDR - Endpoint Detection and Response), sa dodatnim karakteristikama antivirusnog rešenja naredne generacije (NGAV – Next-Generation Antivirus).
+                je kreirao više kategorija proizvoda za zaštitu krajnjih uređaja, servera i servisa, uključujući kontrolu aplikacija, detekciju i odgovor na pretnje (EDR - Endpoint Detection and Response), sa dodatnim karakteristikama antivirusnog rešenja naredne generacije (NGAV – Next-Generation Antivirus).
             </p>
         </div>
         <div class="col-12 col-md-6">
             <div class="df-labs-right-first-part">
-                <h5 class="pl-0 pr-md-5 mb-4">Najviši standard zaštite krajnjih korisnika</h5>
-                <p class="pl-0 pr-md-5 mb-4">VMware Carbon Black Cloud je dokazano i efikasno rešenje za zaštitu krajnjih korisnika koje
+                <h5 class="pl-0 pr-md-5 mb-4">Najviši standard zaštite krajnjih uređaja</h5>
+                <p class="pl-0 pr-md-5 mb-4">VMware Carbon Black Cloud je dokazano i efikasno rešenje za zaštitu krajnjih uređaja koje
                     je potpuno prilagođeno savremenim poslovnim potrebama.</p>
                 <p>
                     Osnovna funkcionalnost sadrži zaštitu od svih vrsta pretnji, mogućnost identifikacije napada
-                    koja ostala endpoint security rešenja možda neće primetiti, uključujući fireless, ransomware
-                    uključujući i nepoznate pretnje.
+                    koja ostala endpoint security rešenja možda neće primetiti, uključujući fileless, ransomware i nepoznate pretnje.
                 </p>
             </div>
         </div>
@@ -77,7 +76,7 @@
             <div class="col-md-6">
                 <div class="df-labs-second-part-left ">
                     <h1 class="mb-5 orange_text">The VMware Carbon Black Cloud </h1>
-                    <h2 class="text-white mb-3">Konsoliduje bezbednost krajnjih sistema</h2>
+                    <h2 class="text-white mb-3">Konsoliduje bezbednost krajnjih uređaja</h2>
                     <h4 class="text-white mb-0 mb-md-3">Pojednostavljuje vašu bezbednost i obezbeđuje beskompromisnu i aktivnu zaštitu</h4>
                 </div>
             </div>
@@ -99,7 +98,7 @@
                         <li class="mb-4">
                             <div class="row">
                                 <div class="col-2 col-md-1"><img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt=""></div>
-                                <div class="col-10 col-md-11">Prepoznaje do sada nepoznate metode upada i zloupotrebe krajnjih tačaka,</div>
+                                <div class="col-10 col-md-11">Prepoznaje do sada nepoznate metode upada i zloupotrebe krajnjih uređaja,</div>
                             </div>
                         </li>
                         <li class="mb-4">
@@ -135,7 +134,7 @@
                 <div class="carbon-black-third-part-left">
                     <h3 class="orange_text">The VMware Carbon Black transformiše <br class="d-none d-md-block"> bezbednost kroz sveobuhvatnu analitiku u <br class="d-none d-md-block"> Cloud-u</h3>
                     <h3 style="color: #231f20;">Carbon Black koristi centralizovanu analitiku podataka u cilju preciznije
-                        detekcije pretnji i analize događaja, zaokružujući bezbednost krajnjih sistema.</h3>
+                        detekcije pretnji i analize događaja, zaokružujući bezbednost krajnjih uređaja.</h3>
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,9 +172,9 @@
             </div>
             <div class="col-md-6">
                 <div class="carbon-black-fourth-part-right">
-                    <h4 class="text-white pl-0 pr-0 pr-md-5 pl-md-5 ">The VMware Carbon Black Cloud <br class="d-none d-md-block"> je sistem za upravljanje bezbednošću krajnjih tačaka, <br class="d-none d-md-block"> koje
+                    <h4 class="text-white pl-0 pr-0 pr-md-5 pl-md-5 ">The VMware Carbon Black Cloud <br class="d-none d-md-block"> je sistem za upravljanje bezbednošću krajnjih uređaja, <br class="d-none d-md-block"> koje
                         centralizuje prikupljanje i analizu podataka <br class="d-none d-md-block"> i pojednostavljuje administraciju sistema bezbednosti.
-                        Primenjena analitika svih prikupljenih podataka sa krajnjih sistema, omogućava i obezbeđuje pouzdanu zaštitu.
+                        Primenjena analitika svih prikupljenih podataka sa krajnjih uređaja, omogućava i obezbeđuje pouzdanu zaštitu.
                     </h4>
                 </div>
             </div>
@@ -199,8 +198,8 @@
                 <div class="df-labs-fifth-part-left carbon-black-fifth-part-left">
                     <h2>CB DEFENSE</h2>
                     <h3 class="mb-5">NAPREDNI ANTIVIRUS + EDR</h3>
-                    <p class="mb-5 pr-0 pr-md-5">CB Defense je antivirus sledeće generacije + detekcija i odgovor krajnjih sistema - isporučen kroz
-                        rešenje baziran na cloud zaštiti krajnjih sistema koji konsoliduje bezbednost koristeći agenta,
+                    <p class="mb-5 pr-0 pr-md-5">CB Defense je antivirus sledeće generacije + detekcija i odgovor krajnjih uređaja - isporučen kroz
+                        rešenje baziran na cloud zaštiti krajnjih uređaja koji konsoliduje bezbednost koristeći agenta,
                         konzolu i set podataka da bi zaustavio malware i non-malware napade.</p>
                     <p class="mb-5">Carbon Black servisi uključuju:</p>
                     <ul>
@@ -210,7 +209,7 @@
                                     <img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p><strong>Predikciju i prevenciju:</strong> Otkriva postojeće i nove malware <br class="d-none d-md-block"> i štiti sistem;</p>
+                                    <p><strong>Predikciju i prevenciju:</strong> Otkriva postojeće i nove malware i štiti sistem;</p>
                                 </div>
                             </div>
                         </li>
@@ -220,7 +219,7 @@
                                     <img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p><strong>Detekciju i analizu: </strong> Carbon Black koristi prediktivnu cloud <br class="d-none d-md-block"> tehnologiju i skladištenje;</p>
+                                    <p><strong>Detekciju i analizu: </strong> Carbon Black koristi prediktivnu cloud tehnologiju i skladištenje;</p>
                                 </div>
                             </div>
                         </li>
@@ -230,7 +229,7 @@
                                     <img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p><strong>Brzu reakciju:</strong> Sposobnost detekcije i reakcije u <br class="d-none d-md-block"> realnom vremenu;</p>
+                                    <p><strong>Brzu reakciju:</strong> Sposobnost detekcije i reakcije u realnom vremenu;</p>
                                 </div>
                             </div>
                         </li>
@@ -240,7 +239,7 @@
                                     <img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p><strong>Skalabilnost operativnih mogućnosti: </strong> Automatizacija omogućava masovnu instalaciju <br class="d-none d-md-block"> i izvršavanje zadataka.</p>
+                                    <p><strong>Skalabilnost operativnih mogućnosti: </strong> Automatizacija omogućava masovnu instalaciju i izvršavanje zadataka.</p>
                                 </div>
                             </div>
                         </li>
@@ -272,8 +271,8 @@
             <div class="col-md-6">
                 <div class="carbon-black-sixth-part-left">
                     <h3 class="orange_text">CB RESPONSE</h3>
-                    <h3 class="mb-4">INDUSTRISKI LIDER U ODZIVU NA INCIDENTE I PRETRAGU PRETNJI</h3>
-                    <p class="mb-5 pr-0 pr-md-5">Otkrite i odgovorite na napredne napade sa nefiltriranom vidljivošću</p>
+                    <h3 class="mb-4">INDUSTRIJSKI LIDER U ODZIVU NA INCIDENTE I PRETRAGU PRETNJI</h3>
+                    <p class="mb-5 pr-0 pr-md-5">Otkrijte i odgovorite na napredne napade sa nefiltriranom vidljivošću</p>
                     <img class="ml-5" src="{{ asset('images/web/carbon-black-sixth-part-left.png') }}" alt="">
                 </div>
             </div>
@@ -308,7 +307,7 @@
                                     <img class="mr-4" src="{{ asset('images/web/correct.svg') }}" alt="">
                                 </div>
                                 <div class="col-10 col-md-11">
-                                    <p>Siguran udaljeni pristup zaraženim krajnjim sistemima i detaljna istraga </p>
+                                    <p>Siguran udaljeni pristup zaraženim krajnjim uređajima i detaljna istraga </p>
                                 </div>
                             </div>
                         </li>

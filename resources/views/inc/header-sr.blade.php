@@ -73,7 +73,7 @@
                                     <a class="nav-link" href="#">Kompanija</a><span>|</span>
                                     <div class="dropdown-menu">
                                         <ul class="dropdown-menu-ul">
-                                            <p>SKY EXPRESS D.O.O</p>
+                                            <p>SKY EXPRESS D.O.O.</p>
                                             <li><a href="/sr/o-nama">O nama</a></li>
                                             <li><a href="/sr/zasto-sky-express">Zašto mi?</a></li>
                                             <li><a href="/sr/karijera">Karijera</a></li>
