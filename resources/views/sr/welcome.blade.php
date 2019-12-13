@@ -394,7 +394,7 @@
                         <div class="contact-form-top">
                             <h4 class="mb-5">KONTAKTIRAJTE NAS:</h4>
 
-                            <p class="mb-5">Sky Express d.o.o</p>
+                            <p class="mb-5">Sky Express d.o.o.</p>
 
                             <div class="row mb-3 mb-md-0">
                                 <div class="col-2 col-sm-1 col-md-1 mt-2">
@@ -447,8 +447,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-12 mb-4 contact-phone-info">
                         <p class="orange_text">Tehnička podrška SMB rešenja</p>
