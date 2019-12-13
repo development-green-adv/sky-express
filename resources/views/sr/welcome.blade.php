@@ -181,7 +181,7 @@
                         Sky Express je regionalni lider u zaštiti digitalnih podataka. Kao partnerska kompanija švajcarskog fonda Evolution Equity Partners, Sky Express koristi jedinstvenu priliku za saradnju sa vodećim svetskim dobavljačima sajber sigurnosnih rešenja, prateći najnovije trendove i razvoje u oblasti informacione bezbednosti i uspostavljajući pouzdane odnose sa kupcima, zasnovane na kvalitetu i poverenju.
                     </p>
 
-                    <br><br><br><br><br>
+                    <br><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block">
                     <a class="btn btn-default" href="/sr/o-nama">Saznajte više</a>
                 </div>
             </div>
