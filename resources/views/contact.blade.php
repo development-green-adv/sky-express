@@ -58,7 +58,7 @@
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-11">
-                        <p class="mb-4 sky-doo">Sky Express d.o.o</p>
+                        <p class="mb-4 sky-doo">Sky Express d.o.o.</p>
                     </div>
                 </div>
                 <div class="row mb-4">

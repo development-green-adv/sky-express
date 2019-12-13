@@ -179,10 +179,6 @@
                         Sky Express is the regional leader in data protection. As an integral part of the Switzerland’s Evolution Equity Partners fund, Sky Express utilizes unique opportunity to communicate with world-leading cyber security solution providers, keeping the pace with latest trends and developments in the field of information security and establishing reliable relations with customers, based on quality and trust.
                     </p>
                     <br>
-                    <!--<p>
-                                    Sky Express offers a very selective range of complemental, compatibile and applicable solutions.
-                                    All the solutions we distribute, either directly or through sales partners, are recognized, proven and tailored to fit market requirements.
-                            </p>-->
                     <br><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block">
                     <a class="btn btn-default" href="/about-us">Learn more</a>
                 </div>
@@ -429,13 +425,51 @@
                 </div>
             </div>
         </div>
+
+        <div class="row mt-4 mb-4">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Tehnical Support for Enterprise solutions</p>
+                        <a href="mailto:podrska@sky-express.rs">podrska@sky-express.rs</a> <br>
+                        <a href="tel:+381646447376">+381 64 644 7376</a>
+                    </div>
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Sales for Enterprise solutions</p>
+                        <a href="mailto:prodaja@sky-express.rs">prodaja@sky-express.rs</a> <br>
+                        <a href="tel:+381646446687">+381 64 6446 687</a>
+                    </div>
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>General</p>
+                        <a href="mailto:administracija@sky-express.rs">administracija@sky-express.rs</a> <br>
+                        <a href="tel:+381112421580">011/242 15 80</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Tehnical Support for SMB solutions</p>
+                        <a href="mailto:podrska@sky-express.rs">podrska@sky-express.rs</a> <br>
+                        <a href="tel:+381646414460">+381 64 641 44 60</a>
+                    </div>
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Sales for SMB solutions</p>
+                        <a href="mailto:prodaja@sky-express.rs">prodaja@sky-express.rs</a> <br>
+                        <a href="tel:+381646414460">+381 64 641 44 60</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
 
                 <form class="form-home-page">
                     <input type="text" placeholder="First name">
-                    <input type="email" placeholder="email">
+                    <input type="email" placeholder="Email">
                     <textarea placeholder="Type your message here..."></textarea>
                     <button type="submit">Submit</button>
                 </form>

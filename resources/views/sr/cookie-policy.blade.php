@@ -39,7 +39,7 @@
 <div class="container cookie_content">
     <div class="row">
         <div class="col-12">
-            <div class="text-left text-md-right mb-4 orange_text"><b>Novembar, 2019</b></div>
+            <div class="text-left text-md-right mb-4 orange_text"><b>Novembar, 2019.</b></div>
             <p>
                 Ova Politika o „Kolačićima“ objašnjava kako se „kolačići“ i slične tehnologije (zbirno, „Kolačići“) koriste kada posetite našu Stranicu. „Stranica“ uključuje naše internet stranice, elektronsku poštu i druge aplikacije koje poseduje i kojima upravlja Sky Express („Kompanija“, „naše“ ili „mi“), kao i sve druge usluge koje prikazuju ovu Politiku o „Kolačićima“. Ova politika objašnjava šta su ove tehnologije i zašto se koriste, kao i vaše pravo da kontrolišete njihovu upotrebu.
             </p><br>

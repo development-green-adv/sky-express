@@ -128,7 +128,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="experts_pen-left">
-                    <h1>Za usluge pentestinga i etičkog hakovanja, pišite nam na sales@sky-express.rs i zaštitite vaše dragocene podatke.</h1>
+                    <h1>Za usluge pentestinga i etičkog hakovanja kontaktirajte nas i zaštitite vaše dragocene podatke.</h1>
                     <div class="get-btn">
                         <a href="/sr/kontakt">KONTAKTIRAJTE NAS</a>
                     </div>

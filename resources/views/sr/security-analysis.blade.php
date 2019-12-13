@@ -43,10 +43,10 @@
                 Nakon analize postojeće bezbednosne slike vaše organizacije, možemo vam dati preporuke za unapređenje, koje su usklađene sa vašim poslovnim sistemima i aplikacijama, imajući u vidu vaš budžet i planove proširenja.
             </p>
 
-            <h4>Zaštita Vašeg informacionog sistema</h4><br>
+            <h4>Zaštita Vašeg informacionog sistema</h4><br class="d-none d-md-bock">
         </div>
         <div class="col-12 col-md-6">
-            <h4 class="invisible">Pen Testing & Ethical Hacking</h4><br>
+            <h4 class="invisible d-none d-md-block">Pen Testing & Ethical Hacking</h4><br>
             <p class="pl-0 pl-md-5 mb-4">Dugoročna zaštita vaših podataka ima veliki značaj: Osim ažuriranja, nadogradnji i završetka podrške, vaša infrastruktura se stalno menja. </p>
             <p class="pl-0 pl-md-5 mb-4">Mi pružamo preventivne usluge, kako u obliku sveobuhvatnih analiza rizika, tako i u obliku dubljih i naprednijih sigurnosnih analiza.</p>
         </div>

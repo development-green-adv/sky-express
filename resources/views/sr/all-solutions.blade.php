@@ -73,12 +73,12 @@
                     <h3 class="orange_text">REŠENJA ZA RAZLIČITE INDUSTRIJE</h3>
                     <p>Sajber pretnje su postale složenije i sofisticiranije. Mnoge organizacije se danas suočavaju sa prikrivenim napadima u svojim mrežama. Ovi napadi su usmereni na krađu informacija o intelektualnom vlasništvu i klijentima ili šifriranje kritičnih podataka za otkupninu. Nijedna organizacija niti industrija nisu imune na pitanja bezbednosti.</p>
                     <p>Sky Express nudi rešenja koja mogu odgovarati različitim zahtevima različitih industrija i bezbednosnih procesa.</p>
-                    <ul class="invisible">
+                    <ul class="invisible all-solutions-space">
                         <li>Meeting GDPR</li>
                         <li>ISO 27001</li>
                         <li>SAP Security Guidelines</li>
                     </ul>
-                    <div style="margin-top: -20px" class="delatis-btn"><a href="/sr/resenja">Saznajte više</a></div>
+                    <div class="delatis-btn all-solutions-margin-sr"><a href="/sr/resenja">Saznajte više</a></div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -86,7 +86,7 @@
                     <h3 class="orange_text">SECURITY & RISK MANAGEMENT</h3>
                     <p>Bezbednost i upravljanje rizicima predstavljaju neke od najvećih izazova poslovanja u današnjem sve nestabilnijem okruženju sajber bezbednosti. Neuspesi u ovoj oblasti mogu da dovedu do potencijalno nepovratne finansijske i reputacijske štete.</p>
                     <p>Sky Express pruža usluge i rešenja koja kompanije treba da obezbede bezbednosti i privatnost podataka u svim aspektima poslovanja.</p>
-                    <ul class="invisible">
+                    <ul class="invisible all-solutions-space">
                         <li>Meeting GDPR</li>
                         <li>ISO 27001</li>
                         <li>SAP Security Guidelines</li>

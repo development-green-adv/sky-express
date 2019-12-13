@@ -172,7 +172,7 @@
                 <button class="btn btn-default orange_btn">O KOMPANIJI SKY EXPRESS</button>
             </div>
 
-            <div class="row" style="margin-top: 160px;">
+            <div class="row  home-aboute">
                 <div class="col-12 col-md-6">
                     <h3>Vaš pouzdan partner<br> za sajber bezbednost</h3>
                 </div>
@@ -424,6 +424,45 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="row mt-4 mb-5">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Tehnička podrška korporativna rešenja </p>
+                        <a href="mailto:podrska@sky-express.rs">podrska@sky-express.rs</a> <br>
+                        <a href="tel:+381646447376">+381 64 644 7376</a>
+                    </div>
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Prodaja korporativnih rešenja</p>
+                        <a href="mailto:prodaja@sky-express.rs">prodaja@sky-express.rs</a> <br>
+                        <a href="tel:+381646446687">+381 64 6446 687</a>
+                    </div>
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Opšti korporativni poslovi</p>
+                        <a href="mailto:administracija@sky-express.rs">administracija@sky-express.rs</a> <br>
+                        <a href="tel:+381112421580">011/242 15 80</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Tehnička podrška SMB rešenja</p>
+                        <a href="mailto:podrska@sky-express.rs">podrska@sky-express.rs</a> <br>
+                        <a href="tel:+381646414460">+381 64 641 44 60</a>
+                    </div>
+                    <div class="col-md-12 mb-4 contact-phone-info">
+                        <p>Prodaja SMB rešenja</p>
+                        <a href="mailto:prodaja@sky-express.rs">prodaja@sky-express.rs</a> <br>
+                        <a href="tel:+381646414460">+381 64 641 44 60</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">

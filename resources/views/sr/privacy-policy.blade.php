@@ -39,7 +39,7 @@
 <div class="container cookie_content">
     <div class="row">
         <div class="col-12">
-            <div class="text-left text-md-right mb-4 orange_text"><b>Novembar, 2019</b></div>
+            <div class="text-left text-md-right mb-4 orange_text"><b>Novembar, 2019.</b></div>
             <p>
                 Sky Express doo, sa sedištem u Milutina Milankovića 11a, 11000 Beograd, Srbija, PIB br.: 102707059 (u daljem tekstu: Sky Express), poštuje i štiti privatnost svake osobe čije privatne podatke prikuplja. Politika privatnosti definiše koje lične podatke Sky Express prikuplja, u koju svrhu ih koristi, kako ih štiti i koja su vaša prava
             </p><br>

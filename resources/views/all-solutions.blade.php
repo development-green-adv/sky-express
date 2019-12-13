@@ -74,7 +74,7 @@
                     <h3 class="orange_text">INDUSTRY SOLUTIONS</h3>
                     <p>Cyber threats have become more complex and sophisticated. Many organizations now face stealthy attacks in their networks. These attacks are targeted towards intellectual property and customer information theft or encryption of critical data for ransom. No business is immune from security issues.</p>
                     <p>Sky Express offers solutions that can fit different industry requirements, and security processes.</p>
-                    <ul class="invisible">
+                    <ul class="invisible all-solutions-space">
                         <li>Meeting GDPR</li>
                         <li>ISO 27001</li>
                         <li>SAP Security Guidelines</li>
@@ -87,12 +87,12 @@
                     <h3 class="orange_text">SECURITY & RISK MANAGEMENT</h3>
                     <p>Security and risk management provide a means of better understanding the nature of security threats and their interaction at an individual, organizational, or community level. Security and risk management are two of business’ biggest considerations in today’s increasingly volatile cyber security landscape. Failings in this arena will lead to potentially irreversible financial and reputational damage.</p>
                     <p>Sky Express provides services and solutions companies need to ensure the safety, security and privacy of data in all aspects of business areas.</p>
-                    <ul class="invisible">
+                    <ul class="invisible all-solutions-space">
                         <li>Meeting GDPR</li>
                         <li>ISO 27001</li>
                         <li>SAP Security Guidelines</li>
                     </ul>
-                    <div style="margin-top: -80px" class="delatis-btn"><a href="/security-and-risk-management">Learn more</a></div>
+                    <div class="delatis-btn all-solutions-card-margin"><a href="/security-and-risk-management">Learn more</a></div>
                 </div>
             </div>
         </div>

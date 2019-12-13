@@ -39,7 +39,7 @@
 <div class="container cookie_content">
     <div class="row">
         <div class="col-12">
-            <div class="text-left text-md-right mb-4 orange_text"><b>Novembar 2019</b></div>
+            <div class="text-left text-md-right mb-4 orange_text"><b>Novembar, 2019.</b></div>
             <p>
                 Sledeći uslovi i odredbe regulišu vaše korišćenje stranice koja je u vlasništvu i pod upravom kompanije Sky Express doo. Korišćenjem ove internet stranice ili preuzimanjem bilo kog materijala sa nje, saglasni ste da ste pročitali i razumeli ove uslove i odredbe i slažete se da ćete ih poštovati i da ćete se pridržavati svih važećih zakona i propisa koji se odnose na korišćenje ove internet stranice. Ukoliko se ne slažete sa ovim uslovima i odredbama, molimo vas da ne koristite ovu stranicu.
             </p><br>

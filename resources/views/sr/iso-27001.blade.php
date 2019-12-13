@@ -124,8 +124,9 @@
                 </div>
                 <div class="col-6 col-md-3 mb-4 mb-md-0">
                     <h5>BRZI LINKOVI</h5>
+                    <a href="/sr/o-nama">O nama</a><br>
                     <a href="/sr/zasto-sky-express">Zašto mi?</a><br>
-                    <a href="/sr/kontakt">Tehnička podrška</a><br>
+                    <!-- <a href="/sr/kontakt">Tehnička podrška</a><br> -->
                     <a href="/sr/vesti">Novosti</a><br>
                     <a href="#">Blog</a><br>
                     <a href="/sr/karijera">Karijera</a><br>

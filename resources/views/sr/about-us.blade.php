@@ -43,12 +43,7 @@
         </div>
         <div class="col-12 col-md-5 mb-4 mb-md-0">
             <h4>Vaš pouzdan Cybersecurity partner</h4><br>
-            {{-- <p class="pr-5">
-                        <b>Sky Express</b> is an exclusive distributor of <br class="d-none d-md-block">
-                        advanced cybersecurity solutions and services <br class="d-none d-md-block"> in the
-                        field of information security, covering SEE market.
-                    </p> --}}
-            <p class="pr-5"><b>Sky Express</b> je ekskluzivni distributer naprednih sajber bezbednosnih rešenja i usluga u oblasti informacione bezbednosti, pokrivajući tržišta Srbije, Crne Gore, BiH, Severne Makedonije i Albanije. </p>
+            <p class="pr-0 pr-md-5"><b>Sky Express</b> je ekskluzivni distributer naprednih sajber bezbednosnih rešenja i usluga u oblasti informacione bezbednosti, pokrivajući tržišta Srbije, Crne Gore, BiH, Severne Makedonije i Albanije. </p>
         </div>
         <div class="col-12 col-md-7">
             <p class="pl-0 pl-md-5">
@@ -106,7 +101,7 @@
 <div class="container about_desc about_mission">
     <div class="row">
         <div class="col-12 col-md-6">
-            <p class="first-pharagraf">
+            <p class="first-pharagraf mb-5 mb-md-0">
                 <span class="orange_text">Naša misija</span> je da obezbedimo bezbednost, sigurnost i privatnost najvrednijeg resursa - PODATAKA u svim poslovnim oblastima kao što su finansije, osiguranje, zdravstvo, državna uprava, pravosuđe, obaveštajne agencije, obrazovanje i mnogim drugim.
             </p>
         </div>

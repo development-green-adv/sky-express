@@ -38,7 +38,7 @@
 <div class="container about_desc pen_services by-compliance-first-part">
     <div class="row">
         <div class="col-12 col-md-6 mb-4 mb-md-0">
-            <h4>Po uskladjenosti</h4><br>
+            <h4>Po usklađenosti</h4><br>
             <p class="pr-0 pr-md-5 mb-4">
                 Novi propisi primoravaju organizacije širom sveta da preispitaju privatnost i zaštitu podataka.
             </p>
@@ -184,8 +184,9 @@
                 </div>
                 <div class="col-6 col-md-3 mb-4 mb-md-0">
                     <h5>BRZI LINKOVI</h5>
+                    <a href="/sr/o-nama">O nama</a><br>
                     <a href="/sr/zasto-sky-express">Zašto mi?</a><br>
-                    <a href="/sr/kontakt">Tehnička podrška</a><br>
+                    <!-- <a href="/sr/kontakt">Tehnička podrška</a><br> -->
                     <a href="/sr/vesti">Novosti</a><br>
                     <a href="#">Blog</a><br>
                     <a href="/sr/karijera">Karijera</a><br>
