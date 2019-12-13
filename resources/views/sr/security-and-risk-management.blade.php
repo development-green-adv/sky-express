@@ -39,7 +39,7 @@
     <div class="row">
         <div class="col-12 col-md-6 mb-4 mb-md-0">
             <h4>Upravljanje rizicima i
-                informacionom bezbednoscu</h4><br>
+                informacionom bezbednošću</h4><br>
             <p class="pr-0 pr-md-5 mb-4">
                 Rizik je sastavni deo naše svakodnevnice. Na svakom koraku koji planiramo u našim
                 privatnim i profesionalnim životima moramo da analiziramo rizike koji dolaze uz to. Iz ugla
@@ -47,7 +47,7 @@
                 itd..., uključuju dosta rizika koji iziskuje prihvatanje tehnologije i koji mora biti efikasno
                 kontrolisan.
             </p>
-            <p class="pr-0 pr-md-5 mb-4 orange-text" style="font-weight: 700;">
+            <p class="pr-0 pr-md-5 mb-4">
                 Cyber rizik se obično odnosi na finansijki gubitak bilo koje vrste poremećaj\uzurpaciju ili
                 načinjenu štetu reputaciji organizacije do koje je došlo propustom informacionih sistema.
             </p>

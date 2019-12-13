@@ -465,7 +465,7 @@
 
 
         <div class="row">
-            <div class="col-md-3"></div>
+            <div class="col-md-1"></div>
             <div class="col-md-6">
 
                 <form class="form-home-page">
@@ -476,7 +476,7 @@
                 </form>
 
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-5"></div>
         </div>
     </div>
 </div>

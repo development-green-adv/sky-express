@@ -45,7 +45,7 @@
                 associated with it. From a cyber security
                 perspective, industries such as energy, healthcare, banking, insurance, retail, etc., involves a lot of risks which impedes the adoption of technology and which needs to be effectively managed.
             </p>
-            <p class="pr-0 pr-md-5 mb-4 orange-text">
+            <p class="pr-0 pr-md-5 mb-4">
                 Cyber risk commonly refers to any risk of financial loss, disruption or damage to the reputation of an organization resulting from the failure of its
                 information technology systems.
             </p>
