@@ -78,6 +78,10 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/sr/blogovi', function () {
+    return view('/sr/blogovi');
+});
+
 Route::get('/single-blog', function () {
     return view('single-blog');
 });

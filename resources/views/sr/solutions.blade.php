@@ -181,7 +181,7 @@
                     <a href="/sr/zasto-sky-express">Zašto mi?</a><br>
                     <!-- <a href="/sr/kontakt">Tehnička podrška</a><br> -->
                     <a href="/sr/vesti">Novosti</a><br>
-                    <a href="#">Blog</a><br>
+                    <a href="/sr/blogovi">Blog</a><br>
                     <a href="/sr/karijera">Karijera</a><br>
                     <a href="/sr/kontakt">Lokacija kancelarije</a>
                 </div>
@@ -205,8 +205,8 @@
                     <br>
                     <div class="social-icons">
                         <h5>PRATITE NAS</h5>
-                        <a href="https://www.linkedin.com/company/sky-express-it-security-company/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/skyexpressrs/?ref=bookmarks" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/sky-express-it-security-company/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/skyexpressrs/" target="_blank"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
             </div>

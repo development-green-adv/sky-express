@@ -21,7 +21,7 @@
                     <a href="/sr/zasto-sky-express">Zašto mi?</a><br>
                     <!-- <a href="/sr/kontakt">Tehnička podrška</a><br> -->
                     <a href="/sr/vesti">Novosti</a><br>
-                    <a href="#">Blog</a><br>
+                    <a href="/sr/blogovi">Blog</a><br>
                     <a href="/sr/karijera">Karijera</a><br>
                     <a href="/sr/kontakt">Lokacija kancelarije</a>
                 </div>
