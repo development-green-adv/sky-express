@@ -139,7 +139,7 @@
                 </div>
                 <div class="col-6 col-md-3 mb-4 mb-md-0">
                     <h5>QUICK LINKS</h5>
-                    <a href="/about">About us</a><br>
+                    <a href="/about-us">About us</a><br>
                     <a href="/why-us">Why us?</a><br>
                     <!-- <a href="/contact">Technical support</a><br> -->
                     <a href="/news">News</a><br>
